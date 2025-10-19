@@ -176,7 +176,7 @@ Convenient batch testing scripts are available in `./test_script`:
 • `all_test_cloud_v1_hyper_add.sh`: Evaluates tasks for four additional mobile apps<br>
 
 ### Additional App Documentation
-For comprehensive details about the four additional app tasks, refer to the documentation: ./docs/new_apps.md
+For comprehensive details about the four additional app tasks, refer to the documentation: [Additional Apps Documentation](./docs/new_apps.md)
 
 ---
 
