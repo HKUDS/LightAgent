@@ -43,7 +43,9 @@
   <div style="width: 100%; height: 2px; margin: 20px 0; background: linear-gradient(90deg, transparent, #00d9ff, transparent);"></div>
 </div>
 
-LightAgent is an innovative framework that enables efficient GUI task completion through dynamic device-cloud collaboration. By intelligently orchestrating between lightweight device models and powerful cloud models, LightAgent achieves optimal performance while managing computational resources. The framework features a comprehensive training pipeline that significantly enhances small Vision-Language Models' (VLMs) capabilities on GUI tasks through structured reasoning and guided reinforcement learning.
+LightAgent is a mobile agentic framework designed for efficient smartphone task execution. It features lightweight 3B-scale Vision-Language Models that can run directly on devices. The system combines these compact models with a dynamic device-cloud collaboration approach to optimize both performance and resource usage.
+
+The framework uses a two-stage training methodology combining SFT and GRPO reinforcement learning with synthetic data generation. This approach enables the 3B models to achieve performance comparable to much larger 7B-9B models. Through intelligent task orchestration and structured memory mechanisms, LightAgent reduces cloud dependency by approximately 10% while maintaining robust performance across over 25 mobile applications in real-world scenarios.
 
 ---
 
