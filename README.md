@@ -224,3 +224,16 @@ LightAgent builds upon excellent open-source projects. We sincerely thank their 
 - [R1-V](https://github.com/StarsfieldAI/R1-V) - Implementation details for the GRPO training methodology.
 - [LLaMA Factory](https://github.com/hiyouga/LLaMA-Factory) - The unified training framework enabling efficient model fine-tuning.
 
+## 📜 License
+
+This project is released under the [MIT License](./LICENSE).
+
+
+<br>
+
+<p align="center">
+  <em> ❤️ Thanks for visiting ✨ LightAgent!</em><br><br>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=HKUDS.LightAgent&style=for-the-badge&color=00d4ff" alt="Views">
+</p>
+
+
