@@ -49,6 +49,35 @@ The framework uses a two-stage training methodology combining SFT and GRPO reinf
 
 ---
 
+## 📖 Table of Contents
+- [✨LightAgent✨: Mobile Agentic Foundation Models](#lightagent-mobile-agentic-foundation-models)
+  - [📖 Table of Contents](#-table-of-contents)
+  - [🌟 Key Features of LightAgent](#-key-features-of-lightagent)
+    - [🤖 Lightweight Agentic Foundation Models](#-lightweight-agentic-foundation-models)
+    - [☁️ Device-Cloud Collaboration Framework](#️-device-cloud-collaboration-framework)
+    - [🎯 Comprehensive Mobile Agent Evaluation Playground](#-comprehensive-mobile-agent-evaluation-playground)
+  - [🌟 Core Solutions of LightAgent](#-core-solutions-of-lightagent)
+    - [🧠 Model Training: SFT+RL](#-model-training-sftrl)
+    - [☁️ Device-Cloud Collaboration Framework](#️-device-cloud-collaboration-framework-1)
+    - [💾 Efficient Memory Mechanism for Mobile Agents](#-efficient-memory-mechanism-for-mobile-agents)
+  - [🚀 Quick Start](#-quick-start)
+    - [📱 AndroidLab Benchmark Setup](#-androidlab-benchmark-setup)
+    - [🚀 Model Deployment \& Inference](#-model-deployment--inference)
+    - [⚙️ Pre-Testing Configuration](#️-pre-testing-configuration)
+  - [🧪 Testing \& Evaluation](#-testing--evaluation)
+    - [Single Task Testing](#single-task-testing)
+    - [Batch Evaluation Scripts](#batch-evaluation-scripts)
+    - [Additional App Documentation](#additional-app-documentation)
+  - [📊 Result Generation](#-result-generation)
+    - [LLM Evaluator Setup](#llm-evaluator-setup)
+    - [Generate Evaluation Results](#generate-evaluation-results)
+    - [Batch Testing File Management](#batch-testing-file-management)
+  - [🎯 Evaluation Results](#-evaluation-results)
+  - [🔗 Related Projects](#-related-projects)
+  - [📜 License](#-license)
+
+---
+
 ## 🌟 Key Features of LightAgent
 
 ### 🤖 Lightweight Agentic Foundation Models
@@ -125,9 +154,9 @@ Installation: Follow the official AndroidLab documentation [AndroidLab](https://
 
 ---
 
-### 🧪 Testing & Evaluation
+## 🧪 Testing & Evaluation
 
-## Single Task Testing
+### Single Task Testing
 Test individual tasks using the following command structure:
 
 ```bash
@@ -140,18 +169,18 @@ Example Usage:
 python eval.py -n all_cloud_v1_hyper -c ./configs/example_xml_cloud_hyper.yaml --task_id zoom_1
 ```
 
-## Batch Evaluation Scripts
+### Batch Evaluation Scripts
 Convenient batch testing scripts are available in `./test_script`:
 
 • `all_test_cloud_v1_hyper.sh`: Evaluates all 138 AndroidLab benchmark tasks<br>
 • `all_test_cloud_v1_hyper_add.sh`: Evaluates tasks for four additional mobile apps<br>
 
-## Additional App Documentation
+### Additional App Documentation
 For comprehensive details about the four additional app tasks, refer to the documentation: ./docs/new_apps.md
 
 ---
 
-### 📊 Result Generation
+## 📊 Result Generation
 
 ### LLM Evaluator Setup
 Required Configuration: Set up LLM service credentials in ./evaluation/tasks/llm_evaluator.py:
