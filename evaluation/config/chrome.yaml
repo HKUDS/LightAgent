@@ -1,0 +1,31 @@
+APP: Chrome
+package: com.android.chrome
+tasks:
+    - task_id: chrome_1
+      task: Find the address and founding date of the University of Hong Kong
+      metric_type: query_detect
+      metric_func: evaluation.tasks.chrome
+    - task_id: chrome_2
+      task: set to dark mode
+      metric_type: operation
+      metric_func: evaluation.tasks.chrome
+    - task_id: chrome_3
+      task: Enter bookmarks and find the website you saved in mobile bookmarks
+      metric_type: query_detect
+      metric_func: evaluation.tasks.chrome
+    - task_id: chrome_4
+      task: Go to the hyperbolic functions page in Wikipedia
+      metric_type: operation
+      metric_func: evaluation.tasks.chrome
+    - task_id: chrome_5
+      task: Go to the homepage of GitHub
+      metric_type: operation
+      metric_func: evaluation.tasks.chrome
+    - task_id: chrome_6
+      task: Go to the page of  Nike Hong Kong
+      metric_type: operation
+      metric_func: evaluation.tasks.chrome
+    - task_id: chrome_7
+      task: Open a new Incognito window
+      metric_type: operation
+      metric_func: evaluation.tasks.chrome

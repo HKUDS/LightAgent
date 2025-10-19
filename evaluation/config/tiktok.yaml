@@ -1,0 +1,27 @@
+APP: TikTok
+package: com.android.tiktok
+tasks:
+    - task_id: tiktok_1
+      task: 'Go to the homepage of "IShowSpeed"'
+      metric_type: operation
+      metric_func: evaluation.tasks.tiktok
+    - task_id: tiktok_2
+      task: 'Go to the homepage of "IShowSpeed" and check whether you follow this blogger.'
+      metric_type: query_detect
+      metric_func: evaluation.tasks.tiktok
+    - task_id: tiktok_3
+      task: 'Search the videos about "iphone 17"'
+      metric_type: operation
+      metric_func: evaluation.tasks.tiktok
+    - task_id: tiktok_4
+      task: Go the the homepage of Leo Messi and check his account's ID.
+      metric_type: query_detect
+      metric_func: evaluation.tasks.tiktok
+    - task_id: tiktok_5
+      task: Open a LALIGA account and watch the video of the Real Madrid vs. Barcelona match
+      metric_type: operation
+      metric_func: evaluation.tasks.tiktok
+    - task_id: tiktok_6
+      task: Open a video about Messi winning the 2022 Qatar World Cup
+      metric_type: operation
+      metric_func: evaluation.tasks.tiktok

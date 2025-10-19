@@ -1,0 +1,21 @@
+agent:
+    name: OpenAIAgent
+    args:
+        api_key: "EMPTY"
+        api_base: "http://localhost:8002/v1"
+        model_name: "Qwen/Qwen2.5-3B-Instruct"
+        max_new_tokens: 6144
+
+task:
+    class: ScreenReactTask_AutoTest_Cloud_hyper
+    args:
+        save_dir: "./logs/evaluation"
+        max_rounds: 25
+        request_interval: 3
+
+eval:
+    avd_base: /Users/jiangyangqin/.android/avd
+    avd_name: Pixel_7_Pro_API_33
+    avd_log_dir: ./logs/avd
+    android_sdk_path: /Users/jiangyangqin/Library/Android/sdk
+    show_avd: true

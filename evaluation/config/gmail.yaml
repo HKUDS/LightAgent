@@ -1,0 +1,31 @@
+APP: Gmail
+package: com.android.gmail
+tasks:
+    - task_id: gmail_1
+      task: 'Edit an email addressed to user_test@gmail.com, with the subject "Inquire about academic collaboration opportunities," and the content "Can I have an online meeting with you at 5pm today to discuss this?" (no need to send, leave the sending operation to the author)'
+      metric_type: operation
+      metric_func: evaluation.tasks.gmail
+    - task_id: gmail_2
+      task: 'Reply to an email titled "Ask about project progress" with the content "The main experimental part has been completed and the ablation experiment is underway." (No need to send, leave the sending operation to the user)'
+      metric_type: operation
+      metric_func: evaluation.tasks.gmail
+    - task_id: gmail_3
+      task: 'Find the relevant email in your mailbox and answer the following questions: What is the date of the online meeting about TA''s task?'
+      metric_type: query_detect
+      metric_func: evaluation.tasks.gmail
+    - task_id: gmail_4
+      task: Identify potential spam emails from emails in your inbox and mark them as spam emails.
+      metric_type: operation
+      metric_func: evaluation.tasks.gmail
+    - task_id: gmail_5
+      task: Set to dark mode
+      metric_type: operation
+      metric_func: evaluation.tasks.gmail
+    - task_id: gmail_6
+      task: Check the title of emails that have attachments
+      metric_type: query_detect
+      metric_func: evaluation.tasks.gmail
+    - task_id: gmail_7
+      task: Check the title of emails with star
+      metric_type: query_detect
+      metric_func: evaluation.tasks.gmail

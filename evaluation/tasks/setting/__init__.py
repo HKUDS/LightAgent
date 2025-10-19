@@ -1,0 +1,27 @@
+from .setting import *
+
+function_map = {
+    'setting_0': SingleTask_Setting_LLM_0,
+    'setting_1': SingleTask_Setting_LLM_1,
+    'setting_2': SingleTask_Setting_LLM_2,
+    'setting_3': SingleTask_Setting_LLM_3,
+    'setting_4': SingleTask_Setting_LLM_4,
+    'setting_5': SingleTask_Setting_LLM_5,
+    'setting_6': SingleTask_Setting_LLM_6,
+    'setting_7': SingleTask_Setting_LLM_7,
+    'setting_8': SingleTask_Setting_LLM_8,
+    'setting_9': SingleTask_Setting_LLM_9,
+    'setting_10': SingleTask_Setting_LLM_10,
+    'setting_11': SingleTask_Setting_LLM_11,
+    'setting_12': SingleTask_Setting_LLM_12,
+    'setting_13': SingleTask_Setting_LLM_13,
+    'setting_14': SingleTask_Setting_LLM_14,
+    'setting_15': SingleTask_Setting_LLM_15,
+    'setting_16': SingleTask_Setting_LLM_16,
+    'setting_17': SingleTask_Setting_LLM_17,
+    'setting_18': SingleTask_Setting_LLM_18,
+    'setting_19': SingleTask_Setting_LLM_19,
+    'setting_20': SingleTask_Setting_LLM_20,
+    'setting_21': SingleTask_Setting_LLM_21,
+    'setting_22': SingleTask_Setting_LLM_22,
+}

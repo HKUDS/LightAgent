@@ -1,0 +1,42 @@
+
+nohup deepspeed --include localhost:1,2 ./../src/train.py \
+    --stage sft \
+    --do_train \
+    --model_name_or_path PATHTOBASEMODEL \
+    --dataset android_lab_visual \
+    --dataset_dir ./../data \
+    --template qwen2_vl \
+    --finetuning_type full \
+    --output_dir PATHTOOUTPUTDIR \
+    --overwrite_cache \
+    --overwrite_output_dir \
+    --cutoff_len 6144 \
+    --preprocessing_num_workers 16 \
+    --per_device_train_batch_size 1 \
+    --per_device_eval_batch_size 1 \
+    --gradient_accumulation_steps 6 \
+    --lr_scheduler_type cosine \
+    --logging_steps 50 \
+    --warmup_steps 20 \
+    --save_steps 100 \
+    --eval_steps 100 \
+    --evaluation_strategy steps \
+    --learning_rate 1e-5 \
+    --num_train_epochs 3.0 \
+    --max_samples 50000 \
+    --val_size 0.1 \
+    --plot_loss \
+    --bf16 True \
+    --gradient_checkpointing True \
+    --optim adamw_torch_fused \
+    --max_grad_norm 1.0 \
+    --adam_beta1 0.9 \
+    --adam_beta2 0.95 \
+    --weight_decay 0.1 \
+    --deepspeed ./deepspeed_config_zero3.json \
+    --image_max_pixels 2500000 \
+    --freeze_vision_tower True \
+    --freeze_multi_modal_projector True \
+    --train_mm_proj_only False \
+    --save_only_model True \
+    > "./temp_log_1.txt" 2>&1 &

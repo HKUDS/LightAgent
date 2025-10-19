@@ -1,0 +1,23 @@
+APP: Reddit
+package: com.android.reddit
+tasks:
+    - task_id: reddit_1
+      task: Join the ChatGPT discussion group
+      metric_type: operation
+      metric_func: evaluation.tasks.reddit
+    - task_id: reddit_2
+      task: Check the Popular page
+      metric_type: operation
+      metric_func: evaluation.tasks.reddit
+    - task_id: reddit_3
+      task: 'Search for posts related to "Qwen" and limit the time to "Today"'
+      metric_type: operation
+      metric_func: evaluation.tasks.reddit
+    - task_id: reddit_4
+      task: 'Search for posts related to "Qwen" and display the latest results first.'
+      metric_type: operation
+      metric_func: evaluation.tasks.reddit
+    - task_id: reddit_5
+      task: Leave the ChatGPT discussion group
+      metric_type: operation
+      metric_func: evaluation.tasks.reddit
