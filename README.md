@@ -7,7 +7,7 @@
 
 <div align="center">
 
-# ✨LightAgent✨: Lightweight and Cost-Effective Mobile Agents
+# ✨LightAgent✨: Lightweight and Cost-Effective <br> Mobile Agents
 
 </div>
 
