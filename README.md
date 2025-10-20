@@ -7,7 +7,7 @@
 
 <div align="center">
 
-# ✨LightAgent✨: Mobile Agentic Foundation Models
+# ✨LightAgent✨: Lightweight and Cost-Effective Mobile Agents
 
 </div>
 
