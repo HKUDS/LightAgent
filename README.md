@@ -63,6 +63,34 @@
   </div>
 </div>
 
+## 📖 Table of Contents
+- [🎯 What is OpenPhone?](#-what-is-openphone)
+- [🤔 Why 3B Parameters?](#-why-3b-parameters)
+- [💡 Research Highlights](#-research-highlights)
+  - [🔍 OpenPhone‑3B: Lightweight Agentic Model](#-openphone3b-lightweight-agentic-model)
+  - [Why 3B is the Sweet Spot for Phone Agents](#why-3b-is-the-sweet-spot-for-phone-agents)
+  - [🦾 PhoneClaw: Your Autonomous AI Butler for iPhone](#-phoneclaw-your-autonomous-ai-butler-for-iphone)
+- [🚀 Model Release & Resources](#-model-release--resources)
+- [🚀 Quick Start](#-quick-start)
+  - [⚡ CLI Usage](#-cli-usage)
+  - [📱 AndroidLab Benchmark Setup](#-androidlab-benchmark-setup)
+  - [🚀 Model Deployment & Inference](#-model-deployment--inference)
+  - [⚙️ Pre-Testing Configuration](#️-pre-testing-configuration)
+- [🌟 Key Features of OpenPhone](#-key-features-of-openphone)
+  - [🤖 Lightweight Agentic Foundation Models](#-lightweight-agentic-foundation-models)
+  - [☁️ Device-Cloud Collaboration Framework](#️-device-cloud-collaboration-framework)
+  - [🎯 Comprehensive Mobile Agent Evaluation Playground](#-comprehensive-mobile-agent-evaluation-playground)
+  - [🖥️ Agent CLI Tool](#️-agent-cli-tool)
+- [🌟 Technical Innovation & Implementation](#-technical-innovation--implementation)
+- [🧪 Testing & Evaluation](#-testing--evaluation)
+- [📊 Result Generation](#-result-generation)
+- [🎯 Key Evaluation Findings for OpenPhone](#-key-evaluation-findings-for-openphone)
+- [📈 Device-Cloud Distribution Analysis for Phone Agents](#-device-cloud-distribution-analysis-for-phone-agents)
+- [⚡ Inference Speed Comparison](#-inference-speed-comparison)
+- [🌟 Citation](#-citation)
+- [🔗 Related Projects](#-related-projects)
+- [📜 License](#-license)
+
 ## 🎯 What is OpenPhone?
 
 **The Problem**: Most AI agents rely on expensive cloud APIs and large models that are impractical for real-world on-device deployment. Users face **Privacy Concerns**, **Latency Issues**, and **High Costs** when their phone needs to call external services for every interaction.
@@ -113,66 +141,13 @@ An autonomous iOS phone butler built on the **Ralph Loop** — a closed-loop exe
 
 ### 📦 Ready-to-Deploy Model
 
-- **Model Weights**: OpenPhone-3B is available on Hugging Face with full licensing for research and commercial use.
+- **Model Weights**: OpenPhone-3B is available on [Hugging Face](https://huggingface.co/hkuds/OpenPhone_model) with full licensing for research and commercial use.
 - **Production-Ready Serving**: Pre-configured vLLM inference scripts enable efficient deployment with optimized throughput and memory usage.
 
 ### 🛠️ Complete Training Pipeline
 - **Reproducible Recipe**: Full training implementation including our novel two-stage approach (SFT + GRPO-style RL with synthetic GUI data).
 - **Customization Support**: Detailed documentation in model_training/allows researchers to adapt the model for domain-specific phone tasks or extend to new mobile platforms.
 - **Data Generation Paradigm**: Scripts and methodologies for creating high-quality training data at scale.
-
----
-
-## 📖 Table of Contents
-- [✨OpenPhone✨: Mobile Agentic Foundation Models for AI Phone](#openphone-mobile-agentic-foundation-models-for-ai-phone)
-  - [🎯 What is OpenPhone?](#-what-is-openphone)
-  - [🤔 Why 3B Parameters?](#-why-3b-parameters)
-  - [💡 Research Highlights](#-research-highlights)
-    - [🔍 OpenPhone‑3B: Lightweight Agentic Model](#-openphone3b-lightweight-agentic-model)
-    - [Why 3B is the Sweet Spot for Phone Agents](#why-3b-is-the-sweet-spot-for-phone-agents)
-    - [🦾 PhoneClaw: Your Autonomous AI Butler for iPhone](#-phoneclaw-your-autonomous-ai-butler-for-iphone)
-  - [🚀 Model Release \& Resources](#-model-release--resources)
-    - [📦 Ready-to-Deploy Model](#-ready-to-deploy-model)
-    - [🛠️ Complete Training Pipeline](#️-complete-training-pipeline)
-  - [📖 Table of Contents](#-table-of-contents)
-  - [🚀 Quick Start](#-quick-start)
-    - [📱 AndroidLab Benchmark Setup](#-androidlab-benchmark-setup)
-    - [🚀 Model Deployment \& Inference](#-model-deployment--inference)
-    - [⚙️ Pre-Testing Configuration](#️-pre-testing-configuration)
-  - [🌟 Key Features of OpenPhone](#-key-features-of-openphone)
-    - [🤖 Lightweight Agentic Foundation Models](#-lightweight-agentic-foundation-models)
-    - [☁️ Device-Cloud Collaboration Framework](#️-device-cloud-collaboration-framework)
-    - [🎯 Comprehensive Mobile Agent Evaluation Playground](#-comprehensive-mobile-agent-evaluation-playground)
-  - [🌟 Technical Innovation \& Implementation](#-technical-innovation--implementation)
-    - [🧠 Model Training: SFT+RL](#-model-training-sftrl)
-    - [☁️ Device-Cloud Collaboration Framework](#️-device-cloud-collaboration-framework-1)
-    - [💾 Efficient Memory Mechanism for Mobile Agents](#-efficient-memory-mechanism-for-mobile-agents)
-  - [🧪 Testing \& Evaluation](#-testing--evaluation)
-    - [Single Task Testing](#single-task-testing)
-    - [Batch Evaluation Scripts](#batch-evaluation-scripts)
-    - [Additional App Documentation](#additional-app-documentation)
-  - [📊 Result Generation](#-result-generation)
-    - [LLM Evaluator Setup](#llm-evaluator-setup)
-    - [Generate Evaluation Results](#generate-evaluation-results)
-    - [Batch Testing File Management](#batch-testing-file-management)
-  - [🎯 📊 Key Evaluation Findings for OpenPhone](#--key-evaluation-findings-for-openphone)
-    - [🏆 Small Model, Big Performance](#-small-model-big-performance)
-    - [🥊 Competitive Performance](#-competitive-performance)
-    - [🔄 Device-Cloud Framework Works](#-device-cloud-framework-works)
-    - [🧠 Longer Prompts Don't Always Help](#-longer-prompts-dont-always-help)
-  - [📈 Device-Cloud Distribution Analysis for Phone Agents](#-device-cloud-distribution-analysis-for-phone-agents)
-    - [📊 Workload Distribution](#-workload-distribution)
-    - [💰 Efficiency Gains](#-efficiency-gains)
-    - [🎯 Model Capability Impact](#-model-capability-impact)
-  - [⚡ Inference Speed Comparison](#-inference-speed-comparison)
-    - [🎯 Speed Advantage](#-speed-advantage)
-    - [📊 Quantified Comparison](#-quantified-comparison)
-    - [💡 Practical Implications](#-practical-implications)
-  - [🌟 Citation](#-citation)
-  - [🔗 Related Projects](#-related-projects)
-  - [📜 License](#-license)
-
----
 
 ## 🚀 Quick Start
 This project comprises three core components designed for comprehensive mobile agent development and evaluation:
@@ -181,6 +156,31 @@ This project comprises three core components designed for comprehensive mobile a
 - 🔧 For the **data generation pipeline**, please refer to the data preparation guide [README](./prepare_data/README.md) for detailed implementation steps.
 
 Below, we focus on evaluation using the AndroidLab benchmark framework.
+
+### ⚡ CLI Usage
+The new unified CLI provides quick access to device control and autonomous task execution. Full documentation: [CLI README](./cli/README.md).
+
+**Prerequisites**: Install dependencies (`pip install -r requirements.txt`) and ensure WebDriverAgent is running on the iOS device. Create an alias for convenience: `alias openphone='python -m cli.main'`.
+
+**Agent-driven mode** — external AI (Claude Code, etc.) controls the device:
+```bash
+python -m cli.main open Safari
+python -m cli.main wait 1.0                  # wait for app to load
+python -m cli.main snapshot --json           # returns screenshot + interactive elements (@e1, @e2...)
+python -m cli.main tap @e3                   # tap by element ref
+python -m cli.main type "hello"
+python -m cli.main keyboard                  # dismiss keyboard
+python -m cli.main swipe up
+python -m cli.main press home
+```
+
+**Autonomous mode** — built-in VLM executes complete tasks:
+```bash
+python -m cli.main run "打开微信查看最近消息" --openrouter --model-name "z-ai/glm-4.6v"
+python -m cli.main daemon --openrouter
+python -m cli.main learn Safari
+python -m cli.main memory show
+```
 
 ### 📱 AndroidLab Benchmark Setup
 Installation: Follow the official AndroidLab documentation [AndroidLab](https://github.com/THUDM/Android-Lab) for complete setup instructions.<br>
@@ -196,7 +196,7 @@ Installation: Follow the official AndroidLab documentation [AndroidLab](https://
 - Optimized for efficient small model serving<br>
 
 **Model Access**:
-- OpenPhone Weights: 3B parameter model hosted on HuggingFace<br>
+- OpenPhone Weights: 3B parameter model hosted on [HuggingFace](https://huggingface.co/hkuds/OpenPhone_model)<br>
 - Deployment Process: Download weights → Deploy via vLLM → Configure inference service<br>
 - Service Ready: Seamless integration with evaluation pipeline<br>
 
@@ -219,6 +219,12 @@ Installation: Follow the official AndroidLab documentation [AndroidLab](https://
 ### 🎯 Comprehensive Mobile Agent Evaluation Playground
 • **Extended Benchmark Suite**: Beyond AndroidLab, incorporating 25+ additional tasks across popular mobile applications for real-world validation. <br>
 • **Multi-Dimensional Assessment**: Comprehensive evaluation covering performance metrics, computational efficiency, and practical deployment scenarios.
+
+### 🖥️ Agent CLI Tool
+• **Unified CLI**: A single `python -m cli.main` entry point for both autonomous task execution and step-by-step device control. <br>
+• **AI-Native Output**: All commands support `--json` for structured output consumable by external AI agents. <br>
+• **Agent Skill Definition**: Includes a `skills/openphone/SKILL.md` that tells AI coding agents how to use the CLI. <br>
+➜ [Full CLI documentation](./cli/README.md)
 
 ---
 
