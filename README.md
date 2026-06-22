@@ -63,6 +63,27 @@
   </div>
 </div>
 
+<div>
+  <div style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); border-radius: 15px; padding: 28px; margin: 20px 0; border: 2px solid #38ef7d; box-shadow: 0 4px 24px rgba(56,239,125,0.25); text-align: left;">
+    <h2 style="color: white; margin: 0 0 14px 0; font-size: 22px; text-align: left;">🖥️ New Release: OpenPhone Agent CLI — Control iPhones from Your Terminal</h2>
+    <p style="color: rgba(255,255,255,0.95); margin: 0 0 16px 0; font-size: 15px; line-height: 1.7;">
+      <strong>OpenPhone CLI</strong> gives AI coding agents (Claude Code, Codex, etc.) and humans a unified command-line interface to inspect and interact with iOS devices — and to run fully autonomous phone tasks powered by our built-in VLM.
+    </p>
+    <ul style="color: rgba(255,255,255,0.95); margin: 0 0 18px 0; font-size: 15px; line-height: 1.7; padding-left: 20px;">
+      <li>🤖 <strong>Agent-Driven Mode</strong> — 8 device commands (<code>snapshot</code>, <code>tap</code>, <code>type</code>, <code>swipe</code>, <code>press</code>, <code>open</code>, <code>wait</code>, <code>keyboard</code>) with structured <code>--json</code> output for AI agents to inspect and control iOS devices step by step</li>
+      <li>🧠 <strong>Autonomous Mode</strong> — <code>run</code> executes any iOS task end-to-end via the Ralph Loop, <code>daemon</code> accepts continuous tasks in a REPL, and <code>learn</code> records human demos to extract reusable navigation lessons</li>
+      <li>💾 <strong>Memory Management</strong> — <code>memory show|list|query</code> exposes the persistent user profile and experience log for inspection and retrieval</li>
+      <li>🔌 <strong>AI Harness Integration</strong> — includes a <code>skills/openphone/SKILL.md</code> skill definition so AI coding agents automatically discover how to use the CLI</li>
+      <li>⚡ <strong>Thirteen Commands, One Entry Point</strong> — <code>python -m cli.main &lt;command&gt;</code> unifies all device control, autonomous execution, and memory operations under a single CLI</li>
+    </ul>
+    <p style="margin: 0; text-align: center;">
+      <a href="./cli/README.md" style="color: #1a1a2e; background: white; padding: 8px 20px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px; display: inline-block;">📖 CLI Full Documentation →</a>
+      &nbsp;&nbsp;
+      <a href="./skills/openphone/SKILL.md" style="color: white; background: rgba(255,255,255,0.18); padding: 8px 20px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid rgba(255,255,255,0.4); display: inline-block;">Agent Skill Definition →</a>
+    </p>
+  </div>
+</div>
+
 ## 📖 Table of Contents
 - [🎯 What is OpenPhone?](#-what-is-openphone)
 - [🤔 Why 3B Parameters?](#-why-3b-parameters)
