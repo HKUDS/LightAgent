@@ -43,29 +43,8 @@
 </div>
 
 <div>
-  <div style="background: linear-gradient(135deg, #f953c6 0%, #b91d73 100%); border-radius: 15px; padding: 28px; margin: 20px 0; border: 2px solid #f953c6; box-shadow: 0 4px 24px rgba(249,83,198,0.25); text-align: left;">
-    <h2 style="color: white; margin: 0 0 14px 0; font-size: 22px; text-align: left;">🦾 New Release: PhoneClaw — Your Autonomous AI Butler for iPhone</h2>
-    <p style="color: rgba(255,255,255,0.95); margin: 0 0 16px 0; font-size: 15px; line-height: 1.7;">
-      <strong>PhoneClaw</strong> is a tireless AI phone butler that handles any iOS task for you — and <em>gets smarter with every session</em>. Powered by the <strong>Ralph Loop</strong> (<code style="background: rgba(255,255,255,0.18); padding: 2px 7px; border-radius: 4px;">EXECUTE → EVALUATE → FIX → REPEAT</code>), it breaks your request into subtasks, acts on your phone, checks whether each step succeeded, and automatically retries with the failure context — until the job is done.
-    </p>
-    <ul style="color: rgba(255,255,255,0.95); margin: 0 0 18px 0; font-size: 15px; line-height: 1.7; padding-left: 20px;">
-      <li>🧠 <strong>UserMemory</strong> — builds a persistent profile of who you are (name, city, habits, history) and injects it into every plan, so the butler truly knows its owner</li>
-      <li>📚 <strong>ExperienceLog</strong> — records app-specific navigation know-how (tap coords, failure patterns, timing) across sessions, auto-compacted into a lean, high-confidence knowledge base</li>
-      <li>⚡ <strong>Memory-first answers</strong> — repeated questions are answered instantly from the profile with zero device interactions</li>
-      <li>🤖 <strong>Interactive daemon mode</strong> — connect once, accept unlimited tasks back-to-back; the screen stays on automatically</li>
-      <li>🎓 <strong>Learning mode</strong> — just operate your phone as usual while PhoneClaw watches; it captures screenshots at ~8 fps, detects your taps via computer vision, and distils your actions into reusable navigation lessons that are added to the ExperienceLog immediately</li>
-    </ul>
-    <p style="margin: 0; text-align: center;">
-      <a href="./PhoneClaw/README.md" style="color: #1a1a2e; background: white; padding: 8px 20px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px; display: inline-block;">📖 PhoneClaw Full Documentation →</a>
-      &nbsp;&nbsp;
-      <a href="./ios_agent/README.md" style="color: white; background: rgba(255,255,255,0.18); padding: 8px 20px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid rgba(255,255,255,0.4); display: inline-block;">iOS Agent README →</a>
-    </p>
-  </div>
-</div>
-
-<div>
   <div style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); border-radius: 15px; padding: 28px; margin: 20px 0; border: 2px solid #38ef7d; box-shadow: 0 4px 24px rgba(56,239,125,0.25); text-align: left;">
-    <h2 style="color: white; margin: 0 0 14px 0; font-size: 22px; text-align: left;">🖥️ New Release: OpenPhone Agent CLI — Control iPhones from Your Terminal</h2>
+    <h2 style="color: white; margin: 0 0 14px 0; font-size: 22px; text-align: left;">🖥️ OpenPhone Agent CLI — Control iPhones from Your Terminal</h2>
     <p style="color: rgba(255,255,255,0.95); margin: 0 0 16px 0; font-size: 15px; line-height: 1.7;">
       <strong>OpenPhone CLI</strong> gives AI coding agents (Claude Code, Codex, etc.) and humans a unified command-line interface to inspect and interact with iOS devices — and to run fully autonomous phone tasks powered by our built-in VLM.
     </p>
@@ -80,6 +59,14 @@
       <a href="./cli/README.md" style="color: #1a1a2e; background: white; padding: 8px 20px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px; display: inline-block;">📖 CLI Full Documentation →</a>
       &nbsp;&nbsp;
       <a href="./skills/openphone/SKILL.md" style="color: white; background: rgba(255,255,255,0.18); padding: 8px 20px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid rgba(255,255,255,0.4); display: inline-block;">Agent Skill Definition →</a>
+    </p>
+  </div>
+</div>
+
+<div>
+  <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 20px 28px; margin: 20px 0; border: 2px solid #764ba2; box-shadow: 0 4px 24px rgba(116,75,162,0.2); text-align: left;">
+    <p style="color: white; margin: 0; font-size: 15px; line-height: 1.7;">
+      🦾 <strong>PhoneClaw</strong> — an autonomous AI iPhone butler powered by the <strong>Ralph Loop</strong> (<code style="background: rgba(255,255,255,0.18); padding: 2px 7px; border-radius: 4px;">EXECUTE → EVALUATE → FIX → REPEAT</code>), with a two-layer self-learning memory that gets smarter with every session. <a href="./PhoneClaw/README.md" style="color: #ffd700; font-weight: bold;">Full Documentation →</a>
     </p>
   </div>
 </div>
@@ -145,8 +132,8 @@ Considering the compute limitations of today’s edge devices, models with **≤
 - **Privacy-First**: Enables phone tasks to run entirely on-device, preserving user privacy while eliminating network dependencies.
 - **Cost Savings**: Local processing eliminates expensive cloud APIs and per-request charges for sustainable operation.
 
-### 🦾 PhoneClaw: Your Autonomous AI Butler for iPhone
-An autonomous iOS phone butler built on the **Ralph Loop** — a closed-loop execution methodology that runs until every subtask passes its success criteria. The key differentiator is a **two-layer self-learning memory** that makes the butler measurably smarter after each session:
+### 🦾 PhoneClaw: Autonomous iOS Agent
+A self-learning iOS agent built on the **Ralph Loop** — a closed-loop execution methodology that runs until every subtask passes its success criteria. The key differentiator is a **two-layer self-learning memory** that makes the butler measurably smarter after each session:
 
 - **UserMemory** — Maintains a persistent user profile (inferred name, city, app habits, task history) injected into every planning prompt, so the agent makes contextually intelligent decisions from the very first step. Repeated questions are answered directly from memory with **zero device interactions**.
 - **ExperienceLog** — Records app-specific navigation knowledge per session: successful tap coordinates, failure patterns, UI timing quirks. Lessons are semantically deduplicated, reinforced on confirmation, and automatically compacted when an app accumulates ≥ 20 entries — keeping the knowledge base lean and high-quality.
