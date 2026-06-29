@@ -384,11 +384,12 @@ The trade-off is clear: while larger models like GLM-4.1V-9B-Thinking achieve hi
 If you find this work helpful to your research, please kindly consider citing our paper.
 
 ```
-@article{jiang2025lightagent,
-  title={LightAgent: Mobile Agentic Foundation Models},
+@inproceedings{jiang2026openphone,
+  title={OpenPhone: Mobile Agentic Foundation Models},
   author={Jiang, Yangqin and Huang, Chao},
-  journal={arXiv preprint arXiv:2510.22009},
-  year={2025}
+  booktitle={Findings of the Association for Computational Linguistics: ACL 2026},
+  pages={30362--30380},
+  year={2026}
 }
 ```
 
