@@ -46,7 +46,7 @@
 <div>
   <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 16px; padding: 28px; margin: 24px 0; box-shadow: 0 8px 32px rgba(245,87,108,0.2);">
     <h2 style="color: white; margin: 0 0 8px 0; font-size: 24px; font-weight: bold;">
-      <span style="background: white; color: #f5576c; padding: 3px 14px; border-radius: 20px; font-size: 24px; font-weight: bold;">🔥 Major Update</span>
+      <span style="background: white; color: #f5576c; padding: 3px 14px; border-radius: 20px; font-size: 24px; font-weight: bold;">🔥 Major Update:</span>
       &nbsp;PhoneCLI — GUI × CLI Hybrid Phone Agent
     </h2>
     <p style="color: rgba(255,255,255,0.7); margin: 0 0 6px 0; font-size: 14px;">📅 July 2026</p>
