@@ -51,7 +51,7 @@
     </h2>
     <p style="color: rgba(255,255,255,0.7); margin: 0 0 6px 0; font-size: 14px;">📅 July 2026</p>
     <p style="margin: 0 0 8px 0;">
-      <img src="https://readme-typing-svg.demolab.com?font=Inter&size=18&duration=2500&pause=800&color=FFFFFF&center=false&width=480&lines=CLI+that+knows,+GUI+that+sees." alt="CLI that knows, GUI that sees." />
+      <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=22&duration=2500&pause=800&color=FFFFFF&center=false&width=500&lines=CLI+that+knows,+GUI+that+sees." alt="CLI that knows, GUI that sees." />
     </p>
     <p style="color: rgba(255,255,255,0.95); margin: 0 0 16px 0; font-size: 15px; line-height: 1.7;">
       <strong style="color: white;">PhoneCLI</strong> combines the reliability of CLI macros with the flexibility of GUI agents. Instead of calling a VLM for every tap — slow, expensive, and error-prone — we <strong style="color: white;">pre-build a navigation graph (app map) for each app</strong>. Routine operations become deterministic macro replays; the VLM only steps in when genuinely needed. Same intuition as why CLI tools beat GUI for repeatable tasks — now applied to your phone.
