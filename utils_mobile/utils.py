@@ -1,5 +1,6 @@
 import base64
 import json
+import os
 import re
 import shutil
 import time
@@ -254,7 +255,7 @@ def glm_call(prompt, temperature=0.7, top_p=0.9):
     for i in range(3):
         try:
             client = OpenAI(
-                api_key="XqtuAVdoULyAW5P39MNim3u14Zchg2MMXZltzNcCvKLFhxF7GwxYlxdXvbE5amkf",
+                api_key=os.getenv("GLM_API_KEY", ""),
                 base_url="https://api.chatglm.cn/v1",
             )
             res = client.chat.completions.create(
@@ -396,7 +397,7 @@ def glm_call(prompt, temperature=0.7, top_p=0.9):
     for i in range(3):
         try:
             client = OpenAI(
-                api_key="XqtuAVdoULyAW5P39MNim3u14Zchg2MMXZltzNcCvKLFhxF7GwxYlxdXvbE5amkf",
+                api_key=os.getenv("GLM_API_KEY", ""),
                 base_url="https://api.chatglm.cn/v1",
             )
             res = client.chat.completions.create(
