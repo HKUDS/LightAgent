@@ -44,27 +44,27 @@
 </div>
 
 <div>
-  <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 16px; padding: 32px; margin: 24px 0; box-shadow: 0 8px 32px rgba(245,87,108,0.2);">
-    <p style="margin: 0 0 12px 0;">
-      <span style="background: rgba(255,255,255,0.95); color: #f5576c; padding: 4px 14px; border-radius: 20px; font-size: 13px; font-weight: 700; letter-spacing: 0.5px;">🔥 MAJOR UPDATE</span>
-      <span style="color: rgba(255,255,255,0.7); margin-left: 12px; font-size: 13px;">July 2026</span>
+  <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 16px; padding: 28px; margin: 24px 0; box-shadow: 0 8px 32px rgba(245,87,108,0.2);">
+    <p style="margin: 0 0 8px 0;">
+      <span style="background: white; color: #f5576c; padding: 4px 14px; border-radius: 20px; font-size: 13px; font-weight: bold;">🔥 Major Update</span>
+      <span style="color: rgba(255,255,255,0.7); margin-left: 10px; font-size: 13px;">July 2026</span>
     </p>
-    <h2 style="color: white; margin: 0 0 4px 0; font-size: 28px; font-weight: 800; letter-spacing: -0.5px;">PhoneCLI</h2>
-    <p style="color: rgba(255,255,255,0.9); margin: 0 0 20px 0; font-size: 18px; font-weight: 500;">GUI × CLI Hybrid Phone Agent</p>
-    <p style="color: rgba(255,255,255,0.85); margin: 0 0 24px 0; font-size: 15px; line-height: 1.8; max-width: 720px;">
-      Stop calling a VLM for every tap. <strong style="color: white;">PhoneCLI</strong> pre-builds a navigation graph (app map) for each app, then replays routine operations as deterministic macros — fast, reliable, and zero VLM cost.
+    <h2 style="color: white; margin: 10px 0 4px 0; font-size: 26px; font-weight: bold;">PhoneCLI</h2>
+    <p style="color: rgba(255,255,255,0.9); margin: 0 0 16px 0; font-size: 17px;">GUI × CLI Hybrid Phone Agent</p>
+    <p style="color: rgba(255,255,255,0.95); margin: 0 0 16px 0; font-size: 15px; line-height: 1.7;">
+      <strong style="color: white;">PhoneCLI</strong> combines the reliability of CLI macros with the flexibility of GUI agents. Instead of calling a VLM for every tap — slow, expensive, and error-prone — we <strong style="color: white;">pre-build a navigation graph (app map) for each app</strong>. Routine operations become deterministic macro replays; the VLM only steps in when genuinely needed. Same intuition as why CLI tools beat GUI for repeatable tasks — now applied to your phone.
     </p>
-    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 24px 0;">
-      <span style="background: rgba(255,255,255,0.15); color: white; padding: 6px 14px; border-radius: 6px; font-size: 13px;">🗺️ App Maps</span>
-      <span style="background: rgba(255,255,255,0.15); color: white; padding: 6px 14px; border-radius: 6px; font-size: 13px;">⚡ Macro Replay</span>
-      <span style="background: rgba(255,255,255,0.15); color: white; padding: 6px 14px; border-radius: 6px; font-size: 13px;">🧠 Smart Fallback</span>
-      <span style="background: rgba(255,255,255,0.15); color: white; padding: 6px 14px; border-radius: 6px; font-size: 13px;">📦 8 Pre-Built Maps</span>
-      <span style="background: rgba(255,255,255,0.15); color: white; padding: 6px 14px; border-radius: 6px; font-size: 13px;">🔗 Cross-App Planner</span>
-    </div>
+    <ul style="color: rgba(255,255,255,0.95); margin: 0 0 20px 0; font-size: 14px; line-height: 1.8; padding-left: 20px;">
+      <li>🗺️ <strong>App Maps</strong> — BFS crawls each app, recording every screen, element, and navigation path into a structured YAML graph</li>
+      <li>⚡ <strong>Macro Replay</strong> — High-frequency operations execute deterministically in sub-second time, with zero VLM cost</li>
+      <li>🧠 <strong>Smart Fallback</strong> — When a task doesn't match any macro, the agent gracefully degrades to VLM reasoning</li>
+      <li>📦 <strong>8 Pre-Built Maps</strong> — 微博, foodpanda, Calendar, 京东, Dianping, 小红书, Music, Settings — ready to use</li>
+      <li>🔗 <strong>Cross-App Planner</strong> — Multi-app tasks automatically decomposed into single-app subtasks</li>
+    </ul>
     <p style="margin: 0;">
-      <a href="./phonecli/README.md" style="background: white; color: #f5576c; padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 14px; display: inline-block;">📖 Full Documentation →</a>
-      &nbsp;
-      <a href="#-phonecli-gui--cli-hybrid-agent" style="background: rgba(255,255,255,0.15); color: white; padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 14px; border: 1px solid rgba(255,255,255,0.3); display: inline-block;">Read More ↓</a>
+      <a href="./phonecli/README.md" style="background: white; color: #f5576c; padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px;">📖 Full Documentation →</a>
+      &nbsp;&nbsp;
+      <a href="#-phonecli-gui--cli-hybrid-agent" style="background: rgba(255,255,255,0.15); color: white; padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid rgba(255,255,255,0.35);">Read More ↓</a>
     </p>
   </div>
 </div>
