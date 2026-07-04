@@ -60,7 +60,7 @@
     <p style="margin: 0; text-align: center;">
       <a href="./phonecli/README.md" style="color: #1a1a2e; background: white; padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px; display: inline-block;">📖 Full Documentation →</a>
       &nbsp;&nbsp;
-      <a href="#️-phonecli-gui--cli-hybrid-agent" style="color: white; background: rgba(255,255,255,0.18); padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid rgba(255,255,255,0.4); display: inline-block;">Read More ↓</a>
+      <a href="#-phonecli-gui--cli-hybrid-agent" style="color: white; background: rgba(255,255,255,0.18); padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid rgba(255,255,255,0.4); display: inline-block;">Read More ↓</a>
     </p>
   </div>
 </div>
@@ -78,7 +78,7 @@
     - [📱 AndroidLab Benchmark Setup](#-androidlab-benchmark-setup)
     - [🚀 Model Deployment \& Inference](#-model-deployment--inference)
     - [⚙️ Pre-Testing Configuration](#️-pre-testing-configuration)
-  - [🖥️ phonecli: GUI × CLI Hybrid Agent](#️-phonecli-gui--cli-hybrid-agent)
+  - [🖥️ phonecli: GUI × CLI Hybrid Agent](#-phonecli-gui--cli-hybrid-agent)
     - [The Core Idea](#the-core-idea)
     - [How It Works](#how-it-works)
     - [Why This Matters](#why-this-matters)
@@ -196,7 +196,7 @@ Installation: Follow the official AndroidLab documentation [AndroidLab](https://
 
 ---
 
-## 🖥️ phonecli: GUI × CLI Hybrid Agent
+## 🖥 phonecli: GUI × CLI Hybrid Agent
 
 ### The Core Idea
 
