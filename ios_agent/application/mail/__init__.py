@@ -1,3 +1,0 @@
-"""
-Mail application pipeline package.
-"""

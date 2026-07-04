@@ -1,0 +1,16 @@
+app: Calendar
+bundle_id: com.apple.mobilecal
+dynamic_patterns:
+- ^[A-Z][a-z]+day, [A-Z][a-z]+ \d{1,2}$
+- ^[A-Z][a-z]+ \d{1,2}$
+preserve_navigation:
+- Today
+- Calendars
+- inbox
+- List
+- Add
+- '2026'
+- July
+- all-day
+- favorite
+- 建党节

@@ -43,61 +43,77 @@
 </div>
 
 <div>
-  <div style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); border-radius: 15px; padding: 28px; margin: 20px 0; border: 2px solid #38ef7d; box-shadow: 0 4px 24px rgba(56,239,125,0.25); text-align: left;">
-    <h2 style="color: white; margin: 0 0 14px 0; font-size: 22px; text-align: left;">🖥️ OpenPhone Agent CLI — Control iPhones from Your Terminal</h2>
+  <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 15px; padding: 28px; margin: 20px 0; border: 2px solid #f5576c; box-shadow: 0 4px 24px rgba(245,87,108,0.25); text-align: left;">
+    <h2 style="color: white; margin: 0 0 8px 0; font-size: 22px; text-align: left;">🆕 phonecli — GUI × CLI Hybrid Phone Agent</h2>
+    <p style="color: rgba(255,255,255,0.85); margin: 0 0 14px 0; font-size: 14px; text-align: left;">Latest Release · July 2026</p>
     <p style="color: rgba(255,255,255,0.95); margin: 0 0 16px 0; font-size: 15px; line-height: 1.7;">
-      <strong>OpenPhone CLI</strong> gives AI coding agents (Claude Code, Codex, etc.) and humans a unified command-line interface to inspect and interact with iOS devices — and to run fully autonomous phone tasks powered by our built-in VLM.
+      <strong>phonecli</strong> combines the reliability of CLI macros with the flexibility of GUI agents. Instead of calling a VLM for every tap — slow, expensive, and error-prone — we <strong>pre-build a navigation graph (app map) for each app</strong>. Routine operations become deterministic macro replays; the VLM only steps in when genuinely needed. Same intuition as why CLI tools beat GUI for repeatable tasks — now applied to your phone.
     </p>
     <ul style="color: rgba(255,255,255,0.95); margin: 0 0 18px 0; font-size: 15px; line-height: 1.7; padding-left: 20px;">
-      <li>🤖 <strong>Agent-Driven Mode</strong> — 8 device commands (<code>snapshot</code>, <code>tap</code>, <code>type</code>, <code>swipe</code>, <code>press</code>, <code>open</code>, <code>wait</code>, <code>keyboard</code>) with structured <code>--json</code> output for AI agents to inspect and control iOS devices step by step</li>
-      <li>🧠 <strong>Autonomous Mode</strong> — <code>run</code> executes any iOS task end-to-end via the Ralph Loop, <code>daemon</code> accepts continuous tasks in a REPL, and <code>learn</code> records human demos to extract reusable navigation lessons</li>
-      <li>💾 <strong>Memory Management</strong> — <code>memory show|list|query</code> exposes the persistent user profile and experience log for inspection and retrieval</li>
-      <li>🔌 <strong>AI Harness Integration</strong> — includes a <code>skills/openphone/SKILL.md</code> skill definition so AI coding agents automatically discover how to use the CLI</li>
-      <li>⚡ <strong>Thirteen Commands, One Entry Point</strong> — <code>python -m cli.main &lt;command&gt;</code> unifies all device control, autonomous execution, and memory operations under a single CLI</li>
+      <li>🗺️ <strong>App Maps</strong> — BFS crawls each app, recording every screen, element, and navigation path into a structured YAML graph</li>
+      <li>⚡ <strong>Macro Replay</strong> — High-frequency operations execute deterministically in sub-second time, with zero VLM cost</li>
+      <li>🧠 <strong>Smart Fallback</strong> — When a task doesn't match any macro, the agent gracefully degrades to VLM reasoning</li>
+      <li>📦 <strong>8 Pre-Built Maps</strong> — 微博, foodpanda, Calendar, 京东, Dianping, 小红书, Music, Settings — ready to use</li>
+      <li>🔗 <strong>Cross-App Planner</strong> — Multi-app tasks automatically decomposed into single-app subtasks</li>
     </ul>
     <p style="margin: 0; text-align: center;">
-      <a href="./cli/README.md" style="color: #1a1a2e; background: white; padding: 8px 20px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px; display: inline-block;">📖 CLI Full Documentation →</a>
+      <a href="./phonecli/README.md" style="color: #1a1a2e; background: white; padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px; display: inline-block;">📖 Full Documentation →</a>
       &nbsp;&nbsp;
-      <a href="./skills/openphone/SKILL.md" style="color: white; background: rgba(255,255,255,0.18); padding: 8px 20px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid rgba(255,255,255,0.4); display: inline-block;">Agent Skill Definition →</a>
-    </p>
-  </div>
-</div>
-
-<div>
-  <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 20px 28px; margin: 20px 0; border: 2px solid #764ba2; box-shadow: 0 4px 24px rgba(116,75,162,0.2); text-align: left;">
-    <p style="color: white; margin: 0; font-size: 15px; line-height: 1.7;">
-      🦾 <strong>PhoneClaw</strong> — an autonomous AI iPhone butler powered by the <strong>Ralph Loop</strong> (<code style="background: rgba(255,255,255,0.18); padding: 2px 7px; border-radius: 4px;">EXECUTE → EVALUATE → FIX → REPEAT</code>), with a two-layer self-learning memory that gets smarter with every session. <a href="./PhoneClaw/README.md" style="color: #ffd700; font-weight: bold;">Full Documentation →</a>
+      <a href="#phonecli-gui--cli-hybrid-agent" style="color: white; background: rgba(255,255,255,0.18); padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid rgba(255,255,255,0.4); display: inline-block;">Read More ↓</a>
     </p>
   </div>
 </div>
 
 ## 📖 Table of Contents
 - [🎯 What is OpenPhone?](#-what-is-openphone)
-- [🤔 Why 3B Parameters?](#-why-3b-parameters)
-- [💡 Research Highlights](#-research-highlights)
-  - [🔍 OpenPhone‑3B: Lightweight Agentic Model](#-openphone3b-lightweight-agentic-model)
-  - [Why 3B is the Sweet Spot for Phone Agents](#why-3b-is-the-sweet-spot-for-phone-agents)
-  - [🦾 PhoneClaw: Your Autonomous AI Butler for iPhone](#-phoneclaw-your-autonomous-ai-butler-for-iphone)
-- [🚀 Model Release & Resources](#-model-release--resources)
-- [🚀 Quick Start](#-quick-start)
-  - [⚡ CLI Usage](#-cli-usage)
-  - [📱 AndroidLab Benchmark Setup](#-androidlab-benchmark-setup)
-  - [🚀 Model Deployment & Inference](#-model-deployment--inference)
-  - [⚙️ Pre-Testing Configuration](#️-pre-testing-configuration)
-- [🌟 Key Features of OpenPhone](#-key-features-of-openphone)
-  - [🤖 Lightweight Agentic Foundation Models](#-lightweight-agentic-foundation-models)
-  - [☁️ Device-Cloud Collaboration Framework](#️-device-cloud-collaboration-framework)
-  - [🎯 Comprehensive Mobile Agent Evaluation Playground](#-comprehensive-mobile-agent-evaluation-playground)
-  - [🖥️ Agent CLI Tool](#️-agent-cli-tool)
-- [🌟 Technical Innovation & Implementation](#-technical-innovation--implementation)
-- [🧪 Testing & Evaluation](#-testing--evaluation)
-- [📊 Result Generation](#-result-generation)
-- [🎯 Key Evaluation Findings for OpenPhone](#-key-evaluation-findings-for-openphone)
-- [📈 Device-Cloud Distribution Analysis for Phone Agents](#-device-cloud-distribution-analysis-for-phone-agents)
-- [⚡ Inference Speed Comparison](#-inference-speed-comparison)
-- [🌟 Citation](#-citation)
-- [🔗 Related Projects](#-related-projects)
-- [📜 License](#-license)
+  - [🤔 Why 3B Parameters?](#-why-3b-parameters)
+  - [💡 Research Highlights](#-research-highlights)
+    - [🔍 OpenPhone‑3B: Lightweight Agentic Model](#-openphone3b-lightweight-agentic-model)
+    - [Why 3B is the Sweet Spot for Phone Agents](#why-3b-is-the-sweet-spot-for-phone-agents)
+  - [🚀 Model Release \& Resources](#-model-release--resources)
+    - [📦 Ready-to-Deploy Model](#-ready-to-deploy-model)
+    - [🛠️ Complete Training Pipeline](#️-complete-training-pipeline)
+  - [🚀 Quick Start](#-quick-start)
+    - [📱 AndroidLab Benchmark Setup](#-androidlab-benchmark-setup)
+    - [🚀 Model Deployment \& Inference](#-model-deployment--inference)
+    - [⚙️ Pre-Testing Configuration](#️-pre-testing-configuration)
+  - [🖥️ phonecli: GUI × CLI Hybrid Agent](#️-phonecli-gui--cli-hybrid-agent)
+    - [The Core Idea](#the-core-idea)
+    - [How It Works](#how-it-works)
+    - [Why This Matters](#why-this-matters)
+    - [Get Started](#get-started)
+  - [🌟 Key Features of OpenPhone](#-key-features-of-openphone)
+    - [🤖 Lightweight Agentic Foundation Models](#-lightweight-agentic-foundation-models)
+    - [☁️ Device-Cloud Collaboration Framework](#️-device-cloud-collaboration-framework)
+    - [🎯 Comprehensive Mobile Agent Evaluation Playground](#-comprehensive-mobile-agent-evaluation-playground)
+  - [🌟 Technical Innovation \& Implementation](#-technical-innovation--implementation)
+    - [🧠 Model Training: SFT+RL](#-model-training-sftrl)
+    - [☁️ Device-Cloud Collaboration Framework](#️-device-cloud-collaboration-framework-1)
+    - [💾 Efficient Memory Mechanism for Mobile Agents](#-efficient-memory-mechanism-for-mobile-agents)
+  - [🧪 Testing \& Evaluation](#-testing--evaluation)
+    - [Single Task Testing](#single-task-testing)
+    - [Batch Evaluation Scripts](#batch-evaluation-scripts)
+    - [Additional App Documentation](#additional-app-documentation)
+  - [📊 Result Generation](#-result-generation)
+    - [LLM Evaluator Setup](#llm-evaluator-setup)
+    - [Generate Evaluation Results](#generate-evaluation-results)
+    - [Batch Testing File Management](#batch-testing-file-management)
+  - [🎯 📊 Key Evaluation Findings for OpenPhone](#--key-evaluation-findings-for-openphone)
+    - [🏆 Small Model, Big Performance](#-small-model-big-performance)
+    - [🥊 Competitive Performance](#-competitive-performance)
+    - [🔄 Device-Cloud Framework Works](#-device-cloud-framework-works)
+    - [🧠 Longer Prompts Don't Always Help](#-longer-prompts-dont-always-help)
+  - [📈 Device-Cloud Distribution Analysis for Phone Agents](#-device-cloud-distribution-analysis-for-phone-agents)
+    - [📊 Workload Distribution](#-workload-distribution)
+    - [💰 Efficiency Gains](#-efficiency-gains)
+    - [🎯 Model Capability Impact](#-model-capability-impact)
+  - [⚡ Inference Speed Comparison](#-inference-speed-comparison)
+    - [🎯 Speed Advantage](#-speed-advantage)
+    - [📊 Quantified Comparison](#-quantified-comparison)
+    - [💡 Practical Implications](#-practical-implications)
+  - [🌟 Citation](#-citation)
+  - [🔗 Related Projects](#-related-projects)
+  - [📜 License](#-license)
 
 ## 🎯 What is OpenPhone?
 
@@ -132,17 +148,6 @@ Considering the compute limitations of today’s edge devices, models with **≤
 - **Privacy-First**: Enables phone tasks to run entirely on-device, preserving user privacy while eliminating network dependencies.
 - **Cost Savings**: Local processing eliminates expensive cloud APIs and per-request charges for sustainable operation.
 
-### 🦾 PhoneClaw: Autonomous iOS Agent
-A self-learning iOS agent built on the **Ralph Loop** — a closed-loop execution methodology that runs until every subtask passes its success criteria. The key differentiator is a **two-layer self-learning memory** that makes the butler measurably smarter after each session:
-
-- **UserMemory** — Maintains a persistent user profile (inferred name, city, app habits, task history) injected into every planning prompt, so the agent makes contextually intelligent decisions from the very first step. Repeated questions are answered directly from memory with **zero device interactions**.
-- **ExperienceLog** — Records app-specific navigation knowledge per session: successful tap coordinates, failure patterns, UI timing quirks. Lessons are semantically deduplicated, reinforced on confirmation, and automatically compacted when an app accumulates ≥ 20 entries — keeping the knowledge base lean and high-quality.
-- **Intelligent Planning**: VLM decomposes each task into subtasks with explicit success criteria, enabling precise per-step evaluation and targeted retries rather than blind repetition.
-- **Interactive Daemon Mode**: Connect once, accept unlimited tasks indefinitely — the device screen stays on automatically throughout the session.
-- **Learning Mode**: Just use your phone normally while PhoneClaw watches. It captures screenshots at ~8 fps, detects tap positions via computer vision (`HoughCircles` + pixel-diff fallback), annotates each frame, and distils your actions into reusable navigation lessons added directly to the ExperienceLog — no manual annotation required.
-
-➜ [Full PhoneClaw documentation](./PhoneClaw/README.md)
-
 ---
 
 ## 🚀 Model Release & Resources
@@ -154,41 +159,17 @@ A self-learning iOS agent built on the **Ralph Loop** — a closed-loop executio
 
 ### 🛠️ Complete Training Pipeline
 - **Reproducible Recipe**: Full training implementation including our novel two-stage approach (SFT + GRPO-style RL with synthetic GUI data).
-- **Customization Support**: Detailed documentation in model_training/allows researchers to adapt the model for domain-specific phone tasks or extend to new mobile platforms.
+- **Customization Support**: Detailed documentation in model_training/ allows researchers to adapt the model for domain-specific phone tasks or extend to new mobile platforms.
 - **Data Generation Paradigm**: Scripts and methodologies for creating high-quality training data at scale.
 
 ## 🚀 Quick Start
-This project comprises three core components designed for comprehensive mobile agent development and evaluation:
+This project comprises core components designed for comprehensive mobile agent development and evaluation:
 
+- 🖥️ For the **phone agent CLI**, check out [phonecli](./phonecli/README.md) — build app maps and run autonomous tasks on iOS devices.
 - ⚡ For **model training**, please refer to the training guide [README](./model_training/README.md) for comprehensive setup and execution instructions.
 - 🔧 For the **data generation pipeline**, please refer to the data preparation guide [README](./prepare_data/README.md) for detailed implementation steps.
 
 Below, we focus on evaluation using the AndroidLab benchmark framework.
-
-### ⚡ CLI Usage
-The new unified CLI provides quick access to device control and autonomous task execution. Full documentation: [CLI README](./cli/README.md).
-
-**Prerequisites**: Install dependencies (`pip install -r requirements.txt`) and ensure WebDriverAgent is running on the iOS device. Create an alias for convenience: `alias openphone='python -m cli.main'`.
-
-**Agent-driven mode** — external AI (Claude Code, etc.) controls the device:
-```bash
-python -m cli.main open Safari
-python -m cli.main wait 1.0                  # wait for app to load
-python -m cli.main snapshot --json           # returns screenshot + interactive elements (@e1, @e2...)
-python -m cli.main tap @e3                   # tap by element ref
-python -m cli.main type "hello"
-python -m cli.main keyboard                  # dismiss keyboard
-python -m cli.main swipe up
-python -m cli.main press home
-```
-
-**Autonomous mode** — built-in VLM executes complete tasks:
-```bash
-python -m cli.main run "打开微信查看最近消息" --openrouter --model-name "z-ai/glm-4.6v"
-python -m cli.main daemon --openrouter
-python -m cli.main learn Safari
-python -m cli.main memory show
-```
 
 ### 📱 AndroidLab Benchmark Setup
 Installation: Follow the official AndroidLab documentation [AndroidLab](https://github.com/THUDM/Android-Lab) for complete setup instructions.<br>
@@ -214,6 +195,81 @@ Installation: Follow the official AndroidLab documentation [AndroidLab](https://
 
 ---
 
+## 🖥️ phonecli: GUI × CLI Hybrid Agent
+
+### The Core Idea
+
+Think about how you use your phone. Turning on Wi-Fi, checking today's calendar,
+searching for a contact — these are **repetitive fixed sequences** you execute
+dozens of times. Doing them through VLM-driven GUI interaction is slow (2–5s per
+step), expensive (every screenshot costs an API call), and fragile (VLMs
+hallucinate coordinates).
+
+**phonecli** takes a different approach. Instead of treating every task as a
+novel GUI exploration, it **pre-builds a navigation graph (app map) for each
+app**, then replays routine operations as deterministic macros. The VLM only
+gets called when genuinely needed — for novel tasks, verification, or
+cross-app reasoning.
+
+### How It Works
+
+**1. Build an app map** — A BFS crawler systematically explores every screen of
+an app via WebDriverAgent, recording all tappable elements, their coordinates,
+and the navigation paths between screens. Each element is classified (stable vs.
+dynamic) and enriched with semantic metadata by an LLM.
+
+```yaml
+# The app map encodes every screen as a node, every element as an edge
+screens:
+  - id: screen_0
+    description: "Settings main page"
+    elements:
+      - text: Wi-Fi
+        center: [0.50, 0.15]      # normalized coordinates
+        fixed: true                 # stable across app updates
+        leads_to: screen_1          # where this tap navigates
+
+screen_macros:
+  screen_1: [force_stop, launch, tap(195, 126)]  # exact replay sequence
+```
+
+**2. Run a task** — The agent maps a natural language task to a specific macro
+operation, replays it deterministically, then optionally verifies with a single
+VLM screenshot check. Most routine tasks complete with **0–1 VLM calls**.
+
+**3. Handle the unexpected** — When a task doesn't match any macro (e.g. "Find
+restaurants near me that are open late"), the agent falls back to pure VLM
+reasoning. The system gracefully degrades to GUI mode only when needed.
+
+### Why This Matters
+
+The intuition is simple: **don't ask a VLM to re-discover what you already
+know**. Pre-compute the navigation graph once, then replay it reliably forever.
+This is the same principle that makes CLI tools faster than GUI — applied to
+phone automation.
+
+### Get Started
+
+```bash
+# 1. Build a map for any iOS app (~10 minutes, one-time)
+python phonecli/cli.py macro auto-build -b com.apple.Preferences -a Settings
+
+# 2. Run a task
+python phonecli/run.py --task "Turn on airplane mode"
+
+# 3. Interactive daemon (continuous multi-task session)
+python phonecli/run.py --interactive
+```
+
+The package ships with **pre-built maps for 8 apps** (微博, foodpanda,
+Calendar, 京东, Dianping, 小红书, Music, Settings), each covering 20–50 screens
+and hundreds of elements.
+
+➜ **[Full phonecli documentation](./phonecli/README.md)** — setup, app map
+building, CLI reference, troubleshooting.
+
+---
+
 ## 🌟 Key Features of OpenPhone
 
 ### 🤖 Lightweight Agentic Foundation Models
@@ -227,12 +283,6 @@ Installation: Follow the official AndroidLab documentation [AndroidLab](https://
 ### 🎯 Comprehensive Mobile Agent Evaluation Playground
 • **Extended Benchmark Suite**: Beyond AndroidLab, incorporating 25+ additional tasks across popular mobile applications for real-world validation. <br>
 • **Multi-Dimensional Assessment**: Comprehensive evaluation covering performance metrics, computational efficiency, and practical deployment scenarios.
-
-### 🖥️ Agent CLI Tool
-• **Unified CLI**: A single `python -m cli.main` entry point for both autonomous task execution and step-by-step device control. <br>
-• **AI-Native Output**: All commands support `--json` for structured output consumable by external AI agents. <br>
-• **Agent Skill Definition**: Includes a `skills/openphone/SKILL.md` that tells AI coding agents how to use the CLI. <br>
-➜ [Full CLI documentation](./cli/README.md)
 
 ---
 
@@ -317,7 +367,7 @@ python generate_result.py --input_folder ./logs/evaluation/ --output_folder ./lo
 
 ### 🥊 Competitive Performance
 - **Against Proprietary Models**: OpenPhone-3B shows respectable performance compared to lightweight versions of proprietary models when evaluated on standard benchmarks.
-- **Potential of Small Models**: Demonstrates promising results that validate the viability of compact open-source approaches in mobile agent developmen.
+- **Potential of Small Models**: Demonstrates promising results that validate the viability of compact open-source approaches in mobile agent development.
 
 ### 🔄 Device-Cloud Framework Works
 - **Performance with Efficiency**: OpenPhone's hybrid architecture delivers near-optimal performance while dramatically reducing cloud model usage.
@@ -363,7 +413,6 @@ We evaluated average inference time per step using vLLM across different GPU con
 | OpenPhone              | Two 3090s   | 3B   | 15.2 | 3524.25 ms       |
 
 </div>
-</p>
 
 ### 🎯 Speed Advantage
 - **Clear Winner**: OpenPhone demonstrates significant inference speed advantages thanks to its lightweight 3B architecture

@@ -1,0 +1,4 @@
+app: foodpanda
+bundle_id: com.global.foodpanda.ios
+dynamic_patterns: []
+preserve_navigation: []

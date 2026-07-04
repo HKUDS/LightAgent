@@ -1,0 +1,37 @@
+app: Music
+bundle_id: com.apple.Music
+dynamic_patterns:
+- ^.{8,}$
+preserve_navigation:
+- Home
+- My Account
+- Radio Station
+- Discovery Station
+- Recently Played
+- Made for You
+- Mood for You
+- New Release
+- Top Picks for You
+- Playlists Made for You
+- Essential 2000s Cantopop Albums
+- Mandopop
+- 'Heartbreak: Mandopop'
+- Apple Music Mandopop
+- Your Essentials
+- Apple Music for 杨钦
+- ’80s Mandopop Essentials
+- Apple Music
+- Album Artwork
+- Play
+- Next track
+- Featuring aMEI
+- aMEI & Similar Artists
+- Unlock Me
+- Relax
+- Soothing sounds to help you unwind and breathe easy.
+- 杨钦’s Station
+- Music.shelfItemSubComponent.artwork
+- home.fill
+- grid 2x2
+- radio
+- music.square.stack.fill

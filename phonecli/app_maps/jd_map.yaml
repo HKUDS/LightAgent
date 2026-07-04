@@ -1,0 +1,9395 @@
+app: 京东
+package: com.360buy.jdmobile
+screen_w: 402
+screen_h: 874
+screens:
+- id: screen_0
+  elements:
+  - text: 拍照购
+    center:
+    - 0.7935
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_1
+    aliases:
+    - 拍照购物
+    - camera search
+    - visual search
+    - 扫一扫
+    semantic_type: button
+  - text: 切换站点
+    center:
+    - 0.0622
+    - 0.1384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 切换地址
+    - change location
+    - switch site
+    semantic_type: button
+  - text: 国家补贴
+    center:
+    - 0.3582
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 政府补贴
+    - national subsidy
+    - state subsidy
+    semantic_type: menu_item
+  - text: 分类
+    center:
+    - 0.9353
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - 商品分类
+    semantic_type: tab
+  - text: 首页
+    center:
+    - 0.2239
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_2
+    aliases:
+    - home
+    - homepage
+    - 主页
+    semantic_type: tab
+  - text: 秒送
+    center:
+    - 0.3632
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_3
+    aliases:
+    - instant delivery
+    - 快速送达
+    - express
+    semantic_type: tab
+  - text: 新品
+    center:
+    - 0.5025
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_4
+    aliases:
+    - new arrivals
+    - new products
+    - 最新商品
+    semantic_type: tab
+  - text: 搜索
+    center:
+    - 0.9055
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_5
+    aliases:
+    - search
+    - 查找
+    - search bar
+    semantic_type: input
+  - text: 关注
+    center:
+    - 0.0771
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_6
+    aliases:
+    - following
+    - followed
+    - 已关注
+    semantic_type: tab
+  - text: 推荐
+    center:
+    - 0.1965
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - recommended
+    - for you
+    - 推荐商品
+    semantic_type: tab
+  - text: 食品
+    center:
+    - 0.5174
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_8
+    aliases:
+    - food
+    - 零食
+    - grocery
+    semantic_type: menu_item
+  - text: 手机
+    center:
+    - 0.6368
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - mobile phone
+    - smartphone
+    - cell phone
+    semantic_type: menu_item
+  - text: 数码
+    center:
+    - 0.7562
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_10
+    aliases:
+    - digital
+    - electronics
+    - 数码产品
+    semantic_type: menu_item
+  - text: 酒饮
+    center:
+    - 0.8731
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - drinks
+    - alcohol
+    - beverages
+    - 酒水
+    semantic_type: menu_item
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - messages
+    - notifications
+    - 通知
+    semantic_type: button
+  - text: 购物车
+    center:
+    - 0.699
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_12
+    aliases:
+    - cart
+    - shopping cart
+    - 购物篮
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - profile
+    - me
+    - account
+    - 个人中心
+    semantic_type: tab
+  - text: JDMainPage_nav_line
+    center:
+    - 0.8756
+    - 0.1362
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_14
+    aliases:
+    - navigation line
+    - nav bar
+    semantic_type: other
+  - text: jdtabBar_bg_dark
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_15
+    aliases:
+    - tab bar background
+    - dark background
+    semantic_type: other
+  - text: 看一看
+    center:
+    - 0.7438
+    - 0.8741
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - take a look
+    - watch
+    - 浏览
+    semantic_type: button
+  description: 京东首页，包含搜索、分类、推荐商品及底部导航栏，用户可浏览和购买商品
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_1
+  elements:
+  - text: Don’t Allow
+    center:
+    - 0.3159
+    - 0.6316
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_16
+    aliases:
+    - deny
+    - refuse
+    - 禁止
+    - 不允许
+    semantic_type: button
+  - text: Allow
+    center:
+    - 0.6841
+    - 0.6316
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_16
+    aliases:
+    - permit
+    - grant
+    - 允许
+    - 同意
+    semantic_type: button
+  - text: Silent Mode
+    center:
+    - 0.2488
+    - 0.0378
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_16
+    aliases:
+    - mute
+    - quiet
+    - 静音模式
+    - do not disturb
+    semantic_type: toggle
+  - text: '[Email]'
+    center:
+    - 0.2512
+    - 0.4165
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_16
+    aliases:
+    - email address
+    - 邮箱
+    - 电子邮件
+    - mail
+    semantic_type: input
+  description: Permission dialog asking user to allow or deny silent mode access for
+    an email app.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_2
+  elements:
+  - text: 拍照购
+    center:
+    - 0.7935
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_17
+    aliases:
+    - 拍照购物
+    - photo shopping
+    - camera buy
+    - 图像识别购物
+    semantic_type: button
+  - text: 切换站点
+    center:
+    - 0.0622
+    - 0.1384
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_18
+    aliases:
+    - switch site
+    - change location
+    - 站点切换
+    - 切换地址
+    semantic_type: button
+  - text: 国家补贴
+    center:
+    - 0.3582
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - national subsidy
+    - government subsidy
+    - 补贴
+    - 国补
+    semantic_type: menu_item
+  - text: 分类
+    center:
+    - 0.9353
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - 商品分类
+    - all categories
+    semantic_type: tab
+  - text: 不感兴趣
+    center:
+    - 0.4353
+    - 0.468
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - not interested
+    - dislike
+    - 不感兴趣
+    - remove
+    semantic_type: button
+  - text: 首页
+    center:
+    - 0.2239
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - home
+    - homepage
+    - 主页
+    - main page
+    semantic_type: tab
+  - text: 秒送
+    center:
+    - 0.3632
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_4
+    aliases:
+    - flash delivery
+    - instant delivery
+    - 秒送
+    - quick send
+    semantic_type: tab
+  - text: 新品
+    center:
+    - 0.5025
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_4
+    aliases:
+    - new arrivals
+    - new products
+    - 新品上市
+    - latest
+    semantic_type: tab
+  - text: 搜索
+    center:
+    - 0.9055
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_19
+    aliases:
+    - search
+    - 搜索框
+    - find
+    semantic_type: input
+  - text: 关注
+    center:
+    - 0.0771
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_6
+    aliases:
+    - following
+    - follow
+    - 关注
+    - subscriptions
+    semantic_type: tab
+  - text: 推荐
+    center:
+    - 0.1965
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - recommended
+    - recommendations
+    - 推荐
+    - for you
+    semantic_type: tab
+  - text: 食品
+    center:
+    - 0.5174
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_20
+    aliases:
+    - food
+    - groceries
+    - 食品
+    - 零食
+    semantic_type: menu_item
+  - text: 手机
+    center:
+    - 0.6368
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_20
+    aliases:
+    - mobile phones
+    - phones
+    - 手机
+    - smartphones
+    semantic_type: menu_item
+  - text: 酒饮
+    center:
+    - 0.7537
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_20
+    aliases:
+    - drinks
+    - beverages
+    - 酒饮
+    - alcohol
+    semantic_type: menu_item
+  - text: 数码
+    center:
+    - 0.8731
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - digital
+    - electronics
+    - 数码产品
+    - gadgets
+    semantic_type: menu_item
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_20
+    aliases:
+    - messages
+    - notifications
+    - 消息
+    - inbox
+    semantic_type: tab
+  - text: 购物车
+    center:
+    - 0.699
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_21
+    aliases:
+    - cart
+    - shopping cart
+    - 购物车
+    - basket
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_22
+    aliases:
+    - profile
+    - my account
+    - 我的
+    - me
+    semantic_type: tab
+  - text: JDMainPage_nav_line
+    center:
+    - 0.8756
+    - 0.1362
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_23
+    aliases:
+    - navigation line
+    - nav divider
+    - 导航分割线
+    semantic_type: other
+  - text: jdtabBar_bg_dark
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - tab bar background
+    - dark tab bar
+    - 底部导航栏背景
+    semantic_type: other
+  - text: 立即领取
+    center:
+    - 0.3532
+    - 0.6133
+    found_at_scroll: 3
+    fixed: false
+    leads_to: screen_24
+    aliases:
+    - claim now
+    - get now
+    - 立即领取
+    - receive
+    semantic_type: button
+  description: 京东首页，包含搜索、分类导航、推荐商品和底部标签栏，用户可浏览和购物。
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_3
+  elements:
+  - text: 拍照购
+    center:
+    - 0.7935
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_25
+    aliases:
+    - 拍照购物
+    - camera search
+    - visual search
+    - photo search
+    semantic_type: button
+  - text: 切换站点
+    center:
+    - 0.0622
+    - 0.1384
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_25
+    aliases:
+    - 切换地址
+    - switch location
+    - change site
+    semantic_type: button
+  - text: 特价
+    center:
+    - 0.0846
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_4
+    aliases:
+    - special offer
+    - 特卖
+    - deals
+    - discount
+    semantic_type: tab
+  - text: 首页
+    center:
+    - 0.2239
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - home
+    - 主页
+    - main page
+    semantic_type: tab
+  - text: 秒送
+    center:
+    - 0.3632
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_4
+    aliases:
+    - flash delivery
+    - instant delivery
+    - 快速配送
+    semantic_type: tab
+  - text: 新品
+    center:
+    - 0.5025
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_26
+    aliases:
+    - new arrivals
+    - new products
+    - 最新商品
+    semantic_type: tab
+  - text: 搜索
+    center:
+    - 0.9055
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_27
+    aliases:
+    - search
+    - 查找
+    - find
+    semantic_type: input
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - messages
+    - notifications
+    - 通知
+    - inbox
+    semantic_type: button
+  - text: 购物车
+    center:
+    - 0.699
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_28
+    aliases:
+    - cart
+    - shopping cart
+    - trolley
+    - 购物篮
+    semantic_type: button
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - profile
+    - me
+    - account
+    - 个人中心
+    semantic_type: tab
+  - text: JDMainPage_nav_line
+    center:
+    - 0.8756
+    - 0.1362
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_29
+    aliases:
+    - navigation bar
+    - nav line
+    - 导航栏
+    semantic_type: other
+  - text: jdtabBar_bg_dark
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - tab bar background
+    - dark tab bar
+    - 底部导航背景
+    semantic_type: other
+  description: Main page of the JD app with navigation tabs for Home, Flash Deals,
+    New Products, Search, Messages, Cart, and My Profile, along with quick access
+    to Photo Purchase and site switching.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_4
+  elements:
+  - text: 拍照购
+    center:
+    - 0.7935
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_30
+    aliases:
+    - 拍照购物
+    - camera search
+    - visual search
+    - 拍立得
+    semantic_type: button
+  - text: 切换站点
+    center:
+    - 0.0622
+    - 0.1384
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_18
+    aliases:
+    - switch site
+    - change location
+    - 切换位置
+    - select site
+    semantic_type: button
+  - text: 首页
+    center:
+    - 0.2239
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - home
+    - homepage
+    - main page
+    - 主页
+    semantic_type: tab
+  - text: 秒送
+    center:
+    - 0.3632
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - flash delivery
+    - instant delivery
+    - 快速配送
+    - express
+    semantic_type: tab
+  - text: 搜索
+    center:
+    - 0.9055
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_31
+    aliases:
+    - search
+    - 查找
+    - find
+    - query
+    semantic_type: input
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - messages
+    - notifications
+    - 通知
+    - inbox
+    semantic_type: tab
+  - text: 购物车
+    center:
+    - 0.699
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_21
+    aliases:
+    - cart
+    - shopping cart
+    - trolley
+    - 购物篮
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - profile
+    - me
+    - account
+    - 个人中心
+    - mine
+    semantic_type: tab
+  - text: JDMainPage_nav_line
+    center:
+    - 0.8756
+    - 0.1362
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_32
+    aliases:
+    - navigation line
+    - nav indicator
+    - 导航线
+    semantic_type: other
+  - text: jdtabBar_bg_dark
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - tab bar background
+    - dark background
+    - 底部导航背景
+    semantic_type: other
+  description: Main page of the JD app with bottom navigation bar including tabs for
+    Home, Express Delivery, Search, Messages, Cart, and My Profile, along with quick
+    access to Photo Purchase and site switching.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_5
+  elements:
+  - text: 返回
+    center:
+    - 0.0647
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_6
+    aliases:
+    - back
+    - 后退
+    - return
+    semantic_type: button
+  - text: 拍照购
+    center:
+    - 0.8209
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_30
+    aliases:
+    - 拍照购物
+    - photo search
+    - camera search
+    - 图像识别
+    semantic_type: button
+  - text: 已选定综合推荐
+    center:
+    - 0.5
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_33
+    aliases:
+    - 综合推荐
+    - recommended
+    - 综合排序
+    semantic_type: tab
+  - text: 销量
+    center:
+    - 0.7189
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_34
+    aliases:
+    - sales volume
+    - 热销
+    - 销量排序
+    semantic_type: tab
+  - text: 筛选
+    center:
+    - 0.8806
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_35
+    aliases:
+    - filter
+    - 过滤
+    - 筛选条件
+    semantic_type: button
+  - text: 京东物流
+    center:
+    - 0.1095
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_36
+    aliases:
+    - JD Logistics
+    - 京东配送
+    - 物流筛选
+    semantic_type: toggle
+  - text: 品牌
+    center:
+    - 0.2761
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_37
+    aliases:
+    - brand
+    - 品牌筛选
+    - brand filter
+    semantic_type: button
+  - text: 加购物车
+    center:
+    - 0.9254
+    - 0.3261
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_35
+    aliases:
+    - add to cart
+    - 加入购物车
+    - cart
+    semantic_type: button
+  - text: 关注
+    center:
+    - 0.7189
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_38
+    aliases:
+    - follow
+    - 收藏
+    - favorite
+    - 关注店铺
+    semantic_type: button
+  - text: 返回顶部
+    center:
+    - 0.9303
+    - 0.9085
+    found_at_scroll: 2
+    fixed: true
+    leads_to: screen_39
+    aliases:
+    - back to top
+    - scroll to top
+    - 回到顶部
+    semantic_type: button
+  description: Product listing page with sorting and filtering options, showing items
+    with add-to-cart and follow buttons.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_6
+  elements:
+  - text: 拍照购
+    center:
+    - 0.7935
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_30
+    aliases:
+    - 拍照购物
+    - camera shopping
+    - visual search
+    - 拍图
+    semantic_type: button
+  - text: 切换站点
+    center:
+    - 0.0622
+    - 0.1384
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_40
+    aliases:
+    - 切换地址
+    - switch location
+    - change site
+    semantic_type: button
+  - text: 分类
+    center:
+    - 0.9353
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - 商品分类
+    - product categories
+    semantic_type: tab
+  - text: 首页
+    center:
+    - 0.2239
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - home
+    - 主页
+    - main page
+    semantic_type: tab
+  - text: 秒送
+    center:
+    - 0.3632
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_4
+    aliases:
+    - flash delivery
+    - instant delivery
+    - 快速送达
+    semantic_type: tab
+  - text: 搜索
+    center:
+    - 0.9055
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_41
+    aliases:
+    - search
+    - 查找
+    - find
+    semantic_type: input
+  - text: 关注
+    center:
+    - 0.0771
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - following
+    - followed
+    - 已关注
+    semantic_type: tab
+  - text: 推荐
+    center:
+    - 0.1965
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_42
+    aliases:
+    - recommended
+    - for you
+    - 为你推荐
+    semantic_type: tab
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - messages
+    - notifications
+    - 通知
+    semantic_type: tab
+  - text: 购物车
+    center:
+    - 0.699
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_43
+    aliases:
+    - cart
+    - shopping cart
+    - 购物篮
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_44
+    aliases:
+    - profile
+    - me
+    - account
+    - 个人中心
+    semantic_type: tab
+  - text: JDMainPage_nav_line
+    center:
+    - 0.8756
+    - 0.1362
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_45
+    aliases:
+    - navigation line
+    - nav indicator
+    semantic_type: other
+  - text: jdtabBar_bg_dark
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - tab bar background
+    - dark background
+    semantic_type: other
+  - text: 关闭按钮
+    center:
+    - 0.5
+    - 0.7494
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_46
+    aliases:
+    - close
+    - 关闭
+    - dismiss
+    - x button
+    semantic_type: button
+  description: Main homepage of the JD app with navigation tabs, search, and quick
+    access to features like photo search, site switching, and categories.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_7
+  elements:
+  - text: 拍照购
+    center:
+    - 0.7935
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_17
+    aliases:
+    - 拍照购物
+    - photo shopping
+    - camera search
+    - 图像搜索
+    semantic_type: button
+  - text: 切换站点
+    center:
+    - 0.0622
+    - 0.1384
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_40
+    aliases:
+    - switch site
+    - change location
+    - 切换位置
+    - 站点选择
+    semantic_type: button
+  - text: 国家补贴
+    center:
+    - 0.3582
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - government subsidy
+    - national subsidy
+    - 补贴
+    - 政府补贴
+    semantic_type: menu_item
+  - text: 分类
+    center:
+    - 0.9353
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - 商品分类
+    - all categories
+    semantic_type: tab
+  - text: 特价
+    center:
+    - 0.0846
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_4
+    aliases:
+    - special offer
+    - deals
+    - 特价商品
+    - discount
+    semantic_type: tab
+  - text: 首页
+    center:
+    - 0.2239
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - home
+    - homepage
+    - 主页
+    - main page
+    semantic_type: tab
+  - text: 秒送
+    center:
+    - 0.3632
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_4
+    aliases:
+    - flash delivery
+    - instant delivery
+    - 快速送达
+    - 秒达
+    semantic_type: tab
+  - text: 新品
+    center:
+    - 0.5025
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_3
+    aliases:
+    - new arrivals
+    - new products
+    - 新品上市
+    - latest
+    semantic_type: tab
+  - text: 搜索
+    center:
+    - 0.9055
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_19
+    aliases:
+    - search
+    - 查找
+    - 搜索框
+    semantic_type: input
+  - text: 关注
+    center:
+    - 0.0771
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - following
+    - followed
+    - 我的关注
+    - watchlist
+    semantic_type: tab
+  - text: 推荐
+    center:
+    - 0.1965
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - recommended
+    - for you
+    - 为你推荐
+    - suggestions
+    semantic_type: tab
+  - text: 食品
+    center:
+    - 0.5174
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_8
+    aliases:
+    - food
+    - groceries
+    - 零食
+    - 食品饮料
+    semantic_type: menu_item
+  - text: 手机
+    center:
+    - 0.6368
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_47
+    aliases:
+    - phones
+    - mobile phones
+    - 智能手机
+    - cell phone
+    semantic_type: menu_item
+  - text: 酒饮
+    center:
+    - 0.7537
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_48
+    aliases:
+    - drinks
+    - alcohol
+    - 饮料
+    - 酒水
+    semantic_type: menu_item
+  - text: 数码
+    center:
+    - 0.8731
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - digital
+    - electronics
+    - 电子产品
+    - 数码产品
+    semantic_type: menu_item
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - messages
+    - notifications
+    - 通知
+    - 消息中心
+    semantic_type: tab
+  - text: 购物车
+    center:
+    - 0.699
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_49
+    aliases:
+    - cart
+    - shopping cart
+    - 购物篮
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - my
+    - profile
+    - 个人中心
+    - account
+    semantic_type: tab
+  - text: JDMainPage_nav_line
+    center:
+    - 0.8756
+    - 0.1362
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - navigation line
+    - nav bar line
+    - 导航线
+    semantic_type: other
+  - text: jdtabBar_bg_dark
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - dark tab bar
+    - 底部导航背景
+    semantic_type: other
+  - text: 京东超市
+    center:
+    - 0.5995
+    - 0.6762
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - JD Super
+    - Jingdong Supermarket
+    - 超市
+    - supermarket
+    semantic_type: link
+  - text: 一站购齐
+    center:
+    - 0.7463
+    - 0.6762
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - one-stop shopping
+    - all in one
+    - 一站式购物
+    - complete shopping
+    semantic_type: label
+  description: 京东 app main page with search, category navigation, promotional banners,
+    and bottom tab bar for Home, Messages, Cart, and Profile.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_8
+  elements:
+  - text: 拍照购
+    center:
+    - 0.7935
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 拍照购物
+    - camera shopping
+    - visual search
+    - 拍图
+    semantic_type: button
+  - text: 切换站点
+    center:
+    - 0.0622
+    - 0.1384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 切换地址
+    - switch location
+    - change site
+    semantic_type: button
+  - text: 国家补贴
+    center:
+    - 0.2189
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 政府补贴
+    - national subsidy
+    - state subsidy
+    semantic_type: menu_item
+  - text: 分类
+    center:
+    - 0.9353
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - 商品分类
+    semantic_type: tab
+  - text: 首页
+    center:
+    - 0.2239
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - homepage
+    - 主页
+    semantic_type: tab
+  - text: 秒送
+    center:
+    - 0.3632
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - flash delivery
+    - instant delivery
+    - 快速配送
+    semantic_type: tab
+  - text: 新品
+    center:
+    - 0.5025
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - new arrivals
+    - new products
+    - 最新商品
+    semantic_type: tab
+  - text: 搜索
+    center:
+    - 0.9055
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search
+    - 搜索框
+    - 查找
+    semantic_type: input
+  - text: 推荐
+    center:
+    - 0.0597
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recommended
+    - for you
+    - 为你推荐
+    semantic_type: tab
+  - text: 食品
+    center:
+    - 0.3806
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - food
+    - 零食
+    - grocery
+    semantic_type: menu_item
+  - text: 手机
+    center:
+    - 0.5
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - phones
+    - mobile
+    - 智能手机
+    semantic_type: menu_item
+  - text: 酒饮
+    center:
+    - 0.6169
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - drinks
+    - alcohol
+    - beverages
+    - 饮料
+    semantic_type: menu_item
+  - text: 数码
+    center:
+    - 0.7363
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - digital
+    - electronics
+    - 电子产品
+    semantic_type: menu_item
+  - text: 女装
+    center:
+    - 0.8532
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - women's clothing
+    - ladies' wear
+    - 女士服装
+    semantic_type: menu_item
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - messages
+    - notifications
+    - 通知
+    semantic_type: tab
+  - text: 购物车
+    center:
+    - 0.699
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cart
+    - shopping cart
+    - 购物篮
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - my
+    - profile
+    - account
+    - 个人中心
+    semantic_type: tab
+  - text: JDMainPage_nav_line
+    center:
+    - 0.8756
+    - 0.1362
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - navigation bar
+    - nav bar
+    - 导航栏
+    semantic_type: other
+  - text: jdtabBar_bg_dark
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - dark tab bar
+    - 底部导航背景
+    semantic_type: other
+  description: Main homepage of the JD app with search, category navigation, product
+    recommendations, and bottom tab bar for Home, Messages, Cart, and Profile.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_9
+  elements:
+  - text: 拍照购
+    center:
+    - 0.7935
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 拍照购物
+    - photo shopping
+    - camera search
+    - 图像搜索
+    semantic_type: button
+  - text: 切换站点
+    center:
+    - 0.0622
+    - 0.1384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - switch site
+    - change location
+    - 切换位置
+    - 站点切换
+    semantic_type: button
+  - text: 分类
+    center:
+    - 0.9353
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - 商品分类
+    - all categories
+    semantic_type: tab
+  - text: 首页
+    center:
+    - 0.2239
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - homepage
+    - 主页
+    - main page
+    semantic_type: tab
+  - text: 秒送
+    center:
+    - 0.3632
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - flash delivery
+    - instant delivery
+    - 快速配送
+    - express
+    semantic_type: tab
+  - text: 搜索
+    center:
+    - 0.9055
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search
+    - 搜索框
+    - find
+    - 查询
+    semantic_type: input
+  - text: 食品
+    center:
+    - 0.2612
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - food
+    - 零食
+    - grocery
+    - 食品饮料
+    semantic_type: menu_item
+  - text: 酒饮
+    center:
+    - 0.3806
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - drinks
+    - alcohol
+    - 饮料
+    - 酒水
+    semantic_type: menu_item
+  - text: 手机
+    center:
+    - 0.5
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - phone
+    - mobile
+    - 智能手机
+    - cell phone
+    semantic_type: menu_item
+  - text: 生鲜
+    center:
+    - 0.6169
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fresh food
+    - fresh produce
+    - 新鲜食材
+    - 蔬果
+    semantic_type: menu_item
+  - text: 数码
+    center:
+    - 0.7363
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - digital
+    - electronics
+    - 电子产品
+    - 数码产品
+    semantic_type: menu_item
+  - text: 男装
+    center:
+    - 0.8532
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - men's clothing
+    - menswear
+    - 男士服装
+    - 男衣
+    semantic_type: menu_item
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - messages
+    - notifications
+    - 通知
+    - 信息
+    semantic_type: tab
+  - text: 购物车
+    center:
+    - 0.699
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cart
+    - shopping cart
+    - 购物篮
+    - trolley
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - profile
+    - mine
+    - 个人中心
+    - account
+    semantic_type: tab
+  - text: JDMainPage_nav_line
+    center:
+    - 0.8756
+    - 0.1362
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - navigation line
+    - nav bar
+    - 导航栏
+    semantic_type: other
+  - text: jdtabBar_bg_dark
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - dark background
+    - 底部导航背景
+    semantic_type: other
+  description: Main page of the JD app with search, category navigation, and bottom
+    tabs for Home, Messages, Cart, and Profile.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_10
+  elements:
+  - text: 拍照购
+    center:
+    - 0.7935
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 拍照购物
+    - camera search
+    - visual search
+    - 拍图
+    semantic_type: button
+  - text: 切换站点
+    center:
+    - 0.0622
+    - 0.1384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 切换地址
+    - switch location
+    - change site
+    semantic_type: button
+  - text: 分类
+    center:
+    - 0.9353
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - 商品分类
+    - category
+    semantic_type: tab
+  - text: 首页
+    center:
+    - 0.2239
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - 主页
+    - main page
+    semantic_type: tab
+  - text: 秒送
+    center:
+    - 0.3632
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - instant delivery
+    - 快速送达
+    - express
+    semantic_type: tab
+  - text: 搜索
+    center:
+    - 0.9055
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search
+    - 查找
+    - search bar
+    semantic_type: input
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - messages
+    - 通知
+    - notifications
+    - inbox
+    semantic_type: tab
+  - text: 购物车
+    center:
+    - 0.699
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cart
+    - shopping cart
+    - 购物篮
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - profile
+    - account
+    - 个人中心
+    - mine
+    semantic_type: tab
+  - text: JDMainPage_nav_line
+    center:
+    - 0.8756
+    - 0.1362
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - navigation line
+    - nav indicator
+    semantic_type: other
+  - text: jdtabBar_bg_dark
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - dark background
+    semantic_type: other
+  description: Main page of the JD app with bottom navigation bar including tabs for
+    Home, Flash Deals, Search, Messages, Cart, and Profile, plus quick access to Photo
+    Purchase and site switching.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_11
+  elements:
+  - text: 清空消息
+    center:
+    - 0.8507
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 清除消息
+    - clear messages
+    - delete all
+    semantic_type: button
+  - text: msg navbar clean new b
+    center:
+    - 0.8507
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息导航栏
+    - clean new button
+    semantic_type: button
+  - text: 更多
+    center:
+    - 0.9378
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - more
+    - 更多选项
+    - additional
+    semantic_type: menu_item
+  - text: msg home more w
+    center:
+    - 0.9378
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息首页更多
+    - more button
+    semantic_type: button
+  - text: 全部
+    center:
+    - 0.0697
+    - 0.2483
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - all
+    - 全部消息
+    - all messages
+    semantic_type: tab
+  - text: 购物
+    center:
+    - 0.1816
+    - 0.2471
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shopping
+    - 购物消息
+    - shop
+    semantic_type: tab
+  - text: 秒送
+    center:
+    - 0.2935
+    - 0.2471
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - flash delivery
+    - 即时配送
+    - express
+    semantic_type: tab
+  - text: 全部，已选中
+    center:
+    - 0.0995
+    - 0.2437
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - all selected
+    - 全部选中
+    semantic_type: tab
+  - text: 购物，未选中
+    center:
+    - 0.2164
+    - 0.2437
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shopping unselected
+    - 购物未选
+    semantic_type: tab
+  - text: 秒送，未选中
+    center:
+    - 0.3458
+    - 0.2437
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - flash delivery unselected
+    - 秒送未选
+    semantic_type: tab
+  - text: 关闭
+    center:
+    - 0.0572
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - close
+    - 关闭按钮
+    - dismiss
+    semantic_type: button
+  - text: 消息
+    center:
+    - 0.0846
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - messages
+    - 消息中心
+    - notifications
+    semantic_type: tab
+  - text: 会话
+    center:
+    - 0.097
+    - 0.1979
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - conversations
+    - 聊天
+    - chat
+    semantic_type: tab
+  - text: 物流
+    center:
+    - 0.2562
+    - 0.1979
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - logistics
+    - 物流消息
+    - delivery
+    semantic_type: tab
+  - text: 提醒
+    center:
+    - 0.4179
+    - 0.1979
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - reminders
+    - 提醒消息
+    - alerts
+    semantic_type: tab
+  - text: 优惠
+    center:
+    - 0.6592
+    - 0.1979
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - promotions
+    - 优惠消息
+    - discounts
+    semantic_type: tab
+  - text: 互动
+    center:
+    - 0.903
+    - 0.1979
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - interactions
+    - 互动消息
+    - social
+    semantic_type: tab
+  - text: 打开系统通知，物流优惠等消息不错过
+    center:
+    - 0.4279
+    - 0.8696
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - enable notifications
+    - 开启通知
+    - don't miss messages
+    semantic_type: button
+  - text: 首页
+    center:
+    - 0.0995
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - 主页
+    - homepage
+    semantic_type: tab
+  - text: 购物车
+    center:
+    - 0.699
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cart
+    - 购物车页面
+    - shopping cart
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - profile
+    - 个人中心
+    - my account
+    semantic_type: tab
+  - text: msg_waimai
+    center:
+    - 0.3582
+    - 0.2471
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息外卖
+    - takeout messages
+    semantic_type: label
+  - text: jdtabBar_bg_dark
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 京东标签栏深色背景
+    - tab bar dark background
+    semantic_type: other
+  description: 京东消息中心页面，包含消息分类标签（全部、购物、秒送）和各类消息通知列表，用户可查看和管理消息。
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_12
+  elements:
+  - text: 隐藏地址
+    center:
+    - 0.2239
+    - 0.0892
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - hide address
+    - 地址隐藏
+    - conceal location
+    semantic_type: toggle
+  - text: 搜索按钮
+    center:
+    - 0.9403
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search button
+    - 搜索
+    - search icon
+    semantic_type: button
+  - text: 加入购物车
+    center:
+    - 0.2637
+    - 0.5137
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - add to cart
+    - 加入
+    - cart button
+    semantic_type: button
+  - text: 不感兴趣
+    center:
+    - 0.4353
+    - 0.8455
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - not interested
+    - dislike
+    - 不感兴趣反馈
+    semantic_type: button
+  - text: 购物车
+    center:
+    - 0.1119
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cart
+    - shopping cart
+    - 购物车页面
+    semantic_type: tab
+  - text: 购物
+    center:
+    - 0.2388
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shopping
+    - shop
+    - 商城
+    semantic_type: tab
+  - text: 秒送外卖
+    center:
+    - 0.398
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - express delivery
+    - 外卖
+    - fast delivery
+    semantic_type: menu_item
+  - text: 服务健康
+    center:
+    - 0.6393
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - health services
+    - 健康
+    - health
+    semantic_type: menu_item
+  - text: 逛逛秒杀
+    center:
+    - 0.3905
+    - 0.2311
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - flash sale
+    - 秒杀
+    - browse deals
+    semantic_type: menu_item
+  - text: 去送礼物
+    center:
+    - 0.6095
+    - 0.2311
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - send gift
+    - 送礼
+    - gift giving
+    semantic_type: button
+  - text: 预估
+    center:
+    - 0.1915
+    - 0.5023
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - estimate
+    - 预计
+    - estimated price
+    semantic_type: label
+  - text: 立即领取
+    center:
+    - 0.8234
+    - 0.7197
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - claim now
+    - 领取
+    - receive
+    semantic_type: button
+  - text: 首页
+    center:
+    - 0.0995
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - homepage
+    - 主页
+    semantic_type: tab
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - messages
+    - notifications
+    - 通知
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - profile
+    - mine
+    - 个人中心
+    semantic_type: tab
+  - text: JDBMessageViewBellOrange
+    center:
+    - 0.0522
+    - 0.0206
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - bell icon
+    - notification bell
+    - 消息铃铛
+    semantic_type: button
+  - text: JDBMessageViewCloseOrange
+    center:
+    - 0.9254
+    - 0.0206
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - close icon
+    - close button
+    - 关闭
+    semantic_type: button
+  - text: jdtabBar_bg_dark
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - dark background
+    - 底部导航背景
+    semantic_type: other
+  description: 京东首页，包含搜索、购物车、秒送外卖、服务健康、逛逛秒杀等入口，用户可浏览商品、领取优惠并管理购物车。
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_13
+  elements:
+  - text: 语言
+    center:
+    - 0.5572
+    - 0.0927
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Language
+    - 语言设置
+    - 多语言
+    semantic_type: menu_item
+  - text: 客户服务
+    center:
+    - 0.6791
+    - 0.0927
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Customer Service
+    - 客服
+    - 帮助中心
+    semantic_type: menu_item
+  - text: 地址
+    center:
+    - 0.801
+    - 0.0927
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Address
+    - 收货地址
+    - 地址管理
+    semantic_type: menu_item
+  - text: 设置
+    center:
+    - 0.9229
+    - 0.0927
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Settings
+    - 系统设置
+    - 账户设置
+    semantic_type: menu_item
+  - text: 我的头像
+    center:
+    - 0.1294
+    - 0.159
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Avatar
+    - 个人头像
+    - Profile Picture
+    semantic_type: button
+  - text: 铜牌会员
+    center:
+    - 0.3333
+    - 0.1888
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Bronze Member
+    - 会员等级
+    - 铜牌
+    semantic_type: label
+  - text: PLUS会员入口
+    center:
+    - 0.7836
+    - 0.1693
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - PLUS Member
+    - 京东PLUS
+    - PLUS会员
+    semantic_type: link
+  - text: 明细京豆
+    center:
+    - 0.2711
+    - 0.246
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Jingdou Details
+    - 京豆明细
+    - 积分明细
+    semantic_type: link
+  - text: 更多
+    center:
+    - 0.9154
+    - 0.246
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - More
+    - 查看更多
+    - More options
+    semantic_type: button
+  - text: 种草发现
+    center:
+    - 0.7985
+    - 0.3787
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Discovery
+    - 发现好物
+    - 种草
+    semantic_type: tab
+  - text: 待付款
+    center:
+    - 0.1045
+    - 0.4497
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Pending Payment
+    - 未付款
+    - 待支付
+    semantic_type: link
+  - text: 待收货
+    center:
+    - 0.2687
+    - 0.4497
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Pending Receipt
+    - 待发货
+    - 运输中
+    semantic_type: link
+  - text: 待使用
+    center:
+    - 0.4353
+    - 0.4497
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Pending Use
+    - 待使用订单
+    - 可使用
+    semantic_type: link
+  - text: 退换/售后
+    center:
+    - 0.7662
+    - 0.4497
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Returns/After-sales
+    - 退换货
+    - 售后申请
+    semantic_type: link
+  - text: 全部
+    center:
+    - 0.9129
+    - 0.4497
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - All
+    - 全部订单
+    - 查看全部
+    semantic_type: link
+  - text: 钱包支付立减查询
+    center:
+    - 0.1791
+    - 0.5881
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Wallet Discount
+    - 支付立减
+    - 优惠查询
+    semantic_type: link
+  - text: 不感兴趣
+    center:
+    - 0.4353
+    - 0.8204
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Not Interested
+    - 不感兴趣
+    - 减少推荐
+    semantic_type: button
+  - text: 去领取
+    center:
+    - 0.8731
+    - 0.3124
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Go to Claim
+    - 领取
+    - 领取优惠
+    semantic_type: button
+  - text: 发现
+    center:
+    - 0.8905
+    - 0.3787
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Discover
+    - 发现页
+    - 探索
+    semantic_type: tab
+  - text: 发布评价
+    center:
+    - 0.2139
+    - 0.5183
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Publish Review
+    - 写评价
+    - 发表评论
+    semantic_type: button
+  - text: 去评价
+    center:
+    - 0.8607
+    - 0.5183
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Go to Review
+    - 评价
+    - 写评价
+    semantic_type: button
+  - text: 京东快递
+    center:
+    - 0.5
+    - 0.7197
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - JD Express
+    - 京东物流
+    - 快递服务
+    semantic_type: menu_item
+  - text: 京东互医
+    center:
+    - 0.5
+    - 0.7609
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - JD Health
+    - 京东健康
+    - 在线问诊
+    semantic_type: menu_item
+  - text: 京豆乐园
+    center:
+    - 0.8184
+    - 0.7197
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Jingdou Park
+    - 京豆乐园
+    - 积分乐园
+    semantic_type: menu_item
+  - text: 赚红包
+    center:
+    - 0.8035
+    - 0.7609
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Earn Red Packets
+    - 红包活动
+    - 赚钱
+    semantic_type: menu_item
+  - text: 潮流好货
+    center:
+    - 0.4776
+    - 0.8799
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Trendy Goods
+    - 潮流推荐
+    - 时尚好物
+    semantic_type: tab
+  - text: 首页
+    center:
+    - 0.0995
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Home
+    - 主页
+    - Homepage
+    semantic_type: tab
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Messages
+    - 通知
+    - 消息中心
+    semantic_type: tab
+  - text: 购物车
+    center:
+    - 0.699
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Cart
+    - 购物车
+    - Shopping Cart
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Mine
+    - 个人中心
+    - 我的账户
+    semantic_type: tab
+  - text: jdtabBar_bg_dark
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Tab Bar Background
+    - 底部导航背景
+    - 暗色背景
+    semantic_type: other
+  - text: 为你推荐,已选中
+    center:
+    - 0.0995
+    - 0.1579
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - Recommended for You
+    - 为你推荐
+    - 精选推荐
+    semantic_type: tab
+  - text: 潮流好货,未选中
+    center:
+    - 0.2886
+    - 0.1579
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - Trendy Goods
+    - 潮流推荐
+    - 时尚好物
+    semantic_type: tab
+  - text: 到手价
+    center:
+    - 0.1915
+    - 0.4691
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - Final Price
+    - 到手价
+    - 实付价
+    semantic_type: label
+  - text: 同款低价
+    center:
+    - 0.2388
+    - 0.4565
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - Same Style Low Price
+    - 同款比价
+    - 低价同款
+    semantic_type: label
+  - text: 全网低价
+    center:
+    - 0.6816
+    - 0.5103
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - Lowest Price
+    - 全网最低
+    - 最低价
+    semantic_type: label
+  description: Personal profile and account management screen with membership info,
+    order status, service shortcuts, and bottom navigation tabs.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_14
+  elements:
+  - text: 返回
+    center:
+    - 0.0647
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - 后退
+    - return
+    semantic_type: button
+  - text: 拍照购
+    center:
+    - 0.8209
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 拍照购物
+    - photo shopping
+    - camera search
+    semantic_type: button
+  - text: 已选定综合推荐
+    center:
+    - 0.5
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 综合推荐
+    - recommended
+    - 综合排序
+    semantic_type: tab
+  - text: 销量
+    center:
+    - 0.7189
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - sales
+    - 销量排序
+    - best selling
+    semantic_type: tab
+  - text: 筛选
+    center:
+    - 0.8806
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - filter
+    - 过滤
+    - 筛选条件
+    semantic_type: button
+  - text: 京东物流
+    center:
+    - 0.1095
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - JD Logistics
+    - 京东配送
+    - 物流筛选
+    semantic_type: toggle
+  - text: 品牌
+    center:
+    - 0.2761
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - brand
+    - 品牌选择
+    - brand filter
+    semantic_type: menu_item
+  - text: 包装形式
+    center:
+    - 0.4751
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - packaging
+    - 包装类型
+    - packaging type
+    semantic_type: menu_item
+  - text: 总净含量
+    center:
+    - 0.704
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - net content
+    - 净含量
+    - 规格
+    semantic_type: menu_item
+  - text: 口味
+    center:
+    - 0.903
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - flavor
+    - taste
+    - 口味选择
+    semantic_type: menu_item
+  - text: 加购物车
+    center:
+    - 0.9254
+    - 0.3261
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - add to cart
+    - 加入购物车
+    - cart
+    semantic_type: button
+  - text: 关注
+    center:
+    - 0.7189
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - follow
+    - 关注店铺
+    - subscribe
+    semantic_type: button
+  - text: 返回顶部
+    center:
+    - 0.9303
+    - 0.9085
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - back to top
+    - scroll to top
+    - 回到顶部
+    semantic_type: button
+  description: 商品筛选页面，支持按综合推荐、销量、京东物流、品牌、包装形式、总净含量、口味等条件筛选商品，并可加购物车或关注商品
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_15
+  elements:
+  - text: msg navbar clean new b
+    center:
+    - 0.8507
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息导航栏
+    - clean new button
+    - 新消息
+    semantic_type: button
+  - text: 更多
+    center:
+    - 0.9378
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - more
+    - 更多选项
+    - additional
+    semantic_type: menu_item
+  - text: msg home more w
+    center:
+    - 0.9378
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息首页更多
+    - home more button
+    semantic_type: button
+  - text: 全部
+    center:
+    - 0.0697
+    - 0.2483
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - all
+    - 全部消息
+    - all messages
+    semantic_type: tab
+  - text: 购物
+    center:
+    - 0.1816
+    - 0.2471
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shopping
+    - 购物消息
+    - shop
+    semantic_type: tab
+  - text: 秒送
+    center:
+    - 0.2935
+    - 0.2471
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - flash delivery
+    - 秒送消息
+    - instant delivery
+    semantic_type: tab
+  - text: 全部，已选中
+    center:
+    - 0.0995
+    - 0.2437
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - all selected
+    - 全部 tab active
+    semantic_type: tab
+  - text: 购物，未选中
+    center:
+    - 0.2164
+    - 0.2437
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shopping unselected
+    - 购物 tab inactive
+    semantic_type: tab
+  - text: 秒送，未选中
+    center:
+    - 0.3458
+    - 0.2437
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - flash delivery unselected
+    - 秒送 tab inactive
+    semantic_type: tab
+  - text: 关闭
+    center:
+    - 0.0572
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - close
+    - 关闭按钮
+    - dismiss
+    semantic_type: button
+  - text: 消息
+    center:
+    - 0.0846
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - messages
+    - 消息中心
+    - notifications
+    semantic_type: tab
+  - text: 会话
+    center:
+    - 0.097
+    - 0.1979
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - conversations
+    - 聊天
+    - chat
+    semantic_type: tab
+  - text: 物流
+    center:
+    - 0.2562
+    - 0.1979
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - logistics
+    - 物流消息
+    - delivery
+    semantic_type: tab
+  - text: 提醒
+    center:
+    - 0.4179
+    - 0.1979
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - reminders
+    - 提醒消息
+    - alerts
+    semantic_type: tab
+  - text: 优惠
+    center:
+    - 0.6592
+    - 0.1979
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - promotions
+    - 优惠消息
+    - offers
+    semantic_type: tab
+  - text: 互动
+    center:
+    - 0.903
+    - 0.1979
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - interactions
+    - 互动消息
+    - social
+    semantic_type: tab
+  - text: 首页
+    center:
+    - 0.0995
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - 主页
+    - homepage
+    semantic_type: tab
+  - text: 购物车
+    center:
+    - 0.699
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cart
+    - 购物车页面
+    - shopping cart
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - profile
+    - 我的页面
+    - account
+    semantic_type: tab
+  - text: msg_waimai
+    center:
+    - 0.3582
+    - 0.2471
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息外卖
+    - takeout message
+    semantic_type: other
+  - text: jdtabBar_bg_dark
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - 底部导航栏背景
+    semantic_type: other
+  - text: 返回
+    center:
+    - 0.0945
+    - 0.0892
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - back
+    - 返回按钮
+    - navigate back
+    semantic_type: button
+  - text: 京东验证
+    center:
+    - 0.5
+    - 0.0892
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - JD verification
+    - 验证身份
+    - verify
+    semantic_type: label
+  - text: 反馈
+    center:
+    - 0.9154
+    - 0.0892
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - feedback
+    - 意见反馈
+    - report
+    semantic_type: button
+  - text: 快速验证
+    center:
+    - 0.5
+    - 0.4485
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - quick verification
+    - 快速验证身份
+    - fast verify
+    semantic_type: button
+  description: 京东消息中心页面，顶部有消息分类标签（全部、购物、秒送），下方列出各类消息通知如会话、物流、提醒、优惠、互动等，底部为导航栏。
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_16
+  elements:
+  - text: 清单购
+    center:
+    - 0.7662
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 清单购物
+    - list shopping
+    - 购物清单
+    semantic_type: tab
+  - text: 切换摄像头
+    center:
+    - 0.9055
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - switch camera
+    - 翻转摄像头
+    - 前后置切换
+    semantic_type: button
+  - text: 拍照
+    center:
+    - 0.301
+    - 0.7826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - take photo
+    - 拍摄
+    - capture
+    semantic_type: button
+  - text: 扫啊扫
+    center:
+    - 0.5
+    - 0.7826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 扫一扫
+    - scan
+    - 扫码
+    semantic_type: tab
+  - text: 相册
+    center:
+    - 0.0746
+    - 0.8524
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - album
+    - gallery
+    - 图库
+    semantic_type: button
+  - text: 拍照记录
+    center:
+    - 0.204
+    - 0.8524
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - photo record
+    - 拍照历史
+    - 拍摄记录
+    semantic_type: menu_item
+  - text: 浏览记录
+    center:
+    - 0.3682
+    - 0.8524
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browsing history
+    - 历史记录
+    - history
+    semantic_type: menu_item
+  - text: 展开相册
+    center:
+    - 0.9403
+    - 0.857
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - expand album
+    - 打开相册
+    - 更多图片
+    semantic_type: button
+  - text: 点击开启闪光灯
+    center:
+    - 0.5
+    - 0.4737
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - flash on
+    - 闪光灯
+    - torch
+    semantic_type: button
+  - text: 对准商品，自动识别
+    center:
+    - 0.5
+    - 0.6613
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - auto scan
+    - 对准识别
+    - scan product
+    semantic_type: label
+  - text: 识图
+    center:
+    - 0.699
+    - 0.7826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - image search
+    - 以图搜图
+    - visual search
+    semantic_type: tab
+  description: Camera-based product scanning screen with options to switch camera,
+    take photo, open album, toggle flash, and view browsing history for automatic
+    product identification.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_17
+  elements:
+  - text: 清单购
+    center:
+    - 0.7662
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 清单购物
+    - list shopping
+    - 购物清单
+    semantic_type: menu_item
+  - text: 切换摄像头
+    center:
+    - 0.9055
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - switch camera
+    - 翻转镜头
+    - 前后置切换
+    semantic_type: button
+  - text: 拍照
+    center:
+    - 0.301
+    - 0.7826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - take photo
+    - 拍摄
+    - capture
+    semantic_type: button
+  - text: 扫啊扫
+    center:
+    - 0.5
+    - 0.7826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 扫一扫
+    - scan
+    - 扫码
+    semantic_type: tab
+  - text: 相册
+    center:
+    - 0.0746
+    - 0.8524
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - album
+    - gallery
+    - 图库
+    semantic_type: button
+  - text: 拍照记录
+    center:
+    - 0.204
+    - 0.8524
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - photo record
+    - 拍照历史
+    - capture history
+    semantic_type: menu_item
+  - text: 浏览记录
+    center:
+    - 0.3682
+    - 0.8524
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browsing history
+    - history
+    - 浏览历史
+    semantic_type: menu_item
+  - text: 展开相册
+    center:
+    - 0.9403
+    - 0.857
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - expand album
+    - 打开相册
+    - show gallery
+    semantic_type: button
+  - text: 点击开启闪光灯
+    center:
+    - 0.5
+    - 0.4737
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - turn on flash
+    - 闪光灯
+    - flashlight
+    semantic_type: button
+  - text: 请保持镜头稳定
+    center:
+    - 0.5
+    - 0.6613
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - hold steady
+    - keep camera stable
+    - 稳定镜头
+    semantic_type: label
+  - text: 识图
+    center:
+    - 0.699
+    - 0.7826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - image recognition
+    - 图片识别
+    - visual search
+    semantic_type: button
+  - text: 对准商品，自动识别
+    center:
+    - 0.5
+    - 0.6613
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - align item
+    - auto scan
+    - 对准扫码
+    semantic_type: label
+  description: Camera-based visual search screen for scanning barcodes or products
+    with options to switch camera, take photo, access album, and toggle flash.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_18
+  elements:
+  - text: 付款码
+    center:
+    - 0.7662
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - payment code
+    - 支付码
+    - 付款二维码
+    - barcode
+    semantic_type: button
+  - text: 更多
+    center:
+    - 0.9055
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - more
+    - 更多选项
+    - additional
+    semantic_type: button
+  - text: 拍照
+    center:
+    - 0.301
+    - 0.7826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - take photo
+    - 拍照识别
+    - camera
+    semantic_type: button
+  - text: 扫啊扫
+    center:
+    - 0.5
+    - 0.7826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - scan
+    - 扫码
+    - 扫一扫
+    - scan code
+    semantic_type: button
+  - text: 相册
+    center:
+    - 0.0746
+    - 0.8524
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - album
+    - gallery
+    - 照片
+    - photo library
+    semantic_type: button
+  - text: 展开相册
+    center:
+    - 0.9403
+    - 0.857
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - expand album
+    - 打开相册
+    - show gallery
+    semantic_type: button
+  - text: 点击开启闪光灯
+    center:
+    - 0.5
+    - 0.4737
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - flashlight
+    - 闪光灯
+    - torch
+    - flash
+    semantic_type: toggle
+  - text: 识图
+    center:
+    - 0.699
+    - 0.7826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - image recognition
+    - 图片识别
+    - visual search
+    - 识图搜索
+    semantic_type: button
+  - text: 对准条形码/二维码 进行识别
+    center:
+    - 0.5
+    - 0.7277
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - align barcode
+    - scan barcode
+    - 扫码识别
+    - 对准二维码
+    semantic_type: label
+  description: QR/barcode scanning screen with options to scan from camera, open photo
+    album, toggle flash, and access payment code.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_19
+  elements:
+  - text: 返回
+    center:
+    - 0.0647
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - 后退
+    - return
+    semantic_type: button
+  - text: 拍照购
+    center:
+    - 0.8209
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 拍照购物
+    - photo search
+    - camera shopping
+    semantic_type: button
+  - text: 已选定综合推荐
+    center:
+    - 0.5
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 综合推荐
+    - recommended
+    - 综合排序
+    semantic_type: tab
+  - text: 销量
+    center:
+    - 0.7189
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - sales
+    - 销量排序
+    - best selling
+    semantic_type: tab
+  - text: 筛选
+    center:
+    - 0.8806
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - filter
+    - 过滤
+    - 筛选条件
+    semantic_type: button
+  - text: 品牌
+    center:
+    - 0.6841
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - brand
+    - 商标
+    semantic_type: menu_item
+  - text: 包装形式
+    center:
+    - 0.8831
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - packaging
+    - 包装
+    - 规格
+    semantic_type: menu_item
+  - text: 加购物车
+    center:
+    - 0.9254
+    - 0.3261
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - add to cart
+    - 加入购物车
+    - cart
+    semantic_type: button
+  - text: 关注
+    center:
+    - 0.7189
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - follow
+    - 收藏
+    - subscribe
+    semantic_type: button
+  - text: 返回顶部
+    center:
+    - 0.9303
+    - 0.9085
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - back to top
+    - scroll to top
+    - 回到顶部
+    semantic_type: button
+  description: Product listing page with sorting and filtering options, showing items
+    with add-to-cart and follow buttons.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_20
+  elements:
+  - text: 返回
+    center:
+    - 0.0945
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - go back
+    - 后退
+    - return
+    semantic_type: button
+  - text: 反馈
+    center:
+    - 0.9154
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - feedback
+    - 意见反馈
+    - report
+    - 建议
+    semantic_type: button
+  - text: 快速验证
+    center:
+    - 0.5
+    - 0.4485
+    found_at_scroll: 0
+    fixed: true
+  description: Feedback form for quick verification with a back button and submit
+    option.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_21
+  elements:
+  - text: 搜索按钮
+    center:
+    - 0.9403
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 搜索
+    - search
+    - search button
+    semantic_type: button
+  - text: 加入购物车
+    center:
+    - 0.2637
+    - 0.5137
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - add to cart
+    - 加入
+    - cart
+    semantic_type: button
+  - text: 不感兴趣
+    center:
+    - 0.4353
+    - 0.8455
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - not interested
+    - dislike
+    - 不感兴趣
+    semantic_type: button
+  - text: 购物车
+    center:
+    - 0.1119
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cart
+    - shopping cart
+    - 购物车
+    semantic_type: tab
+  - text: 购物
+    center:
+    - 0.2388
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shopping
+    - shop
+    - 购物
+    semantic_type: tab
+  - text: 秒送外卖
+    center:
+    - 0.398
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - express delivery
+    - 外卖
+    - 秒送
+    semantic_type: menu_item
+  - text: 服务健康
+    center:
+    - 0.6393
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - health services
+    - 健康
+    - 服务
+    semantic_type: menu_item
+  - text: 逛逛秒杀
+    center:
+    - 0.3905
+    - 0.2311
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - flash sale
+    - 秒杀
+    - 逛逛
+    semantic_type: menu_item
+  - text: 去送礼物
+    center:
+    - 0.6095
+    - 0.2311
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - send gift
+    - 礼物
+    - 送礼
+    semantic_type: button
+  - text: 预估
+    center:
+    - 0.1915
+    - 0.5023
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - estimate
+    - 预估
+    - estimated
+    semantic_type: label
+  - text: 立即领取
+    center:
+    - 0.8234
+    - 0.7197
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - claim now
+    - 领取
+    - 立即
+    semantic_type: button
+  - text: 首页
+    center:
+    - 0.0995
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - homepage
+    - 首页
+    semantic_type: tab
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - messages
+    - notifications
+    - 消息
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - profile
+    - mine
+    - 我的
+    semantic_type: tab
+  description: 京东首页，包含搜索、购物车、秒送外卖、服务健康、逛逛秒杀等入口，用户可浏览和购物。
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_22
+  elements:
+  - text: 语言
+    center:
+    - 0.5572
+    - 0.0927
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Language
+    - 语言设置
+    - 多语言
+    semantic_type: setting
+  - text: 客户服务
+    center:
+    - 0.6791
+    - 0.0927
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 客服
+    - Customer Service
+    - 帮助中心
+    semantic_type: menu_item
+  - text: 地址
+    center:
+    - 0.801
+    - 0.0927
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 收货地址
+    - Address
+    - 地址管理
+    semantic_type: menu_item
+  - text: 设置
+    center:
+    - 0.9229
+    - 0.0927
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Settings
+    - 系统设置
+    - 账户设置
+    semantic_type: setting
+  - text: 我的头像
+    center:
+    - 0.1294
+    - 0.159
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 个人头像
+    - Avatar
+    - 个人资料
+    semantic_type: button
+  - text: PLUS会员入口
+    center:
+    - 0.7836
+    - 0.1693
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - PLUS会员
+    - 京东PLUS
+    - 会员中心
+    semantic_type: link
+  - text: 明细京豆
+    center:
+    - 0.2711
+    - 0.246
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 京豆明细
+    - 积分明细
+    - 京豆记录
+    semantic_type: link
+  - text: 更多
+    center:
+    - 0.9154
+    - 0.246
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - More
+    - 查看更多
+    - 全部
+    semantic_type: button
+  - text: 种草发现
+    center:
+    - 0.7985
+    - 0.3787
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 发现好物
+    - 推荐
+    - 种草
+    semantic_type: tab
+  - text: 待付款
+    center:
+    - 0.1045
+    - 0.4497
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 未付款
+    - Pending Payment
+    - 待支付
+    semantic_type: tab
+  - text: 待收货
+    center:
+    - 0.2687
+    - 0.4497
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 待签收
+    - Pending Receipt
+    - 物流中
+    semantic_type: tab
+  - text: 待使用
+    center:
+    - 0.4353
+    - 0.4497
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 待使用订单
+    - 未使用
+    - 待消费
+    semantic_type: tab
+  - text: 退换/售后
+    center:
+    - 0.7662
+    - 0.4497
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 退货
+    - 换货
+    - 售后申请
+    semantic_type: tab
+  - text: 全部
+    center:
+    - 0.9129
+    - 0.4497
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 全部订单
+    - All Orders
+    - 查看全部
+    semantic_type: tab
+  - text: 钱包支付立减查询
+    center:
+    - 0.1791
+    - 0.5881
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 支付优惠
+    - 立减查询
+    - 钱包优惠
+    semantic_type: link
+  - text: 不感兴趣
+    center:
+    - 0.4353
+    - 0.8204
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Not Interested
+    - 减少推荐
+    - 不喜欢
+    semantic_type: button
+  - text: 去领取
+    center:
+    - 0.8731
+    - 0.3124
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 领取
+    - 立即领取
+    - Get Coupon
+    semantic_type: button
+  - text: 发现
+    center:
+    - 0.8905
+    - 0.3787
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Discover
+    - 探索
+    - 发现页
+    semantic_type: tab
+  - text: 发布评价
+    center:
+    - 0.2139
+    - 0.5183
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 写评价
+    - 评价晒单
+    - 发表评论
+    semantic_type: button
+  - text: 去评价
+    center:
+    - 0.8607
+    - 0.5183
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 评价
+    - 立即评价
+    - 写评价
+    semantic_type: button
+  - text: 京东快递
+    center:
+    - 0.5
+    - 0.7197
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 物流
+    - 快递服务
+    - 寄件
+    semantic_type: menu_item
+  - text: 京东互医
+    center:
+    - 0.5
+    - 0.7609
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 京东健康
+    - 在线问诊
+    - 互联网医院
+    semantic_type: menu_item
+  - text: 京豆乐园
+    center:
+    - 0.8184
+    - 0.7197
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 京豆任务
+    - 赚京豆
+    - 京豆活动
+    semantic_type: menu_item
+  - text: 赚红包
+    center:
+    - 0.8035
+    - 0.7609
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 领红包
+    - 红包活动
+    - 赚钱
+    semantic_type: menu_item
+  - text: 潮流好货
+    center:
+    - 0.4776
+    - 0.8799
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 潮流推荐
+    - 好货精选
+    - 时尚
+    semantic_type: menu_item
+  - text: 首页
+    center:
+    - 0.0995
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Home
+    - 主页
+    - 首页推荐
+    semantic_type: tab
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 通知
+    - Messages
+    - 消息中心
+    semantic_type: tab
+  - text: 购物车
+    center:
+    - 0.699
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Cart
+    - 购物袋
+    - 待结算
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 个人中心
+    - My Account
+    - 账户
+    semantic_type: tab
+  - text: jdtabBar_bg_dark
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 底部导航栏背景
+    - Tab Bar Background
+    - 深色模式背景
+    semantic_type: other
+  - text: 到手价
+    center:
+    - 0.2239
+    - 0.4668
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - 预估到手价
+    - 最终价格
+    - 优惠后价格
+    semantic_type: label
+  description: Personal profile and account management screen with user avatar, order
+    statuses, loyalty points, and bottom navigation tabs.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_23
+  elements:
+  - text: 返回
+    center:
+    - 0.0945
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - 后退
+    - return
+    semantic_type: button
+  - text: 反馈
+    center:
+    - 0.9154
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - feedback
+    - 意见反馈
+    - report
+    semantic_type: button
+  - text: 快速验证
+    center:
+    - 0.5
+    - 0.4485
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - quick verification
+    - fast verify
+    - 快速校验
+    semantic_type: button
+  - text: 语音验证
+    center:
+    - 0.6642
+    - 0.3627
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - voice verification
+    - voice verify
+    - 语音校验
+    semantic_type: button
+  - text: 刷新
+    center:
+    - 0.8035
+    - 0.3627
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - refresh
+    - reload
+    - 更新
+    semantic_type: button
+  - text: 安全验证
+    center:
+    - 0.2114
+    - 0.3627
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - security verification
+    - safety check
+    - 安全校验
+    semantic_type: label
+  - text: 拍照购
+    center:
+    - 0.8209
+    - 0.0892
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - photo purchase
+    - camera buy
+    - 拍照购物
+    - visual search
+    semantic_type: button
+  description: Security verification screen with options for quick verification, voice
+    verification, refresh, and photo-based shopping.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_24
+  elements:
+  - text: 返回
+    center:
+    - 0.0796
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - 后退
+    - return
+    semantic_type: button
+  - text: 静音
+    center:
+    - 0.9104
+    - 0.1178
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - mute
+    - 静音模式
+    - silent
+    semantic_type: toggle
+  - text: 进店
+    center:
+    - 0.0871
+    - 0.6339
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - enter store
+    - 进入店铺
+    - shop
+    semantic_type: link
+  - text: 收藏
+    center:
+    - 0.1915
+    - 0.6339
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - favorite
+    - bookmark
+    - 加入收藏
+    semantic_type: button
+  - text: 加入购物车
+    center:
+    - 0.5373
+    - 0.6339
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - add to cart
+    - cart
+    - 购物车
+    semantic_type: button
+  - text: 立即购买
+    center:
+    - 0.8184
+    - 0.6339
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - buy now
+    - purchase
+    - 立即下单
+    semantic_type: button
+  description: Product detail page with options to mute, visit store, favorite, add
+    to cart, and buy now.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_25
+  elements:
+  - text: 返回
+    center:
+    - 0.0498
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - 后退
+    - return
+    semantic_type: button
+  - text: 清除
+    center:
+    - 0.7811
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - clear
+    - 清空
+    - remove
+    semantic_type: button
+  - text: 搜秒送
+    center:
+    - 0.1716
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search miaosong
+    - 秒送搜索
+    - instant delivery search
+    semantic_type: input
+  - text: 删除
+    center:
+    - 0.9453
+    - 0.151
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - delete
+    - 移除
+    - remove
+    semantic_type: button
+  - text: 换一批
+    center:
+    - 0.8433
+    - 0.2826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - refresh
+    - 刷新
+    - change batch
+    - next set
+    semantic_type: button
+  - text: 已展开
+    center:
+    - 0.9453
+    - 0.2826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - expanded
+    - 展开状态
+    - collapsed
+    semantic_type: label
+  - text: shift
+    center:
+    - 0.0697
+    - 0.8295
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 切换
+    - shift key
+    - 大小写
+    semantic_type: button
+  - text: 表情符号
+    center:
+    - 0.1915
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - emoji
+    - 表情
+    - emoticon
+    semantic_type: button
+  - text: 搜索
+    center:
+    - 0.8756
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search
+    - 查找
+    - find
+    semantic_type: button
+  - text: 搜索历史
+    center:
+    - 0.1095
+    - 0.151
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search history
+    - 历史记录
+    - recent searches
+    semantic_type: label
+  - text: 搜索发现
+    center:
+    - 0.2886
+    - 0.2826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search discovery
+    - 发现
+    - trending searches
+    semantic_type: label
+  - text: 全网热搜
+    center:
+    - 0.199
+    - 0.4771
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - trending
+    - 热搜榜
+    - hot searches
+    - 全网热榜
+    semantic_type: label
+  - text: 附近门店
+    center:
+    - 0.8557
+    - 0.4771
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - nearby stores
+    - 附近店铺
+    - local stores
+    semantic_type: link
+  description: Search screen with search history, trending searches, and nearby stores
+    sections, allowing users to clear history or refresh suggestions.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_26
+  elements:
+  - text: 拍照购
+    center:
+    - 0.7935
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 拍照购物
+    - camera search
+    - visual search
+    - 拍立得
+    semantic_type: button
+  - text: 切换站点
+    center:
+    - 0.0622
+    - 0.1384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - switch location
+    - change site
+    - 切换位置
+    semantic_type: button
+  - text: 电视
+    center:
+    - 0.4303
+    - 0.1407
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - TV
+    - television
+    - 电视购物
+    semantic_type: tab
+  - text: 特价
+    center:
+    - 0.0846
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - special offer
+    - discount
+    - sale
+    - 优惠
+    semantic_type: tab
+  - text: 首页
+    center:
+    - 0.2239
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - main page
+    - homepage
+    semantic_type: tab
+  - text: 秒送
+    center:
+    - 0.3632
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - flash delivery
+    - instant delivery
+    - 秒杀配送
+    semantic_type: tab
+  - text: 新品
+    center:
+    - 0.5025
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - new arrivals
+    - new products
+    - latest
+    semantic_type: tab
+  - text: 搜索
+    center:
+    - 0.9055
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search
+    - find
+    - 查询
+    semantic_type: input
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - messages
+    - notifications
+    - inbox
+    - 通知
+    semantic_type: button
+  - text: 购物车
+    center:
+    - 0.699
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cart
+    - shopping cart
+    - trolley
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - profile
+    - my account
+    - me
+    - 个人中心
+    semantic_type: tab
+  - text: JDMainPage_nav_line
+    center:
+    - 0.8756
+    - 0.1362
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - navigation bar
+    - nav line
+    - bottom nav
+    semantic_type: other
+  - text: jdtabBar_bg_dark
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - dark theme bar
+    - 底部导航背景
+    semantic_type: other
+  description: 京东 app main page with bottom navigation bar including tabs for Home,
+    Flash Deals, New Products, Search, Messages, Cart, and My Account, plus top shortcuts
+    for Photo Purchase, Switch Site, TV, and Special Offers.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_27
+  elements:
+  - text: 返回
+    center:
+    - 0.0498
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - go back
+    - 后退
+    semantic_type: button
+  - text: 热门品类
+    center:
+    - 0.1095
+    - 0.1419
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - popular categories
+    - hot categories
+    - 热门分类
+    semantic_type: tab
+  - text: 热门品牌
+    center:
+    - 0.3085
+    - 0.1419
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - popular brands
+    - hot brands
+    - 大牌
+    semantic_type: tab
+  - text: 热门口味
+    center:
+    - 0.5075
+    - 0.1419
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - popular flavors
+    - hot flavors
+    - 热门口感
+    semantic_type: tab
+  - text: 综合排序
+    center:
+    - 0.0995
+    - 0.2838
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - sort
+    - comprehensive sort
+    - 排序
+    semantic_type: button
+  - text: 价格
+    center:
+    - 0.2836
+    - 0.2838
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - price
+    - 价格排序
+    - price sort
+    semantic_type: button
+  - text: 切到店铺
+    center:
+    - 0.7488
+    - 0.2838
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - switch to store
+    - view store
+    - 店铺
+    semantic_type: button
+  - text: 筛选
+    center:
+    - 0.8955
+    - 0.2838
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - filter
+    - 过滤
+    - refine
+    semantic_type: button
+  - text: 立即购买
+    center:
+    - 0.8706
+    - 0.4439
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - buy now
+    - 立即下单
+    - purchase
+    semantic_type: button
+  - text: 返回顶部
+    center:
+    - 0.9303
+    - 0.9085
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - back to top
+    - scroll to top
+    - 回到顶部
+    semantic_type: button
+  - text: 进店
+    center:
+    - 0.8532
+    - 0.532
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - enter store
+    - go to store
+    - 进入店铺
+    semantic_type: button
+  description: 商品列表页，展示热门品类、品牌和口味，支持综合排序、价格筛选和立即购买，可切换店铺视图。
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_28
+  elements:
+  - text: 搜索按钮
+    center:
+    - 0.9403
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 搜索
+    - search
+    - search button
+    semantic_type: button
+  - text: 加入购物车
+    center:
+    - 0.2637
+    - 0.5137
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - add to cart
+    - 加入
+    - cart
+    semantic_type: button
+  - text: 不感兴趣
+    center:
+    - 0.4353
+    - 0.8455
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - not interested
+    - dislike
+    - 不感兴趣
+    semantic_type: button
+  - text: 购物车
+    center:
+    - 0.1119
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cart
+    - 购物车
+    - shopping cart
+    semantic_type: tab
+  - text: 全部
+    center:
+    - 0.0796
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - all
+    - 全部
+    - all categories
+    semantic_type: tab
+  - text: 购物
+    center:
+    - 0.2388
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shopping
+    - shop
+    - 购物
+    semantic_type: tab
+  - text: 服务健康
+    center:
+    - 0.6393
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - health service
+    - 健康
+    - service health
+    semantic_type: menu_item
+  - text: 逛逛秒送
+    center:
+    - 0.3905
+    - 0.2311
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - flash delivery
+    - 秒送
+    - browse flash
+    semantic_type: menu_item
+  - text: 查看收藏
+    center:
+    - 0.6095
+    - 0.2311
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - view favorites
+    - 收藏
+    - favorites
+    semantic_type: button
+  - text: 立即领取
+    center:
+    - 0.8234
+    - 0.7197
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - claim now
+    - 领取
+    - get now
+    semantic_type: button
+  - text: 首页
+    center:
+    - 0.0995
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - 首页
+    - homepage
+    semantic_type: tab
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - messages
+    - 消息
+    - notifications
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - profile
+    - 我的
+    - me
+    semantic_type: tab
+  - text: JDBMessageViewBellOrange
+    center:
+    - 0.0522
+    - 0.0206
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - bell icon
+    - notification bell
+    - 消息铃铛
+    semantic_type: button
+  - text: JDBMessageViewCloseOrange
+    center:
+    - 0.9254
+    - 0.0206
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - close icon
+    - 关闭
+    - close button
+    semantic_type: button
+  - text: jdtabBar_bg_dark
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - dark background
+    - 底部导航背景
+    semantic_type: other
+  description: 京东首页，包含搜索、购物车、消息、我的等导航，以及商品推荐和购物服务入口
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_29
+  elements:
+  - text: 返回
+    center:
+    - 0.0498
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - go back
+    - 后退
+    semantic_type: button
+  - text: 热门品类
+    center:
+    - 0.1095
+    - 0.1419
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - popular categories
+    - hot categories
+    - 热门分类
+    semantic_type: tab
+  - text: 热门品牌
+    center:
+    - 0.3085
+    - 0.1419
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - popular brands
+    - hot brands
+    - 知名品牌
+    semantic_type: tab
+  - text: 热门口味
+    center:
+    - 0.5075
+    - 0.1419
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - popular flavors
+    - hot flavors
+    - 热门口感
+    semantic_type: tab
+  - text: 综合排序
+    center:
+    - 0.0995
+    - 0.2838
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - comprehensive sorting
+    - sort by relevance
+    - 综合
+    semantic_type: button
+  - text: 价格
+    center:
+    - 0.2836
+    - 0.2838
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - price
+    - sort by price
+    - 价钱
+    semantic_type: button
+  - text: 切到店铺
+    center:
+    - 0.7488
+    - 0.2838
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - switch to store
+    - view store
+    - 店铺视图
+    semantic_type: button
+  - text: 筛选
+    center:
+    - 0.8955
+    - 0.2838
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - filter
+    - refine
+    - 过滤
+    semantic_type: button
+  - text: 免运费
+    center:
+    - 0.0995
+    - 0.3249
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - free shipping
+    - 包邮
+    - free delivery
+    semantic_type: label
+  - text: 减运费
+    center:
+    - 0.2587
+    - 0.3249
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - reduced shipping
+    - discounted delivery
+    - 运费减免
+    semantic_type: label
+  - text: 立即购买
+    center:
+    - 0.8706
+    - 0.4439
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - buy now
+    - purchase immediately
+    - 直接购买
+    semantic_type: button
+  - text: 返回顶部
+    center:
+    - 0.9303
+    - 0.9085
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - back to top
+    - scroll to top
+    - 回到顶部
+    semantic_type: button
+  - text: 进店
+    center:
+    - 0.8532
+    - 0.5309
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - enter store
+    - visit shop
+    - 进入店铺
+    semantic_type: button
+  description: 商品筛选与列表页，展示热门品类、品牌、口味，支持综合排序、价格筛选、免运费等条件，可切换店铺视图并立即购买
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_30
+  elements:
+  - text: 清单购
+    center:
+    - 0.7662
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 清单购物
+    - list shopping
+    - 购物清单
+    semantic_type: menu_item
+  - text: 切换摄像头
+    center:
+    - 0.9055
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - switch camera
+    - 翻转摄像头
+    - 前后置切换
+    semantic_type: button
+  - text: 拍照
+    center:
+    - 0.301
+    - 0.7826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - take photo
+    - 拍摄
+    - capture
+    semantic_type: button
+  - text: 扫啊扫
+    center:
+    - 0.5
+    - 0.7826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 扫一扫
+    - scan
+    - 扫码
+    semantic_type: tab
+  - text: 相册
+    center:
+    - 0.0746
+    - 0.8524
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - album
+    - gallery
+    - 图库
+    semantic_type: button
+  - text: 拍照记录
+    center:
+    - 0.204
+    - 0.8524
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - photo record
+    - 拍摄记录
+    semantic_type: label
+  - text: 浏览记录
+    center:
+    - 0.3682
+    - 0.8524
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse history
+    - history
+    - 浏览历史
+    semantic_type: label
+  - text: 展开相册
+    center:
+    - 0.9403
+    - 0.857
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - expand album
+    - 打开相册
+    semantic_type: button
+  - text: 点击开启闪光灯
+    center:
+    - 0.5
+    - 0.4737
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - flash on
+    - 闪光灯
+    - turn on flash
+    semantic_type: button
+  - text: 识图
+    center:
+    - 0.699
+    - 0.7826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - image recognition
+    - 图片识别
+    - visual search
+    semantic_type: menu_item
+  description: Scanning screen with options to switch camera, take photo, open album,
+    toggle flash, and access image recognition.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_31
+  elements:
+  - text: 推荐
+    center:
+    - 0.1045
+    - 0.4222
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recommend
+    - recommendations
+    - 精选
+    semantic_type: tab
+  - text: 食品
+    center:
+    - 0.4428
+    - 0.4222
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - food
+    - 食品饮料
+    - 零食
+    semantic_type: tab
+  - text: 宠物
+    center:
+    - 0.5672
+    - 0.4222
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - pet
+    - 宠物用品
+    - 猫狗
+    semantic_type: tab
+  - text: 医疗器械
+    center:
+    - 0.7264
+    - 0.4222
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - medical devices
+    - 医疗设备
+    - healthcare equipment
+    semantic_type: tab
+  - text: 家清
+    center:
+    - 0.8856
+    - 0.4222
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - household cleaning
+    - 清洁用品
+    - 家居清洁
+    semantic_type: tab
+  description: Category selection page for product browsing with tabs for 推荐, 食品,
+    宠物, 医疗器械, and 家清.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_32
+  elements:
+  - text: MenuIconBack Black
+    center:
+    - 0.0647
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 返回
+    - back
+    - 后退
+    semantic_type: button
+  - text: 分享
+    center:
+    - 0.7985
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - share
+    - 转发
+    - 分享给朋友
+    semantic_type: button
+  - text: 更多菜单
+    center:
+    - 0.9104
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - more
+    - menu
+    - 更多选项
+    semantic_type: menu_item
+  - text: background_pic
+    center:
+    - 0.4975
+    - 0.9062
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 背景图
+    - background image
+    - 背景图片
+    semantic_type: other
+  - text: 图片
+    center:
+    - 0.5
+    - 0.2689
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - image
+    - picture
+    - 照片
+    - pic
+    semantic_type: label
+  description: Product image detail view with options to share, access more menu,
+    and navigate back
+  scrollable: false
+  scroll_direction: ''
+- id: screen_33
+  elements:
+  - text: 返回
+    center:
+    - 0.0647
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - 后退
+    - return
+    semantic_type: button
+  - text: 拍照购
+    center:
+    - 0.8209
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 拍照购物
+    - camera search
+    - photo purchase
+    - 扫一扫
+    semantic_type: button
+  - text: 热门品类，已选定，undefined
+    center:
+    - 0.1095
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 热门品类
+    - popular categories
+    - hot categories
+    semantic_type: tab
+  - text: 清凉季
+    center:
+    - 0.3035
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 清凉节
+    - summer sale
+    - cool season
+    semantic_type: label
+  - text: 京东物流
+    center:
+    - 0.4975
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - JD Logistics
+    - 京东配送
+    - JD delivery
+    semantic_type: label
+  - text: 配送时效
+    center:
+    - 0.6965
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - delivery time
+    - 配送时间
+    - shipping speed
+    semantic_type: label
+  - text: 超级补贴
+    center:
+    - 0.9328
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - super subsidy
+    - 超级优惠
+    - mega discount
+    semantic_type: label
+  - text: 全部已选定
+    center:
+    - 0.0846
+    - 0.2723
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - all selected
+    - 全选
+    - 已全选
+    semantic_type: label
+  - text: 加购物车
+    center:
+    - 0.9254
+    - 0.3261
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - add to cart
+    - 加入购物车
+    - cart
+    semantic_type: button
+  - text: 已选定综合推荐
+    center:
+    - 0.5
+    - 0.1785
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 综合推荐
+    - recommended
+    - 综合排序
+    semantic_type: tab
+  - text: 销量
+    center:
+    - 0.7189
+    - 0.1785
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - sales volume
+    - 热销
+    - best selling
+    semantic_type: tab
+  - text: 筛选
+    center:
+    - 0.8806
+    - 0.1785
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - filter
+    - 过滤
+    - 筛选条件
+    semantic_type: button
+  - text: 绿茶
+    center:
+    - 0.1841
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - green tea
+    - 绿茶饮品
+    - 龙井
+    semantic_type: label
+  - text: 广告
+    center:
+    - 0.4876
+    - 0.397
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - ad
+    - advertisement
+    - 推广
+    semantic_type: label
+  - text: 关注
+    center:
+    - 0.7189
+    - 0.3238
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - follow
+    - 收藏
+    - subscribe
+    semantic_type: button
+  - text: 综合推荐
+    center:
+    - 0.1443
+    - 0.2346
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recommended
+    - 综合排序
+    - default sorting
+    semantic_type: menu_item
+  - text: 价格从高到低
+    center:
+    - 0.1418
+    - 0.2723
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - price high to low
+    - 价格降序
+    - 最贵优先
+    semantic_type: menu_item
+  - text: 价格从低到高
+    center:
+    - 0.1418
+    - 0.3101
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - price low to high
+    - 价格升序
+    - 最便宜优先
+    semantic_type: menu_item
+  - text: 评论数从高到低
+    center:
+    - 0.1592
+    - 0.349
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - most reviewed
+    - 评论最多
+    - 评价数降序
+    semantic_type: menu_item
+  - text: isl_placeholder_td_100
+    center:
+    - 0.9303
+    - 0.7986
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - placeholder
+    - 占位符
+    semantic_type: other
+  description: Product listing page for '绿茶' (green tea) with sorting options (综合推荐,
+    销量, 价格, 评论数), filter, and category tabs like 清凉季, 京东物流, 配送时效, 超级补贴.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_34
+  elements:
+  - text: 返回
+    center:
+    - 0.0647
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - 后退
+    - return
+    semantic_type: button
+  - text: 拍照购
+    center:
+    - 0.8209
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 拍照购物
+    - photo search
+    - camera search
+    - 图像搜索
+    semantic_type: button
+  - text: 综合推荐
+    center:
+    - 0.4975
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 综合
+    - recommended
+    - 默认排序
+    semantic_type: tab
+  - text: 已选定销量
+    center:
+    - 0.7189
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 销量
+    - sales volume
+    - 按销量排序
+    semantic_type: tab
+  - text: 筛选
+    center:
+    - 0.8806
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - filter
+    - 过滤
+    - 筛选条件
+    semantic_type: button
+  - text: 清凉季
+    center:
+    - 0.1045
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 清凉节
+    - summer sale
+    - 夏季促销
+    semantic_type: label
+  - text: 京东物流
+    center:
+    - 0.301
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - JD Logistics
+    - 京东配送
+    - 物流
+    semantic_type: toggle
+  - text: 配送时效
+    center:
+    - 0.4975
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - delivery time
+    - 送货时间
+    - 时效
+    semantic_type: menu_item
+  - text: 品牌
+    center:
+    - 0.6965
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - brand
+    - 商标
+    - 牌子
+    semantic_type: menu_item
+  - text: 茶叶等级
+    center:
+    - 0.8955
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tea grade
+    - 等级
+    - 品质
+    semantic_type: menu_item
+  - text: 加购物车
+    center:
+    - 0.9254
+    - 0.3261
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - add to cart
+    - 加入购物车
+    - 购物车
+    semantic_type: button
+  - text: 广告
+    center:
+    - 0.3308
+    - 0.397
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - ad
+    - advertisement
+    - 推广
+    semantic_type: label
+  - text: 关注
+    center:
+    - 0.7189
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - follow
+    - subscribe
+    - 订阅
+    semantic_type: button
+  - text: 返回顶部
+    center:
+    - 0.9303
+    - 0.9085
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - back to top
+    - scroll to top
+    - 回到顶部
+    semantic_type: button
+  - text: 大家都在搜
+    center:
+    - 0.1517
+    - 0.9348
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - trending searches
+    - 热门搜索
+    - popular searches
+    semantic_type: label
+  description: Search results page for '拍照购' with filters like sales volume, brand,
+    and tea grade, showing product listings with add-to-cart and follow options.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_35
+  elements:
+  - text: 返回
+    center:
+    - 0.0647
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - 后退
+    - return
+    semantic_type: button
+  - text: 拍照购
+    center:
+    - 0.8209
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 拍照购物
+    - photo search
+    - camera search
+    - 图像搜索
+    semantic_type: button
+  - text: 已选定综合推荐
+    center:
+    - 0.5
+    - 0.1785
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 综合推荐
+    - recommended
+    - 综合排序
+    semantic_type: tab
+  - text: 销量
+    center:
+    - 0.7189
+    - 0.1785
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - sales
+    - 销量排序
+    - 热销
+    semantic_type: tab
+  - text: 筛选
+    center:
+    - 0.8806
+    - 0.1785
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - filter
+    - 过滤
+    - 筛选条件
+    semantic_type: button
+  - text: 京东物流
+    center:
+    - 0.301
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - JD Logistics
+    - 京东配送
+    semantic_type: toggle
+  - text: 配送时效
+    center:
+    - 0.4975
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - delivery time
+    - 送达时间
+    - 配送时间
+    semantic_type: menu_item
+  - text: 品牌
+    center:
+    - 0.6965
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - brand
+    - 商标
+    semantic_type: menu_item
+  - text: 茶叶等级
+    center:
+    - 0.8955
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tea grade
+    - 等级
+    - 品质
+    semantic_type: menu_item
+  - text: 加购物车
+    center:
+    - 0.9254
+    - 0.3261
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - add to cart
+    - 加入购物车
+    - 购物车
+    semantic_type: button
+  - text: 服务/折扣
+    center:
+    - 0.2164
+    - 0.0847
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - services
+    - discounts
+    - 优惠
+    - 服务
+    semantic_type: menu_item
+  - text: 修改
+    center:
+    - 0.9279
+    - 0.0847
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - edit
+    - 修改信息
+    - 更改
+    semantic_type: button
+  - text: 京东超市
+    center:
+    - 0.5498
+    - 0.1304
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - JD Supermarket
+    - 超市
+    semantic_type: toggle
+  - text: 同城速配
+    center:
+    - 0.8308
+    - 0.1304
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - local express
+    - 同城配送
+    - 快速配送
+    semantic_type: toggle
+  - text: 超级补贴
+    center:
+    - 0.2687
+    - 0.1796
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - super subsidy
+    - 补贴
+    - 优惠补贴
+    semantic_type: toggle
+  - text: 买贵双倍赔
+    center:
+    - 0.5498
+    - 0.1796
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - price match
+    - 双倍赔付
+    - 买贵必赔
+    semantic_type: toggle
+  - text: 配送全球
+    center:
+    - 0.8308
+    - 0.1796
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - global shipping
+    - 全球配送
+    - 国际配送
+    semantic_type: toggle
+  - text: 促销
+    center:
+    - 0.2687
+    - 0.2288
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - promotion
+    - 特价
+    - 优惠活动
+    semantic_type: toggle
+  - text: 全球购
+    center:
+    - 0.5498
+    - 0.2288
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - global shopping
+    - 海淘
+    - 海外购
+    semantic_type: toggle
+  - text: 价保
+    center:
+    - 0.8308
+    - 0.2288
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - price protection
+    - 价格保护
+    - 保价
+    semantic_type: toggle
+  - text: 分期免息
+    center:
+    - 0.2687
+    - 0.278
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - installment free
+    - 免息分期
+    - 分期付款
+    semantic_type: toggle
+  - text: 仅看有货
+    center:
+    - 0.5498
+    - 0.278
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - in stock only
+    - 只看有货
+    - 现货
+    semantic_type: toggle
+  - text: 货到付款
+    center:
+    - 0.8308
+    - 0.278
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - cash on delivery
+    - COD
+    - 到付
+    semantic_type: toggle
+  - text: 价格区间
+    center:
+    - 0.209
+    - 0.333
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - price range
+    - 价格范围
+    - 价位
+    semantic_type: input
+  - text: 更多分类
+    center:
+    - 0.5498
+    - 0.7048
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - more categories
+    - 更多
+    - 分类
+    semantic_type: link
+  - text: 特级
+    center:
+    - 0.2687
+    - 0.8318
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - premium grade
+    - 特等
+    - 顶级
+    semantic_type: button
+  - text: 其他
+    center:
+    - 0.5498
+    - 0.8318
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - other
+    - 其它
+    - 更多
+    semantic_type: button
+  - text: 一级
+    center:
+    - 0.8284
+    - 0.8318
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - first grade
+    - 一等
+    - 一级品
+    semantic_type: button
+  - text: 重置
+    center:
+    - 0.3433
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - reset
+    - 清空
+    - 恢复默认
+    semantic_type: button
+  - text: 确定
+    center:
+    - 0.7537
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - confirm
+    - OK
+    - 确认
+    - 好的
+    semantic_type: button
+  - text: 关注
+    center:
+    - 0.7189
+    - 0.3238
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - follow
+    - 收藏
+    - subscribe
+    semantic_type: button
+  - text: 袋装
+    center:
+    - 0.2687
+    - 0.4291
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - bagged
+    - 袋包装
+    - 包装袋
+    semantic_type: button
+  - text: 礼盒装
+    center:
+    - 0.5498
+    - 0.4291
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - gift box
+    - 礼盒
+    - 礼品装
+    semantic_type: button
+  - text: 罐装
+    center:
+    - 0.8284
+    - 0.4291
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - canned
+    - 罐包装
+    - 听装
+    semantic_type: button
+  description: Product filter and sort screen for tea category with options for logistics,
+    brand, grade, price range, and promotions
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_36
+  elements:
+  - text: 返回
+    center:
+    - 0.0647
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - 后退
+    - return
+    semantic_type: button
+  - text: 拍照购
+    center:
+    - 0.8209
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 拍照购物
+    - camera shopping
+    - photo search
+    semantic_type: button
+  - text: 已选定综合推荐
+    center:
+    - 0.4975
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 综合推荐
+    - recommended
+    - 综合排序
+    semantic_type: tab
+  - text: 销量
+    center:
+    - 0.7189
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - sales
+    - 销量排序
+    - best selling
+    semantic_type: tab
+  - text: 筛选
+    center:
+    - 0.8781
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - filter
+    - 过滤
+    - 筛选条件
+    semantic_type: button
+  - text: 已选定清凉季
+    center:
+    - 0.1045
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 清凉季
+    - summer sale
+    - 季节活动
+    semantic_type: tab
+  - text: 京东物流
+    center:
+    - 0.301
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - JD Logistics
+    - 京东配送
+    - 物流服务
+    semantic_type: label
+  - text: 配送时效
+    center:
+    - 0.4975
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - delivery time
+    - 送达时间
+    - 配送时间
+    semantic_type: menu_item
+  - text: 品牌
+    center:
+    - 0.6965
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - brand
+    - 商标
+    - 品牌选择
+    semantic_type: menu_item
+  - text: 茶叶等级
+    center:
+    - 0.8955
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tea grade
+    - 等级
+    - 品质
+    semantic_type: menu_item
+  - text: 加购物车
+    center:
+    - 0.9254
+    - 0.349
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - add to cart
+    - 加入购物车
+    - cart
+    semantic_type: button
+  - text: 茶叶新茶
+    center:
+    - 0.2139
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - new tea
+    - 新茶
+    - fresh tea
+    semantic_type: label
+  - text: 关注
+    center:
+    - 0.7189
+    - 0.3352
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - follow
+    - 收藏
+    - subscribe
+    semantic_type: button
+  - text: 返回顶部
+    center:
+    - 0.9303
+    - 0.9085
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - back to top
+    - scroll to top
+    - 回到顶部
+    semantic_type: button
+  description: Search results page for tea products with sorting and filtering options,
+    displaying product listings with add-to-cart and follow buttons.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_37
+  elements:
+  - text: 返回
+    center:
+    - 0.0647
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - 后退
+    - return
+    semantic_type: button
+  - text: 拍照购
+    center:
+    - 0.8209
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 拍照购物
+    - photo search
+    - camera search
+    - 图像识别
+    semantic_type: button
+  - text: 已选定综合推荐
+    center:
+    - 0.4975
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 综合推荐
+    - recommended
+    - 综合排序
+    semantic_type: tab
+  - text: 销量
+    center:
+    - 0.7189
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - sales
+    - 销量排序
+    - 热销
+    semantic_type: tab
+  - text: 筛选
+    center:
+    - 0.8781
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - filter
+    - 过滤
+    - 筛选条件
+    semantic_type: button
+  - text: 京东物流，已选定
+    center:
+    - 0.0896
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 京东物流
+    - JD Logistics
+    - 京东配送
+    semantic_type: toggle
+  - text: 配送时效
+    center:
+    - 0.2861
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - delivery time
+    - 送货时间
+    - 时效
+    semantic_type: menu_item
+  - text: 品牌
+    center:
+    - 0.4851
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - brand
+    - 商标
+    - 牌子
+    semantic_type: menu_item
+  - text: 茶叶等级
+    center:
+    - 0.6841
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tea grade
+    - 等级
+    - 品质
+    semantic_type: menu_item
+  - text: 包装形式
+    center:
+    - 0.9129
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - packaging
+    - 包装
+    - 包装类型
+    semantic_type: menu_item
+  - text: 加购物车
+    center:
+    - 0.9254
+    - 0.3261
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - add to cart
+    - 加入购物车
+    - 购物车
+    semantic_type: button
+  - text: 关注
+    center:
+    - 0.7189
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - follow
+    - 收藏
+    - wishlist
+    semantic_type: button
+  - text: 返回顶部
+    center:
+    - 0.9303
+    - 0.9085
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - back to top
+    - 回到顶部
+    - scroll to top
+    semantic_type: button
+  description: 商品筛选页面，用户可按综合推荐、销量、京东物流、配送时效、品牌、茶叶等级和包装形式等条件筛选商品，并可加购物车或关注商品。
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_38
+  elements:
+  - text: 返回
+    center:
+    - 0.0597
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - 返回按钮
+    - go back
+    semantic_type: button
+  - text: 商品
+    center:
+    - 0.1816
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - product
+    - 产品
+    - item
+    semantic_type: tab
+  - text: 测评
+    center:
+    - 0.2836
+    - 0.0892
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - review
+    - 评测
+    - evaluation
+    semantic_type: tab
+  - text: 收藏
+    center:
+    - 0.796
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - favorite
+    - bookmark
+    - save
+    - 收藏夹
+    semantic_type: button
+  - text: 分享
+    center:
+    - 0.8657
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - share
+    - 转发
+    - send to
+    semantic_type: button
+  - text: 更多
+    center:
+    - 0.9353
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - more
+    - 更多选项
+    - additional
+    semantic_type: menu_item
+  - text: 去领取
+    center:
+    - 0.8856
+    - 0.1064
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - claim
+    - 领取
+    - get coupon
+    semantic_type: button
+  - text: 直播讲解
+    center:
+    - 0.9179
+    - 0.2506
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - live stream
+    - 直播
+    - live demo
+    semantic_type: link
+  - text: 客服
+    center:
+    - 0.1468
+    - 0.9485
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - customer service
+    - support
+    - help
+    - 客服中心
+    semantic_type: link
+  - text: 问中医
+    center:
+    - 0.2363
+    - 0.9485
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - ask TCM
+    - 中医咨询
+    - consult doctor
+    semantic_type: link
+  - text: 购物车
+    center:
+    - 0.3259
+    - 0.9485
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cart
+    - shopping cart
+    - trolley
+    semantic_type: tab
+  - text: 加入购物车
+    center:
+    - 0.5323
+    - 0.9336
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - add to cart
+    - add to bag
+    - 放入购物车
+    semantic_type: button
+  - text: 立即购买
+    center:
+    - 0.8532
+    - 0.9336
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - buy now
+    - purchase
+    - 立即下单
+    semantic_type: button
+  - text: 大家评
+    center:
+    - 0.3731
+    - 0.1362
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - user reviews
+    - 评价
+    - public reviews
+    semantic_type: tab
+  - text: 详情
+    center:
+    - 0.6244
+    - 0.1362
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - details
+    - product details
+    - description
+    - 商品详情
+    semantic_type: tab
+  - text: 推荐
+    center:
+    - 0.8731
+    - 0.1362
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - recommendation
+    - suggested
+    - 为你推荐
+    semantic_type: tab
+  - text: 看全部评价
+    center:
+    - 0.8532
+    - 0.4474
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - view all reviews
+    - 全部评价
+    - all ratings
+    semantic_type: link
+  - text: 问大家 3
+    center:
+    - 0.1169
+    - 0.5503
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - Q&A
+    - questions
+    - 问答
+    - ask community
+    semantic_type: link
+  - text: 看问答讨论
+    center:
+    - 0.8557
+    - 0.5503
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - view discussion
+    - 问答详情
+    - Q&A details
+    semantic_type: link
+  - text: 进店逛逛
+    center:
+    - 0.8756
+    - 0.7151
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - enter store
+    - visit shop
+    - 逛店
+    semantic_type: link
+  - text: 特惠
+    center:
+    - 0.107
+    - 0.9085
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - special offer
+    - deal
+    - promotion
+    - 优惠
+    semantic_type: label
+  - text: 规格参数
+    center:
+    - 0.1194
+    - 0.8547
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - specifications
+    - specs
+    - 参数
+    - tech specs
+    semantic_type: link
+  description: Product detail page with options to view reviews, ask questions, add
+    to cart, and buy immediately.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_39
+  elements:
+  - text: 返回
+    center:
+    - 0.0647
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - 后退
+    - return
+    semantic_type: button
+  - text: 拍照购
+    center:
+    - 0.8209
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 拍照购物
+    - camera search
+    - photo search
+    - 扫一扫
+    semantic_type: button
+  - text: 加购物车
+    center:
+    - 0.9254
+    - 0.0538
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - add to cart
+    - 加入购物车
+    - cart
+    semantic_type: button
+  - text: 清凉季
+    center:
+    - 0.1045
+    - 0.1362
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - summer sale
+    - 清凉节
+    - cool season
+    semantic_type: label
+  - text: 京东物流
+    center:
+    - 0.301
+    - 0.1362
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - JD Logistics
+    - 京东配送
+    - JD delivery
+    semantic_type: label
+  - text: 配送时效
+    center:
+    - 0.4975
+    - 0.1362
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - delivery time
+    - 配送时间
+    - 送达时间
+    semantic_type: label
+  - text: 品牌
+    center:
+    - 0.6965
+    - 0.1362
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - brand
+    - 牌子
+    semantic_type: menu_item
+  - text: 返回顶部
+    center:
+    - 0.9303
+    - 0.9085
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back to top
+    - scroll to top
+    - 回到顶部
+    semantic_type: button
+  - text: 特级绿茶
+    center:
+    - 0.2139
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - premium green tea
+    - 绿茶
+    - green tea
+    semantic_type: label
+  - text: 同款低价
+    center:
+    - 0.5423
+    - 0.0423
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - same style low price
+    - 低价同款
+    - cheaper alternative
+    semantic_type: link
+  - text: 关注
+    center:
+    - 0.7189
+    - 0.0378
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - follow
+    - subscribe
+    - 收藏
+    semantic_type: button
+  - text: 明前特级
+    center:
+    - 0.8955
+    - 0.1362
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - pre-qingming premium
+    - 明前茶
+    - premium early spring
+    semantic_type: label
+  - text: 到手价
+    center:
+    - 0.5373
+    - 0.3787
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - final price
+    - 实付价
+    - 到手价格
+    semantic_type: label
+  - text: 大家都在搜
+    center:
+    - 0.1517
+    - 0.3913
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - trending searches
+    - 热门搜索
+    - popular searches
+    semantic_type: label
+  - text: PLUS价
+    center:
+    - 0.6517
+    - 0.6076
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - PLUS price
+    - 会员价
+    - JD PLUS price
+    semantic_type: label
+  - text: 全网低价
+    center:
+    - 0.5871
+    - 0.6579
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - lowest price online
+    - 全网最低价
+    - best price
+    semantic_type: label
+  description: Product listing page for '特级绿茶' with filters, sorting options, and
+    product cards showing prices and promotions.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_40
+  elements:
+  - text: 付款码
+    center:
+    - 0.7662
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - payment code
+    - 支付码
+    - 付款二维码
+    - barcode
+    semantic_type: button
+  - text: 更多
+    center:
+    - 0.9055
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - more
+    - 更多选项
+    - additional
+    semantic_type: menu_item
+  - text: 拍照
+    center:
+    - 0.301
+    - 0.7826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - take photo
+    - 拍照
+    - camera
+    - 拍摄
+    semantic_type: button
+  - text: 扫啊扫
+    center:
+    - 0.5
+    - 0.7826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - scan
+    - 扫码
+    - 扫一扫
+    - scan code
+    semantic_type: button
+  - text: 相册
+    center:
+    - 0.0746
+    - 0.8524
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - album
+    - gallery
+    - 照片
+    - 图库
+    semantic_type: button
+  - text: 拍照记录
+    center:
+    - 0.204
+    - 0.8524
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - photo record
+    - 拍照历史
+    - photo history
+    semantic_type: menu_item
+  - text: 浏览记录
+    center:
+    - 0.3682
+    - 0.8524
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browsing history
+    - 历史记录
+    - history
+    semantic_type: menu_item
+  - text: 展开相册
+    center:
+    - 0.9403
+    - 0.857
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - expand album
+    - 打开相册
+    - open gallery
+    semantic_type: button
+  - text: 点击开启闪光灯
+    center:
+    - 0.5
+    - 0.4737
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - turn on flash
+    - 闪光灯
+    - flashlight
+    - 开启闪光灯
+    semantic_type: toggle
+  - text: 识图
+    center:
+    - 0.699
+    - 0.7826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - image recognition
+    - 图片识别
+    - recognize image
+    - visual search
+    semantic_type: button
+  - text: 对准条形码/二维码 进行识别
+    center:
+    - 0.5
+    - 0.7277
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - align barcode/qr code to scan
+    - scan barcode
+    - scan qr code
+    - 扫码识别
+    semantic_type: label
+  description: QR/barcode scanning screen with options to scan from camera, album,
+    or photo history, and toggle flash
+  scrollable: false
+  scroll_direction: ''
+- id: screen_41
+  elements:
+  - text: 返回
+    center:
+    - 0.0647
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - 后退
+    - return
+    semantic_type: button
+  - text: 拍照购
+    center:
+    - 0.8209
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 拍照购物
+    - camera shopping
+    - photo search
+    semantic_type: button
+  - text: 已选定综合推荐
+    center:
+    - 0.5
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 综合推荐
+    - recommended
+    - 综合排序
+    semantic_type: tab
+  - text: 销量
+    center:
+    - 0.7189
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - sales
+    - 销量排序
+    - best selling
+    semantic_type: tab
+  - text: 筛选
+    center:
+    - 0.8806
+    - 0.1785
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - filter
+    - 过滤
+    - 筛选条件
+    semantic_type: button
+  - text: 京东物流
+    center:
+    - 0.301
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - JD Logistics
+    - 京东配送
+    - 物流筛选
+    semantic_type: toggle
+  - text: 配送时效
+    center:
+    - 0.4975
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - delivery time
+    - 送货时间
+    - 时效
+    semantic_type: menu_item
+  - text: 品牌
+    center:
+    - 0.9129
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - brand
+    - 品牌选择
+    - brand filter
+    semantic_type: menu_item
+  - text: 加购物车
+    center:
+    - 0.9254
+    - 0.3261
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - add to cart
+    - 加入购物车
+    - cart
+    semantic_type: button
+  - text: 关注
+    center:
+    - 0.7189
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - follow
+    - 收藏
+    - wishlist
+    semantic_type: button
+  - text: 返回顶部
+    center:
+    - 0.9303
+    - 0.9085
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - back to top
+    - scroll to top
+    - 回到顶部
+    semantic_type: button
+  description: Product listing page with sorting and filtering options, showing items
+    with add-to-cart and follow buttons.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_42
+  elements:
+  - text: 拍照购
+    center:
+    - 0.7935
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 拍照购物
+    - camera shopping
+    - visual search
+    - 拍图购
+    semantic_type: button
+  - text: 切换站点
+    center:
+    - 0.0622
+    - 0.1384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 切换地址
+    - switch location
+    - change site
+    - 切换城市
+    semantic_type: button
+  - text: 分类
+    center:
+    - 0.9353
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - 商品分类
+    - all categories
+    semantic_type: tab
+  - text: 首页
+    center:
+    - 0.2239
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - homepage
+    - 主页
+    - main page
+    semantic_type: tab
+  - text: 秒送
+    center:
+    - 0.3632
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - flash delivery
+    - instant delivery
+    - 秒杀配送
+    - quick delivery
+    semantic_type: tab
+  - text: 新品
+    center:
+    - 0.5025
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - new arrivals
+    - new products
+    - 最新商品
+    - what's new
+    semantic_type: tab
+  - text: 搜索
+    center:
+    - 0.9055
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search
+    - 查找
+    - 搜索框
+    semantic_type: input
+  - text: 关注
+    center:
+    - 0.0771
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - following
+    - followed
+    - 我的关注
+    - follow
+    semantic_type: tab
+  - text: 推荐
+    center:
+    - 0.1965
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recommended
+    - for you
+    - 推荐商品
+    - recommendations
+    semantic_type: tab
+  - text: 食品
+    center:
+    - 0.5174
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - food
+    - groceries
+    - 零食
+    - foods
+    semantic_type: menu_item
+  - text: 酒饮
+    center:
+    - 0.6368
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - drinks
+    - beverages
+    - 酒水
+    - alcohol
+    semantic_type: menu_item
+  - text: 手机
+    center:
+    - 0.7537
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - phones
+    - mobile phones
+    - 智能手机
+    - cell phones
+    semantic_type: menu_item
+  - text: 生鲜
+    center:
+    - 0.8731
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fresh food
+    - fresh produce
+    - 水果蔬菜
+    - fresh
+    semantic_type: menu_item
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - messages
+    - notifications
+    - 通知
+    - inbox
+    semantic_type: button
+  - text: 购物车
+    center:
+    - 0.699
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cart
+    - shopping cart
+    - 购物篮
+    - basket
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - profile
+    - me
+    - 个人中心
+    - account
+    semantic_type: tab
+  - text: JDMainPage_nav_line
+    center:
+    - 0.8756
+    - 0.1362
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - navigation line
+    - nav bar
+    - 导航线
+    semantic_type: other
+  - text: jdtabBar_bg_dark
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - dark background
+    - 底部导航背景
+    semantic_type: other
+  description: 京东首页，包含搜索、分类导航、商品推荐和底部标签栏，用户可浏览商品和切换页面。
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_43
+  elements:
+  - text: 搜索按钮
+    center:
+    - 0.9403
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 搜索
+    - search
+    - 查找
+    semantic_type: button
+  - text: 复选框
+    center:
+    - 0.0647
+    - 0.3249
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - checkbox
+    - 勾选框
+    - 选择框
+    semantic_type: toggle
+  - text: 减少数量
+    center:
+    - 0.8109
+    - 0.3776
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 减
+    - minus
+    - decrease
+    semantic_type: button
+  - text: 增加数量
+    center:
+    - 0.9403
+    - 0.3776
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 加
+    - plus
+    - increase
+    semantic_type: button
+  - text: 不感兴趣
+    center:
+    - 0.4353
+    - 0.5126
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - not interested
+    - dislike
+    - 屏蔽
+    semantic_type: button
+  - text: 关闭
+    center:
+    - 0.903
+    - 0.6682
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - close
+    - 关
+    - dismiss
+    semantic_type: button
+  - text: 领券结算(1)件
+    center:
+    - 0.8507
+    - 0.8764
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 结算
+    - checkout
+    - 领券
+    semantic_type: button
+  - text: 购物车 (1)
+    center:
+    - 0.1343
+    - 0.0892
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - cart
+    - 购物车
+    - basket
+    semantic_type: tab
+  - text: 对比
+    center:
+    - 0.7363
+    - 0.0892
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - compare
+    - 比较
+    - 对比商品
+    semantic_type: button
+  - text: 管理
+    center:
+    - 0.8408
+    - 0.0892
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - manage
+    - 管理商品
+    - edit
+    semantic_type: button
+  - text: 已选定全部
+    center:
+    - 0.0796
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 全选
+    - select all
+    - 已全选
+    semantic_type: toggle
+  - text: 购物
+    center:
+    - 0.2388
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shop
+    - 商城
+    - store
+    semantic_type: tab
+  - text: 秒送外卖
+    center:
+    - 0.398
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 外卖
+    - delivery
+    - 即时配送
+    semantic_type: tab
+  - text: 服务健康
+    center:
+    - 0.6393
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 健康
+    - health
+    - 医疗服务
+    semantic_type: tab
+  - text: 降价
+    center:
+    - 0.0846
+    - 0.1762
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - price drop
+    - 降价商品
+    - 折扣
+    semantic_type: label
+  - text: 筛选
+    center:
+    - 0.2338
+    - 0.1762
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - filter
+    - 筛选条件
+    - 过滤
+    semantic_type: button
+  - text: 首页
+    center:
+    - 0.0995
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - 主页
+    - main page
+    semantic_type: tab
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - message
+    - 通知
+    - notification
+    semantic_type: tab
+  - text: 购物车
+    center:
+    - 0.699
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cart
+    - 购物车
+    - basket
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - profile
+    - 个人中心
+    - mine
+    semantic_type: tab
+  description: 购物车页面，显示一件商品，可管理、筛选、领券结算，底部有导航栏。
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_44
+  elements:
+  - text: 语言
+    center:
+    - 0.5572
+    - 0.0927
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Language
+    - 语言设置
+    - 多语言
+    semantic_type: menu_item
+  - text: 客户服务
+    center:
+    - 0.6791
+    - 0.0927
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Customer Service
+    - 客服
+    - 帮助中心
+    semantic_type: menu_item
+  - text: 地址
+    center:
+    - 0.801
+    - 0.0927
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Address
+    - 收货地址
+    - 地址管理
+    semantic_type: menu_item
+  - text: 设置
+    center:
+    - 0.9229
+    - 0.0927
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Settings
+    - 账户设置
+    - 系统设置
+    semantic_type: menu_item
+  - text: PLUS会员入口
+    center:
+    - 0.7836
+    - 0.1693
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - PLUS会员
+    - 京东PLUS
+    - PLUS Membership
+    semantic_type: link
+  - text: 领豆明细京豆
+    center:
+    - 0.2711
+    - 0.246
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 京豆明细
+    - 领豆记录
+    - Bean Details
+    semantic_type: menu_item
+  - text: 更多
+    center:
+    - 0.9154
+    - 0.246
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - More
+    - 查看更多
+    - 更多功能
+    semantic_type: button
+  - text: 种草发现
+    center:
+    - 0.7985
+    - 0.3787
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 种草
+    - 发现好物
+    - Discovery
+    semantic_type: tab
+  - text: 待付款
+    center:
+    - 0.1045
+    - 0.4497
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 待支付
+    - Unpaid
+    - Pending Payment
+    semantic_type: tab
+  - text: 待收货
+    center:
+    - 0.2687
+    - 0.4497
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 待发货
+    - To be Received
+    - Shipped
+    semantic_type: tab
+  - text: 待使用
+    center:
+    - 0.4353
+    - 0.4497
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 待使用订单
+    - To be Used
+    - 未使用
+    semantic_type: tab
+  - text: 退换/售后
+    center:
+    - 0.7662
+    - 0.4497
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 退换货
+    - 售后
+    - Return/After-sales
+    semantic_type: tab
+  - text: 全部
+    center:
+    - 0.9129
+    - 0.4497
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - All
+    - 全部订单
+    - 查看全部
+    semantic_type: tab
+  - text: 不感兴趣
+    center:
+    - 0.4353
+    - 0.8204
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Not Interested
+    - 不喜欢
+    - 屏蔽
+    semantic_type: button
+  - text: 发现
+    center:
+    - 0.8905
+    - 0.3787
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Discover
+    - 探索
+    - Find
+    semantic_type: tab
+  - text: 发布评价
+    center:
+    - 0.2139
+    - 0.5183
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 评价
+    - 写评价
+    - Post Review
+    semantic_type: button
+  - text: 京东快递
+    center:
+    - 0.5
+    - 0.7197
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 物流
+    - 快递
+    - JDL Express
+    semantic_type: menu_item
+  - text: 京东互医
+    center:
+    - 0.5
+    - 0.7609
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 京东健康
+    - 在线问诊
+    - JD Health
+    semantic_type: menu_item
+  - text: 京豆乐园
+    center:
+    - 0.8184
+    - 0.7197
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 京豆
+    - 乐园
+    - Bean Park
+    semantic_type: link
+  - text: 赚红包
+    center:
+    - 0.8035
+    - 0.7609
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 领红包
+    - 赚钱
+    - Red Packet
+    semantic_type: link
+  - text: 潮流好货
+    center:
+    - 0.4776
+    - 0.8799
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 潮流
+    - 好货
+    - Trending
+    semantic_type: link
+  - text: 首页
+    center:
+    - 0.0995
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Home
+    - 主页
+    - Homepage
+    semantic_type: tab
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Messages
+    - 通知
+    - 信息
+    semantic_type: tab
+  - text: 购物车
+    center:
+    - 0.699
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Cart
+    - 购物篮
+    - Shopping Cart
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Mine
+    - 个人中心
+    - Profile
+    semantic_type: tab
+  - text: jdtabBar_bg_dark
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Tab Bar Background
+    - 底部导航背景
+    - Dark Theme
+    semantic_type: other
+  description: User profile and account management screen with order statuses, service
+    entries, and bottom navigation tabs.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_45
+  elements:
+  - text: 返回
+    center:
+    - 0.0647
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - 后退
+    - return
+    semantic_type: button
+  - text: 拍照购
+    center:
+    - 0.8209
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 拍照购物
+    - photo search
+    - camera search
+    - 图像识别
+    semantic_type: button
+  - text: 茶叶等级已选中
+    center:
+    - 0.1343
+    - 0.1773
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - tea grade selected
+    - 等级筛选
+    semantic_type: label
+  - text: 包装形式未选中
+    center:
+    - 0.3209
+    - 0.1773
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - packaging unselected
+    - 包装筛选
+    semantic_type: label
+  - text: 热门产地未选中
+    center:
+    - 0.51
+    - 0.1773
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - origin unselected
+    - 产地筛选
+    semantic_type: label
+  - text: 特级
+    center:
+    - 0.1095
+    - 0.2391
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - special grade
+    - premium
+    semantic_type: button
+  - text: 一级
+    center:
+    - 0.2836
+    - 0.2391
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - first grade
+    - grade 1
+    semantic_type: button
+  - text: 二级
+    center:
+    - 0.4527
+    - 0.2391
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - second grade
+    - grade 2
+    semantic_type: button
+  - text: 精品
+    center:
+    - 0.6219
+    - 0.2391
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - boutique
+    - fine quality
+    - 精选
+    semantic_type: button
+  - text: 品鉴
+    center:
+    - 0.796
+    - 0.2391
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - tasting
+    - appraisal
+    - 评测
+    semantic_type: button
+  - text: 已选定综合推荐
+    center:
+    - 0.5
+    - 0.3295
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - comprehensive recommendation selected
+    - 综合排序
+    semantic_type: label
+  - text: 销量
+    center:
+    - 0.7189
+    - 0.3295
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - sales volume
+    - sales
+    - 热销
+    semantic_type: tab
+  - text: 筛选
+    center:
+    - 0.8806
+    - 0.3295
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - filter
+    - 过滤
+    - refine
+    semantic_type: button
+  - text: 清凉季
+    center:
+    - 0.1045
+    - 0.3741
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cool season
+    - summer promo
+    - 清凉节
+    semantic_type: label
+  - text: 京东物流
+    center:
+    - 0.301
+    - 0.3741
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - JD Logistics
+    - 京东配送
+    - JD delivery
+    semantic_type: label
+  - text: 配送时效
+    center:
+    - 0.4975
+    - 0.3741
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - delivery time
+    - shipping speed
+    - 送货时间
+    semantic_type: label
+  - text: 超级补贴
+    center:
+    - 0.7363
+    - 0.3741
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - super subsidy
+    - super discount
+    - 大额补贴
+    semantic_type: label
+  - text: 品牌
+    center:
+    - 0.9129
+    - 0.3741
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - brand
+    - 牌子
+    semantic_type: label
+  - text: 加购物车
+    center:
+    - 0.9254
+    - 0.4794
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - add to cart
+    - 加入购物车
+    - cart
+    semantic_type: button
+  - text: 关注
+    center:
+    - 0.7189
+    - 0.476
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - follow
+    - subscribe
+    - 收藏
+    semantic_type: button
+  - text: 返回顶部
+    center:
+    - 0.9303
+    - 0.9085
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - back to top
+    - scroll to top
+    - 回到顶部
+    semantic_type: button
+  - text: 茉莉花茶榜
+    center:
+    - 0.4826
+    - 0.6156
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - jasmine tea ranking
+    - jasmine tea list
+    - 花茶排行榜
+    semantic_type: label
+  - text: 热门价格选择
+    center:
+    - 0.1841
+    - 0.881
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - popular price range
+    - 价格区间
+    - price filter
+    semantic_type: label
+  description: Jasmine tea product listing page with filters for tea grade, packaging,
+    origin, and sorting options, showing a scrollable grid of tea products with add-to-cart
+    and follow buttons.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_46
+  elements:
+  - text: 关注
+    center:
+    - 0.7786
+    - 0.1053
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - follow
+    - 关注
+    - subscribe
+    semantic_type: button
+  - text: 评论
+    center:
+    - 0.0796
+    - 0.9439
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - comment
+    - 评论
+    - reply
+    semantic_type: button
+  - text: 说点什么....
+    center:
+    - 0.2239
+    - 0.9314
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - say something
+    - 说点什么
+    - input comment
+    semantic_type: input
+  - text: 种草
+    center:
+    - 0.5149
+    - 0.9314
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recommend
+    - 种草
+    - wishlist
+    - add to wishlist
+    semantic_type: button
+  - text: 点赞
+    center:
+    - 0.9204
+    - 0.9314
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - like
+    - 点赞
+    - thumbs up
+    semantic_type: button
+  description: User profile or content detail screen with tabs for '关注' (Following)
+    and '评论' (Comments), showing a comment input field and action buttons for '种草'
+    (Wishlist) and '点赞' (Like).
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_47
+  elements:
+  - text: 拍照购
+    center:
+    - 0.7935
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 拍照购物
+    - photo shopping
+    - camera search
+    - 视觉搜索
+    semantic_type: button
+  - text: 切换站点
+    center:
+    - 0.0622
+    - 0.1384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - switch site
+    - change location
+    - 切换位置
+    - 站点切换
+    semantic_type: button
+  - text: 国家补贴
+    center:
+    - 0.102
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - government subsidy
+    - national subsidy
+    - 补贴
+    - 国补
+    semantic_type: menu_item
+  - text: 分类
+    center:
+    - 0.9353
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - 商品分类
+    - all categories
+    semantic_type: tab
+  - text: 不感兴趣
+    center:
+    - 0.4353
+    - 0.468
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - not interested
+    - dislike
+    - 不感兴趣
+    - remove
+    semantic_type: button
+  - text: 首页
+    center:
+    - 0.2239
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - homepage
+    - main page
+    - 主页
+    semantic_type: tab
+  - text: 秒送
+    center:
+    - 0.3632
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - flash delivery
+    - instant delivery
+    - 快速配送
+    - 秒达
+    semantic_type: tab
+  - text: 新品
+    center:
+    - 0.5025
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - new arrivals
+    - new products
+    - 最新商品
+    - new
+    semantic_type: tab
+  - text: 搜索
+    center:
+    - 0.9055
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search
+    - 查找
+    - 搜索框
+    semantic_type: input
+  - text: 食品
+    center:
+    - 0.2612
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - food
+    - groceries
+    - 零食
+    - foods
+    semantic_type: menu_item
+  - text: 酒饮
+    center:
+    - 0.3806
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - drinks
+    - beverages
+    - 饮料
+    - 酒水
+    semantic_type: menu_item
+  - text: 手机
+    center:
+    - 0.4975
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - phones
+    - mobile phones
+    - 智能手机
+    - cell phones
+    semantic_type: menu_item
+  - text: 生鲜
+    center:
+    - 0.6169
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fresh food
+    - fresh produce
+    - 水果蔬菜
+    - fresh
+    semantic_type: menu_item
+  - text: 二手
+    center:
+    - 0.7363
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - second hand
+    - used goods
+    - 闲置
+    - pre-owned
+    semantic_type: menu_item
+  - text: 男装
+    center:
+    - 0.8532
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - men's clothing
+    - menswear
+    - 男士服装
+    - men
+    semantic_type: menu_item
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - messages
+    - notifications
+    - 通知
+    - inbox
+    semantic_type: tab
+  - text: 购物车
+    center:
+    - 0.699
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cart
+    - shopping cart
+    - 购物篮
+    - trolley
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - profile
+    - my account
+    - 个人中心
+    - me
+    semantic_type: tab
+  - text: JDMainPage_nav_line
+    center:
+    - 0.8756
+    - 0.1362
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - navigation line
+    - nav bar
+    - 导航线
+    semantic_type: other
+  - text: jdtabBar_bg_dark
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - dark background
+    - 底部导航背景
+    semantic_type: other
+  description: Main page of the JD app with navigation tabs for Home, New Products,
+    Messages, Cart, and My Account, plus quick access to features like photo search,
+    location switch, and category browsing.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_48
+  elements:
+  - text: 拍照购
+    center:
+    - 0.7935
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 拍照购物
+    - camera shopping
+    - visual search
+    - 拍图识别
+    semantic_type: button
+  - text: 切换站点
+    center:
+    - 0.0622
+    - 0.1384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 切换地址
+    - switch location
+    - change site
+    - 切换城市
+    semantic_type: button
+  - text: 国家补贴
+    center:
+    - 0.102
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 政府补贴
+    - national subsidy
+    - state subsidy
+    - 补贴
+    semantic_type: menu_item
+  - text: 分类
+    center:
+    - 0.9353
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - 商品分类
+    - all categories
+    semantic_type: tab
+  - text: 首页
+    center:
+    - 0.2239
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - homepage
+    - 主页
+    - main page
+    semantic_type: tab
+  - text: 秒送
+    center:
+    - 0.3632
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - instant delivery
+    - flash delivery
+    - 快速送达
+    - 即时配送
+    semantic_type: tab
+  - text: 新品
+    center:
+    - 0.5025
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - new arrivals
+    - new products
+    - 最新商品
+    - new in
+    semantic_type: tab
+  - text: 搜索
+    center:
+    - 0.9055
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search
+    - 搜索框
+    - search box
+    - 查找
+    semantic_type: input
+  - text: 酒饮
+    center:
+    - 0.2612
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 酒类
+    - alcohol
+    - drinks
+    - 饮品
+    semantic_type: menu_item
+  - text: 食品
+    center:
+    - 0.3806
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - food
+    - 零食
+    - 食品饮料
+    - grocery
+    semantic_type: menu_item
+  - text: 手机
+    center:
+    - 0.4975
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - phones
+    - mobile phones
+    - 智能手机
+    - cell phone
+    semantic_type: menu_item
+  - text: 生鲜
+    center:
+    - 0.6169
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fresh food
+    - fresh produce
+    - 水果蔬菜
+    - fresh
+    semantic_type: menu_item
+  - text: 数码
+    center:
+    - 0.7363
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - digital
+    - electronics
+    - 电子产品
+    - 数码产品
+    semantic_type: menu_item
+  - text: 男装
+    center:
+    - 0.8532
+    - 0.1876
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - men's clothing
+    - menswear
+    - 男士服装
+    - men
+    semantic_type: menu_item
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - messages
+    - notifications
+    - 通知
+    - inbox
+    semantic_type: button
+  - text: 购物车
+    center:
+    - 0.699
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cart
+    - shopping cart
+    - 购物篮
+    - basket
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - profile
+    - account
+    - 个人中心
+    - mine
+    semantic_type: tab
+  - text: JDMainPage_nav_line
+    center:
+    - 0.8756
+    - 0.1362
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - navigation bar
+    - nav bar
+    - 导航栏
+    semantic_type: other
+  - text: jdtabBar_bg_dark
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - 底部导航背景
+    - tab bar
+    semantic_type: other
+  description: 京东首页，包含搜索、分类导航、商品频道入口和底部标签栏，用户可浏览和搜索商品
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_49
+  elements:
+  - text: 搜索按钮
+    center:
+    - 0.9403
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 搜索
+    - search
+    - 查找
+    - search button
+    semantic_type: button
+  - text: 复选框
+    center:
+    - 0.0647
+    - 0.3249
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - checkbox
+    - 勾选框
+    - 选择框
+    - check box
+    semantic_type: toggle
+  - text: 减少数量
+    center:
+    - 0.8109
+    - 0.3776
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 减
+    - 减少
+    - decrease
+    - minus
+    - 数量减
+    semantic_type: button
+  - text: 增加数量
+    center:
+    - 0.9403
+    - 0.3776
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 加
+    - 增加
+    - increase
+    - plus
+    - 数量加
+    semantic_type: button
+  - text: 不感兴趣
+    center:
+    - 0.4353
+    - 0.5126
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - not interested
+    - 不感兴趣反馈
+    - dislike
+    - 不感兴趣按钮
+    semantic_type: button
+  - text: 关闭
+    center:
+    - 0.903
+    - 0.6682
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - close
+    - 关
+    - 关闭按钮
+    - x
+    semantic_type: button
+  - text: 对比
+    center:
+    - 0.7363
+    - 0.0892
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - compare
+    - 比较
+    - 对比商品
+    semantic_type: button
+  - text: 管理
+    center:
+    - 0.8408
+    - 0.0892
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - manage
+    - 管理按钮
+    - 编辑
+    - 管理入口
+    semantic_type: button
+  - text: 购物
+    center:
+    - 0.2388
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shop
+    - 购买
+    - 商城
+    - shopping
+    semantic_type: tab
+  - text: 秒送外卖
+    center:
+    - 0.398
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 外卖
+    - 秒送
+    - delivery
+    - 即时配送
+    semantic_type: tab
+  - text: 服务健康
+    center:
+    - 0.6393
+    - 0.135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 健康
+    - health
+    - 医疗服务
+    - 健康服务
+    semantic_type: tab
+  - text: 降价
+    center:
+    - 0.0846
+    - 0.1762
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - price drop
+    - 降价商品
+    - 折扣
+    - 降价通知
+    semantic_type: button
+  - text: 筛选
+    center:
+    - 0.2338
+    - 0.1762
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - filter
+    - 过滤
+    - 筛选条件
+    - 筛选器
+    semantic_type: button
+  - text: 首页
+    center:
+    - 0.0995
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - 主页
+    - homepage
+    - 首页标签
+    semantic_type: tab
+  - text: 消息
+    center:
+    - 0.5
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - message
+    - 通知
+    - 消息中心
+    - notification
+    semantic_type: tab
+  - text: 购物车
+    center:
+    - 0.699
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cart
+    - 购物篮
+    - cart page
+    - 购物车页面
+    semantic_type: tab
+  - text: 我的
+    center:
+    - 0.898
+    - 0.9474
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - mine
+    - 个人中心
+    - profile
+    - 我的账户
+    - account
+    semantic_type: tab
+  description: 京东购物车页面，显示商品列表，支持数量调整、筛选、对比和管理操作
+  scrollable: true
+  scroll_direction: vertical
+screen_macros:
+  screen_0:
+  - &id001
+    action: force_stop
+    bundle_id: com.360buy.jdmobile
+    wait: 1.0
+  - &id002
+    action: launch
+    bundle_id: com.360buy.jdmobile
+    wait: 3.0
+  screen_1:
+  - *id001
+  - *id002
+  - &id003
+    action: tap
+    x: 319
+    y: 123
+    wait: 1.0
+  screen_2:
+  - *id001
+  - *id002
+  - &id004
+    action: tap
+    x: 90
+    y: 76
+    wait: 1.0
+  screen_3:
+  - *id001
+  - *id002
+  - &id005
+    action: tap
+    x: 146
+    y: 76
+    wait: 1.0
+  screen_4:
+  - *id001
+  - *id002
+  - &id006
+    action: tap
+    x: 202
+    y: 76
+    wait: 1.0
+  screen_5:
+  - *id001
+  - *id002
+  - &id007
+    action: tap
+    x: 364
+    y: 123
+    wait: 1.0
+  screen_6:
+  - *id001
+  - *id002
+  - &id008
+    action: tap
+    x: 31
+    y: 164
+    wait: 1.0
+  screen_7:
+  - *id001
+  - *id002
+  - &id009
+    action: tap
+    x: 79
+    y: 164
+    wait: 1.0
+  screen_8:
+  - *id001
+  - *id002
+  - action: tap
+    x: 208
+    y: 164
+    wait: 1.0
+  screen_9:
+  - *id001
+  - *id002
+  - action: tap
+    x: 256
+    y: 164
+    wait: 1.0
+  screen_10:
+  - *id001
+  - *id002
+  - action: tap
+    x: 304
+    y: 164
+    wait: 1.0
+  screen_11:
+  - *id001
+  - *id002
+  - action: tap
+    x: 201
+    y: 828
+    wait: 1.0
+  screen_12:
+  - *id001
+  - *id002
+  - action: tap
+    x: 281
+    y: 828
+    wait: 1.0
+  screen_13:
+  - *id001
+  - *id002
+  - action: tap
+    x: 361
+    y: 828
+    wait: 1.0
+  screen_14:
+  - *id001
+  - *id002
+  - action: tap
+    x: 352
+    y: 119
+    wait: 1.0
+  screen_15:
+  - *id001
+  - *id002
+  - action: tap
+    x: 201
+    y: 832
+    wait: 1.0
+  screen_16:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 127
+    y: 552
+    wait: 1.0
+  screen_17:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 319
+    y: 123
+    wait: 1.0
+  screen_18:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 25
+    y: 121
+    wait: 1.0
+  screen_19:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 364
+    y: 123
+    wait: 1.0
+  screen_20:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 208
+    y: 164
+    wait: 1.0
+  screen_21:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 281
+    y: 828
+    wait: 1.0
+  screen_22:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 361
+    y: 828
+    wait: 1.0
+  screen_23:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 352
+    y: 119
+    wait: 1.0
+  screen_24:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 142
+    y: 536
+    wait: 1.0
+  screen_25:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 319
+    y: 123
+    wait: 1.0
+  screen_26:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 202
+    y: 76
+    wait: 1.0
+  screen_27:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 364
+    y: 123
+    wait: 1.0
+  screen_28:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 281
+    y: 828
+    wait: 1.0
+  screen_29:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 352
+    y: 119
+    wait: 1.0
+  screen_30:
+  - *id001
+  - *id002
+  - *id006
+  - action: tap
+    x: 319
+    y: 123
+    wait: 1.0
+  screen_31:
+  - *id001
+  - *id002
+  - *id006
+  - action: tap
+    x: 364
+    y: 123
+    wait: 1.0
+  screen_32:
+  - *id001
+  - *id002
+  - *id006
+  - action: tap
+    x: 352
+    y: 119
+    wait: 1.0
+  screen_33:
+  - *id001
+  - *id002
+  - *id007
+  - action: tap
+    x: 201
+    y: 156
+    wait: 1.0
+  screen_34:
+  - *id001
+  - *id002
+  - *id007
+  - action: tap
+    x: 289
+    y: 156
+    wait: 1.0
+  screen_35:
+  - *id001
+  - *id002
+  - *id007
+  - action: tap
+    x: 354
+    y: 156
+    wait: 1.0
+  screen_36:
+  - *id001
+  - *id002
+  - *id007
+  - action: tap
+    x: 44
+    y: 195
+    wait: 1.0
+  screen_37:
+  - *id001
+  - *id002
+  - *id007
+  - action: tap
+    x: 111
+    y: 195
+    wait: 1.0
+  screen_38:
+  - *id001
+  - *id002
+  - *id007
+  - action: tap
+    x: 289
+    y: 283
+    wait: 1.0
+  screen_39:
+  - *id001
+  - *id002
+  - *id007
+  - action: tap
+    x: 374
+    y: 794
+    wait: 1.0
+  screen_40:
+  - *id001
+  - *id002
+  - *id008
+  - action: tap
+    x: 25
+    y: 121
+    wait: 1.0
+  screen_41:
+  - *id001
+  - *id002
+  - *id008
+  - action: tap
+    x: 364
+    y: 123
+    wait: 1.0
+  screen_42:
+  - *id001
+  - *id002
+  - *id008
+  - action: tap
+    x: 79
+    y: 164
+    wait: 1.0
+  screen_43:
+  - *id001
+  - *id002
+  - *id008
+  - action: tap
+    x: 281
+    y: 828
+    wait: 1.0
+  screen_44:
+  - *id001
+  - *id002
+  - *id008
+  - action: tap
+    x: 361
+    y: 828
+    wait: 1.0
+  screen_45:
+  - *id001
+  - *id002
+  - *id008
+  - action: tap
+    x: 352
+    y: 119
+    wait: 1.0
+  screen_46:
+  - *id001
+  - *id002
+  - *id008
+  - action: tap
+    x: 201
+    y: 655
+    wait: 1.0
+  screen_47:
+  - *id001
+  - *id002
+  - *id009
+  - action: tap
+    x: 256
+    y: 164
+    wait: 1.0
+  screen_48:
+  - *id001
+  - *id002
+  - *id009
+  - action: tap
+    x: 303
+    y: 164
+    wait: 1.0
+  screen_49:
+  - *id001
+  - *id002
+  - *id009
+  - action: tap
+    x: 281
+    y: 828
+    wait: 1.0
+launch_behavior: always_home
+common_tasks:
+- Search for products
+- Browse product categories
+- View product details
+- Add items to shopping cart
+- Place an order
+- Track order status
+- Manage account and profile
+- View and manage messages
+- Scan barcodes or products for search
+- Filter and sort product listings
+known_limitations:
+- Some features may require scrolling to find
+- Search bar may be hidden behind gestures on some screens
+- Permission dialogs may interrupt navigation
+- Product filtering options vary by category

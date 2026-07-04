@@ -1,0 +1,11042 @@
+app: Calendar
+package: com.apple.mobilecal
+screen_w: 402
+screen_h: 874
+screens:
+- id: screen_0
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_1
+    aliases:
+    - year 2026
+    - twenty twenty-six
+    semantic_type: label
+  - text: List
+    center:
+    - 0.6294
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_2
+    aliases:
+    - list view
+    - schedule
+    - agenda
+    semantic_type: tab
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_3
+    aliases:
+    - new event
+    - create
+    - plus
+    - 添加
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_4
+    aliases:
+    - current day
+    - now
+    - 今天
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_5
+    aliases:
+    - calendar list
+    - manage calendars
+    - 日程
+    semantic_type: menu_item
+  - text: inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_6
+    aliases:
+    - notifications
+    - invitations
+    - 收件箱
+    semantic_type: menu_item
+  - text: July
+    center:
+    - 0.1294
+    - 0.1625
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - seventh month
+    - 七月
+    semantic_type: label
+  - text: all-day
+    center:
+    - 0.8905
+    - 0.5309
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - all day event
+    - 全天
+    semantic_type: label
+  - text: favorite
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - starred
+    - bookmarked
+    - 收藏
+    semantic_type: toggle
+  description: Monthly calendar view for July 2026 with options to add events, view
+    today, and access calendars and inbox.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_1
+  elements:
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_8
+    aliases:
+    - New
+    - Create
+    - Plus
+    - 新增
+    - 添加
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - Now
+    - Current date
+    - 今天
+    - Go to today
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_10
+    aliases:
+    - Calendar list
+    - 日程
+    - 日历
+    - Manage calendars
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - Notifications
+    - Invitations
+    - 收件箱
+    - 通知
+    semantic_type: menu_item
+  description: Main calendar navigation screen with options to add events, view today's
+    schedule, manage calendars, and access inbox.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_2
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - year 2026
+    - calendar year
+    semantic_type: label
+  - text: List
+    center:
+    - 0.6294
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_12
+    aliases:
+    - list view
+    - schedule
+    - agenda
+    semantic_type: tab
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - new event
+    - create
+    - plus
+    - +
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - current date
+    - now
+    - go to today
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - calendar list
+    - manage calendars
+    - accounts
+    semantic_type: button
+  - text: inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - notifications
+    - invitations
+    - pending
+    semantic_type: menu_item
+  - text: July
+    center:
+    - 0.1294
+    - 0.1625
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - month
+    - July 2026
+    semantic_type: label
+  - text: all-day
+    center:
+    - 0.8905
+    - 0.5309
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - all day event
+    - full day
+    - 全天
+    semantic_type: label
+  - text: favorite
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - starred
+    - bookmarked
+    - 收藏
+    semantic_type: toggle
+  - text: event.compact.split.4x1
+    center:
+    - 0.49
+    - 0.1064
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_13
+    aliases:
+    - compact event
+    - split layout
+    - 4 by 1 widget
+    semantic_type: other
+  - text: event.compact.2
+    center:
+    - 0.49
+    - 0.1545
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_14
+    aliases:
+    - compact event 2
+    - small widget
+    semantic_type: other
+  - text: event.2.text
+    center:
+    - 0.49
+    - 0.2025
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_15
+    aliases:
+    - event text
+    - description
+    - event details
+    semantic_type: other
+  - text: selected
+    center:
+    - 0.4229
+    - 0.2746
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_9
+    aliases:
+    - highlighted
+    - active
+    - chosen
+    semantic_type: label
+  - text: split view vertically
+    center:
+    - 0.49
+    - 0.2746
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_16
+    aliases:
+    - vertical split
+    - split screen
+    - portrait split
+    semantic_type: setting
+  description: Monthly calendar view for July 2026 with a list of events including
+    all-day and timed entries, and options to add events or switch calendars.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_3
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_17
+    aliases:
+    - year 2026
+    - 2026年
+    semantic_type: label
+  - text: List
+    center:
+    - 0.6294
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_17
+    aliases:
+    - list view
+    - 列表
+    semantic_type: tab
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_17
+    aliases:
+    - create
+    - new event
+    - 添加
+    - plus
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_18
+    aliases:
+    - current date
+    - 今天
+    - go to today
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_18
+    aliases:
+    - calendar list
+    - 日程
+    - manage calendars
+    semantic_type: menu_item
+  - text: inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_18
+    aliases:
+    - notifications
+    - 收件箱
+    - invitations
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_18
+    aliases:
+    - finish
+    - 完成
+    - save
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_18
+    aliases:
+    - appointment
+    - 事件
+    - meeting
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_19
+    aliases:
+    - task
+    - 提醒
+    - to-do
+    semantic_type: tab
+  - text: More suggestions
+    center:
+    - 0.9428
+    - 0.6453
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_18
+    aliases:
+    - additional suggestions
+    - 更多建议
+    semantic_type: button
+  - text: shift
+    center:
+    - 0.0746
+    - 0.8295
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_18
+    aliases:
+    - shift key
+    - 大写
+    semantic_type: button
+  - text: 表情符号
+    center:
+    - 0.194
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_20
+    aliases:
+    - emoji
+    - emoticon
+    - 表情
+    semantic_type: button
+  - text: 换行
+    center:
+    - 0.8706
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_21
+    aliases:
+    - return
+    - enter
+    - new line
+    - 回车
+    semantic_type: button
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_22
+    aliases:
+    - title
+    - event name
+    - 标题
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_23
+    aliases:
+    - all day event
+    - 全天
+    - 24 hours
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_18
+    aliases:
+    - create new
+    - 新建
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_18
+    aliases:
+    - place
+    - 地址
+    - video link
+    - 位置
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_24
+    aliases:
+    - start time
+    - 开始
+    - from
+    semantic_type: label
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.5286
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_24
+    aliases:
+    - end time
+    - 结束
+    - to
+    semantic_type: label
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_25
+    aliases:
+    - transit time
+    - 路程时间
+    - commute
+    semantic_type: setting
+  - text: None
+    center:
+    - 0.8284
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_25
+    aliases:
+    - zero
+    - 无
+    - empty
+    semantic_type: label
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_26
+    aliases:
+    - recurrence
+    - 重复
+    - frequency
+    semantic_type: setting
+  - text: Never
+    center:
+    - 0.8234
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_27
+    aliases:
+    - no repeat
+    - 从不
+    - 不重复
+    semantic_type: label
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_27
+    aliases:
+    - calendar selection
+    - 日历
+    - category
+    semantic_type: setting
+  - text: 个人
+    center:
+    - 0.8358
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_27
+    aliases:
+    - personal
+    - private
+    - 我的日历
+    semantic_type: label
+  - text: Invitees
+    center:
+    - 0.1517
+    - 0.8432
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_27
+    aliases:
+    - guests
+    - participants
+    - 邀请人
+    - attendees
+    semantic_type: setting
+  - text: Alert
+    center:
+    - 0.1244
+    - 0.9428
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification
+    - 提醒
+    - alarm
+    semantic_type: setting
+  - text: 这个
+    center:
+    - 0.6866
+    - 0.6453
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_27
+    aliases:
+    - this
+    - current
+    - this one
+    semantic_type: label
+  - text: favorite
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_24
+    aliases:
+    - starred
+    - 收藏
+    - bookmark
+    semantic_type: toggle
+  description: New event creation screen with fields for title, date, time, location,
+    repeat, alerts, and invitees.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_4
+  elements:
+  - text: July
+    center:
+    - 0.1443
+    - 0.095
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - 七月
+    - Jul
+    - month
+    semantic_type: label
+  - text: Single Day
+    center:
+    - 0.6219
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_28
+    aliases:
+    - 单日
+    - 1 day
+    - day view
+    semantic_type: tab
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_29
+    aliases:
+    - 添加
+    - new event
+    - plus
+    - create
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 今天
+    - current date
+    - now
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_30
+    aliases:
+    - 日历列表
+    - calendar list
+    - accounts
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_31
+    aliases:
+    - 收件箱
+    - notifications
+    - invites
+    semantic_type: menu_item
+  - text: all-day
+    center:
+    - 0.0945
+    - 0.27
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 全天
+    - all day event
+    - 24 hours
+    semantic_type: toggle
+  - text: _contentView
+    center:
+    - 0.5796
+    - 0.2689
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_32
+    aliases:
+    - content view
+    - main view
+    - calendar grid
+    semantic_type: other
+  description: Monthly calendar view for July showing a single day with options to
+    add events, view today, manage calendars, and access inbox.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_5
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year 2026
+    - calendar year
+    semantic_type: label
+  - text: List
+    center:
+    - 0.6294
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - list view
+    - schedule list
+    semantic_type: tab
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new event
+    - plus
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - go to today
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - manage calendars
+    semantic_type: menu_item
+  - text: inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    semantic_type: menu_item
+  - text: close
+    center:
+    - 0.0945
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - dismiss
+    - x button
+    semantic_type: button
+  - text: show-declined-events-switch
+    center:
+    - 0.8408
+    - 0.8478
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - declined events toggle
+    semantic_type: toggle
+  - text: show-completed-reminders-switch
+    center:
+    - 0.8408
+    - 0.9073
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - completed reminders toggle
+    semantic_type: toggle
+  - text: all-day
+    center:
+    - 0.8905
+    - 0.5309
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_33
+    aliases:
+    - full day
+    - 24 hours
+    semantic_type: toggle
+  - text: iCloud
+    center:
+    - 0.1418
+    - 0.1739
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - apple calendar
+    - icloud account
+    semantic_type: label
+  - text: Other
+    center:
+    - 0.1343
+    - 0.4977
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - other calendars
+    - miscellaneous
+    semantic_type: label
+  - text: Subscribed
+    center:
+    - 0.2761
+    - 0.5732
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_33
+    aliases:
+    - subscription calendars
+    - public calendars
+    semantic_type: label
+  - text: Show Declined Events
+    center:
+    - 0.2886
+    - 0.8478
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - display declined
+    - declined events setting
+    semantic_type: setting
+  - text: Show Completed Reminders
+    center:
+    - 0.3483
+    - 0.9073
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - display completed
+    - completed reminders setting
+    semantic_type: setting
+  - text: favorite
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_33
+    aliases:
+    - star
+    - bookmark
+    semantic_type: button
+  - text: Forward
+    center:
+    - 0.903
+    - 0.1739
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - share
+    - send
+    semantic_type: button
+  - text: selected
+    center:
+    - 0.1095
+    - 0.2265
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - checked
+    - active
+    semantic_type: label
+  - text: info
+    center:
+    - 0.8905
+    - 0.2265
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_34
+    aliases:
+    - details
+    - information
+    semantic_type: button
+  - text: Add Calendar
+    center:
+    - 0.2537
+    - 0.9085
+    found_at_scroll: 1
+    fixed: true
+    leads_to: screen_35
+    aliases:
+    - create calendar
+    - new calendar
+    semantic_type: button
+  description: Calendar settings screen with options to manage calendars, toggle declined
+    events and completed reminders, and add new calendars.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_6
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year 2026
+    - calendar year
+    semantic_type: label
+  - text: List
+    center:
+    - 0.6294
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - list view
+    - schedule
+    - agenda
+    semantic_type: tab
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - new event
+    - create
+    - plus
+    - +
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - go to today
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - manage calendars
+    - accounts
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - updates
+    semantic_type: menu_item
+  - text: close
+    center:
+    - 0.0945
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - dismiss
+    - x
+    - cancel
+    semantic_type: button
+  - text: New
+    center:
+    - 0.4129
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - new event
+    - create
+    - add
+    semantic_type: button
+  - text: Replied
+    center:
+    - 0.5846
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - responded
+    - answered
+    - rsvp
+    semantic_type: label
+  - text: all-day
+    center:
+    - 0.8905
+    - 0.5309
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - full day
+    - 24 hours
+    - all day event
+    semantic_type: toggle
+  - text: favorite
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - starred
+    - bookmark
+    - important
+    semantic_type: toggle
+  description: Calendar app main view showing a list of events for 2026 with options
+    to add new events, view today, manage calendars, and access inbox.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_7
+  elements:
+  - text: July
+    center:
+    - 0.1443
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - Jul
+    - 七月
+    - month
+    semantic_type: label
+  - text: All-day
+    center:
+    - 0.1393
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_36
+    aliases:
+    - 全天
+    - all day event
+    - 24 hours
+    semantic_type: toggle
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.3089
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_36
+    aliases:
+    - 日历
+    - 日程
+    - schedule
+    semantic_type: tab
+  description: Month view of July calendar with all-day events section and navigation
+    to full calendar.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_8
+  elements:
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_37
+    aliases:
+    - 添加
+    - 新增
+    - create
+    - plus
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_38
+    aliases:
+    - 今天
+    - current date
+    - go to today
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_39
+    aliases:
+    - 日历列表
+    - calendar list
+    - manage calendars
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_38
+    aliases:
+    - 收件箱
+    - notifications
+    - invites
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_39
+    aliases:
+    - 完成
+    - confirm
+    - save
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_39
+    aliases:
+    - 事件
+    - appointment
+    - 日程
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_40
+    aliases:
+    - 提醒
+    - task
+    - 待办
+    semantic_type: tab
+  - text: More suggestions
+    center:
+    - 0.9428
+    - 0.6453
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_39
+    aliases:
+    - 更多建议
+    - additional suggestions
+    - see more
+    semantic_type: button
+  - text: shift
+    center:
+    - 0.0746
+    - 0.8295
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_41
+    aliases:
+    - 切换大小写
+    - uppercase
+    - caps
+    semantic_type: button
+  - text: 表情符号
+    center:
+    - 0.194
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_42
+    aliases:
+    - emoji
+    - emoticon
+    - 表情
+    semantic_type: button
+  - text: 换行
+    center:
+    - 0.8706
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_43
+    aliases:
+    - return
+    - new line
+    - enter
+    semantic_type: button
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_44
+    aliases:
+    - 标题
+    - title
+    - event name
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_45
+    aliases:
+    - 全天
+    - all day event
+    - 24小时
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_38
+    aliases:
+    - 新建
+    - create new
+    - add new
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_46
+    aliases:
+    - 地点
+    - location
+    - video call link
+    - 位置
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_47
+    aliases:
+    - 开始
+    - start time
+    - 开始时间
+    semantic_type: button
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.5286
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_48
+    aliases:
+    - 结束
+    - end time
+    - 结束时间
+    semantic_type: button
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_49
+    aliases:
+    - 行程时间
+    - travel duration
+    - 通勤时间
+    semantic_type: setting
+  - text: None
+    center:
+    - 0.8284
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 无
+    - no travel time
+    - empty
+    semantic_type: label
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 重复
+    - recurrence
+    - repeat event
+    semantic_type: setting
+  - text: Never
+    center:
+    - 0.8234
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 从不
+    - no repeat
+    - 不重复
+    semantic_type: label
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 日历
+    - calendar selection
+    - choose calendar
+    semantic_type: setting
+  - text: Invitees
+    center:
+    - 0.1517
+    - 0.8432
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 邀请对象
+    - attendees
+    - participants
+    - 参与者
+    semantic_type: setting
+  - text: Alert
+    center:
+    - 0.1244
+    - 0.9428
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 提醒
+    - notification
+    - alarm
+    semantic_type: setting
+  - text: Silent Mode
+    center:
+    - 0.2388
+    - 0.0378
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 静音模式
+    - silent
+    - mute
+    - 静音
+    semantic_type: toggle
+  description: New event creation screen with fields for title, date/time, location,
+    repeat, alerts, and invitees
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_9
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year 2026
+    - calendar year
+    semantic_type: label
+  - text: List
+    center:
+    - 0.6294
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - list view
+    - schedule
+    - agenda
+    semantic_type: tab
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - new event
+    - create
+    - plus
+    - add event
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - go to today
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - manage calendars
+    - accounts
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - alerts
+    semantic_type: menu_item
+  - text: all-day
+    center:
+    - 0.8905
+    - 0.5309
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - all day event
+    - full day
+    - 全天
+    semantic_type: toggle
+  - text: favorite
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - starred
+    - bookmarked
+    - 收藏
+    semantic_type: toggle
+  description: Main calendar view for 2026 showing a list of events and navigation
+    options to add events, view today, manage calendars, and access inbox.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_10
+  elements:
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - add
+    - create
+    - new
+    - plus
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - today
+    - current day
+    - now
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendars
+    - calendar list
+    - manage calendars
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - inbox
+    - notifications
+    - invitations
+    semantic_type: menu_item
+  - text: close
+    center:
+    - 0.0945
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - close
+    - dismiss
+    - x
+    semantic_type: button
+  - text: show-declined-events-switch
+    center:
+    - 0.8408
+    - 0.8478
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - show declined events toggle
+    - declined events switch
+    semantic_type: toggle
+  - text: show-completed-reminders-switch
+    center:
+    - 0.8408
+    - 0.9073
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - show completed reminders toggle
+    - completed reminders switch
+    semantic_type: toggle
+  - text: Show Declined Events
+    center:
+    - 0.2886
+    - 0.8478
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - show declined events
+    - declined events
+    - display declined
+    semantic_type: label
+  - text: Show Completed Reminders
+    center:
+    - 0.3483
+    - 0.9073
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - show completed reminders
+    - completed reminders
+    - display completed
+    semantic_type: label
+  - text: Forward
+    center:
+    - 0.903
+    - 0.1739
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - forward
+    - next
+    - advance
+    semantic_type: button
+  - text: selected
+    center:
+    - 0.1095
+    - 0.2265
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - selected
+    - chosen
+    - checked
+    semantic_type: label
+  - text: info
+    center:
+    - 0.8905
+    - 0.2265
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - info
+    - information
+    - details
+    semantic_type: button
+  - text: Add Calendar
+    center:
+    - 0.2537
+    - 0.9085
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - add calendar
+    - create calendar
+    - new calendar
+    semantic_type: button
+  description: Calendar settings screen with toggles for showing declined events and
+    completed reminders, and options to add or manage calendars.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_11
+  elements:
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - add event
+    - create
+    - new event
+    - plus
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - go to today
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - manage calendars
+    - calendar settings
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - updates
+    semantic_type: menu_item
+  - text: close
+    center:
+    - 0.0945
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - dismiss
+    - x
+    - cancel
+    semantic_type: button
+  - text: New
+    center:
+    - 0.4129
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - add
+    - new event
+    semantic_type: button
+  - text: Replied
+    center:
+    - 0.5846
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - responded
+    - answered
+    - rsvp
+    semantic_type: label
+  description: Calendar event detail or creation screen with options to add, view
+    today, manage calendars, check inbox, close, create new, and see replied events.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_12
+  elements:
+  - text: '2026'
+    center:
+    - 0.1567
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year 2026
+    - twenty twenty-six
+    semantic_type: label
+  - text: Compact
+    center:
+    - 0.6219
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - condensed view
+    - small layout
+    semantic_type: toggle
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new event
+    - plus
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - go to today
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - manage calendars
+    - 日程
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - 收件箱
+    semantic_type: menu_item
+  - text: June
+    center:
+    - 0.1443
+    - 0.1625
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Jun
+    - 六月
+    semantic_type: label
+  - text: Jul
+    center:
+    - 0.5
+    - 0.3844
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - July
+    - 七月
+    semantic_type: label
+  - text: Aug
+    center:
+    - 0.9254
+    - 0.8078
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - August
+    - 八月
+    semantic_type: label
+  - text: August
+    center:
+    - 0.1866
+    - 0.1625
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - Aug
+    - 八月
+    semantic_type: label
+  - text: September
+    center:
+    - 0.2612
+    - 0.1625
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - Sep
+    - 九月
+    semantic_type: label
+  - text: November
+    center:
+    - 0.2463
+    - 0.1625
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - Nov
+    - 十一月
+    semantic_type: label
+  description: Monthly calendar view for August 2026 with navigation to add events,
+    view inbox, and switch between months.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_13
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year 2026
+    - calendar year
+    semantic_type: label
+  - text: Compact
+    center:
+    - 0.6219
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - condensed view
+    - small layout
+    semantic_type: toggle
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new event
+    - plus
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - go to today
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - manage calendars
+    - accounts
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - updates
+    semantic_type: menu_item
+  description: Calendar year view for 2026 with options to add events, view today,
+    manage calendars, and access inbox.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_14
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+  - text: Stacked
+    center:
+    - 0.6244
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+  - text: July
+    center:
+    - 0.1294
+    - 0.1625
+    found_at_scroll: 0
+    fixed: false
+  - text: August
+    center:
+    - 0.1866
+    - 0.1625
+    found_at_scroll: 1
+    fixed: false
+  - text: September
+    center:
+    - 0.2612
+    - 0.1625
+    found_at_scroll: 2
+    fixed: false
+  - text: October
+    center:
+    - 0.2065
+    - 0.1625
+    found_at_scroll: 3
+    fixed: false
+  description: Calendar month view for July through October 2026 with navigation to
+    add events, today, calendars, and inbox.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_15
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year 2026
+    - calendar year
+    semantic_type: label
+  - text: Details
+    center:
+    - 0.6244
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - event details
+    - info
+    - 详情
+    semantic_type: button
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - new event
+    - create
+    - 添加
+    - plus
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - 今天
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - manage calendars
+    - 日历
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - 收件箱
+    semantic_type: menu_item
+  description: Main calendar view for 2026 with options to view details, add events,
+    go to today, manage calendars, and access inbox.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_16
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year 2026
+    - calendar year
+    semantic_type: label
+  - text: List
+    center:
+    - 0.6294
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - list view
+    - schedule
+    - agenda
+    semantic_type: tab
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - new event
+    - create
+    - plus
+    - 添加
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - 今天
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - accounts
+    - 日程
+    semantic_type: menu_item
+  - text: inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - 收件箱
+    semantic_type: menu_item
+  - text: favorite
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - starred
+    - bookmarked
+    - 收藏
+    semantic_type: menu_item
+  description: Main calendar view for 2026 with options to add events, view today,
+    access calendars, inbox, and favorites.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_17
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year
+    - calendar year
+    semantic_type: label
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new
+    - plus
+    - 添加
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - 今天
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - 日程
+    - calendar settings
+    semantic_type: menu_item
+  - text: inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - 收件箱
+    - invitations
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - complete
+    - finish
+    - 完成
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - appointment
+    - meeting
+    - 事件
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - alert
+    - task
+    - 提醒
+    semantic_type: tab
+  - text: More suggestions
+    center:
+    - 0.9428
+    - 0.6453
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - additional
+    - recommendations
+    - 更多建议
+    semantic_type: button
+  - text: shift
+    center:
+    - 0.0746
+    - 0.8295
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - caps
+    - uppercase
+    - 切换
+    semantic_type: button
+  - text: 表情符号
+    center:
+    - 0.194
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - emoji
+    - emoticon
+    - 表情
+    semantic_type: button
+  - text: 换行
+    center:
+    - 0.8706
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - return
+    - enter
+    - newline
+    semantic_type: button
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - title
+    - event name
+    - 标题
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - full day
+    - 全天
+    - all day event
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - add
+    - 新建
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - place
+    - address
+    - 位置
+    - video link
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - begin
+    - start time
+    - 开始
+    semantic_type: label
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.5286
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - finish
+    - end time
+    - 结束
+    semantic_type: label
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - commute
+    - transit
+    - 路程时间
+    semantic_type: setting
+  - text: None
+    center:
+    - 0.8284
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - zero
+    - empty
+    - 无
+    semantic_type: label
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recurring
+    - frequency
+    - 重复
+    semantic_type: setting
+  - text: Never
+    center:
+    - 0.8234
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - no repeat
+    - once
+    - 从不
+    semantic_type: label
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar selection
+    - 日程类型
+    - calendar category
+    semantic_type: setting
+  - text: Invitees
+    center:
+    - 0.1517
+    - 0.8432
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - guests
+    - attendees
+    - 参与者
+    semantic_type: setting
+  - text: Alert
+    center:
+    - 0.1244
+    - 0.9428
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification
+    - alarm
+    - 提醒
+    semantic_type: setting
+  - text: favorite
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - starred
+    - bookmark
+    - 收藏
+    semantic_type: button
+  description: New event creation screen with fields for title, date, time, location,
+    repeat, alerts, and invitees
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_18
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year
+    - twenty twenty-six
+    semantic_type: label
+  - text: List
+    center:
+    - 0.6294
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - list view
+    - schedule
+    - agenda
+    semantic_type: tab
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new
+    - plus
+    - 添加
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - 今天
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - manage calendars
+    - 日程
+    semantic_type: menu_item
+  - text: inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - 收件箱
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - complete
+    - finish
+    - 完成
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - appointment
+    - meeting
+    - 事件
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - task
+    - to-do
+    - 提醒
+    semantic_type: tab
+  - text: shift
+    center:
+    - 0.0746
+    - 0.8295
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - work shift
+    - schedule block
+    semantic_type: label
+  - text: Emoji
+    center:
+    - 0.194
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - icon
+    - smiley
+    - 表情
+    semantic_type: button
+  - text: return
+    center:
+    - 0.8706
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - enter
+    - submit
+    - 返回
+    semantic_type: button
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - event name
+    - subject
+    - 标题
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - full day
+    - 24 hours
+    - 全天
+    semantic_type: toggle
+  - text: July
+    center:
+    - 0.1294
+    - 0.1625
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - month
+    - 七月
+    semantic_type: label
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - add
+    - 新建
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - place
+    - address
+    - 位置
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - begin
+    - start time
+    - 开始
+    semantic_type: input
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.5286
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - finish
+    - end time
+    - 结束
+    semantic_type: input
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - commute
+    - transit
+    - 路程时间
+    semantic_type: menu_item
+  - text: None
+    center:
+    - 0.8284
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - zero
+    - empty
+    - 无
+    semantic_type: label
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recurrence
+    - cycle
+    - 重复
+    semantic_type: menu_item
+  - text: Never
+    center:
+    - 0.8234
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - no repeat
+    - once
+    - 从不
+    semantic_type: label
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - category
+    - schedule type
+    - 日历
+    semantic_type: menu_item
+  - text: 个人
+    center:
+    - 0.8358
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - personal
+    - private
+    - individual
+    semantic_type: label
+  - text: Invitees
+    center:
+    - 0.1517
+    - 0.8432
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - guests
+    - attendees
+    - 参与者
+    semantic_type: menu_item
+  - text: Alert
+    center:
+    - 0.1244
+    - 0.9428
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification
+    - alarm
+    - 提醒
+    semantic_type: menu_item
+  - text: favorite
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - star
+    - bookmark
+    - 收藏
+    semantic_type: toggle
+  - text: Clear text
+    center:
+    - 0.8831
+    - 0.2517
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - erase
+    - delete text
+    - 清除文本
+    semantic_type: button
+  description: New event creation screen with fields for title, date, time, location,
+    repeat, alerts, and invitees.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_19
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year
+    - calendar year
+    semantic_type: label
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new
+    - plus
+    - 添加
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - 今天
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - 日程
+    - accounts
+    semantic_type: menu_item
+  - text: inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - 收件箱
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - complete
+    - finish
+    - 完成
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - appointment
+    - meeting
+    - 事件
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - task
+    - alert
+    - 提醒事项
+    semantic_type: tab
+  - text: date and time
+    center:
+    - 0.1095
+    - 0.6133
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - schedule
+    - when
+    - 日期时间
+    semantic_type: label
+  - text: location services
+    center:
+    - 0.301
+    - 0.611
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - GPS
+    - 定位服务
+    - location permissions
+    semantic_type: setting
+  - text: number
+    center:
+    - 0.495
+    - 0.611
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - numeric
+    - digit
+    - 数字
+    semantic_type: input
+  - text: flag
+    center:
+    - 0.6866
+    - 0.611
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - mark
+    - priority
+    - 旗帜
+    semantic_type: button
+  - text: camera
+    center:
+    - 0.8881
+    - 0.611
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - photo
+    - scan
+    - 相机
+    semantic_type: button
+  - text: shift
+    center:
+    - 0.0746
+    - 0.8295
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - caps
+    - uppercase
+    - 切换
+    semantic_type: button
+  - text: Emoji
+    center:
+    - 0.194
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - smiley
+    - icon
+    - 表情符号
+    semantic_type: button
+  - text: return
+    center:
+    - 0.8706
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - enter
+    - newline
+    - 回车
+    semantic_type: button
+  - text: URL
+    center:
+    - 0.5
+    - 0.3741
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - link
+    - website
+    - 网址
+    semantic_type: input
+  - text: Time
+    center:
+    - 0.8408
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - hour
+    - minute
+    - 时间
+    semantic_type: label
+  - text: Urgent
+    center:
+    - 0.8408
+    - 0.6556
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - high priority
+    - important
+    - 紧急
+    semantic_type: label
+  - text: all-day
+    center:
+    - 0.8905
+    - 0.5309
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - full day
+    - 全天
+    - 24 hours
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - add
+    - 新建
+    semantic_type: button
+  - text: Date
+    center:
+    - 0.5547
+    - 0.5
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - day
+    - calendar day
+    - 日期
+    semantic_type: label
+  - text: Never
+    center:
+    - 0.8234
+    - 0.7689
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - no repeat
+    - once
+    - 永不
+    semantic_type: menu_item
+  - text: Repeat
+    center:
+    - 0.2537
+    - 0.7689
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recurring
+    - cycle
+    - 重复
+    semantic_type: menu_item
+  - text: 提醒
+    center:
+    - 0.8308
+    - 0.8936
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Reminder
+    - alert
+    - notification
+    semantic_type: label
+  - text: Details
+    center:
+    - 0.5323
+    - 0.9611
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - info
+    - description
+    - 详情
+    semantic_type: menu_item
+  - text: favorite
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - star
+    - bookmark
+    - 收藏
+    semantic_type: toggle
+  - text: calendar
+    center:
+    - 0.1144
+    - 0.5103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - schedule
+    - planner
+    - 日历
+    semantic_type: label
+  - text: clock
+    center:
+    - 0.1144
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - time
+    - watch
+    - 时钟
+    semantic_type: label
+  - text: alarm
+    center:
+    - 0.1144
+    - 0.6568
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - alert
+    - notification
+    - 闹钟
+    semantic_type: label
+  - text: ListBadgeDefault
+    center:
+    - 0.1144
+    - 0.8936
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - badge
+    - indicator
+    - dot
+    semantic_type: other
+  description: New event creation screen with fields for title, date, time, location,
+    repeat, alert, calendar selection, and options to add notes, URL, or attachments.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_20
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year 2026
+    - 2026年
+    semantic_type: label
+  - text: List
+    center:
+    - 0.6294
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - list view
+    - 列表
+    semantic_type: tab
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new
+    - 添加
+    - plus
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - 今天
+    - go to today
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - 日程
+    - manage calendars
+    semantic_type: menu_item
+  - text: inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - 收件箱
+    - invitations
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - finish
+    - 完成
+    - save
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - appointment
+    - 事件
+    - meeting
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - task
+    - 提醒
+    - to-do
+    semantic_type: tab
+  - text: Next keyboard
+    center:
+    - 0.0622
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - switch keyboard
+    - 下一个键盘
+    - input method
+    semantic_type: button
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - event name
+    - 标题
+    - subject
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - full day
+    - 全天
+    - all day toggle
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - 新建
+    - add
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - place
+    - 位置
+    - video link
+    - meeting link
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - begin
+    - 开始
+    - start time
+    semantic_type: label
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.5286
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - finish
+    - 结束
+    - end time
+    semantic_type: label
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - transit
+    - 路程时间
+    - commute
+    semantic_type: setting
+  - text: None
+    center:
+    - 0.8284
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - zero
+    - 无
+    - no travel time
+    semantic_type: label
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recurrence
+    - 重复
+    - recurring
+    semantic_type: setting
+  - text: Never
+    center:
+    - 0.8234
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - no repeat
+    - 从不
+    - once
+    semantic_type: label
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar selection
+    - 日历
+    - category
+    semantic_type: setting
+  - text: Invitees
+    center:
+    - 0.1517
+    - 0.8432
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - attendees
+    - 参与者
+    - guests
+    - people
+    semantic_type: setting
+  - text: Alert
+    center:
+    - 0.1244
+    - 0.9428
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification
+    - 提醒
+    - alarm
+    semantic_type: setting
+  - text: favorite
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - starred
+    - 收藏
+    - bookmark
+    semantic_type: toggle
+  description: New event creation screen with fields for title, date, time, location,
+    repeat, alerts, and invitees
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_21
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year 2026
+    - calendar year
+    semantic_type: label
+  - text: List
+    center:
+    - 0.6294
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - list view
+    - agenda
+    - schedule list
+    semantic_type: tab
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new event
+    - plus
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - go to today
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - manage calendars
+    - accounts
+    semantic_type: menu_item
+  - text: inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - pending
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - complete
+    - finish
+    - save
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - appointment
+    - meeting
+    - schedule
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - task
+    - to-do
+    - alert
+    semantic_type: tab
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - event name
+    - subject
+    - what
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - full day
+    - 24 hours
+    - all day toggle
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - add
+    - fresh
+    semantic_type: label
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - place
+    - address
+    - virtual meeting
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - begin
+    - start time
+    - from
+    semantic_type: input
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.5286
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - finish
+    - end time
+    - to
+    semantic_type: input
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - transit
+    - commute
+    - buffer time
+    semantic_type: setting
+  - text: None
+    center:
+    - 0.8284
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - zero
+    - empty
+    - no travel time
+    semantic_type: label
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recurring
+    - frequency
+    - repeat event
+    semantic_type: setting
+  - text: Never
+    center:
+    - 0.8234
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - no repeat
+    - once
+    - one-time
+    semantic_type: label
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar selection
+    - category
+    - account
+    semantic_type: setting
+  - text: Invitees
+    center:
+    - 0.1517
+    - 0.8432
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - guests
+    - attendees
+    - people
+    semantic_type: setting
+  - text: Alert
+    center:
+    - 0.1244
+    - 0.9428
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification
+    - reminder
+    - alarm
+    semantic_type: setting
+  - text: favorite
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - starred
+    - bookmark
+    - important
+    semantic_type: toggle
+  - text: Add attachment…
+    center:
+    - 0.5
+    - 0.5961
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - attach file
+    - include document
+    - paperclip
+    semantic_type: button
+  description: New event creation screen with fields for title, date, time, location,
+    repeat, alerts, and attachments.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_22
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year
+    - calendar year
+    semantic_type: label
+  - text: List
+    center:
+    - 0.6294
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - list view
+    - schedule
+    - agenda
+    semantic_type: tab
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new event
+    - plus
+    - 添加
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - 今天
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - manage calendars
+    - 日历
+    semantic_type: menu_item
+  - text: inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - 收件箱
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - complete
+    - finish
+    - save
+    - 完成
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - appointment
+    - meeting
+    - 事件
+    semantic_type: label
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - task
+    - alert
+    - 提醒
+    semantic_type: label
+  - text: Forward
+    center:
+    - 0.4751
+    - 0.3055
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - next
+    - advance
+    - 前进
+    semantic_type: button
+  - text: shift
+    center:
+    - 0.0746
+    - 0.8295
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - modifier
+    - caps
+    - shift key
+    semantic_type: button
+  - text: Emoji
+    center:
+    - 0.194
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - emoji keyboard
+    - smiley
+    - 表情
+    semantic_type: button
+  - text: return
+    center:
+    - 0.8706
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - enter
+    - newline
+    - 回车
+    semantic_type: button
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - title
+    - event name
+    - 标题
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - all day
+    - full day
+    - 全天
+    semantic_type: toggle
+  - text: July
+    center:
+    - 0.1294
+    - 0.1625
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - month
+    - 七月
+    semantic_type: label
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - add
+    - 新建
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - location
+    - video call
+    - place
+    - 位置
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - start time
+    - begin
+    - 开始
+    semantic_type: label
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.5286
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - end time
+    - finish
+    - 结束
+    semantic_type: label
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - transit time
+    - commute
+    - 路程时间
+    semantic_type: setting
+  - text: None
+    center:
+    - 0.8284
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - zero
+    - empty
+    - 无
+    semantic_type: label
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recurrence
+    - repeat event
+    - 重复
+    semantic_type: setting
+  - text: Never
+    center:
+    - 0.8234
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - no repeat
+    - once
+    - 从不
+    semantic_type: label
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar selection
+    - choose calendar
+    - 日历
+    semantic_type: setting
+  - text: 个人
+    center:
+    - 0.8358
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - personal
+    - private
+    - individual
+    semantic_type: label
+  - text: Invitees
+    center:
+    - 0.1517
+    - 0.8432
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - guests
+    - attendees
+    - participants
+    - 参与者
+    semantic_type: setting
+  - text: Alert
+    center:
+    - 0.1244
+    - 0.9428
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification
+    - alarm
+    - 提醒
+    semantic_type: setting
+  - text: Paste
+    center:
+    - 0.1368
+    - 0.3055
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - insert
+    - paste text
+    - 粘贴
+    semantic_type: button
+  - text: AutoFill
+    center:
+    - 0.3284
+    - 0.3055
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - autocomplete
+    - suggest
+    - 自动填充
+    semantic_type: button
+  - text: favorite
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - bookmark
+    - star
+    - 收藏
+    semantic_type: toggle
+  - text: Clear text
+    center:
+    - 0.8831
+    - 0.2517
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - delete text
+    - erase
+    - 清除文本
+    semantic_type: button
+  description: New event creation screen with fields for title, date, time, location,
+    repeat, alerts, and invitees.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_23
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year
+    - calendar year
+    - twenty twenty-six
+    semantic_type: label
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new
+    - plus
+    - 添加
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - 今天
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - 日程
+    - calendar settings
+    semantic_type: menu_item
+  - text: inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - 收件箱
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - finish
+    - complete
+    - 完成
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - appointment
+    - meeting
+    - 事件
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - task
+    - alert
+    - 提醒
+    semantic_type: tab
+  - text: Date Picker
+    center:
+    - 0.5647
+    - 0.4691
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar picker
+    - date selector
+    - 日期选择器
+    semantic_type: input
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - event name
+    - subject
+    - 标题
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - full day
+    - 全天
+    - all day toggle
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - add
+    - 新建
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - place
+    - address
+    - 位置或视频通话
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - begin
+    - start time
+    - 开始
+    semantic_type: label
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.5286
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - finish
+    - end time
+    - 结束
+    semantic_type: label
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.6281
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recurrence
+    - recurring
+    - 重复
+    semantic_type: menu_item
+  - text: Never
+    center:
+    - 0.8234
+    - 0.6281
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - no repeat
+    - 不重复
+    - none
+    semantic_type: label
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.7265
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar selection
+    - 日程类型
+    - category
+    semantic_type: menu_item
+  - text: Invitees
+    center:
+    - 0.1517
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - attendees
+    - participants
+    - 受邀人
+    semantic_type: menu_item
+  - text: None
+    center:
+    - 0.8234
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - empty
+    - no invitees
+    - 无
+    semantic_type: label
+  - text: Alert
+    center:
+    - 0.1244
+    - 0.8844
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification
+    - reminder
+    - 提醒
+    semantic_type: menu_item
+  - text: Add attachment…
+    center:
+    - 0.5
+    - 0.9828
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - attach file
+    - include file
+    - 添加附件
+    semantic_type: button
+  - text: favorite
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - star
+    - bookmark
+    - 收藏
+    semantic_type: toggle
+  description: New event creation screen with fields for title, date, time, location,
+    repeat, calendar, invitees, alert, and attachment.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_24
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year 2026
+    - calendar year
+    semantic_type: label
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new
+    - plus
+    - 添加
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - 今天
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - 日程
+    - calendar settings
+    semantic_type: menu_item
+  - text: inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - 收件箱
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - complete
+    - finish
+    - 完成
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - appointment
+    - meeting
+    - 事件
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - task
+    - alarm
+    - 提醒
+    semantic_type: tab
+  - text: Previous Month
+    center:
+    - 0.7935
+    - 0.5389
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - last month
+    - back
+    - 上个月
+    semantic_type: button
+  - text: Next Month
+    center:
+    - 0.9005
+    - 0.5389
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - forward
+    - next
+    - 下个月
+    semantic_type: button
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - event name
+    - subject
+    - 标题
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - full day
+    - 全天
+    - all day toggle
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - add
+    - 新建
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - place
+    - address
+    - 位置
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - begin
+    - start time
+    - 开始
+    semantic_type: label
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - finish
+    - end time
+    - 结束
+    semantic_type: label
+  - text: Calendar
+    center:
+    - 0.0846
+    - 0.2128
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar selection
+    - 日程类型
+    - choose calendar
+    semantic_type: menu_item
+  - text: Invitees
+    center:
+    - 0.0721
+    - 0.2128
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - guests
+    - attendees
+    - 参与者
+    semantic_type: menu_item
+  - text: Alert
+    center:
+    - 0.0448
+    - 0.2128
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification
+    - reminder
+    - 提醒
+    semantic_type: menu_item
+  - text: Add attachment…
+    center:
+    - 0.4204
+    - 0.2311
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - attach file
+    - include
+    - 添加附件
+    semantic_type: button
+  - text: favorite
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - star
+    - bookmark
+    - 收藏
+    semantic_type: toggle
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.3673
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - transit
+    - commute
+    - 行程时间
+    semantic_type: setting
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.4657
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - recurring
+    - cycle
+    - 重复
+    semantic_type: menu_item
+  description: Event creation screen with fields for title, date, time, location,
+    alerts, and other details to add a new calendar event or reminder.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_25
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year
+    - calendar year
+    semantic_type: label
+  - text: List
+    center:
+    - 0.6294
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - list view
+    - schedule
+    - 日程
+    semantic_type: tab
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new event
+    - plus
+    - 添加
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - 今天
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - manage calendars
+    - 日历
+    semantic_type: menu_item
+  - text: inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - 收件箱
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - complete
+    - finish
+    - 完成
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - appointment
+    - meeting
+    - 事件
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - task
+    - to-do
+    - 提醒
+    semantic_type: tab
+  - text: 5 minutes
+    center:
+    - 0.6095
+    - 0.3318
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 5 min
+    - five minutes
+    semantic_type: menu_item
+  - text: 15 minutes
+    center:
+    - 0.6095
+    - 0.3799
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 15 min
+    - quarter hour
+    semantic_type: menu_item
+  - text: 30 minutes
+    center:
+    - 0.6095
+    - 0.4279
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 30 min
+    - half hour
+    semantic_type: menu_item
+  - text: shift
+    center:
+    - 0.0746
+    - 0.8295
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shift key
+    - caps
+    - 切换
+    semantic_type: button
+  - text: Emoji
+    center:
+    - 0.194
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - emoji keyboard
+    - smiley
+    - 表情
+    semantic_type: button
+  - text: return
+    center:
+    - 0.8706
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - enter
+    - done
+    - 换行
+    semantic_type: button
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - title
+    - event name
+    - 标题
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - all day
+    - 全天
+    semantic_type: toggle
+  - text: July
+    center:
+    - 0.1294
+    - 0.1625
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - month
+    - 七月
+    semantic_type: label
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - add
+    - 新建
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - place
+    - address
+    - 位置
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - start time
+    - begin
+    - 开始
+    semantic_type: menu_item
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.5286
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - end time
+    - finish
+    - 结束
+    semantic_type: menu_item
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - transit
+    - commute
+    - 路程时间
+    semantic_type: menu_item
+  - text: None
+    center:
+    - 0.8284
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - zero
+    - empty
+    - 无
+    semantic_type: label
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recurrence
+    - repeat event
+    - 重复
+    semantic_type: menu_item
+  - text: Never
+    center:
+    - 0.8234
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - no repeat
+    - 从不
+    semantic_type: label
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar selection
+    - choose calendar
+    - 日历
+    semantic_type: menu_item
+  - text: 个人
+    center:
+    - 0.8358
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - personal
+    - private
+    - my calendar
+    semantic_type: label
+  - text: Invitees
+    center:
+    - 0.1517
+    - 0.8432
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - guests
+    - attendees
+    - 参与者
+    semantic_type: menu_item
+  - text: Alert
+    center:
+    - 0.1244
+    - 0.9428
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification
+    - alarm
+    - 提醒
+    semantic_type: menu_item
+  - text: favorite
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - star
+    - bookmark
+    - 收藏
+    semantic_type: toggle
+  - text: selected
+    center:
+    - 0.3682
+    - 0.2597
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - chosen
+    - picked
+    - 已选
+    semantic_type: label
+  - text: Clear text
+    center:
+    - 0.8831
+    - 0.2517
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - delete text
+    - erase
+    - 清除文本
+    semantic_type: button
+  description: New event creation screen with fields for title, date, time, location,
+    repeat, alerts, and invitees.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_26
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year
+    - calendar year
+    semantic_type: label
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new
+    - plus
+    - 添加
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - 今天
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - 日程
+    - calendar settings
+    semantic_type: menu_item
+  - text: inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - 收件箱
+    - invitations
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - complete
+    - finish
+    - 完成
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - appointment
+    - meeting
+    - 事件
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - task
+    - alarm
+    - 提醒
+    semantic_type: tab
+  - text: Clear text
+    center:
+    - 0.8831
+    - 0.2517
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - delete text
+    - erase
+    - 清除文本
+    semantic_type: button
+  - text: shift
+    center:
+    - 0.0746
+    - 0.8295
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - caps
+    - uppercase
+    - 切换
+    semantic_type: button
+  - text: Emoji
+    center:
+    - 0.194
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - emoji keyboard
+    - 表情
+    - smiley
+    semantic_type: button
+  - text: return
+    center:
+    - 0.8706
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - enter
+    - newline
+    - 回车
+    semantic_type: button
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.6133
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - full day
+    - 全天
+    - all day event
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - add
+    - 新建
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.5137
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - place
+    - address
+    - 位置或视频通话
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.6728
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - begin
+    - start time
+    - 开始
+    semantic_type: input
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.7323
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - finish
+    - end time
+    - 结束
+    semantic_type: input
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.7918
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - transit time
+    - commute
+    - 行程时间
+    semantic_type: setting
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.8902
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recurring
+    - cycle
+    - 重复
+    semantic_type: setting
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.9886
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar selection
+    - 日程类别
+    - calendar type
+    semantic_type: setting
+  - text: Alert
+    center:
+    - 0.0448
+    - 0.2128
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification
+    - reminder
+    - 提醒
+    semantic_type: setting
+  - text: Add attachment…
+    center:
+    - 0.4204
+    - 0.2311
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - attach file
+    - include
+    - 添加附件
+    semantic_type: button
+  - text: favorite
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - star
+    - bookmark
+    - 收藏
+    semantic_type: toggle
+  - text: Invitees
+    center:
+    - 0.1517
+    - 0.8432
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - guests
+    - participants
+    - 受邀人
+    semantic_type: input
+  description: New event creation screen with fields for title, date, time, location,
+    repeat, calendar, alert, attachments, and invitees.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_27
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year 2026
+    - calendar year
+    semantic_type: label
+  - text: List
+    center:
+    - 0.6294
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - list view
+    - schedule list
+    semantic_type: tab
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new event
+    - plus
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - go to today
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - manage calendars
+    - subscriptions
+    semantic_type: menu_item
+  - text: inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - pending
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - complete
+    - finish
+    - save
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - appointment
+    - meeting
+    - schedule
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - task
+    - to-do
+    - alert
+    semantic_type: tab
+  - text: Clear text
+    center:
+    - 0.8831
+    - 0.2517
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - delete text
+    - erase
+    - clear input
+    semantic_type: button
+  - text: shift
+    center:
+    - 0.0746
+    - 0.8295
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - caps
+    - uppercase
+    - shift key
+    semantic_type: button
+  - text: Emoji
+    center:
+    - 0.194
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - emoji keyboard
+    - smiley
+    - icon
+    semantic_type: button
+  - text: return
+    center:
+    - 0.8706
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - enter
+    - new line
+    - done
+    semantic_type: button
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4886
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - full day
+    - 24 hours
+    - all day toggle
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - add new
+    - fresh
+    semantic_type: label
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.389
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - place
+    - address
+    - virtual meeting
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.5481
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - begin
+    - start time
+    - from
+    semantic_type: input
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.6076
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - finish
+    - end time
+    - to
+    semantic_type: input
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.667
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - transit
+    - commute
+    - buffer time
+    semantic_type: setting
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.7654
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recurring
+    - frequency
+    - cycle
+    semantic_type: setting
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.8638
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar selection
+    - category
+    - group
+    semantic_type: setting
+  - text: Invitees
+    center:
+    - 0.1517
+    - 0.9222
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - guests
+    - attendees
+    - participants
+    semantic_type: setting
+  - text: favorite
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - starred
+    - bookmark
+    - important
+    semantic_type: toggle
+  - text: Alert
+    center:
+    - 0.1244
+    - 0.9428
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - notification
+    - alarm
+    - reminder time
+    semantic_type: setting
+  description: Calendar event creation screen with fields for event details like title,
+    date, time, location, repeat, and alerts.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_28
+  elements:
+  - text: July
+    center:
+    - 0.1443
+    - 0.095
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 七月
+    - month
+    - July 2024
+    semantic_type: label
+  - text: Single Day
+    center:
+    - 0.6219
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - day view
+    - 1 day
+    - daily view
+    semantic_type: tab
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - new event
+    - create
+    - plus
+    - +
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - go to today
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - accounts
+    - subscriptions
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - pending
+    semantic_type: menu_item
+  - text: all-day
+    center:
+    - 0.0945
+    - 0.27
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - all day event
+    - 全天
+    - full day
+    semantic_type: label
+  - text: _contentView
+    center:
+    - 0.5796
+    - 0.2689
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - content area
+    - main view
+    - calendar grid
+    semantic_type: other
+  - text: selected
+    center:
+    - 0.4229
+    - 0.1064
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - highlighted
+    - chosen
+    - active
+    semantic_type: other
+  - text: '[App]'
+    center:
+    - 0.4925
+    - 0.1064
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - time column
+    - hour labels
+    - timeline side
+    semantic_type: other
+  - text: '[App]'
+    center:
+    - 0.4925
+    - 0.1545
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - multi-day time column
+    - week timeline side
+    - all-day time labels
+    semantic_type: other
+  - text: list
+    center:
+    - 0.49
+    - 0.2025
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - list view
+    - agenda
+    - schedule
+    semantic_type: tab
+  description: Calendar day view for July showing a single day's schedule with options
+    to add events, view inbox, and switch calendars.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_29
+  elements:
+  - text: July
+    center:
+    - 0.1443
+    - 0.095
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 七月
+    - month
+    - July 2024
+    semantic_type: label
+  - text: Single Day
+    center:
+    - 0.6219
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - one day
+    - day view
+    - 单日
+    semantic_type: tab
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - plus
+    - 添加
+    - new event
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - now
+    - current date
+    - 今天
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - 日程
+    - calendar settings
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - 收件箱
+    - invitations
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - finish
+    - complete
+    - 完成
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - appointment
+    - meeting
+    - 事件
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - task
+    - alarm
+    - 提醒
+    semantic_type: tab
+  - text: More suggestions
+    center:
+    - 0.9428
+    - 0.6453
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - additional
+    - recommendations
+    - 更多建议
+    semantic_type: button
+  - text: shift
+    center:
+    - 0.0746
+    - 0.8295
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - caps
+    - uppercase
+    - 切换
+    semantic_type: button
+  - text: 表情符号
+    center:
+    - 0.194
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - emoji
+    - emoticon
+    - 表情
+    semantic_type: button
+  - text: 换行
+    center:
+    - 0.8706
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - return
+    - newline
+    - enter
+    semantic_type: button
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - title
+    - event name
+    - 标题
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - full day
+    - 全天
+    - all day event
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - add
+    - 新建
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - place
+    - address
+    - 位置
+    - video link
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - begin
+    - start time
+    - 开始
+    semantic_type: label
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.5286
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - finish
+    - end time
+    - 结束
+    semantic_type: label
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - transit
+    - commute
+    - 路程时间
+    semantic_type: setting
+  - text: None
+    center:
+    - 0.8284
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - zero
+    - empty
+    - 无
+    semantic_type: label
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recurring
+    - frequency
+    - 重复
+    semantic_type: setting
+  - text: Never
+    center:
+    - 0.8234
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - no repeat
+    - once
+    - 从不
+    semantic_type: label
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - schedule
+    - 日程
+    - calendar selection
+    semantic_type: setting
+  - text: Invitees
+    center:
+    - 0.1517
+    - 0.8432
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - guests
+    - attendees
+    - 参与者
+    semantic_type: setting
+  - text: Alert
+    center:
+    - 0.1244
+    - 0.9428
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification
+    - reminder
+    - 提醒
+    semantic_type: setting
+  - text: _contentView
+    center:
+    - 0.5796
+    - 0.2689
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - content area
+    - main view
+    - 内容视图
+    semantic_type: other
+  description: Event creation screen with fields for title, date, time, location,
+    repeat, alerts, and invitees
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_30
+  elements:
+  - text: July
+    center:
+    - 0.1443
+    - 0.095
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 七月
+    - Jul
+    - month
+    semantic_type: label
+  - text: Single Day
+    center:
+    - 0.6219
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 单日
+    - day view
+    - 1 day
+    semantic_type: tab
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 添加
+    - new
+    - create
+    - plus
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 今天
+    - now
+    - current date
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 日历
+    - calendar list
+    - manage calendars
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 收件箱
+    - invitations
+    - notifications
+    semantic_type: menu_item
+  - text: close
+    center:
+    - 0.0945
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关闭
+    - dismiss
+    - x
+    semantic_type: button
+  - text: show-declined-events-switch
+    center:
+    - 0.8408
+    - 0.8478
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 显示已拒绝事件
+    - declined events toggle
+    semantic_type: toggle
+  - text: show-completed-reminders-switch
+    center:
+    - 0.8408
+    - 0.9073
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 显示已完成提醒
+    - completed reminders toggle
+    semantic_type: toggle
+  - text: all-day
+    center:
+    - 0.0945
+    - 0.27
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 全天
+    - all day event
+    - 24 hours
+    semantic_type: toggle
+  - text: iCloud
+    center:
+    - 0.1418
+    - 0.1739
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - iCloud日历
+    - Apple calendar
+    - cloud
+    semantic_type: setting
+  - text: Other
+    center:
+    - 0.1343
+    - 0.4977
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 其他
+    - misc
+    - other calendars
+    semantic_type: setting
+  - text: Subscribed
+    center:
+    - 0.2761
+    - 0.5732
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 订阅
+    - subscription calendars
+    - external
+    semantic_type: setting
+  - text: Scheduled Reminders
+    center:
+    - 0.3856
+    - 0.6304
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 计划提醒
+    - reminders list
+    - tasks
+    semantic_type: setting
+  - text: Birthdays
+    center:
+    - 0.2935
+    - 0.6899
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 生日
+    - birthday calendar
+    - birthdays list
+    semantic_type: setting
+  - text: Siri Suggestions
+    center:
+    - 0.3333
+    - 0.7494
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Siri建议
+    - siri found in apps
+    - suggestions
+    semantic_type: setting
+  - text: Show Declined Events
+    center:
+    - 0.2886
+    - 0.8478
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 显示已拒绝事件
+    - declined events
+    - show declined
+    semantic_type: toggle
+  - text: Show Completed Reminders
+    center:
+    - 0.3483
+    - 0.9073
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 显示已完成提醒
+    - completed reminders
+    - show completed
+    semantic_type: toggle
+  - text: _contentView
+    center:
+    - 0.5796
+    - 0.2689
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 内容视图
+    - content area
+    - main view
+    semantic_type: other
+  - text: Forward
+    center:
+    - 0.903
+    - 0.1739
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 转发
+    - send
+    - share
+    semantic_type: button
+  - text: selected
+    center:
+    - 0.1095
+    - 0.2265
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 已选
+    - chosen
+    - highlighted
+    semantic_type: label
+  - text: info
+    center:
+    - 0.8905
+    - 0.2265
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 信息
+    - details
+    - about
+    semantic_type: button
+  - text: Add Calendar
+    center:
+    - 0.2537
+    - 0.9085
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 添加日历
+    - new calendar
+    - create calendar
+    semantic_type: button
+  description: Calendar settings screen for managing calendar visibility, toggling
+    declined events and completed reminders, and adding new calendars.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_31
+  elements:
+  - text: July
+    center:
+    - 0.1443
+    - 0.095
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 七月
+    - Jul
+    - month
+    semantic_type: label
+  - text: Single Day
+    center:
+    - 0.6219
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - day view
+    - 单日
+    - 1 day
+    semantic_type: tab
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - new event
+    - 添加
+    - plus
+    - create
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 今天
+    - now
+    - current date
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 日历列表
+    - calendar list
+    - accounts
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 收件箱
+    - notifications
+    - invitations
+    semantic_type: menu_item
+  - text: close
+    center:
+    - 0.0945
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关闭
+    - x
+    - dismiss
+    semantic_type: button
+  - text: New
+    center:
+    - 0.4129
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 新建
+    - create
+    - add
+    semantic_type: label
+  - text: all-day
+    center:
+    - 0.0945
+    - 0.27
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 全天
+    - 24 hours
+    - full day
+    semantic_type: toggle
+  - text: _contentView
+    center:
+    - 0.5796
+    - 0.2689
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - content area
+    - main view
+    - 内容视图
+    semantic_type: other
+  description: Calendar day view for July showing a single day's schedule with options
+    to add events, view inbox, and manage calendars.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_32
+  elements:
+  - text: 建党节
+    center:
+    - 0.1567
+    - 0.159
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Party's Day
+    - CPC Founding Day
+    - 7月1日
+    semantic_type: label
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.3089
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 日历
+    - 日程
+    - Scheduler
+    semantic_type: tab
+  - text: 中国大陆节假日
+    center:
+    - 0.7488
+    - 0.3089
+    found_at_scroll: 0
+    fixed: true
+  description: Calendar view showing the date for China's Party Founding Day (July
+    1) with a list of mainland China holidays.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_33
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year 2026
+    - calendar year
+    semantic_type: label
+  - text: List
+    center:
+    - 0.6294
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - list view
+    - schedule
+    - agenda
+    semantic_type: tab
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new
+    - plus
+    - add event
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - go to today
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - manage calendars
+    - settings
+    semantic_type: link
+  - text: inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - pending
+    semantic_type: link
+  - text: close
+    center:
+    - 0.0945
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - dismiss
+    - x
+    - exit
+    semantic_type: button
+  - text: show-declined-events-switch
+    center:
+    - 0.8408
+    - 0.8478
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - declined events toggle
+    semantic_type: toggle
+  - text: show-completed-reminders-switch
+    center:
+    - 0.8408
+    - 0.9073
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - completed reminders toggle
+    semantic_type: toggle
+  - text: iCloud
+    center:
+    - 0.1418
+    - 0.1739
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - apple calendar
+    - icloud account
+    - cloud
+    semantic_type: label
+  - text: Other
+    center:
+    - 0.1343
+    - 0.4977
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - miscellaneous
+    - other calendars
+    semantic_type: label
+  - text: Subscribed
+    center:
+    - 0.2761
+    - 0.5732
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - subscription calendars
+    - external
+    semantic_type: label
+  - text: Scheduled Reminders
+    center:
+    - 0.3856
+    - 0.6304
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - reminders list
+    - tasks
+    semantic_type: label
+  - text: Birthdays
+    center:
+    - 0.2935
+    - 0.6899
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - birthday calendar
+    - friends birthdays
+    semantic_type: label
+  - text: Siri Suggestions
+    center:
+    - 0.3333
+    - 0.7494
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - siri found in apps
+    - intelligent suggestions
+    semantic_type: label
+  - text: Show Declined Events
+    center:
+    - 0.2886
+    - 0.8478
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - display declined
+    - declined events setting
+    semantic_type: setting
+  - text: Show Completed Reminders
+    center:
+    - 0.3483
+    - 0.9073
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - display completed
+    - completed reminders setting
+    semantic_type: setting
+  - text: Forward
+    center:
+    - 0.903
+    - 0.1739
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - next
+    - proceed
+    - arrow
+    semantic_type: button
+  - text: selected
+    center:
+    - 0.1095
+    - 0.2265
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - checked
+    - active
+    - chosen
+    semantic_type: label
+  - text: info
+    center:
+    - 0.8905
+    - 0.2265
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - details
+    - information
+    - about
+    semantic_type: button
+  - text: circle
+    center:
+    - 0.1095
+    - 0.5606
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - color indicator
+    - dot
+    - calendar color
+    semantic_type: label
+  - text: Add Calendar
+    center:
+    - 0.2537
+    - 0.9085
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - create calendar
+    - new calendar
+    - plus
+    semantic_type: button
+  description: Calendar settings screen for managing calendar visibility, toggling
+    declined events and completed reminders, and adding new calendars.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_34
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year
+    - calendar year
+    semantic_type: label
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new
+    - plus
+    - 添加
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - now
+    - current date
+    - 今天
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - 日程
+    - calendar overview
+    semantic_type: tab
+  - text: inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - 收件箱
+    - invitations
+    semantic_type: menu_item
+  - text: close
+    center:
+    - 0.1269
+    - 0.111
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - dismiss
+    - x
+    - 关闭
+    semantic_type: button
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1259
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - save
+    - confirm
+    - 完成
+    semantic_type: button
+  - text: calendar-title-field
+    center:
+    - 0.5
+    - 0.2323
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar name
+    - title input
+    semantic_type: input
+  - text: show-declined-events-switch
+    center:
+    - 0.8134
+    - 0.786
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - declined events toggle
+    semantic_type: toggle
+  - text: show-completed-reminders-switch
+    center:
+    - 0.8134
+    - 0.841
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - completed reminders toggle
+    semantic_type: toggle
+  - text: Event Alerts
+    center:
+    - 0.8408
+    - 0.6087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - event notifications
+    - 活动提醒
+    semantic_type: setting
+  - text: all-day
+    center:
+    - 0.8905
+    - 0.5309
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - full day
+    - 全天
+    semantic_type: toggle
+  - text: iCloud
+    center:
+    - 0.1716
+    - 0.1659
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - apple cloud
+    - icloud account
+    semantic_type: label
+  - text: Other
+    center:
+    - 0.1642
+    - 0.4645
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - miscellaneous
+    - 其他
+    semantic_type: label
+  - text: Subscribed
+    center:
+    - 0.2935
+    - 0.5332
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - subscription calendars
+    - 已订阅
+    semantic_type: label
+  - text: Scheduled Reminders
+    center:
+    - 0.3955
+    - 0.5858
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - planned reminders
+    - 计划提醒
+    semantic_type: setting
+  - text: Birthdays
+    center:
+    - 0.3109
+    - 0.6407
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - birthday calendar
+    - 生日
+    semantic_type: setting
+  - text: Siri Suggestions
+    center:
+    - 0.3458
+    - 0.6957
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - siri found
+    - siri 建议
+    semantic_type: setting
+  - text: Show Declined Events
+    center:
+    - 0.306
+    - 0.7872
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - display declined
+    - 显示已拒绝事件
+    semantic_type: toggle
+  - text: Show Completed Reminders
+    center:
+    - 0.3582
+    - 0.841
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - display completed
+    - 显示已完成提醒
+    semantic_type: toggle
+  - text: Add Calendar
+    center:
+    - 0.2736
+    - 0.9336
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create calendar
+    - 添加日历
+    semantic_type: button
+  - text: Edit Calendar
+    center:
+    - 0.5
+    - 0.1259
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - modify calendar
+    - 编辑日历
+    semantic_type: button
+  - text: Shared With
+    center:
+    - 0.5
+    - 0.3032
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - collaborators
+    - 共享者
+    semantic_type: label
+  - text: Add Person
+    center:
+    - 0.2786
+    - 0.3547
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - invite
+    - 添加人员
+    semantic_type: button
+  - text: Color
+    center:
+    - 0.5
+    - 0.4256
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar color
+    - 颜色
+    semantic_type: setting
+  - text: Custom
+    center:
+    - 0.5124
+    - 0.4771
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - custom color
+    - 自定义
+    semantic_type: button
+  - text: Notifications
+    center:
+    - 0.5
+    - 0.5538
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - alerts
+    - 通知
+    semantic_type: setting
+  - text: Allow events on this calendar to display alerts.
+    center:
+    - 0.5
+    - 0.6556
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - event alerts permission
+    semantic_type: label
+  - text: Allow anyone to subscribe to a read-only version of this calendar.
+    center:
+    - 0.5
+    - 0.7792
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - public subscription permission
+    semantic_type: label
+  - text: Delete Calendar
+    center:
+    - 0.5
+    - 0.8547
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - remove calendar
+    - 删除日历
+    semantic_type: button
+  - text: favorite
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - star
+    - bookmark
+    - 收藏
+    semantic_type: toggle
+  - text: Forward
+    center:
+    - 0.8706
+    - 0.1659
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - share
+    - 转发
+    semantic_type: button
+  - text: selected
+    center:
+    - 0.1393
+    - 0.214
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - chosen
+    - checked
+    - 已选
+    semantic_type: label
+  - text: info
+    center:
+    - 0.8582
+    - 0.214
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - details
+    - information
+    - 信息
+    semantic_type: button
+  - text: person
+    center:
+    - 0.1095
+    - 0.3547
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - contact
+    - user
+    - 人员
+    semantic_type: label
+  description: Calendar settings and details screen for editing a calendar's name,
+    color, sharing, alerts, and subscription options.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_35
+  elements:
+  - text: '2026'
+    center:
+    - 0.1542
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - year 2026
+    - calendar year
+    semantic_type: label
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new
+    - plus
+    - 添加
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - 今天
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - 日程
+    - 日历
+    semantic_type: tab
+  - text: inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - 收件箱
+    semantic_type: menu_item
+  - text: close
+    center:
+    - 0.0945
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - dismiss
+    - x
+    - 关闭
+    semantic_type: button
+  - text: show-declined-events-switch
+    center:
+    - 0.8408
+    - 0.7494
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - declined events toggle
+    semantic_type: toggle
+  - text: show-completed-reminders-switch
+    center:
+    - 0.8408
+    - 0.8089
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - completed reminders toggle
+    semantic_type: toggle
+  - text: all-day
+    center:
+    - 0.8905
+    - 0.5309
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - full day
+    - 全天
+    semantic_type: toggle
+  - text: Other
+    center:
+    - 0.1343
+    - 0.3982
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - miscellaneous
+    - 其他
+    semantic_type: menu_item
+  - text: Subscribed
+    center:
+    - 0.2761
+    - 0.4737
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - subscriptions
+    - 订阅
+    semantic_type: menu_item
+  - text: Show Declined Events
+    center:
+    - 0.2886
+    - 0.7494
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - display declined
+    - 显示已拒绝事件
+    semantic_type: setting
+  - text: Show Completed Reminders
+    center:
+    - 0.3483
+    - 0.8089
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - display completed
+    - 显示已完成提醒
+    semantic_type: setting
+  - text: Add Calendar
+    center:
+    - 0.2537
+    - 0.9085
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create calendar
+    - new calendar
+    - 添加日历
+    semantic_type: button
+  - text: favorite
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - star
+    - bookmark
+    - 收藏
+    semantic_type: toggle
+  - text: Forward
+    center:
+    - 0.903
+    - 0.0744
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - share
+    - send
+    - 转发
+    semantic_type: button
+  - text: selected
+    center:
+    - 0.1095
+    - 0.1281
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - checked
+    - chosen
+    - 已选
+    semantic_type: label
+  - text: info
+    center:
+    - 0.8905
+    - 0.127
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - details
+    - information
+    - 信息
+    semantic_type: button
+  - text: add to calendar
+    center:
+    - 0.1816
+    - 0.7403
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - import
+    - subscribe
+    - 添加到日历
+    semantic_type: button
+  - text: '[App]'
+    center:
+    - 0.1791
+    - 0.8089
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification badge
+    - activity indicator
+    semantic_type: label
+  description: Calendar settings screen with options to show declined events and completed
+    reminders, manage subscribed calendars, and add new calendars.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_36
+  elements:
+  - text: July
+    center:
+    - 0.1443
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Jul
+    - 七月
+    - month
+    semantic_type: label
+  - text: All-day
+    center:
+    - 0.1393
+    - 0.2231
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 全天
+    - all day event
+    - 24 hours
+    semantic_type: toggle
+  - text: Repeats yearly
+    center:
+    - 0.204
+    - 0.2483
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 每年重复
+    - annual
+    - yearly repeat
+    semantic_type: menu_item
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.3089
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 日历
+    - schedule
+    - planner
+    semantic_type: tab
+  description: Calendar event detail screen for a yearly repeating all-day event in
+    July, allowing the user to view and edit event details.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_37
+  elements:
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 今天
+    - current day
+    - now
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 日历列表
+    - calendar list
+    - manage calendars
+    semantic_type: button
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 收件箱
+    - notifications
+    - invites
+    semantic_type: button
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 完成
+    - finish
+    - confirm
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 事件
+    - appointment
+    - meeting
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 提醒
+    - task
+    - alarm
+    semantic_type: tab
+  - text: More suggestions
+    center:
+    - 0.9428
+    - 0.6453
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 更多建议
+    - additional suggestions
+    - see more
+    semantic_type: button
+  - text: shift
+    center:
+    - 0.0746
+    - 0.8295
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shift key
+    - caps
+    - uppercase
+    semantic_type: button
+  - text: 表情符号
+    center:
+    - 0.194
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - emoji
+    - emoticon
+    - 表情
+    semantic_type: button
+  - text: 换行
+    center:
+    - 0.8706
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - return
+    - enter
+    - new line
+    semantic_type: button
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 标题
+    - title input
+    - event name
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 全天
+    - all day event
+    - 24 hours
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 新建
+    - create
+    - add
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 地点
+    - location
+    - video call link
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 开始
+    - start time
+    - from
+    semantic_type: button
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.5286
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 结束
+    - end time
+    - to
+    semantic_type: button
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 行程时间
+    - transit time
+    - commute
+    semantic_type: setting
+  - text: None
+    center:
+    - 0.8284
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 无
+    - zero
+    - no travel time
+    semantic_type: label
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 重复
+    - recurrence
+    - repeat event
+    semantic_type: setting
+  - text: Never
+    center:
+    - 0.8234
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 从不
+    - no repeat
+    - once
+    semantic_type: label
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 日历
+    - calendar selection
+    - choose calendar
+    semantic_type: setting
+  - text: 个人
+    center:
+    - 0.8358
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Personal
+    - private
+    - 我的日历
+    semantic_type: label
+  - text: Invitees
+    center:
+    - 0.1517
+    - 0.8432
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 邀请对象
+    - attendees
+    - participants
+    semantic_type: setting
+  - text: Alert
+    center:
+    - 0.1244
+    - 0.9428
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 提醒
+    - notification
+    - alarm
+    semantic_type: setting
+  description: New event creation screen with fields for title, date, time, location,
+    repeat, calendar selection, invitees, and alerts.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_38
+  elements:
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new event
+    - plus
+    - 添加
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - 今天
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - manage calendars
+    - 日历
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - 收件箱
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - complete
+    - finish
+    - 完成
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - appointment
+    - meeting
+    - 事件
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - task
+    - alert
+    - 提醒
+    semantic_type: tab
+  - text: Emoji
+    center:
+    - 0.194
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - icon
+    - smiley
+    - 表情符号
+    semantic_type: button
+  - text: return
+    center:
+    - 0.8706
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - go back
+    - 返回
+    semantic_type: button
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - event name
+    - subject
+    - 标题
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - full day
+    - 24 hours
+    - 全天
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - add
+    - 新建
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - place
+    - address
+    - 位置或视频通话
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - begin
+    - start time
+    - 开始
+    semantic_type: label
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.5286
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - finish
+    - end time
+    - 结束
+    semantic_type: label
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - commute
+    - transit time
+    - 行程时间
+    semantic_type: setting
+  - text: None
+    center:
+    - 0.8284
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - zero
+    - empty
+    - 无
+    semantic_type: label
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recurring
+    - frequency
+    - 重复
+    semantic_type: setting
+  - text: Never
+    center:
+    - 0.8234
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - no repeat
+    - once
+    - 从不
+    semantic_type: label
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar selection
+    - choose calendar
+    - 日历
+    semantic_type: setting
+  - text: Invitees
+    center:
+    - 0.1517
+    - 0.8432
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - guests
+    - attendees
+    - 受邀人
+    semantic_type: setting
+  - text: Alert
+    center:
+    - 0.1244
+    - 0.9428
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification
+    - reminder
+    - 提醒
+    semantic_type: setting
+  - text: Clear text
+    center:
+    - 0.8831
+    - 0.2517
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - delete
+    - erase
+    - 清除文本
+    semantic_type: button
+  description: New event creation screen with fields for title, date, time, location,
+    repeat, alerts, and invitees
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_39
+  elements:
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new event
+    - plus
+    - 添加
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - 今天
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - manage calendars
+    - 日历
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - 收件箱
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - finish
+    - complete
+    - 完成
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - appointment
+    - meeting
+    - 事件
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - task
+    - alert
+    - 提醒
+    semantic_type: tab
+  - text: shift
+    center:
+    - 0.0746
+    - 0.8295
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - keyboard shift
+    - uppercase
+    - caps
+    semantic_type: button
+  - text: Emoji
+    center:
+    - 0.194
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - emoji keyboard
+    - smiley
+    - 表情
+    semantic_type: button
+  - text: return
+    center:
+    - 0.8706
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - enter
+    - newline
+    - 换行
+    semantic_type: button
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - event title
+    - name
+    - 标题
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - all day event
+    - full day
+    - 全天
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - add
+    - 新建
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - place
+    - address
+    - 位置
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - start time
+    - begin
+    - 开始
+    semantic_type: label
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.5286
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - end time
+    - finish
+    - 结束
+    semantic_type: label
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - transit time
+    - commute
+    - 路程时间
+    semantic_type: setting
+  - text: None
+    center:
+    - 0.8284
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - zero
+    - empty
+    - 无
+    semantic_type: label
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recurrence
+    - repeat event
+    - 重复
+    semantic_type: setting
+  - text: Never
+    center:
+    - 0.8234
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - no repeat
+    - once
+    - 永不
+    semantic_type: label
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar selection
+    - choose calendar
+    - 日历
+    semantic_type: setting
+  - text: Invitees
+    center:
+    - 0.1517
+    - 0.8432
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - guests
+    - attendees
+    - 参与者
+    semantic_type: setting
+  - text: Alert
+    center:
+    - 0.1244
+    - 0.9428
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification
+    - reminder
+    - 提醒
+    semantic_type: setting
+  - text: Clear text
+    center:
+    - 0.8831
+    - 0.2517
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - delete text
+    - erase
+    - 清除文本
+    semantic_type: button
+  description: New event creation screen with fields for title, date, time, location,
+    repeat, alerts, and invitees.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_40
+  elements:
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 日历
+    - schedules
+    - calendar list
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 收件箱
+    - notifications
+    - incoming
+    semantic_type: tab
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 完成
+    - finished
+    - complete
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 事件
+    - appointment
+    - meeting
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 提醒
+    - task
+    - alert
+    semantic_type: tab
+  - text: date and time
+    center:
+    - 0.1095
+    - 0.6133
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 日期和时间
+    - schedule
+    - when
+    semantic_type: label
+  - text: location services
+    center:
+    - 0.301
+    - 0.611
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 定位服务
+    - GPS
+    - location settings
+    semantic_type: setting
+  - text: number
+    center:
+    - 0.495
+    - 0.611
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 数字
+    - numeric
+    - digit
+    semantic_type: input
+  - text: flag
+    center:
+    - 0.6866
+    - 0.611
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 旗标
+    - mark
+    - indicator
+    semantic_type: button
+  - text: camera
+    center:
+    - 0.8881
+    - 0.611
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 相机
+    - photo
+    - take picture
+    semantic_type: button
+  - text: shift
+    center:
+    - 0.0746
+    - 0.8295
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 切换
+    - change
+    - switch
+    semantic_type: button
+  - text: Emoji
+    center:
+    - 0.194
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 表情符号
+    - smiley
+    - icon
+    semantic_type: button
+  - text: return
+    center:
+    - 0.8706
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 返回
+    - enter
+    - go back
+    semantic_type: button
+  - text: URL
+    center:
+    - 0.5
+    - 0.3741
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 网址
+    - link
+    - web address
+    semantic_type: input
+  - text: Time
+    center:
+    - 0.8408
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 时间
+    - hour
+    - clock
+    semantic_type: label
+  - text: Urgent
+    center:
+    - 0.8408
+    - 0.6556
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 紧急
+    - priority
+    - important
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 新建
+    - create
+    - add
+    semantic_type: button
+  - text: Date
+    center:
+    - 0.5547
+    - 0.5
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 日期
+    - day
+    - calendar
+    semantic_type: label
+  - text: Mark this reminder as urgent to set an alarm.
+    center:
+    - 0.4179
+    - 0.7037
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 标记为紧急以设置闹钟
+    - urgent alarm info
+    - priority alert description
+    semantic_type: label
+  - text: Never
+    center:
+    - 0.8234
+    - 0.7689
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 从不
+    - no repeat
+    - once
+    semantic_type: menu_item
+  - text: Repeat
+    center:
+    - 0.2537
+    - 0.7689
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 重复
+    - recurring
+    - loop
+    semantic_type: setting
+  - text: List
+    center:
+    - 0.4701
+    - 0.8936
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 列表
+    - view
+    - overview
+    semantic_type: tab
+  - text: Details
+    center:
+    - 0.5323
+    - 0.9611
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 详情
+    - information
+    - info
+    semantic_type: label
+  - text: calendar
+    center:
+    - 0.1144
+    - 0.5103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 日历
+    - schedule
+    - date picker
+    semantic_type: button
+  - text: clock
+    center:
+    - 0.1144
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 时钟
+    - time picker
+    - watch
+    semantic_type: button
+  - text: alarm
+    center:
+    - 0.1144
+    - 0.6568
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 闹钟
+    - alert
+    - notification
+    semantic_type: setting
+  - text: ListBadgeDefault
+    center:
+    - 0.1144
+    - 0.8936
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 列表徽章
+    - badge
+    - indicator
+    semantic_type: other
+  description: Reminder creation screen with fields for title, date/time, location,
+    urgency, repeat, list, and details, plus options to add attachments like camera,
+    emoji, or URL.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_41
+  elements:
+  - text: Star
+    center:
+    - 0.9254
+    - 0.1854
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - favorite
+    - bookmark
+    - save
+    - star icon
+    semantic_type: toggle
+  - text: Add reaction
+    center:
+    - 0.0547
+    - 0.262
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - react
+    - emoji reaction
+    - like
+    - add emoji
+    semantic_type: button
+  - text: More menu
+    center:
+    - 0.9303
+    - 0.2689
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - overflow menu
+    - three dots
+    - options
+    - additional actions
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.7935
+    - 0.1945
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - mailbox
+    - messages
+    - notifications
+    - incoming
+    semantic_type: tab
+  - text: Unsubscribe
+    center:
+    - 0.7537
+    - 0.2689
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - opt out
+    - remove subscription
+    - stop notifications
+    - unfollow
+    semantic_type: button
+  - text: Reply
+    center:
+    - 0.2637
+    - 0.9268
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - respond
+    - answer
+    - write back
+    - reply message
+    semantic_type: button
+  - text: Forward
+    center:
+    - 0.699
+    - 0.9268
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - share
+    - send on
+    - forward message
+    - resend
+    semantic_type: button
+  - text: ImportantIndicator
+    center:
+    - 0.704
+    - 0.1945
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - priority
+    - high importance
+    - marked
+    - important marker
+    semantic_type: label
+  - text: DefaultAvatar
+    center:
+    - 0.0896
+    - 0.278
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - profile picture
+    - user icon
+    - placeholder avatar
+    - default photo
+    semantic_type: label
+  - text: Event Logo
+    center:
+    - 0.1741
+    - 0.3993
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - event image
+    - conference logo
+    - branding
+    - event icon
+    semantic_type: label
+  - text: Underline
+    center:
+    - 0.3458
+    - 0.5732
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - text decoration
+    - underline style
+    - formatting
+    - underscore
+    semantic_type: label
+  - text: Whova
+    center:
+    - 0.3209
+    - 0.5961
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - Whova app
+    - event app
+    - conference platform
+    - Whova logo
+    semantic_type: label
+  description: Email detail view for a calendar event with options to star, reply,
+    forward, and manage subscription.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_42
+  elements:
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new event
+    - plus
+    - 添加
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - 今天
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - 日程
+    - manage calendars
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - 收件箱
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - complete
+    - finish
+    - 完成
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - appointment
+    - meeting
+    - 事件
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - task
+    - alert
+    - 提醒
+    semantic_type: tab
+  - text: Next keyboard
+    center:
+    - 0.0622
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - switch keyboard
+    - language
+    - 下一个键盘
+    semantic_type: button
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - event name
+    - subject
+    - 标题
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - full day
+    - 全天
+    - all day toggle
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - add
+    - 新建
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - place
+    - address
+    - 位置
+    - video link
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - begin
+    - start time
+    - 开始
+    semantic_type: label
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.5286
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - finish
+    - end time
+    - 结束
+    semantic_type: label
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - transit
+    - commute
+    - 行程时间
+    semantic_type: setting
+  - text: None
+    center:
+    - 0.8284
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - zero
+    - empty
+    - 无
+    semantic_type: label
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recurrence
+    - cycle
+    - 重复
+    semantic_type: setting
+  - text: Never
+    center:
+    - 0.8234
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - no repeat
+    - once
+    - 从不
+    semantic_type: label
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - category
+    - 日程类型
+    - calendar selection
+    semantic_type: setting
+  - text: Invitees
+    center:
+    - 0.1517
+    - 0.8432
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - guests
+    - attendees
+    - 参与者
+    semantic_type: setting
+  - text: Alert
+    center:
+    - 0.1244
+    - 0.9428
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification
+    - reminder
+    - 提醒
+    semantic_type: setting
+  description: New event creation screen with fields for title, date, time, location,
+    repeat, alerts, and invitees.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_43
+  elements:
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: false
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: false
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: false
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: true
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.5286
+    found_at_scroll: 0
+    fixed: true
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+  - text: None
+    center:
+    - 0.8284
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+  - text: Never
+    center:
+    - 0.8234
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+  - text: Invitees
+    center:
+    - 0.1517
+    - 0.8432
+    found_at_scroll: 0
+    fixed: true
+  - text: Alert
+    center:
+    - 0.1244
+    - 0.9428
+    found_at_scroll: 0
+    fixed: true
+  - text: Add attachment…
+    center:
+    - 0.5
+    - 0.5961
+    found_at_scroll: 1
+    fixed: true
+  description: New event creation screen with fields for title, date, time, location,
+    repeat, alerts, and attachments
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_44
+  elements:
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 今天
+    - current day
+    - now
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 日历
+    - calendar list
+    - manage calendars
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 收件箱
+    - notifications
+    - invitations
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 完成
+    - finish
+    - confirm
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 事件
+    - appointment
+    - meeting
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 提醒
+    - task
+    - to-do
+    semantic_type: tab
+  - text: Forward
+    center:
+    - 0.4751
+    - 0.3055
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 转发
+    - next
+    - advance
+    semantic_type: button
+  - text: shift
+    center:
+    - 0.0746
+    - 0.8295
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shift key
+    - 大写
+    - caps
+    semantic_type: button
+  - text: Emoji
+    center:
+    - 0.194
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 表情
+    - emoji keyboard
+    - smiley
+    semantic_type: button
+  - text: return
+    center:
+    - 0.8706
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 回车
+    - enter
+    - newline
+    semantic_type: button
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 标题
+    - event name
+    - subject
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 全天
+    - all day event
+    - 24 hours
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 新建
+    - create
+    - add
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 地点
+    - address
+    - video link
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 开始
+    - start time
+    - from
+    semantic_type: label
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.5286
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 结束
+    - end time
+    - to
+    semantic_type: label
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 路程时间
+    - transit time
+    - commute
+    semantic_type: setting
+  - text: None
+    center:
+    - 0.8284
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 无
+    - zero
+    - no travel time
+    semantic_type: label
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 重复
+    - recurrence
+    - repeat event
+    semantic_type: setting
+  - text: Never
+    center:
+    - 0.8234
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 从不
+    - no repeat
+    - once
+    semantic_type: label
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 日历
+    - calendar selection
+    - which calendar
+    semantic_type: setting
+  - text: Invitees
+    center:
+    - 0.1517
+    - 0.8432
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 邀请对象
+    - attendees
+    - people
+    semantic_type: setting
+  - text: Alert
+    center:
+    - 0.1244
+    - 0.9428
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 提醒
+    - notification
+    - alarm
+    semantic_type: setting
+  - text: Paste
+    center:
+    - 0.1368
+    - 0.3055
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 粘贴
+    - insert
+    - paste text
+    semantic_type: button
+  - text: AutoFill
+    center:
+    - 0.3284
+    - 0.3055
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 自动填充
+    - autocomplete
+    - suggest
+    semantic_type: button
+  - text: Clear text
+    center:
+    - 0.8831
+    - 0.2517
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 清除文本
+    - delete text
+    - erase
+    semantic_type: button
+  description: New event creation screen with fields for title, date, time, location,
+    repeat, alerts, and invitees.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_45
+  elements:
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new event
+    - plus
+    - 添加
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - current date
+    - now
+    - 今天
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - 日程表
+    - calendar settings
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - 收件箱
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - save
+    - confirm
+    - 完成
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - appointment
+    - meeting
+    - 事件
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - task
+    - alarm
+    - 提醒
+    semantic_type: tab
+  - text: Date Picker
+    center:
+    - 0.5647
+    - 0.4691
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar view
+    - date selector
+    - 日期选择器
+    semantic_type: input
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - event name
+    - subject
+    - 标题
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - full day
+    - 全天
+    - all day toggle
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - add
+    - 新建
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - place
+    - address
+    - 位置或视频通话
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - begin
+    - start time
+    - 开始
+    semantic_type: label
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.5286
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - finish
+    - end time
+    - 结束
+    semantic_type: label
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.6281
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recurrence
+    - repeat rule
+    - 重复
+    semantic_type: menu_item
+  - text: Never
+    center:
+    - 0.8234
+    - 0.6281
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - no repeat
+    - 不重复
+    - none
+    semantic_type: label
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.7265
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar selection
+    - 日程
+    - choose calendar
+    semantic_type: menu_item
+  - text: Invitees
+    center:
+    - 0.1517
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - guests
+    - attendees
+    - 邀请对象
+    semantic_type: menu_item
+  - text: None
+    center:
+    - 0.8234
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - empty
+    - no invitees
+    - 无
+    semantic_type: label
+  - text: Alert
+    center:
+    - 0.1244
+    - 0.8844
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification
+    - reminder alert
+    - 提醒
+    semantic_type: menu_item
+  - text: Add attachment…
+    center:
+    - 0.5
+    - 0.9828
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - attach file
+    - include file
+    - 添加附件
+    semantic_type: button
+  description: New event creation screen with fields for title, date, time, location,
+    repeat, alerts, and attachments
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_46
+  elements:
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - New
+    - Create
+    - Plus
+    - 添加
+    semantic_type: button
+  - text: January 2026
+    center:
+    - 0.1965
+    - 0.2986
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Jan 2026
+    - 一月 2026
+    semantic_type: label
+  - text: February 2026
+    center:
+    - 0.5
+    - 0.2986
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Feb 2026
+    - 二月 2026
+    semantic_type: label
+  - text: March 2026
+    center:
+    - 0.801
+    - 0.2986
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Mar 2026
+    - 三月 2026
+    semantic_type: label
+  - text: April 2026
+    center:
+    - 0.1965
+    - 0.4703
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Apr 2026
+    - 四月 2026
+    semantic_type: label
+  - text: May 2026
+    center:
+    - 0.5
+    - 0.4703
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 五月 2026
+    semantic_type: label
+  - text: June 2026
+    center:
+    - 0.801
+    - 0.4703
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Jun 2026
+    - 六月 2026
+    semantic_type: label
+  - text: August 2026
+    center:
+    - 0.5
+    - 0.6419
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Aug 2026
+    - 八月 2026
+    semantic_type: label
+  - text: September 2026
+    center:
+    - 0.801
+    - 0.6419
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Sep 2026
+    - 九月 2026
+    semantic_type: label
+  - text: October 2026
+    center:
+    - 0.1965
+    - 0.8135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Oct 2026
+    - 十月 2026
+    semantic_type: label
+  - text: November 2026
+    center:
+    - 0.5
+    - 0.8135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Nov 2026
+    - 十一月 2026
+    semantic_type: label
+  - text: December 2026
+    center:
+    - 0.801
+    - 0.8135
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Dec 2026
+    - 十二月 2026
+    semantic_type: label
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Now
+    - 今天
+    - Current date
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Calendar list
+    - 日历
+    - Accounts
+    semantic_type: button
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Notifications
+    - 收件箱
+    - Invites
+    semantic_type: button
+  - text: Done
+    center:
+    - 0.8731
+    - 0.111
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Finish
+    - 完成
+    - Save
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2861
+    - 0.1613
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Appointment
+    - 事件
+    - 日程
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7114
+    - 0.1613
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Task
+    - 提醒
+    - To-do
+    semantic_type: tab
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2368
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Title
+    - Event name
+    - 标题
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8134
+    - 0.3833
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Full day
+    - 全天
+    - All day event
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.111
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Create
+    - 新建
+    - Add
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.2918
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Place
+    - 地址
+    - Meeting link
+    - Venue
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1642
+    - 0.4382
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Start time
+    - 开始
+    - From
+    semantic_type: button
+  - text: Ends
+    center:
+    - 0.1567
+    - 0.4931
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - End time
+    - 结束
+    - To
+    semantic_type: button
+  - text: Travel Time
+    center:
+    - 0.2114
+    - 0.5469
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Transit time
+    - 路程时间
+    - Commute
+    semantic_type: setting
+  - text: None
+    center:
+    - 0.8035
+    - 0.5469
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 0 min
+    - 无
+    - No travel time
+    semantic_type: label
+  - text: Repeat
+    center:
+    - 0.1741
+    - 0.6373
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Recurrence
+    - 重复
+    - Frequency
+    semantic_type: setting
+  - text: Never
+    center:
+    - 0.796
+    - 0.6373
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - No repeat
+    - 从不
+    - Once
+    semantic_type: label
+  - text: Calendar
+    center:
+    - 0.1915
+    - 0.7277
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Category
+    - 日历分类
+    - Account
+    semantic_type: setting
+  - text: Invitees
+    center:
+    - 0.1791
+    - 0.7826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Guests
+    - 参与者
+    - People
+    - Attendees
+    semantic_type: setting
+  - text: Alert
+    center:
+    - 0.1542
+    - 0.873
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Notification
+    - 提醒
+    - Alarm
+    semantic_type: setting
+  - text: Add attachment…
+    center:
+    - 0.5
+    - 0.9645
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Attach file
+    - 添加附件
+    - Insert file
+    semantic_type: button
+  - text: Location
+    center:
+    - 0.4975
+    - 0.1259
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Place
+    - 位置
+    - Venue
+    semantic_type: label
+  - text: Current Location
+    center:
+    - 0.3109
+    - 0.2643
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - GPS
+    - 当前位置
+    - My location
+    semantic_type: button
+  - text: Video Call
+    center:
+    - 0.5
+    - 0.3387
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Meeting
+    - 视频通话
+    - Conference
+    semantic_type: button
+  - text: FaceTime
+    center:
+    - 0.2413
+    - 0.3924
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Video call
+    - Facetime call
+    - Apple video
+    semantic_type: button
+  - text: orient to phone
+    center:
+    - 0.0821
+    - 0.2643
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Rotate
+    - Compass
+    - 指向手机方向
+    semantic_type: button
+  - text: Clear text
+    center:
+    - 0.898
+    - 0.1876
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - Delete
+    - 清除文本
+    - Erase
+    semantic_type: button
+  - text: Map Locations
+    center:
+    - 0.5
+    - 0.532
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - Places
+    - 地图位置
+    - Venues
+    semantic_type: label
+  description: New event creation screen with fields for title, date, time, location,
+    repeat, calendar selection, and invitees.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_47
+  elements:
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - new event
+    - plus
+    - 添加
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar list
+    - 日程表
+    - manage calendars
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notifications
+    - invitations
+    - 收件箱
+    semantic_type: tab
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - save
+    - confirm
+    - 完成
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - appointment
+    - meeting
+    - 事件
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - task
+    - alarm
+    - 提醒
+    semantic_type: tab
+  - text: Previous Month
+    center:
+    - 0.7935
+    - 0.5389
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - back
+    - last month
+    - 上个月
+    semantic_type: button
+  - text: Next Month
+    center:
+    - 0.9005
+    - 0.5389
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - forward
+    - next
+    - 下个月
+    semantic_type: button
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - event name
+    - subject
+    - 标题
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - full day
+    - 全天
+    - all day toggle
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - add
+    - 新建
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - place
+    - address
+    - 位置或视频通话
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - begin
+    - start time
+    - 开始
+    semantic_type: input
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - finish
+    - end time
+    - 结束
+    semantic_type: input
+  - text: Calendar
+    center:
+    - 0.0846
+    - 0.2128
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar selection
+    - choose calendar
+    - 日历
+    semantic_type: menu_item
+  - text: Invitees
+    center:
+    - 0.0721
+    - 0.2128
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - guests
+    - attendees
+    - 邀请对象
+    semantic_type: menu_item
+  - text: Alert
+    center:
+    - 0.0448
+    - 0.2128
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification
+    - reminder
+    - 提醒
+    semantic_type: menu_item
+  - text: Add attachment…
+    center:
+    - 0.4204
+    - 0.2311
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - attach file
+    - include
+    - 添加附件
+    semantic_type: button
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.3673
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - transit
+    - commute
+    - 路程时间
+    semantic_type: menu_item
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.4657
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - recurrence
+    - cycle
+    - 重复
+    semantic_type: menu_item
+  description: New event creation screen with fields for title, date, time, location,
+    invitees, alerts, and other event details.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_48
+  elements:
+  - text: Add
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - New
+    - Create
+    - Plus
+    - 添加
+    semantic_type: button
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Now
+    - Current date
+    - 今天
+    semantic_type: button
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Calendar list
+    - 日程表
+    - Manage calendars
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Notifications
+    - Invitations
+    - 收件箱
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Complete
+    - Finish
+    - 完成
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Appointment
+    - Meeting
+    - 事件
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Task
+    - Alert
+    - 提醒
+    semantic_type: tab
+  - text: Previous Month
+    center:
+    - 0.7935
+    - 0.5984
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Last month
+    - Back
+    - 上个月
+    semantic_type: button
+  - text: Next Month
+    center:
+    - 0.9005
+    - 0.5984
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Forward
+    - 下个月
+    - Next
+    semantic_type: button
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Event name
+    - Title
+    - 标题
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Full day
+    - 全天
+    - All day event
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Create
+    - Add
+    - 新建
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Place
+    - Address
+    - 位置
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Start time
+    - Begins
+    - 开始
+    semantic_type: label
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.5286
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - End time
+    - Finishes
+    - 结束
+    semantic_type: label
+  - text: Calendar
+    center:
+    - 0.0846
+    - 0.2128
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Category
+    - 日程分类
+    - Select calendar
+    semantic_type: menu_item
+  - text: Invitees
+    center:
+    - 0.0721
+    - 0.2128
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Guests
+    - Participants
+    - 受邀人
+    semantic_type: menu_item
+  - text: None
+    center:
+    - 0.0498
+    - 0.2128
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Empty
+    - Zero
+    - 无
+    semantic_type: label
+  - text: Alert
+    center:
+    - 0.0448
+    - 0.2128
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Notification
+    - Reminder
+    - 提醒
+    semantic_type: menu_item
+  - text: Add attachment…
+    center:
+    - 0.4204
+    - 0.2311
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Attach file
+    - Include
+    - 添加附件
+    semantic_type: button
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.3684
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - Transit
+    - Commute
+    - 路程时间
+    semantic_type: menu_item
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.4668
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - Recurrence
+    - Loop
+    - 重复
+    semantic_type: menu_item
+  - text: Never
+    center:
+    - 0.8234
+    - 0.4668
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - No repeat
+    - Once
+    - 永不
+    semantic_type: label
+  description: New event creation screen with fields for title, date, time, location,
+    alerts, and other event details.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_49
+  elements:
+  - text: Today
+    center:
+    - 0.1667
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - today
+    - 今天
+    - current day
+    semantic_type: tab
+  - text: Calendars
+    center:
+    - 0.6965
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendars
+    - 日历列表
+    - calendar list
+    semantic_type: menu_item
+  - text: Inbox
+    center:
+    - 0.8582
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - inbox
+    - 收件箱
+    - notifications
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - done
+    - 完成
+    - finish
+    - confirm
+    semantic_type: button
+  - text: Event
+    center:
+    - 0.2687
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - event
+    - 事件
+    - appointment
+    semantic_type: tab
+  - text: Reminder
+    center:
+    - 0.7289
+    - 0.1693
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - reminder
+    - 提醒
+    - task
+    semantic_type: tab
+  - text: 5 minutes
+    center:
+    - 0.6095
+    - 0.3318
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 5 min
+    - 5分钟
+    - five minutes
+    semantic_type: menu_item
+  - text: 15 minutes
+    center:
+    - 0.6095
+    - 0.3799
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 15 min
+    - 15分钟
+    - quarter hour
+    semantic_type: menu_item
+  - text: 30 minutes
+    center:
+    - 0.6095
+    - 0.4279
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 30 min
+    - 30分钟
+    - half hour
+    semantic_type: menu_item
+  - text: Emoji
+    center:
+    - 0.194
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - emoji
+    - 表情
+    - icon
+    - smiley
+    semantic_type: button
+  - text: return
+    center:
+    - 0.8706
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - return
+    - 返回
+    - back
+    semantic_type: button
+  - text: title-field
+    center:
+    - 0.5
+    - 0.2506
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - title
+    - 标题
+    - event name
+    - subject
+    semantic_type: input
+  - text: All-day
+    center:
+    - 0.8408
+    - 0.4096
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - all day
+    - 全天
+    - full day
+    semantic_type: toggle
+  - text: New
+    center:
+    - 0.5
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - new
+    - 新建
+    - create
+    - add
+    semantic_type: button
+  - text: Location or Video Call
+    center:
+    - 0.5
+    - 0.3101
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - location
+    - 地点
+    - video call
+    - 地址
+    - meeting link
+    semantic_type: input
+  - text: Starts
+    center:
+    - 0.1343
+    - 0.4691
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - starts
+    - 开始
+    - start time
+    - from
+    semantic_type: label
+  - text: Ends
+    center:
+    - 0.1244
+    - 0.5286
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - ends
+    - 结束
+    - end time
+    - to
+    semantic_type: label
+  - text: Travel Time
+    center:
+    - 0.1891
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - travel time
+    - 行程时间
+    - transit
+    - commute
+    semantic_type: setting
+  - text: None
+    center:
+    - 0.8284
+    - 0.5881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - none
+    - 无
+    - zero
+    - no travel time
+    semantic_type: menu_item
+  - text: Repeat
+    center:
+    - 0.1443
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - repeat
+    - 重复
+    - recurrence
+    - recurring
+    semantic_type: setting
+  - text: Never
+    center:
+    - 0.8234
+    - 0.6865
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - never
+    - 从不
+    - 不重复
+    - no repeat
+    semantic_type: menu_item
+  - text: Calendar
+    center:
+    - 0.1642
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - calendar
+    - 日历
+    - calendar selection
+    - choose calendar
+    semantic_type: setting
+  - text: Invitees
+    center:
+    - 0.1517
+    - 0.8432
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - invitees
+    - 参与者
+    - attendees
+    - people
+    - guests
+    semantic_type: setting
+  - text: Alert
+    center:
+    - 0.1244
+    - 0.9428
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - alert
+    - 提醒
+    - notification
+    - alarm
+    semantic_type: setting
+  - text: selected
+    center:
+    - 0.3682
+    - 0.2597
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - selected
+    - 已选
+    - chosen
+    - active
+    semantic_type: label
+  - text: Clear text
+    center:
+    - 0.8831
+    - 0.2517
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - clear text
+    - 清除文本
+    - delete text
+    - erase
+    semantic_type: button
+  description: New event creation screen with fields for title, date, time, location,
+    alerts, and other event details.
+  scrollable: true
+  scroll_direction: vertical
+screen_macros:
+  screen_0:
+  - &id001
+    action: force_stop
+    bundle_id: com.apple.mobilecal
+    wait: 1.0
+  - &id002
+    action: launch
+    bundle_id: com.apple.mobilecal
+    wait: 3.0
+  screen_1:
+  - *id001
+  - *id002
+  - &id003
+    action: tap
+    x: 62
+    y: 84
+    wait: 1.0
+  screen_2:
+  - *id001
+  - *id002
+  - &id004
+    action: tap
+    x: 253
+    y: 84
+    wait: 1.0
+  screen_3:
+  - *id001
+  - *id002
+  - &id005
+    action: tap
+    x: 363
+    y: 84
+    wait: 1.0
+  screen_4:
+  - *id001
+  - *id002
+  - &id006
+    action: tap
+    x: 67
+    y: 822
+    wait: 1.0
+  screen_5:
+  - *id001
+  - *id002
+  - &id007
+    action: tap
+    x: 280
+    y: 822
+    wait: 1.0
+  screen_6:
+  - *id001
+  - *id002
+  - action: tap
+    x: 345
+    y: 822
+    wait: 1.0
+  screen_7:
+  - *id001
+  - *id002
+  - &id008
+    action: tap
+    x: 358
+    y: 464
+    wait: 1.0
+  screen_8:
+  - *id001
+  - *id002
+  - *id003
+  - &id009
+    action: tap
+    x: 363
+    y: 84
+    wait: 1.0
+  screen_9:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 67
+    y: 822
+    wait: 1.0
+  screen_10:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 280
+    y: 822
+    wait: 1.0
+  screen_11:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 345
+    y: 822
+    wait: 1.0
+  screen_12:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 253
+    y: 84
+    wait: 1.0
+  screen_13:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 363
+    y: 84
+    wait: 1.0
+  screen_14:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 197
+    y: 135
+    wait: 1.0
+  screen_15:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 197
+    y: 177
+    wait: 1.0
+  screen_16:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 197
+    y: 240
+    wait: 1.0
+  screen_17:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 62
+    y: 84
+    wait: 1.0
+  screen_18:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 67
+    y: 822
+    wait: 1.0
+  screen_19:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 293
+    y: 148
+    wait: 1.0
+  screen_20:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 78
+    y: 779
+    wait: 1.0
+  screen_21:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 350
+    y: 779
+    wait: 1.0
+  screen_22:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 201
+    y: 219
+    wait: 1.0
+  screen_23:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 338
+    y: 358
+    wait: 1.0
+  screen_24:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 54
+    y: 410
+    wait: 1.0
+  screen_25:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 76
+    y: 514
+    wait: 1.0
+  screen_26:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 58
+    y: 600
+    wait: 1.0
+  screen_27:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 331
+    y: 600
+    wait: 1.0
+  screen_28:
+  - *id001
+  - *id002
+  - *id006
+  - action: tap
+    x: 250
+    y: 84
+    wait: 1.0
+  screen_29:
+  - *id001
+  - *id002
+  - *id006
+  - action: tap
+    x: 363
+    y: 84
+    wait: 1.0
+  screen_30:
+  - *id001
+  - *id002
+  - *id006
+  - action: tap
+    x: 280
+    y: 822
+    wait: 1.0
+  screen_31:
+  - *id001
+  - *id002
+  - *id006
+  - action: tap
+    x: 345
+    y: 822
+    wait: 1.0
+  screen_32:
+  - *id001
+  - *id002
+  - *id006
+  - action: tap
+    x: 233
+    y: 235
+    wait: 1.0
+  screen_33:
+  - *id001
+  - *id002
+  - *id007
+  - action: tap
+    x: 358
+    y: 464
+    wait: 1.0
+  screen_34:
+  - *id001
+  - *id002
+  - *id007
+  - action: tap
+    x: 358
+    y: 198
+    wait: 1.0
+  screen_35:
+  - *id001
+  - *id002
+  - *id007
+  - action: tap
+    x: 102
+    y: 794
+    wait: 1.0
+  screen_36:
+  - *id001
+  - *id002
+  - *id008
+  - action: tap
+    x: 56
+    y: 195
+    wait: 1.0
+  screen_37:
+  - *id001
+  - *id002
+  - *id003
+  - *id009
+  - action: tap
+    x: 363
+    y: 84
+    wait: 1.0
+  screen_38:
+  - *id001
+  - *id002
+  - *id003
+  - *id009
+  - action: tap
+    x: 67
+    y: 822
+    wait: 1.0
+  screen_39:
+  - *id001
+  - *id002
+  - *id003
+  - *id009
+  - action: tap
+    x: 280
+    y: 822
+    wait: 1.0
+  screen_40:
+  - *id001
+  - *id002
+  - *id003
+  - *id009
+  - action: tap
+    x: 293
+    y: 148
+    wait: 1.0
+  screen_41:
+  - *id001
+  - *id002
+  - *id003
+  - *id009
+  - action: tap
+    x: 30
+    y: 725
+    wait: 1.0
+  screen_42:
+  - *id001
+  - *id002
+  - *id003
+  - *id009
+  - action: tap
+    x: 78
+    y: 779
+    wait: 1.0
+  screen_43:
+  - *id001
+  - *id002
+  - *id003
+  - *id009
+  - action: tap
+    x: 350
+    y: 779
+    wait: 1.0
+  screen_44:
+  - *id001
+  - *id002
+  - *id003
+  - *id009
+  - action: tap
+    x: 201
+    y: 219
+    wait: 1.0
+  screen_45:
+  - *id001
+  - *id002
+  - *id003
+  - *id009
+  - action: tap
+    x: 338
+    y: 358
+    wait: 1.0
+  screen_46:
+  - *id001
+  - *id002
+  - *id003
+  - *id009
+  - action: tap
+    x: 201
+    y: 271
+    wait: 1.0
+  screen_47:
+  - *id001
+  - *id002
+  - *id003
+  - *id009
+  - action: tap
+    x: 54
+    y: 410
+    wait: 1.0
+  screen_48:
+  - *id001
+  - *id002
+  - *id003
+  - *id009
+  - action: tap
+    x: 50
+    y: 462
+    wait: 1.0
+  screen_49:
+  - *id001
+  - *id002
+  - *id003
+  - *id009
+  - action: tap
+    x: 76
+    y: 514
+    wait: 1.0
+launch_behavior: always_home
+common_tasks:
+- View monthly calendar
+- Add a new event
+- Check today's schedule
+- Switch between calendar views (month, day, year)
+- Manage calendars (add, edit, toggle visibility)
+- Set event reminders and alerts
+- Invite people to an event
+- Add event location
+- Set repeating events
+- Access inbox for event invitations
+known_limitations:
+- Some settings require scrolling to find
+- Navigation between months may require multiple taps

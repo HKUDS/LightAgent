@@ -1,0 +1,5472 @@
+app: 小红书
+package: com.xingin.discover
+screen_w: 402
+screen_h: 874
+screens:
+- id: screen_0
+  elements:
+  - text: Following
+    center:
+    - 0.3134
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_1
+    aliases:
+    - 关注
+    - followed
+    - subscriptions
+    semantic_type: tab
+  - text: Explore
+    center:
+    - 0.5199
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_2
+    aliases:
+    - 发现
+    - discover
+    - search
+    semantic_type: tab
+  - text: Nearby
+    center:
+    - 0.709
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_3
+    aliases:
+    - 附近
+    - local
+    - around
+    semantic_type: tab
+  - text: For You
+    center:
+    - 0.1045
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_4
+    aliases:
+    - 推荐
+    - recommendations
+    - personalized
+    semantic_type: tab
+  - text: RED
+    center:
+    - 0.2736
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_1
+    aliases:
+    - 小红书
+    - Xiaohongshu
+    - rednote
+    semantic_type: label
+  - text: Trend
+    center:
+    - 0.4279
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_2
+    aliases:
+    - 热门
+    - trending
+    - popular
+    semantic_type: tab
+  - text: Live
+    center:
+    - 0.5796
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_2
+    aliases:
+    - 直播
+    - streaming
+    - broadcast
+    semantic_type: tab
+  - text: Series
+    center:
+    - 0.7363
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_5
+    aliases:
+    - 系列
+    - collections
+    - episodes
+    semantic_type: tab
+  - text: Career
+    center:
+    - 0.9154
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_6
+    aliases:
+    - 职业
+    - jobs
+    - work
+    semantic_type: tab
+  - text: Recently viewed
+    center:
+    - 0.4776
+    - 0.159
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_7
+    aliases:
+    - 最近浏览
+    - history
+    - recent
+    semantic_type: menu_item
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_8
+    aliases:
+    - 首页
+    - main
+    - feed
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - 商城
+    - shop
+    - store
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_10
+    aliases:
+    - 消息
+    - inbox
+    - notifications
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - 我
+    - profile
+    - account
+    semantic_type: tab
+  - text: Like
+    center:
+    - 0.9328
+    - 0.492
+    found_at_scroll: 1
+    fixed: false
+    leads_to: screen_12
+    aliases:
+    - 赞
+    - favorite
+    - heart
+    semantic_type: button
+  description: Main home screen with top navigation tabs for content feeds and bottom
+    navigation bar for Home, Market, Messages, and Me.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_1
+  elements:
+  - text: Following
+    center:
+    - 0.3134
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - 关注
+    - followed
+    - subscriptions
+    semantic_type: tab
+  - text: Explore
+    center:
+    - 0.5199
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_2
+    aliases:
+    - 发现
+    - discover
+    - search
+    semantic_type: tab
+  - text: Nearby
+    center:
+    - 0.709
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_5
+    aliases:
+    - 附近
+    - local
+    - around
+    semantic_type: tab
+  - text: Friend
+    center:
+    - 0.2711
+    - 0.9485
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_9
+    aliases:
+    - 朋友
+    - friends
+    - contacts
+    semantic_type: tab
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 首页
+    - main
+    - feed
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - 商城
+    - shop
+    - store
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_10
+    aliases:
+    - 消息
+    - inbox
+    - notifications
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - 我
+    - profile
+    - account
+    semantic_type: tab
+  - text: Like
+    center:
+    - 0.4378
+    - 0.8089
+    found_at_scroll: 1
+    fixed: false
+    leads_to: screen_13
+    aliases:
+    - 赞
+    - favorite
+    - heart
+    semantic_type: button
+  description: 'Bottom navigation bar with 5 tabs: Home, Market, Messages, Me, and
+    a central Like button.'
+  scrollable: false
+  scroll_direction: ''
+- id: screen_2
+  elements:
+  - text: Following
+    center:
+    - 0.3134
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_1
+    aliases:
+    - 关注
+    - followed
+    - subscriptions
+    semantic_type: tab
+  - text: Explore
+    center:
+    - 0.5199
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - 发现
+    - discover
+    - search
+    semantic_type: tab
+  - text: Nearby
+    center:
+    - 0.709
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_5
+    aliases:
+    - 附近
+    - local
+    - around
+    semantic_type: tab
+  - text: For You
+    center:
+    - 0.1045
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_4
+    aliases:
+    - 推荐
+    - recommendations
+    - personalized
+    semantic_type: tab
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_14
+    aliases:
+    - 首页
+    - main
+    - feed
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - 商城
+    - shop
+    - store
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_10
+    aliases:
+    - 消息
+    - inbox
+    - chat
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - 我
+    - profile
+    - account
+    semantic_type: tab
+  - text: Like
+    center:
+    - 0.4378
+    - 0.6133
+    found_at_scroll: 1
+    fixed: false
+    leads_to: screen_15
+    aliases:
+    - 赞
+    - favorite
+    - heart
+    semantic_type: button
+  description: Main navigation screen with tabs for Following, Explore, Nearby, and
+    For You, plus a bottom bar with Home, Market, Messages, Me, and Like.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_3
+  elements:
+  - text: Following
+    center:
+    - 0.3134
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_1
+    aliases:
+    - 关注
+    - followed
+    - subscriptions
+    semantic_type: tab
+  - text: Explore
+    center:
+    - 0.5199
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_14
+    aliases:
+    - 发现
+    - discover
+    - browse
+    semantic_type: tab
+  - text: Nearby
+    center:
+    - 0.7065
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_5
+    aliases:
+    - 附近
+    - local
+    - near me
+    semantic_type: tab
+  - text: '[Region]'
+    center:
+    - 0.0697
+    - 0.1453
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_5
+    aliases:
+    - citywide
+    - whole city
+    - all city
+    semantic_type: tab
+  - text: 推荐
+    center:
+    - 0.2413
+    - 0.1453
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_5
+    aliases:
+    - recommended
+    - for you
+    - suggestions
+    semantic_type: tab
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_5
+    aliases:
+    - 首页
+    - main
+    - feed
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - 商城
+    - shop
+    - store
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_10
+    aliases:
+    - 消息
+    - inbox
+    - notifications
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - 我
+    - profile
+    - account
+    semantic_type: tab
+  description: Main navigation screen with tabs for Following, Explore, Nearby, and
+    sections for Home, Market, Messages, and Me.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_4
+  elements:
+  - text: dots
+    center:
+    - 0.5274
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - more options
+    - menu
+    - overflow
+    - 三点
+    semantic_type: button
+  description: Image detail view with pagination dots indicating multiple images can
+    be swiped horizontally.
+  scrollable: true
+  scroll_direction: horizontal
+- id: screen_5
+  elements:
+  - text: Following
+    center:
+    - 0.3134
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_1
+    aliases:
+    - 关注
+    - followed
+    - subscriptions
+    semantic_type: tab
+  - text: Explore
+    center:
+    - 0.5199
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_14
+    aliases:
+    - 发现
+    - discover
+    - browse
+    semantic_type: tab
+  - text: Nearby
+    center:
+    - 0.7065
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 附近
+    - local
+    - around me
+    semantic_type: tab
+  - text: '[Region]'
+    center:
+    - 0.0697
+    - 0.1453
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - citywide
+    - all city
+    - entire city
+    semantic_type: tab
+  - text: 推荐
+    center:
+    - 0.2413
+    - 0.1453
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recommended
+    - for you
+    - suggestions
+    semantic_type: tab
+  - text: 美食
+    center:
+    - 0.3831
+    - 0.1453
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - food
+    - cuisine
+    - delicacies
+    - restaurants
+    semantic_type: menu_item
+  - text: 热门打卡地
+    center:
+    - 0.5771
+    - 0.1453
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_16
+    aliases:
+    - popular spots
+    - trending places
+    - hot check-in spots
+    semantic_type: menu_item
+  - text: 周末出行
+    center:
+    - 0.806
+    - 0.1453
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_17
+    aliases:
+    - weekend trips
+    - weekend getaways
+    - weekend travel
+    semantic_type: menu_item
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_18
+    aliases:
+    - 首页
+    - main page
+    - feed
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - 商城
+    - shop
+    - store
+    - mall
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_10
+    aliases:
+    - 消息
+    - inbox
+    - notifications
+    - chats
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - 我
+    - profile
+    - account
+    - my page
+    semantic_type: tab
+  - text: Like
+    center:
+    - 0.908
+    - 0.6796
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - 赞
+    - favorite
+    - heart
+    - upvote
+    semantic_type: button
+  description: Explore screen with tabs for Following, Explore, and Nearby, showing
+    category filters like 全城, 推荐, 美食, 热门打卡地, and 周末出行, along with bottom navigation
+    for Home, Market, Messages, Me, and Like.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_6
+  elements:
+  - text: Return
+    center:
+    - 0.0672
+    - 0.1007
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_19
+    aliases:
+    - 返回
+    - back
+    - go back
+    semantic_type: button
+  - text: shift
+    center:
+    - 0.0697
+    - 0.8295
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 切换
+    - shift key
+    - caps
+    semantic_type: button
+  - text: 表情符号
+    center:
+    - 0.1915
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_20
+    aliases:
+    - emoji
+    - 表情
+    - emoticon
+    - 笑脸
+    semantic_type: button
+  - text: 搜索
+    center:
+    - 0.8756
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_21
+    aliases:
+    - search
+    - 查找
+    - find
+    - 搜索框
+    semantic_type: input
+  description: Search screen with a text field for entering queries, a return button,
+    and an emoji icon for expression input.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_7
+  elements:
+  - text: Following
+    center:
+    - 0.3134
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_1
+    aliases:
+    - 关注
+    - followed
+    - subscriptions
+    semantic_type: tab
+  - text: Explore
+    center:
+    - 0.5199
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 探索
+    - discover
+    - search
+    semantic_type: tab
+  - text: Nearby
+    center:
+    - 0.709
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_16
+    aliases:
+    - 附近
+    - local
+    - around
+    semantic_type: tab
+  - text: For You
+    center:
+    - 0.1045
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_4
+    aliases:
+    - 推荐
+    - recommendations
+    - personalized
+    semantic_type: tab
+  - text: RED
+    center:
+    - 0.2736
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_1
+    aliases:
+    - 小红书
+    - Xiaohongshu
+    - rednote
+    semantic_type: label
+  - text: Trend
+    center:
+    - 0.4279
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_15
+    aliases:
+    - 趋势
+    - trending
+    - hot topics
+    semantic_type: tab
+  - text: Live
+    center:
+    - 0.5796
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_14
+    aliases:
+    - 直播
+    - streaming
+    - broadcast
+    semantic_type: tab
+  - text: Series
+    center:
+    - 0.7363
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_5
+    aliases:
+    - 系列
+    - collections
+    - episodes
+    semantic_type: tab
+  - text: Career
+    center:
+    - 0.9154
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_6
+    aliases:
+    - 职业
+    - jobs
+    - employment
+    semantic_type: tab
+  - text: Like
+    center:
+    - 0.4378
+    - 0.4943
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_2
+    aliases:
+    - 赞
+    - favorite
+    - heart
+    semantic_type: button
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_15
+    aliases:
+    - 首页
+    - main page
+    - feed
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - 商城
+    - shop
+    - store
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_10
+    aliases:
+    - 消息
+    - inbox
+    - notifications
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - 我
+    - profile
+    - account
+    semantic_type: tab
+  description: Main navigation tabs and content categories for discovering and browsing
+    content on the app.
+  scrollable: true
+  scroll_direction: horizontal
+- id: screen_8
+  elements:
+  - text: Following
+    center:
+    - 0.3134
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_1
+    aliases:
+    - 关注
+    - followed
+    - subscriptions
+    semantic_type: tab
+  - text: Explore
+    center:
+    - 0.5199
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - discover
+    - search
+    semantic_type: tab
+  - text: Nearby
+    center:
+    - 0.709
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_5
+    aliases:
+    - 附近
+    - local
+    - near me
+    semantic_type: tab
+  - text: For You
+    center:
+    - 0.1045
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_4
+    aliases:
+    - 推荐
+    - recommendations
+    - personalized
+    semantic_type: tab
+  - text: Like
+    center:
+    - 0.9328
+    - 0.5
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_22
+    aliases:
+    - 赞
+    - favorite
+    - heart
+    semantic_type: button
+  - text: Recently viewed
+    center:
+    - 0.4776
+    - 0.159
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_14
+    aliases:
+    - 最近浏览
+    - history
+    - recent
+    semantic_type: menu_item
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_23
+    aliases:
+    - 首页
+    - main
+    - feed
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 商城
+    - shop
+    - store
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - inbox
+    - chat
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - account
+    semantic_type: tab
+  description: 'Main tab bar with 5 navigation tabs: Home, Market, Messages, Me, and
+    a central Explore/Following/Nearby/For You section.'
+  scrollable: false
+  scroll_direction: ''
+- id: screen_9
+  elements:
+  - text: Orders
+    center:
+    - 0.1144
+    - 0.238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 订单
+    - purchases
+    - my orders
+    semantic_type: menu_item
+  - text: Cart
+    center:
+    - 0.3085
+    - 0.238
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_24
+    aliases:
+    - 购物车
+    - basket
+    - shopping cart
+    semantic_type: tab
+  - text: Coupons
+    center:
+    - 0.5
+    - 0.238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 优惠券
+    - vouchers
+    - discounts
+    semantic_type: menu_item
+  - text: Service
+    center:
+    - 0.6915
+    - 0.238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 客服
+    - customer service
+    - help
+    semantic_type: menu_item
+  - text: History
+    center:
+    - 0.8856
+    - 0.238
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_25
+    aliases:
+    - 历史
+    - browsing history
+    - recent
+    semantic_type: menu_item
+  - text: All
+    center:
+    - 0.0597
+    - 0.1556
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 全部
+    - everything
+    - all categories
+    semantic_type: tab
+  - text: Hobbies
+    center:
+    - 0.209
+    - 0.1556
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_26
+    aliases:
+    - 兴趣
+    - interests
+    - hobby
+    semantic_type: tab
+  - text: Bags
+    center:
+    - 0.8358
+    - 0.1556
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_27
+    aliases:
+    - 包包
+    - handbags
+    - bags category
+    semantic_type: tab
+  - text: Beauty
+    center:
+    - 0.9925
+    - 0.1556
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_10
+    aliases:
+    - 美妆
+    - cosmetics
+    - makeup
+    semantic_type: tab
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - 家居
+    - home decor
+    - household
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_28
+    aliases:
+    - 商城
+    - shop
+    - marketplace
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_10
+    aliases:
+    - 消息
+    - notifications
+    - inbox
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - 我
+    - profile
+    - my account
+    semantic_type: tab
+  description: Main navigation menu with sections for Orders, Cart, Coupons, Service,
+    History, and category tabs like All, Hobbies, Bags, Beauty, Home, Market, Messages,
+    and Me.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_10
+  elements:
+  - text: Messages
+    center:
+    - 0.5
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - inbox
+    - 私信
+    - chats
+    semantic_type: tab
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_12
+    aliases:
+    - 首页
+    - feed
+    - discover
+    - 主页
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - 商城
+    - shop
+    - store
+    - 购物
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - 我
+    - profile
+    - 我的
+    - account
+    semantic_type: tab
+  description: 'Bottom navigation bar with 4 tabs: Home, Market, Messages, Me'
+  scrollable: false
+  scroll_direction: ''
+- id: screen_11
+  elements:
+  - text: Scan
+    center:
+    - 0.8483
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 扫码
+    - QR scan
+    - scan code
+    semantic_type: button
+  - text: Share
+    center:
+    - 0.9328
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 分享
+    - send to
+    - share with
+    semantic_type: button
+  - text: Following
+    center:
+    - 0.1517
+    - 0.27
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_29
+    aliases:
+    - 关注
+    - followed
+    - subscriptions
+    semantic_type: tab
+  - text: History
+    center:
+    - 0.1617
+    - 0.3982
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_30
+    aliases:
+    - 历史
+    - recent
+    - viewed
+    semantic_type: menu_item
+  - text: 看过的笔记
+    center:
+    - 0.1219
+    - 0.4176
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_30
+    aliases:
+    - viewed notes
+    - browsed posts
+    - history
+    semantic_type: menu_item
+  - text: Wallet
+    center:
+    - 0.7935
+    - 0.3982
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_31
+    aliases:
+    - 钱包
+    - balance
+    - payments
+    semantic_type: menu_item
+  - text: 查看详情
+    center:
+    - 0.7488
+    - 0.4176
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_31
+    aliases:
+    - view details
+    - details
+    - info
+    semantic_type: button
+  - text: Notes
+    center:
+    - 0.1045
+    - 0.4771
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 笔记
+    - posts
+    - my content
+    semantic_type: tab
+  - text: Saves
+    center:
+    - 0.6667
+    - 0.4771
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_32
+    aliases:
+    - 收藏
+    - bookmarks
+    - saved
+    semantic_type: tab
+  - text: Likes
+    center:
+    - 0.8955
+    - 0.4771
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_33
+    aliases:
+    - 赞
+    - favorites
+    - liked
+    semantic_type: tab
+  - text: Post
+    center:
+    - 0.5
+    - 0.7368
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_34
+    aliases:
+    - 发布
+    - create
+    - upload
+    semantic_type: button
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_12
+    aliases:
+    - 首页
+    - feed
+    - discover
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - 商城
+    - shop
+    - store
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_10
+    aliases:
+    - 消息
+    - inbox
+    - chat
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - account
+    semantic_type: tab
+  description: User profile page with tabs for notes, saves, and likes, and sections
+    for scan, share, following, history, and wallet.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_12
+  elements:
+  - text: Following
+    center:
+    - 0.3134
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - 关注
+    - followed
+    - subscriptions
+    semantic_type: tab
+  - text: Explore
+    center:
+    - 0.5199
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - 发现
+    - discover
+    - search
+    semantic_type: tab
+  - text: Nearby
+    center:
+    - 0.709
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_5
+    aliases:
+    - 附近
+    - local
+    - around
+    semantic_type: tab
+  - text: For You
+    center:
+    - 0.1045
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_35
+    aliases:
+    - 推荐
+    - recommendations
+    - personalized
+    semantic_type: tab
+  - text: RED
+    center:
+    - 0.2736
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - 小红书
+    - Xiaohongshu
+    - rednote
+    semantic_type: label
+  - text: Trend
+    center:
+    - 0.4279
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - 趋势
+    - trending
+    - hot topics
+    semantic_type: tab
+  - text: Live
+    center:
+    - 0.5796
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - 直播
+    - streaming
+    - broadcast
+    semantic_type: tab
+  - text: Series
+    center:
+    - 0.7363
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_5
+    aliases:
+    - 系列
+    - collections
+    - episodes
+    semantic_type: tab
+  - text: Career
+    center:
+    - 0.9154
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_36
+    aliases:
+    - 职业
+    - jobs
+    - employment
+    semantic_type: tab
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_37
+    aliases:
+    - 首页
+    - main page
+    - feed
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_38
+    aliases:
+    - 商城
+    - shop
+    - store
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_39
+    aliases:
+    - 消息
+    - inbox
+    - notifications
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_39
+    aliases:
+    - 我
+    - profile
+    - account
+    semantic_type: tab
+  - text: Like
+    center:
+    - 0.9328
+    - 0.5297
+    found_at_scroll: 3
+    fixed: false
+    leads_to: screen_37
+    aliases:
+    - 赞
+    - favorite
+    - heart
+    semantic_type: button
+  description: Main navigation screen with tabs for Following, Explore, Nearby, and
+    For You, plus category icons and bottom navigation bar.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_13
+  elements:
+  - text: Following
+    center:
+    - 0.3134
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - followed
+    - subscriptions
+    semantic_type: tab
+  - text: Explore
+    center:
+    - 0.5199
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_12
+    aliases:
+    - 发现
+    - discover
+    - search
+    semantic_type: tab
+  - text: Nearby
+    center:
+    - 0.709
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_5
+    aliases:
+    - 附近
+    - local
+    - around
+    semantic_type: tab
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_1
+    aliases:
+    - 首页
+    - main
+    - feed
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_40
+    aliases:
+    - 商城
+    - shop
+    - store
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_10
+    aliases:
+    - 消息
+    - inbox
+    - chat
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - 我
+    - profile
+    - account
+    semantic_type: tab
+  - text: Like
+    center:
+    - 0.9328
+    - 0.3913
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - 赞
+    - favorite
+    - heart
+    semantic_type: button
+  description: 'Bottom navigation bar with 4 tabs: Home, Market, Messages, Me, and
+    a sub-navigation for Following, Explore, Nearby.'
+  scrollable: false
+  scroll_direction: ''
+- id: screen_14
+  elements:
+  - text: Following
+    center:
+    - 0.3134
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_1
+    aliases:
+    - 关注
+    - followed
+    - subscriptions
+    semantic_type: tab
+  - text: Explore
+    center:
+    - 0.5199
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - 发现
+    - discover
+    - search
+    semantic_type: tab
+  - text: Nearby
+    center:
+    - 0.709
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_5
+    aliases:
+    - 附近
+    - local
+    - around
+    semantic_type: tab
+  - text: For You
+    center:
+    - 0.1045
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_4
+    aliases:
+    - 推荐
+    - recommendations
+    - personalized
+    semantic_type: tab
+  - text: RED
+    center:
+    - 0.2736
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_1
+    aliases:
+    - 小红书
+    - Xiaohongshu
+    - rednote
+    semantic_type: label
+  - text: Trend
+    center:
+    - 0.4279
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - 热门
+    - trending
+    - popular
+    semantic_type: tab
+  - text: Live
+    center:
+    - 0.5796
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - 直播
+    - streaming
+    - broadcast
+    semantic_type: tab
+  - text: Series
+    center:
+    - 0.7363
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_5
+    aliases:
+    - 系列
+    - collection
+    - episodes
+    semantic_type: tab
+  - text: Cars
+    center:
+    - 0.898
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_6
+    aliases:
+    - 汽车
+    - auto
+    - vehicles
+    semantic_type: tab
+  - text: Like
+    center:
+    - 0.4378
+    - 0.3478
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_41
+    aliases:
+    - 赞
+    - favorite
+    - heart
+    semantic_type: button
+  - text: Recently viewed
+    center:
+    - 0.4776
+    - 0.159
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_19
+    aliases:
+    - 最近浏览
+    - history
+    - recent
+    semantic_type: menu_item
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - 首页
+    - main
+    - feed
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - 商城
+    - shop
+    - store
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_10
+    aliases:
+    - 消息
+    - inbox
+    - notifications
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - 我
+    - profile
+    - account
+    semantic_type: tab
+  description: Main navigation and content discovery screen with tabs for Following,
+    Explore, Nearby, and For You, plus category shortcuts like RED, Trend, Live, Series,
+    Cars, Like, and Recently viewed, and a bottom navigation bar with Home, Market,
+    Messages, and Me.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_15
+  elements:
+  - text: Following
+    center:
+    - 0.3134
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_42
+    aliases:
+    - 关注
+    - followed
+    - subscriptions
+    semantic_type: tab
+  - text: Explore
+    center:
+    - 0.5199
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - 发现
+    - discover
+    - search
+    semantic_type: tab
+  - text: Nearby
+    center:
+    - 0.709
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_43
+    aliases:
+    - 附近
+    - local
+    - around
+    semantic_type: tab
+  - text: For You
+    center:
+    - 0.1045
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_4
+    aliases:
+    - 推荐
+    - recommendations
+    - personalized
+    semantic_type: tab
+  - text: RED
+    center:
+    - 0.2736
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_44
+    aliases:
+    - 小红书
+    - Xiaohongshu
+    - rednote
+    semantic_type: label
+  - text: Trend
+    center:
+    - 0.4279
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_45
+    aliases:
+    - 趋势
+    - trending
+    - popular
+    semantic_type: tab
+  - text: Live
+    center:
+    - 0.5796
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_39
+    aliases:
+    - 直播
+    - streaming
+    - broadcast
+    semantic_type: tab
+  - text: Series
+    center:
+    - 0.7363
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_46
+    aliases:
+    - 系列
+    - collections
+    - episodes
+    semantic_type: tab
+  - text: Cars
+    center:
+    - 0.898
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_6
+    aliases:
+    - 汽车
+    - vehicles
+    - auto
+    semantic_type: tab
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_47
+    aliases:
+    - 首页
+    - main
+    - feed
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_48
+    aliases:
+    - 商城
+    - shop
+    - store
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_10
+    aliases:
+    - 消息
+    - inbox
+    - notifications
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_49
+    aliases:
+    - 我
+    - profile
+    - account
+    semantic_type: tab
+  - text: Like
+    center:
+    - 0.9328
+    - 0.7986
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - 赞
+    - favorite
+    - heart
+    semantic_type: button
+  description: Main content feed with tabs for Following, Explore, Nearby, and For
+    You, plus category icons for RED, Trend, Live, Series, Cars, and bottom navigation
+    for Home, Market, Messages, Me, and Like.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_16
+  elements:
+  - text: Following
+    center:
+    - 0.3134
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - followed
+    - subscriptions
+    semantic_type: tab
+  - text: Explore
+    center:
+    - 0.5199
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - discover
+    - browse
+    semantic_type: tab
+  - text: Nearby
+    center:
+    - 0.7065
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 附近
+    - local
+    - around me
+    semantic_type: tab
+  - text: '[Region]'
+    center:
+    - 0.0697
+    - 0.1453
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - citywide
+    - all city
+    - entire city
+    semantic_type: tab
+  - text: 推荐
+    center:
+    - 0.2338
+    - 0.1453
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recommended
+    - for you
+    - suggestions
+    semantic_type: tab
+  - text: 美食
+    center:
+    - 0.3756
+    - 0.1453
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - food
+    - cuisine
+    - restaurants
+    - delicacies
+    semantic_type: menu_item
+  - text: 热门打卡地
+    center:
+    - 0.5697
+    - 0.1453
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - popular spots
+    - hot check-in places
+    - trending locations
+    semantic_type: menu_item
+  - text: 周末出行
+    center:
+    - 0.7985
+    - 0.1453
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - weekend trips
+    - weekend getaways
+    - weekend outings
+    semantic_type: menu_item
+  - text: Like
+    center:
+    - 0.9328
+    - 0.7941
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 赞
+    - favorite
+    - heart
+    semantic_type: button
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 首页
+    - main page
+    - feed
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 商城
+    - shop
+    - store
+    - mall
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - inbox
+    - notifications
+    - chats
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - account
+    - my page
+    semantic_type: tab
+  description: Main explore/discover screen with tabs for Following, Explore, and
+    Nearby, showing content categories like 全城, 推荐, 美食, 热门打卡地, and 周末出行, along with
+    bottom navigation for Home, Market, Messages, and Me.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_17
+  elements:
+  - text: Following
+    center:
+    - 0.3134
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - followed
+    - subscriptions
+    semantic_type: tab
+  - text: Explore
+    center:
+    - 0.5199
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - discover
+    - browse
+    semantic_type: tab
+  - text: Nearby
+    center:
+    - 0.7065
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 附近
+    - local
+    - around me
+    semantic_type: tab
+  - text: '[Region]'
+    center:
+    - 0.0697
+    - 0.1453
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - citywide
+    - all city
+    - entire city
+    semantic_type: tab
+  - text: 美食
+    center:
+    - 0.1468
+    - 0.1453
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - food
+    - cuisine
+    - restaurants
+    - delicacies
+    semantic_type: menu_item
+  - text: 热门打卡地
+    center:
+    - 0.3408
+    - 0.1453
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - popular check-ins
+    - hot spots
+    - trending places
+    semantic_type: menu_item
+  - text: 周末出行
+    center:
+    - 0.5697
+    - 0.1453
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - weekend trips
+    - weekend getaways
+    - weekend outings
+    semantic_type: menu_item
+  - text: 购物市集
+    center:
+    - 0.7811
+    - 0.1453
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shopping market
+    - bazaar
+    - flea market
+    semantic_type: menu_item
+  - text: 酒吧派对
+    center:
+    - 0.9925
+    - 0.1453
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - bar parties
+    - club events
+    - nightlife
+    semantic_type: menu_item
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 首页
+    - main page
+    - feed
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 商城
+    - shop
+    - store
+    - mall
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - inbox
+    - notifications
+    - chats
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - account
+    - my page
+    semantic_type: tab
+  description: Explore screen with tabs for Following, Explore, and Nearby, showing
+    category filters like 全城, 美食, 热门打卡地, 周末出行, 购物市集, 酒吧派对, and a bottom navigation
+    bar with Home, Market, Messages, Me.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_18
+  elements:
+  - text: Like
+    center:
+    - 0.4129
+    - 0.7208
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 点赞
+    - favorite
+    - heart
+    semantic_type: tab
+  - text: Following
+    center:
+    - 0.3134
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - followed
+    - subscriptions
+    semantic_type: tab
+  - text: Explore
+    center:
+    - 0.5199
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - discover
+    - browse
+    semantic_type: tab
+  - text: Nearby
+    center:
+    - 0.7065
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 附近
+    - local
+    - around
+    semantic_type: tab
+  - text: '[Region]'
+    center:
+    - 0.0697
+    - 0.1453
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - citywide
+    - whole city
+    - all city
+    semantic_type: tab
+  - text: 推荐
+    center:
+    - 0.2413
+    - 0.1453
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recommend
+    - for you
+    - suggested
+    semantic_type: tab
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 首页
+    - main
+    - feed
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 商城
+    - shop
+    - store
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - inbox
+    - notifications
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - account
+    semantic_type: tab
+  description: 'Main tab bar with 5 tabs: Home, Market, Messages, Me, and a central
+    Explore tab with sub-options for Following, Explore, Nearby, and 全城/推荐.'
+  scrollable: false
+  scroll_direction: ''
+- id: screen_19
+  elements:
+  - text: Following
+    center:
+    - 0.3134
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - followed
+    - subscriptions
+    semantic_type: tab
+  - text: Explore
+    center:
+    - 0.5199
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - discover
+    - search
+    semantic_type: tab
+  - text: Nearby
+    center:
+    - 0.709
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 附近
+    - local
+    - near me
+    semantic_type: tab
+  - text: For You
+    center:
+    - 0.1045
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 推荐
+    - recommendations
+    - personalized
+    semantic_type: tab
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 首页
+    - main
+    - feed
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 商城
+    - shop
+    - store
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - inbox
+    - notifications
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - account
+    semantic_type: tab
+  description: Main navigation screen with tabs for Following, Explore, Nearby, For
+    You, Home, Market, Messages, and Me.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_20
+  elements:
+  - text: Return
+    center:
+    - 0.0672
+    - 0.1007
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 返回
+    - back
+    - go back
+    semantic_type: button
+  description: Return and refund screen showing order details, refund amount, and
+    reason selection.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_21
+  elements:
+  - text: Return
+    center:
+    - 0.0672
+    - 0.1007
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 返回
+    - back
+    - go back
+    semantic_type: button
+  - text: All
+    center:
+    - 0.0622
+    - 0.1533
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 全部
+    - everything
+    - all results
+    semantic_type: tab
+  - text: Users
+    center:
+    - 0.2488
+    - 0.1533
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 用户
+    - people
+    - accounts
+    semantic_type: tab
+  - text: Videos
+    center:
+    - 0.6443
+    - 0.1533
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - clips
+    - shorts
+    semantic_type: tab
+  - text: Images
+    center:
+    - 0.8358
+    - 0.1533
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 图片
+    - photos
+    - pictures
+    semantic_type: tab
+  - text: AskNow
+    center:
+    - 0.8905
+    - 0.1533
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 立即提问
+    - ask now
+    - Q&A
+    semantic_type: button
+  - text: Top
+    center:
+    - 0.0871
+    - 0.1991
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 热门
+    - popular
+    - hot
+    semantic_type: tab
+  - text: Latest
+    center:
+    - 0.2289
+    - 0.1991
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 最新
+    - newest
+    - recent
+    semantic_type: tab
+  - text: 查看指南
+    center:
+    - 0.8507
+    - 0.5
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - view guide
+    - guide
+    - instructions
+    semantic_type: link
+  - text: 查看全部
+    center:
+    - 0.8458
+    - 0.5686
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - view all
+    - see all
+    - 全部
+    semantic_type: link
+  description: Search results page with tabs for Users, Videos, Images, and AskNow,
+    and sort options Top and Latest, showing a guide and a 'view all' option.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_22
+  elements:
+  - text: Following
+    center:
+    - 0.3134
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - followed
+    - subscriptions
+    semantic_type: tab
+  - text: Explore
+    center:
+    - 0.5199
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - discover
+    - search
+    semantic_type: tab
+  - text: Nearby
+    center:
+    - 0.709
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 附近
+    - local
+    - around
+    semantic_type: tab
+  - text: For You
+    center:
+    - 0.1045
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 推荐
+    - recommendations
+    - personalized
+    semantic_type: tab
+  - text: RED
+    center:
+    - 0.2736
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 小红书
+    - Xiaohongshu
+    - red note
+    semantic_type: label
+  - text: Trend
+    center:
+    - 0.4279
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 热门
+    - trending
+    - popular
+    semantic_type: tab
+  - text: Live
+    center:
+    - 0.5796
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 直播
+    - streaming
+    - broadcast
+    semantic_type: tab
+  - text: Series
+    center:
+    - 0.7363
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 系列
+    - collections
+    - episodes
+    semantic_type: tab
+  - text: Cars
+    center:
+    - 0.898
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 汽车
+    - vehicles
+    - auto
+    semantic_type: tab
+  - text: Recently viewed
+    center:
+    - 0.4776
+    - 0.159
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 最近浏览
+    - history
+    - recent
+    semantic_type: menu_item
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 首页
+    - main
+    - feed
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 商城
+    - shop
+    - store
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - inbox
+    - notifications
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - account
+    semantic_type: tab
+  - text: Like
+    center:
+    - 0.4378
+    - 0.6648
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - 赞
+    - favorite
+    - heart
+    semantic_type: button
+  description: Main content feed with tabs for Following, Explore, Nearby, and For
+    You, plus category chips like RED, Trend, Live, Series, Cars, and Recently viewed,
+    and a bottom navigation bar with Home, Market, Messages, Me, and Like.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_23
+  elements:
+  - text: Following
+    center:
+    - 0.3134
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - followed
+    - subscriptions
+    semantic_type: tab
+  - text: Explore
+    center:
+    - 0.5199
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - discover
+    - search
+    semantic_type: tab
+  - text: Nearby
+    center:
+    - 0.709
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 附近
+    - local
+    - near me
+    semantic_type: tab
+  - text: For You
+    center:
+    - 0.1045
+    - 0.0995
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 推荐
+    - recommendations
+    - personalized
+    semantic_type: tab
+  - text: Recently viewed
+    center:
+    - 0.4776
+    - 0.159
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 最近浏览
+    - history
+    - recent
+    semantic_type: menu_item
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 首页
+    - main page
+    - feed
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 商城
+    - shop
+    - store
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - inbox
+    - notifications
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - account
+    semantic_type: tab
+  description: Main navigation screen with tabs for Following, Explore, Nearby, For
+    You, Recently viewed, and bottom navigation bar with Home, Market, Messages, Me.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_24
+  elements:
+  - text: All
+    center:
+    - 0.1393
+    - 0.9279
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 全部
+    - everything
+    - all items
+    semantic_type: tab
+  description: User profile page showing avatar, stats, bio, and a grid of personal
+    posts with like counts.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_25
+  elements:
+  - text: History
+    center:
+    - 0.5
+    - 0.0927
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 历史记录
+    - 浏览记录
+    - recent
+    semantic_type: menu_item
+  description: User's browsing history page showing previously viewed content.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_26
+  elements:
+  - text: All
+    center:
+    - 0.0597
+    - 0.1556
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 全部
+    - everything
+    - all categories
+    semantic_type: tab
+  - text: Hobbies
+    center:
+    - 0.209
+    - 0.1556
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 兴趣
+    - interests
+    - hobby
+    semantic_type: tab
+  - text: Bags
+    center:
+    - 0.8358
+    - 0.1556
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 包包
+    - handbags
+    - bags category
+    semantic_type: tab
+  - text: Beauty
+    center:
+    - 0.9925
+    - 0.1556
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 美妆
+    - cosmetics
+    - makeup
+    semantic_type: tab
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 家居
+    - home decor
+    - household
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 商城
+    - shop
+    - store
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - inbox
+    - notifications
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - my account
+    semantic_type: tab
+  description: 'Main tab navigation screen with 4 tabs: Home, Market, Messages, and
+    Me, plus category filters for Hobbies, Bags, and Beauty.'
+  scrollable: false
+  scroll_direction: ''
+- id: screen_27
+  elements:
+  - text: Beauty
+    center:
+    - 0.694
+    - 0.1556
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 美妆
+    - cosmetics
+    - makeup
+    - beauty tips
+    semantic_type: tab
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 首页
+    - main page
+    - feed
+    - discover
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 商城
+    - shop
+    - store
+    - mall
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - inbox
+    - notifications
+    - chats
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - account
+    - my page
+    semantic_type: tab
+  description: 'Bottom navigation bar with 5 tabs: Beauty, Home, Market, Messages,
+    Me'
+  scrollable: false
+  scroll_direction: ''
+- id: screen_28
+  elements:
+  - text: '[Device]'
+    center:
+    - 0.3682
+    - 0.1304
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - vivo phone
+    - vivo mobile
+    - vivo device
+    semantic_type: label
+  - text: Orders
+    center:
+    - 0.1144
+    - 0.238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 订单
+    - purchases
+    - my orders
+    semantic_type: menu_item
+  - text: Cart
+    center:
+    - 0.3085
+    - 0.238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 购物车
+    - shopping cart
+    - basket
+    semantic_type: tab
+  - text: Coupons
+    center:
+    - 0.5
+    - 0.238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 优惠券
+    - discounts
+    - vouchers
+    semantic_type: menu_item
+  - text: Service
+    center:
+    - 0.6915
+    - 0.238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 客服
+    - customer service
+    - help
+    semantic_type: menu_item
+  - text: History
+    center:
+    - 0.8856
+    - 0.238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 历史记录
+    - browsing history
+    - recently viewed
+    semantic_type: menu_item
+  - text: All
+    center:
+    - 0.0597
+    - 0.1556
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 全部
+    - everything
+    - all categories
+    semantic_type: tab
+  - text: Hobbies
+    center:
+    - 0.209
+    - 0.1556
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 兴趣
+    - interests
+    - hobby
+    semantic_type: tab
+  - text: Bags
+    center:
+    - 0.8358
+    - 0.1556
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 包包
+    - handbags
+    - bags category
+    semantic_type: tab
+  - text: Beauty
+    center:
+    - 0.9925
+    - 0.1556
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 美妆
+    - cosmetics
+    - makeup
+    semantic_type: tab
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 首页
+    - homepage
+    - main page
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 商城
+    - shop
+    - store
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - notifications
+    - inbox
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - my account
+    semantic_type: tab
+  description: User profile or account screen with sections for orders, cart, coupons,
+    service history, and category interests like hobbies, bags, beauty, home, and
+    market.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_29
+  elements:
+  - text: Friend
+    center:
+    - 0.1915
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 好友
+    - 朋友
+    - buddy
+    semantic_type: tab
+  - text: Following
+    center:
+    - 0.3781
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - 已关注
+    - followed
+    semantic_type: tab
+  - text: All
+    center:
+    - 0.097
+    - 0.2368
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 全部
+    - 所有
+    - everything
+    semantic_type: tab
+  - text: Close
+    center:
+    - 0.9303
+    - 0.7117
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 关闭
+    - close button
+    - dismiss
+    semantic_type: button
+  - text: Follow
+    center:
+    - 0.8308
+    - 0.77
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 关注
+    - 加关注
+    - subscribe
+    semantic_type: button
+  description: User's social connections screen with tabs for Friends, Following,
+    and All, allowing the user to view and manage their network.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_30
+  elements:
+  - text: History
+    center:
+    - 0.5
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 历史记录
+    - recent
+    - viewed
+    semantic_type: menu_item
+  - text: Manage
+    center:
+    - 0.8682
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 管理
+    - settings
+    - control
+    semantic_type: menu_item
+  - text: Notes
+    center:
+    - 0.3184
+    - 0.1396
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 笔记
+    - posts
+    - my content
+    semantic_type: menu_item
+  - text: Live
+    center:
+    - 0.6791
+    - 0.1396
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 直播
+    - streaming
+    - broadcast
+    semantic_type: menu_item
+  - text: Like
+    center:
+    - 0.4378
+    - 0.6979
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - 赞
+    - favorites
+    - liked
+    semantic_type: menu_item
+  description: User profile tab section with options to view History, Manage, Notes,
+    Live, and Likes.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_31
+  elements:
+  - text: 我的钱包
+    center:
+    - 0.5
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 钱包
+    - wallet
+    - my wallet
+    - 余额
+    semantic_type: menu_item
+  - text: 我的资产
+    center:
+    - 0.1393
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 资产
+    - assets
+    - my assets
+    - 财产
+    semantic_type: menu_item
+  description: 我的钱包页面，显示用户的资产信息，可查看和管理余额、红包、优惠券等财务相关内容。
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_32
+  elements:
+  - text: Scan
+    center:
+    - 0.8483
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 扫描
+    - QR scan
+    - 扫一扫
+    - scan code
+    semantic_type: button
+  - text: Share
+    center:
+    - 0.9328
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 分享
+    - send to
+    - share with
+    semantic_type: button
+  - text: Following
+    center:
+    - 0.1517
+    - 0.27
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 关注
+    - followed
+    - subscriptions
+    semantic_type: tab
+  - text: History
+    center:
+    - 0.1617
+    - 0.3982
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 历史
+    - recent
+    - 浏览记录
+    - viewed
+    semantic_type: menu_item
+  - text: 看过的笔记
+    center:
+    - 0.1219
+    - 0.4176
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - viewed notes
+    - history notes
+    - 浏览过的笔记
+    - seen posts
+    semantic_type: menu_item
+  - text: Wallet
+    center:
+    - 0.7935
+    - 0.3982
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 钱包
+    - balance
+    - payment
+    - red packet
+    semantic_type: menu_item
+  - text: 查看详情
+    center:
+    - 0.7488
+    - 0.4176
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - view details
+    - details
+    - 详情
+    - see more
+    semantic_type: button
+  - text: Saves
+    center:
+    - 0.5522
+    - 0.4771
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 收藏
+    - bookmarks
+    - saved
+    - favorites
+    semantic_type: tab
+  - text: Likes
+    center:
+    - 0.7811
+    - 0.4771
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 赞
+    - liked
+    - 点赞
+    - hearted
+    semantic_type: tab
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 首页
+    - feed
+    - discover
+    - 主页
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 商城
+    - shop
+    - store
+    - 购物
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - inbox
+    - notifications
+    - 私信
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - 我的
+    - account
+    semantic_type: tab
+  description: User profile and activity hub with sections for scan, share, following,
+    history, viewed notes, wallet, saves, likes, and bottom navigation tabs.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_33
+  elements:
+  - text: Scan
+    center:
+    - 0.8483
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 扫描
+    - QR scan
+    - 扫一扫
+    semantic_type: button
+  - text: Share
+    center:
+    - 0.9328
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 分享
+    - send to
+    - 转发
+    semantic_type: button
+  - text: shift
+    center:
+    - 0.0697
+    - 0.8295
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 切换
+    - switch
+    - change
+    semantic_type: button
+  - text: 表情符号
+    center:
+    - 0.1915
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - emoji
+    - 表情
+    - sticker
+    semantic_type: button
+  - text: 搜索
+    center:
+    - 0.8756
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search
+    - find
+    - 查找
+    semantic_type: input
+  - text: Notes
+    center:
+    - 0.1045
+    - 0.1522
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 笔记
+    - posts
+    - my notes
+    semantic_type: tab
+  - text: Saves
+    center:
+    - 0.6667
+    - 0.1522
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 收藏
+    - bookmarks
+    - saved items
+    semantic_type: tab
+  - text: Likes
+    center:
+    - 0.8955
+    - 0.1522
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 赞
+    - favorites
+    - liked posts
+    semantic_type: tab
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 首页
+    - feed
+    - 主页
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 商城
+    - shop
+    - 购物
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - inbox
+    - 私信
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - 个人中心
+    semantic_type: tab
+  description: User profile or personal content hub with tabs for Notes, Saves, Likes,
+    and navigation to Home, Market, Messages, and Me.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_34
+  elements:
+  - text: All
+    center:
+    - 0.0995
+    - 0.1465
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 全部
+    - all items
+    - everything
+    semantic_type: tab
+  - text: Videos
+    center:
+    - 0.2985
+    - 0.1465
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - video files
+    - clips
+    semantic_type: tab
+  - text: Photos
+    center:
+    - 0.5
+    - 0.1465
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 照片
+    - images
+    - pictures
+    semantic_type: tab
+  - text: Recents
+    center:
+    - 0.2488
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 最近
+    - recent items
+    - history
+    semantic_type: tab
+  - text: Drafts
+    center:
+    - 0.8905
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 草稿
+    - draft items
+    - unpublished
+    semantic_type: tab
+  description: Media library screen with tabs for All, Videos, Photos, Recents, and
+    Drafts to browse and manage saved content.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_35
+  elements:
+  - text: Return
+    center:
+    - 0.0721
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - 返回
+    - go back
+    semantic_type: button
+  - text: cam
+    center:
+    - 0.2662
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - camera
+    - 相机
+    - 拍照
+    semantic_type: button
+  - text: Follow
+    center:
+    - 0.7861
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - subscribe
+    - follow user
+    semantic_type: button
+  - text: Dislike
+    center:
+    - 0.9005
+    - 0.857
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 不喜欢
+    - thumbs down
+    - not interested
+    semantic_type: button
+  - text: BLUR
+    center:
+    - 0.204
+    - 0.3799
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - 模糊
+    - blur effect
+    - background blur
+    semantic_type: button
+  description: Content detail screen with options to return, follow, dislike, and
+    blur the image.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_36
+  elements:
+  - text: Return
+    center:
+    - 0.0721
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+  - text: Follow
+    center:
+    - 0.7861
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+  - text: Dislike
+    center:
+    - 0.9005
+    - 0.8924
+    found_at_scroll: 0
+    fixed: true
+  - text: Friends
+    center:
+    - 0.102
+    - 0.8124
+    found_at_scroll: 0
+    fixed: true
+  - text: '[App]'
+    center:
+    - 0.2761
+    - 0.8124
+    found_at_scroll: 0
+    fixed: true
+  - text: Moments
+    center:
+    - 0.4502
+    - 0.8124
+    found_at_scroll: 0
+    fixed: true
+  - text: QQ
+    center:
+    - 0.6244
+    - 0.8124
+    found_at_scroll: 0
+    fixed: true
+  - text: Qzone
+    center:
+    - 0.7985
+    - 0.8124
+    found_at_scroll: 0
+    fixed: true
+  - text: Weibo
+    center:
+    - 0.9726
+    - 0.8124
+    found_at_scroll: 0
+    fixed: true
+  - text: Save
+    center:
+    - 0.9726
+    - 0.9291
+    found_at_scroll: 0
+    fixed: true
+  description: Share post to social platforms and friends with options like WeChat,
+    Moments, QQ, and Save.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_37
+  elements:
+  - text: Return
+    center:
+    - 0.0721
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 返回
+    - back
+    - go back
+    semantic_type: button
+  - text: Follow
+    center:
+    - 0.7861
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - subscribe
+    - follow user
+    semantic_type: button
+  - text: Dislike
+    center:
+    - 0.9005
+    - 0.9096
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 不喜欢
+    - thumbs down
+    - not interested
+    semantic_type: button
+  - text: Save
+    center:
+    - 0.7438
+    - 0.9291
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 保存
+    - bookmark
+    - 收藏
+    - favorite
+    semantic_type: button
+  - text: Cmt
+    center:
+    - 0.9279
+    - 0.9291
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 评论
+    - comment
+    - reply
+    - 留言
+    semantic_type: button
+  description: Post detail screen with options to return, follow the author, dislike,
+    save, and comment on the content.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_38
+  elements:
+  - text: Return
+    center:
+    - 0.0721
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 返回
+    - back
+    - go back
+    semantic_type: button
+  - text: Follow
+    center:
+    - 0.7861
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - subscribe
+    - follow user
+    semantic_type: button
+  - text: LIVE
+    center:
+    - 0.1119
+    - 0.1602
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 直播
+    - live stream
+    - broadcast
+    semantic_type: label
+  - text: 地点
+    center:
+    - 0.1368
+    - 0.8993
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - location
+    - 位置
+    - place
+    - address
+    semantic_type: label
+  - text: Dislike
+    center:
+    - 0.9005
+    - 0.4863
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 不喜欢
+    - not interested
+    - thumbs down
+    semantic_type: button
+  description: Live stream settings or interaction menu with options to return, follow,
+    view live, see location, and dislike.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_39
+  elements:
+  - text: Return
+    center:
+    - 0.0721
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - 返回
+    - go back
+    semantic_type: button
+  - text: Follow
+    center:
+    - 0.7861
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - subscribe
+    - follow user
+    semantic_type: button
+  - text: Dislike
+    center:
+    - 0.9005
+    - 0.8924
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 不喜欢
+    - thumbs down
+    - not interested
+    semantic_type: button
+  description: User feedback screen with options to return, follow, or dislike content
+  scrollable: false
+  scroll_direction: ''
+- id: screen_40
+  elements:
+  - text: ux设计
+    center:
+    - 0.3682
+    - 0.1007
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - UX design
+    - user experience design
+    - 用户体验设计
+    semantic_type: menu_item
+  - text: Orders
+    center:
+    - 0.1144
+    - 0.238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 订单
+    - my orders
+    - purchases
+    semantic_type: tab
+  - text: Cart
+    center:
+    - 0.3085
+    - 0.238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 购物车
+    - shopping cart
+    - basket
+    semantic_type: tab
+  - text: Coupons
+    center:
+    - 0.5
+    - 0.238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 优惠券
+    - discounts
+    - vouchers
+    semantic_type: menu_item
+  - text: Service
+    center:
+    - 0.6915
+    - 0.238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 客服
+    - customer service
+    - help
+    semantic_type: menu_item
+  - text: History
+    center:
+    - 0.8856
+    - 0.238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 历史记录
+    - browsing history
+    - recent
+    semantic_type: menu_item
+  - text: All
+    center:
+    - 0.0597
+    - 0.1556
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 全部
+    - everything
+    - all categories
+    semantic_type: tab
+  - text: Home
+    center:
+    - 0.0995
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 首页
+    - main page
+    - feed
+    semantic_type: tab
+  - text: Market
+    center:
+    - 0.2985
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 商城
+    - shop
+    - store
+    semantic_type: tab
+  - text: Messages
+    center:
+    - 0.699
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - inbox
+    - notifications
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9497
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - account
+    semantic_type: tab
+  description: 'Bottom navigation bar with 5 tabs: Home, Market, Messages, Cart, Me,
+    and a central Orders button.'
+  scrollable: false
+  scroll_direction: ''
+- id: screen_41
+  elements:
+  - text: Return
+    center:
+    - 0.0721
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 返回
+    - back
+    - go back
+    semantic_type: button
+  - text: Follow
+    center:
+    - 0.7861
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - subscribe
+    - follow user
+    semantic_type: button
+  - text: 地点
+    center:
+    - 0.1368
+    - 0.3478
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - location
+    - 位置
+    - place
+    - address
+    semantic_type: label
+  - text: Dislike
+    center:
+    - 0.9005
+    - 0.4233
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 不喜欢
+    - thumbs down
+    - not interested
+    semantic_type: button
+  description: User feedback screen for reporting content with options to return,
+    follow, dislike, or select a location.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_42
+  elements:
+  - text: Return
+    center:
+    - 0.0672
+    - 0.0973
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 返回
+    - back
+    - go back
+    semantic_type: button
+  - text: More
+    center:
+    - 0.9328
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 更多
+    - options
+    - menu
+    semantic_type: button
+  - text: Follow
+    center:
+    - 0.801
+    - 0.1465
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - subscribe
+    - add friend
+    semantic_type: button
+  - text: Following
+    center:
+    - 0.194
+    - 0.27
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 已关注
+    - subscribed
+    - unfollow
+    semantic_type: toggle
+  - text: Message
+    center:
+    - 0.6642
+    - 0.5973
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - chat
+    - 私信
+    - DM
+    semantic_type: button
+  - text: Notes
+    center:
+    - 0.1045
+    - 0.6625
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 笔记
+    - posts
+    - content
+    semantic_type: tab
+  - text: Tag
+    center:
+    - 0.6791
+    - 0.6625
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 标签
+    - label
+    - category
+    semantic_type: label
+  - text: Pinned
+    center:
+    - 0.0945
+    - 0.7643
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 置顶
+    - sticky
+    - top
+    semantic_type: label
+  description: User profile action menu with options to follow, message, add notes,
+    tag, and pin the profile.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_43
+  elements:
+  - text: Return
+    center:
+    - 0.0721
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - 返回
+    - go back
+    semantic_type: button
+  - text: Following
+    center:
+    - 0.7637
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - follow
+    - 关注
+    - subscribe
+    semantic_type: toggle
+  - text: Dislike
+    center:
+    - 0.9005
+    - 0.5984
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - thumbs down
+    - 不喜欢
+    - downvote
+    semantic_type: button
+  - text: Like
+    center:
+    - 0.5572
+    - 0.9291
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - thumbs up
+    - 喜欢
+    - heart
+    - 点赞
+    semantic_type: button
+  - text: Save
+    center:
+    - 0.7438
+    - 0.9291
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - bookmark
+    - 收藏
+    - favorite
+    semantic_type: button
+  - text: Cmt
+    center:
+    - 0.9279
+    - 0.9291
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - comment
+    - 评论
+    - reply
+    semantic_type: button
+  description: Post detail screen with options to return, follow the author, dislike,
+    like, save, and comment.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_44
+  elements:
+  - text: Return
+    center:
+    - 0.0672
+    - 0.0973
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 返回
+    - back
+    - go back
+    semantic_type: button
+  - text: More
+    center:
+    - 0.9328
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 更多
+    - options
+    - menu
+    semantic_type: button
+  - text: Follow
+    center:
+    - 0.801
+    - 0.1465
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - subscribe
+    - add friend
+    semantic_type: button
+  - text: Following
+    center:
+    - 0.1517
+    - 0.27
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 已关注
+    - subscribed
+    - unfollow
+    semantic_type: toggle
+  - text: Message
+    center:
+    - 0.6642
+    - 0.3593
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 消息
+    - chat
+    - 私信
+    - DM
+    semantic_type: button
+  - text: Notes
+    center:
+    - 0.1045
+    - 0.4245
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 笔记
+    - posts
+    - content
+    semantic_type: tab
+  - text: Saves
+    center:
+    - 0.296
+    - 0.4245
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 收藏
+    - bookmarks
+    - saved items
+    semantic_type: tab
+  description: User profile or connection management screen with options to follow,
+    message, view notes and saves.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_45
+  elements:
+  - text: Return
+    center:
+    - 0.0672
+    - 0.0973
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 返回
+    - back
+    - go back
+    semantic_type: button
+  - text: More
+    center:
+    - 0.9328
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 更多
+    - options
+    - menu
+    semantic_type: button
+  - text: Follow
+    center:
+    - 0.801
+    - 0.1465
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - subscribe
+    - add friend
+    semantic_type: button
+  - text: Following
+    center:
+    - 0.1766
+    - 0.27
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 已关注
+    - subscribed
+    - unfollow
+    semantic_type: toggle
+  - text: Message
+    center:
+    - 0.6642
+    - 0.4943
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 消息
+    - chat
+    - DM
+    - 私信
+    semantic_type: button
+  - text: Notes
+    center:
+    - 0.1045
+    - 0.5595
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 笔记
+    - posts
+    - content
+    semantic_type: tab
+  - text: Saves
+    center:
+    - 0.5771
+    - 0.5595
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 收藏
+    - bookmarks
+    - saved items
+    semantic_type: tab
+  - text: Pinned
+    center:
+    - 0.0945
+    - 0.6613
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 置顶
+    - sticky
+    - top
+    semantic_type: label
+  description: User profile or account management screen with options to follow, message,
+    view notes, saves, and pinned items.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_46
+  elements:
+  - text: Return
+    center:
+    - 0.0721
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 返回
+    - back
+    - go back
+    semantic_type: button
+  - text: Following
+    center:
+    - 0.7637
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - followed
+    - subscriptions
+    semantic_type: tab
+  - text: Copy
+    center:
+    - 0.3881
+    - 0.659
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 复制
+    - duplicate
+    - copy text
+    semantic_type: button
+  description: Following list screen showing users you follow with options to return
+    or copy.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_47
+  elements:
+  - text: Return
+    center:
+    - 0.0721
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 返回
+    - back
+    - go back
+    semantic_type: button
+  - text: Follow
+    center:
+    - 0.7861
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - subscribe
+    - follow user
+    semantic_type: button
+  - text: Cmt
+    center:
+    - 0.9279
+    - 0.9291
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 评论
+    - comment
+    - reply
+    - message
+    semantic_type: button
+  - text: Dislike
+    center:
+    - 0.9005
+    - 0.54
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 不喜欢
+    - thumbs down
+    - not interested
+    - dislike
+    semantic_type: button
+  description: Post interaction screen with options to return, follow the user, comment,
+    or dislike the content.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_48
+  elements:
+  - text: Return
+    center:
+    - 0.0721
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 返回
+    - back
+    - go back
+    semantic_type: button
+  - text: Follow
+    center:
+    - 0.7861
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - subscribe
+    - follow user
+    semantic_type: button
+  - text: Copy
+    center:
+    - 0.5299
+    - 0.635
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 复制
+    - duplicate
+    - copy text
+    semantic_type: button
+  description: Post detail screen with options to return, follow the author, and copy
+    content.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_49
+  elements:
+  - text: Return
+    center:
+    - 0.0721
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - 返回
+    - go back
+    - previous
+    semantic_type: button
+  - text: Follow
+    center:
+    - 0.7861
+    - 0.103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - subscribe
+    - follow author
+    semantic_type: button
+  - text: Like
+    center:
+    - 0.5572
+    - 0.9291
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 赞
+    - favorite
+    - heart
+    - 点赞
+    semantic_type: toggle
+  - text: Save
+    center:
+    - 0.7438
+    - 0.9291
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 收藏
+    - bookmark
+    - favorite
+    - 保存
+    semantic_type: toggle
+  - text: Dislike
+    center:
+    - 0.9005
+    - 0.4828
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - 不感兴趣
+    - not interested
+    - thumbs down
+    - 屏蔽
+    semantic_type: button
+  - text: Author
+    center:
+    - 0.4403
+    - 0.7357
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - 作者
+    - creator
+    - poster
+    - 博主
+    semantic_type: link
+  description: Post interaction screen with options to follow the author, like, save,
+    dislike, and return to previous page.
+  scrollable: false
+  scroll_direction: ''
+screen_macros:
+  screen_0:
+  - action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  screen_1:
+  - action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - action: tap
+    x: 126
+    y: 84
+    wait: 1.0
+  screen_2:
+  - action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - action: tap
+    x: 209
+    y: 84
+    wait: 1.0
+  screen_3:
+  - action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - action: tap
+    x: 285
+    y: 84
+    wait: 1.0
+  screen_4:
+  - action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - action: tap
+    x: 42
+    y: 87
+    wait: 1.0
+  screen_5:
+  - action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - action: tap
+    x: 296
+    y: 87
+    wait: 1.0
+  screen_6:
+  - action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - action: tap
+    x: 368
+    y: 87
+    wait: 1.0
+  screen_7:
+  - action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - action: tap
+    x: 192
+    y: 139
+    wait: 1.0
+  screen_8:
+  - action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - action: tap
+    x: 40
+    y: 830
+    wait: 1.0
+  screen_9:
+  - &id001
+    action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - &id002
+    action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - &id003
+    action: tap
+    x: 120
+    y: 830
+    wait: 1.0
+  screen_10:
+  - action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - action: tap
+    x: 281
+    y: 830
+    wait: 1.0
+  screen_11:
+  - &id004
+    action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - &id005
+    action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - &id006
+    action: tap
+    x: 361
+    y: 830
+    wait: 1.0
+  screen_12:
+  - &id007
+    action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - &id008
+    action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - &id009
+    action: tap
+    x: 375
+    y: 430
+    wait: 1.0
+  screen_13:
+  - &id010
+    action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - &id011
+    action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - &id012
+    action: tap
+    x: 126
+    y: 84
+    wait: 1.0
+  - &id013
+    action: tap
+    x: 126
+    y: 84
+    wait: 1.0
+  screen_14:
+  - &id014
+    action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - &id015
+    action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - &id016
+    action: tap
+    x: 209
+    y: 84
+    wait: 1.0
+  - &id017
+    action: tap
+    x: 40
+    y: 830
+    wait: 1.0
+  screen_15:
+  - &id018
+    action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - &id019
+    action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - &id020
+    action: tap
+    x: 209
+    y: 84
+    wait: 1.0
+  - &id021
+    action: tap
+    x: 176
+    y: 536
+    wait: 1.0
+  screen_16:
+  - action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - action: tap
+    x: 296
+    y: 87
+    wait: 1.0
+  - action: tap
+    x: 232
+    y: 127
+    wait: 1.0
+  screen_17:
+  - action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - action: tap
+    x: 296
+    y: 87
+    wait: 1.0
+  - action: tap
+    x: 324
+    y: 127
+    wait: 1.0
+  screen_18:
+  - action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - action: tap
+    x: 296
+    y: 87
+    wait: 1.0
+  - action: tap
+    x: 40
+    y: 830
+    wait: 1.0
+  screen_19:
+  - action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - action: tap
+    x: 368
+    y: 87
+    wait: 1.0
+  - action: tap
+    x: 27
+    y: 88
+    wait: 1.0
+  screen_20:
+  - action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - action: tap
+    x: 368
+    y: 87
+    wait: 1.0
+  - action: tap
+    x: 77
+    y: 779
+    wait: 1.0
+  screen_21:
+  - action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - action: tap
+    x: 368
+    y: 87
+    wait: 1.0
+  - action: tap
+    x: 352
+    y: 779
+    wait: 1.0
+  screen_22:
+  - action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - action: tap
+    x: 40
+    y: 830
+    wait: 1.0
+  - action: tap
+    x: 375
+    y: 437
+    wait: 1.0
+  screen_23:
+  - action: force_stop
+    bundle_id: com.xingin.discover
+    wait: 1.0
+  - action: launch
+    bundle_id: com.xingin.discover
+    wait: 3.0
+  - action: tap
+    x: 40
+    y: 830
+    wait: 1.0
+  - action: tap
+    x: 40
+    y: 830
+    wait: 1.0
+  screen_24:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 124
+    y: 208
+    wait: 1.0
+  screen_25:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 356
+    y: 208
+    wait: 1.0
+  screen_26:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 84
+    y: 136
+    wait: 1.0
+  screen_27:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 336
+    y: 136
+    wait: 1.0
+  screen_28:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 120
+    y: 830
+    wait: 1.0
+  screen_29:
+  - *id004
+  - *id005
+  - *id006
+  - action: tap
+    x: 61
+    y: 236
+    wait: 1.0
+  screen_30:
+  - *id004
+  - *id005
+  - *id006
+  - action: tap
+    x: 65
+    y: 348
+    wait: 1.0
+  screen_31:
+  - *id004
+  - *id005
+  - *id006
+  - action: tap
+    x: 319
+    y: 348
+    wait: 1.0
+  screen_32:
+  - *id004
+  - *id005
+  - *id006
+  - action: tap
+    x: 268
+    y: 417
+    wait: 1.0
+  screen_33:
+  - *id004
+  - *id005
+  - *id006
+  - action: tap
+    x: 360
+    y: 417
+    wait: 1.0
+  screen_34:
+  - *id004
+  - *id005
+  - *id006
+  - action: tap
+    x: 201
+    y: 644
+    wait: 1.0
+  screen_35:
+  - *id007
+  - *id008
+  - *id009
+  - action: tap
+    x: 42
+    y: 87
+    wait: 1.0
+  screen_36:
+  - *id007
+  - *id008
+  - *id009
+  - action: tap
+    x: 368
+    y: 87
+    wait: 1.0
+  screen_37:
+  - *id007
+  - *id008
+  - *id009
+  - action: tap
+    x: 40
+    y: 830
+    wait: 1.0
+  screen_38:
+  - *id007
+  - *id008
+  - *id009
+  - action: tap
+    x: 120
+    y: 830
+    wait: 1.0
+  screen_39:
+  - *id007
+  - *id008
+  - *id009
+  - action: tap
+    x: 281
+    y: 830
+    wait: 1.0
+  screen_40:
+  - *id010
+  - *id011
+  - *id012
+  - *id013
+  - action: tap
+    x: 120
+    y: 830
+    wait: 1.0
+  screen_41:
+  - *id014
+  - *id015
+  - *id016
+  - *id017
+  - action: tap
+    x: 176
+    y: 304
+    wait: 1.0
+  screen_42:
+  - *id018
+  - *id019
+  - *id020
+  - *id021
+  - action: tap
+    x: 126
+    y: 84
+    wait: 1.0
+  screen_43:
+  - *id018
+  - *id019
+  - *id020
+  - *id021
+  - action: tap
+    x: 285
+    y: 84
+    wait: 1.0
+  screen_44:
+  - *id018
+  - *id019
+  - *id020
+  - *id021
+  - action: tap
+    x: 110
+    y: 87
+    wait: 1.0
+  screen_45:
+  - *id018
+  - *id019
+  - *id020
+  - *id021
+  - action: tap
+    x: 172
+    y: 87
+    wait: 1.0
+  screen_46:
+  - *id018
+  - *id019
+  - *id020
+  - *id021
+  - action: tap
+    x: 296
+    y: 87
+    wait: 1.0
+  screen_47:
+  - *id018
+  - *id019
+  - *id020
+  - *id021
+  - action: tap
+    x: 40
+    y: 830
+    wait: 1.0
+  screen_48:
+  - *id018
+  - *id019
+  - *id020
+  - *id021
+  - action: tap
+    x: 120
+    y: 830
+    wait: 1.0
+  screen_49:
+  - *id018
+  - *id019
+  - *id020
+  - *id021
+  - action: tap
+    x: 361
+    y: 830
+    wait: 1.0
+launch_behavior: always_home
+common_tasks:
+- Browse content feeds (Following, Explore, Nearby, For You)
+- Search for users, videos, images, or topics
+- View and interact with image/video posts (like, save, comment)
+- Shop on the Market tab
+- Send and read messages
+- View and edit personal profile
+- Check order status and request refunds
+- Manage social connections (friends, followers)
+- View browsing history
+- Scan QR codes or share content
+known_limitations:
+- Bottom navigation tabs may vary between 4 and 5 items depending on screen context
+- Some category filters require horizontal scrolling to see all options
+- Search bar is not always visible and may require navigating to a dedicated search
+  screen
+- Pagination dots on image detail view may be small and hard to tap

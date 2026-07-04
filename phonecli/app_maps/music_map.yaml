@@ -1,0 +1,6898 @@
+app: Music
+package: com.apple.Music
+screen_w: 402
+screen_h: 874
+screens:
+- id: screen_0
+  elements:
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_1
+    aliases:
+    - account
+    - profile
+    - user
+    - 我的账户
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_2
+    aliases:
+    - 播放
+    - start
+    - resume
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_3
+    aliases:
+    - skip
+    - next
+    - 下一首
+    - forward
+    semantic_type: button
+  - text: Home
+    center:
+    - 0.1667
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_3
+    aliases:
+    - 主页
+    - main
+    - dashboard
+    semantic_type: tab
+  - text: Radio Station
+    center:
+    - 0.1493
+    - 0.8696
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_4
+    aliases:
+    - 电台
+    - broadcast
+    - station
+    semantic_type: menu_item
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_3
+    aliases:
+    - home icon
+    - 主页图标
+    - house
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_5
+    aliases:
+    - grid icon
+    - browse
+    - categories
+    - 网格
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_6
+    aliases:
+    - radio icon
+    - 广播
+    - tuner
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - library icon
+    - songs
+    - 音乐库
+    - playlist icon
+    semantic_type: tab
+  description: Music app home screen with a grid of 2x2 options including My Account,
+    Play, Next track, and Radio Station, plus a bottom navigation bar with Home and
+    Radio tabs.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_1
+  elements:
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - account
+    - profile
+    - user
+    - 我的账户
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_8
+    aliases:
+    - 播放
+    - start
+    - resume
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - skip
+    - next
+    - 下一首
+    - forward
+    semantic_type: button
+  - text: Close
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - dismiss
+    - exit
+    - 关闭
+    - x
+    semantic_type: button
+  - text: Home
+    center:
+    - 0.1667
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_10
+    aliases:
+    - 主页
+    - main
+    - dashboard
+    - home screen
+    semantic_type: tab
+  - text: Radio Station
+    center:
+    - 0.1493
+    - 0.8696
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - broadcast
+    - 电台
+    - station
+    - live radio
+    semantic_type: menu_item
+  - text: '[App]'
+    center:
+    - 0.2488
+    - 0.7426
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+    aliases:
+    - album art
+    - cover
+    - 封面
+    - artwork image
+    semantic_type: other
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_12
+    aliases:
+    - home icon
+    - 主页图标
+    - filled home
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - grid icon
+    - 2x2 grid
+    - layout
+    - 网格
+    semantic_type: button
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - 广播
+    - radio tab
+    - tuner
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - songs icon
+    - library
+    - 音乐库
+    - stacked squares
+    semantic_type: tab
+  description: Music app home screen with account access, playback controls, and navigation
+    to radio and library sections.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_2
+  elements:
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_14
+    aliases:
+    - account
+    - profile
+    - 我的账户
+    - user settings
+    semantic_type: menu_item
+  - text: Pause
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - 暂停
+    - stop
+    - hold
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_15
+    aliases:
+    - skip
+    - 下一首
+    - forward
+    semantic_type: button
+  - text: Home
+    center:
+    - 0.1667
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_15
+    aliases:
+    - 首页
+    - main
+    - start
+    semantic_type: tab
+  - text: Radio Station
+    center:
+    - 0.1493
+    - 0.8696
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_16
+    aliases:
+    - 广播电台
+    - station
+    - broadcast
+    semantic_type: menu_item
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home icon
+    - 首页图标
+    - house
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_17
+    aliases:
+    - browse
+    - 网格
+    - categories
+    - library
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_17
+    aliases:
+    - 广播
+    - radio tab
+    - tuner
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_15
+    aliases:
+    - songs
+    - playlist
+    - 音乐库
+    - library icon
+    semantic_type: tab
+  description: Now playing screen with playback controls and bottom navigation tabs
+    for Home and Radio Station.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_3
+  elements:
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_10
+    aliases:
+    - account
+    - profile
+    - user
+    - 我的账户
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_15
+    aliases:
+    - play button
+    - start
+    - 播放
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - next
+    - skip
+    - forward
+    - 下一首
+    semantic_type: button
+  - text: Home
+    center:
+    - 0.1667
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - main
+    - homepage
+    - 首页
+    semantic_type: tab
+  - text: New Release
+    center:
+    - 0.8308
+    - 0.5011
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_18
+    aliases:
+    - latest
+    - new music
+    - 新发行
+    semantic_type: menu_item
+  - text: Radio Station
+    center:
+    - 0.5796
+    - 0.8696
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_19
+    aliases:
+    - radio
+    - broadcast
+    - 电台
+    semantic_type: menu_item
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_20
+    aliases:
+    - home icon
+    - home tab
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_5
+    aliases:
+    - browse
+    - categories
+    - grid
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_6
+    aliases:
+    - radio tab
+    - broadcast
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - library
+    - songs
+    - playlist
+    semantic_type: tab
+  description: Music app home screen with navigation tabs for Home, New Release, and
+    Radio Station, and playback controls for the current track.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_4
+  elements:
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - account
+    - profile
+    - user
+    - 我的账户
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_21
+    aliases:
+    - play button
+    - start
+    - 播放
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_21
+    aliases:
+    - skip
+    - next
+    - forward
+    - 下一首
+    semantic_type: button
+  - text: More
+    center:
+    - 0.8806
+    - 0.587
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_22
+    aliases:
+    - ellipsis
+    - options
+    - overflow
+    - 更多
+    semantic_type: button
+  - text: Lyrics
+    center:
+    - 0.2164
+    - 0.9245
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_21
+    aliases:
+    - words
+    - text
+    - 歌词
+    semantic_type: button
+  - text: Home
+    center:
+    - 0.1667
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - main
+    - 首页
+    - home screen
+    semantic_type: tab
+  - text: Radio Station
+    center:
+    - 0.5796
+    - 0.8696
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_21
+    aliases:
+    - station
+    - broadcast
+    - 电台
+    semantic_type: label
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_23
+    aliases:
+    - home icon
+    - home tab
+    - 首页图标
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_21
+    aliases:
+    - browse
+    - categories
+    - grid icon
+    - 浏览
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - radio tab
+    - broadcast
+    - 电台
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_21
+    aliases:
+    - library icon
+    - songs
+    - library tab
+    - 音乐库
+    semantic_type: tab
+  description: Music app home screen with navigation tabs for Home and Radio Station,
+    and playback controls for the current track including play, next, more, and lyrics
+    options.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_5
+  elements:
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_24
+    aliases:
+    - account
+    - profile
+    - 我的账户
+    - user
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_17
+    aliases:
+    - play button
+    - start
+    - 播放
+    - resume
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip
+    - next
+    - 下一首
+    - forward
+    semantic_type: button
+  - text: New
+    center:
+    - 0.1393
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - new playlist
+    - create
+    - 新建
+    - add
+    semantic_type: button
+  - text: More
+    center:
+    - 0.8209
+    - 0.5927
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_25
+    aliases:
+    - options
+    - ellipsis
+    - 更多
+    - overflow
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - home
+    - 主页
+    - house
+    - home tab
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - library
+    - 浏览
+    - categories
+    - grid
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_6
+    aliases:
+    - radio tab
+    - 广播
+    - stations
+    - live radio
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - songs
+    - library
+    - 音乐库
+    - my music
+    - collection
+    semantic_type: tab
+  description: Music app home screen with playback controls, navigation tabs, and
+    options to access account, playlists, radio, and library.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_6
+  elements:
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_26
+    aliases:
+    - account
+    - profile
+    - user
+    - 我的账户
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_17
+    aliases:
+    - play button
+    - start
+    - 播放
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - next
+    - skip
+    - forward
+    - 下一首
+    semantic_type: button
+  - text: Radio
+    center:
+    - 0.1617
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - radio station
+    - broadcast
+    - 电台
+    semantic_type: menu_item
+  - text: More
+    center:
+    - 0.8209
+    - 0.6201
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_27
+    aliases:
+    - more options
+    - additional
+    - 更多
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_20
+    aliases:
+    - home
+    - house
+    - 主页
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_5
+    aliases:
+    - grid
+    - browse
+    - categories
+    - 浏览
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - library
+    - songs
+    - playlist
+    - 音乐库
+    semantic_type: tab
+  description: Music app home screen with playback controls and navigation options
+    including My Account, Play, Next track, Radio, and More.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_7
+  elements:
+  - text: More
+    center:
+    - 0.7438
+    - 0.0961
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 更多
+    - additional options
+    - overflow menu
+    semantic_type: tab
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_10
+    aliases:
+    - account settings
+    - profile
+    - 我的账户
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_15
+    aliases:
+    - 播放
+    - start
+    - resume
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - skip
+    - 下一首
+    - forward
+    semantic_type: button
+  - text: Library
+    center:
+    - 0.1891
+    - 0.0961
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 音乐库
+    - collection
+    - my music
+    semantic_type: tab
+  - text: Artists
+    center:
+    - 0.2139
+    - 0.2815
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_28
+    aliases:
+    - 歌手
+    - performers
+    - bands
+    semantic_type: menu_item
+  - text: Albums
+    center:
+    - 0.2239
+    - 0.341
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_29
+    aliases:
+    - 专辑
+    - records
+    - LPs
+    semantic_type: menu_item
+  - text: Songs
+    center:
+    - 0.2114
+    - 0.4005
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_29
+    aliases:
+    - 歌曲
+    - tracks
+    - music
+    semantic_type: menu_item
+  - text: Genres
+    center:
+    - 0.2214
+    - 0.6384
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_30
+    aliases:
+    - 流派
+    - categories
+    - styles
+    semantic_type: menu_item
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.1625
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_31
+    aliases:
+    - 快进
+    - seek
+    - skip ahead
+    semantic_type: button
+  - text: Artist
+    center:
+    - 0.0796
+    - 0.2815
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_28
+    aliases:
+    - 歌手
+    - performer
+    - band
+    semantic_type: label
+  - text: Song
+    center:
+    - 0.0796
+    - 0.4005
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_29
+    aliases:
+    - 歌曲
+    - track
+    - music
+    semantic_type: label
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_20
+    aliases:
+    - home
+    - 主页
+    - house icon
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_5
+    aliases:
+    - browse
+    - categories
+    - 浏览
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_6
+    aliases:
+    - 广播
+    - live
+    - stations
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - songs
+    - playlist
+    - 歌曲
+    semantic_type: tab
+  - text: Apple Music
+    center:
+    - 0.1418
+    - 0.4577
+    found_at_scroll: 1
+    fixed: false
+    leads_to: screen_32
+    aliases:
+    - streaming
+    - 苹果音乐
+    - subscription
+    semantic_type: menu_item
+  - text: music
+    center:
+    - 0.7214
+    - 0.5892
+    found_at_scroll: 1
+    fixed: false
+    leads_to: screen_33
+    aliases:
+    - 音乐
+    - audio
+    - songs
+    semantic_type: label
+  description: Music app settings and navigation menu with options for account, playback,
+    library categories, and Apple Music.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_8
+  elements:
+  - text: Family
+    center:
+    - 0.5
+    - 0.2311
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - family group
+    - 家庭
+    - family plan
+    semantic_type: menu_item
+  - text: Adult
+    center:
+    - 0.2338
+    - 0.3753
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - adult content
+    - mature
+    - 成人
+    semantic_type: menu_item
+  - text: Enabled
+    center:
+    - 0.2587
+    - 0.7574
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_34
+    aliases:
+    - 'on'
+    - active
+    - 开启
+    semantic_type: toggle
+  - text: Forward
+    center:
+    - 0.9104
+    - 0.3627
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - skip
+    - next
+    - 快进
+    semantic_type: button
+  description: Family sharing settings screen with options to manage adult accounts
+    and enable forwarding.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_9
+  elements:
+  - text: Family
+    center:
+    - 0.5
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - family group
+    - family plan
+    - 家庭
+    semantic_type: tab
+  - text: Adult
+    center:
+    - 0.2338
+    - 0.3753
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - adult content
+    - mature
+    - 成人
+    semantic_type: tab
+  - text: Forward
+    center:
+    - 0.9104
+    - 0.3627
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip
+    - next
+    - 快进
+    semantic_type: button
+  description: Family sharing settings screen with options to add an adult and forward
+    family-related information.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_10
+  elements:
+  - text: More
+    center:
+    - 0.7438
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - additional
+    - extra
+    - 更多
+    semantic_type: menu_item
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - account
+    - profile
+    - 我的账户
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - start
+    - 播放
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - skip
+    - next
+    - 下一首
+    semantic_type: button
+  - text: Close
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - dismiss
+    - exit
+    - 关闭
+    semantic_type: button
+  - text: Library
+    center:
+    - 0.1891
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - collection
+    - my music
+    - 资料库
+    semantic_type: tab
+  - text: Artists
+    center:
+    - 0.2139
+    - 0.2815
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - performers
+    - 歌手
+    semantic_type: menu_item
+  - text: Albums
+    center:
+    - 0.2239
+    - 0.341
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_35
+    aliases:
+    - records
+    - 专辑
+    semantic_type: menu_item
+  - text: Songs
+    center:
+    - 0.2114
+    - 0.4005
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tracks
+    - 歌曲
+    semantic_type: menu_item
+  - text: Genres
+    center:
+    - 0.2214
+    - 0.6384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - 流派
+    semantic_type: menu_item
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.1625
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fast forward
+    - 快进
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_12
+    aliases:
+    - home
+    - 主页
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - browse
+    - categories
+    - 浏览
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - broadcast
+    - 电台
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - songs
+    - library
+    - 歌曲库
+    semantic_type: tab
+  description: Music app library screen with navigation options to browse artists,
+    albums, songs, and genres, plus playback controls.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_11
+  elements:
+  - text: More
+    center:
+    - 0.7438
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - additional
+    - extra
+    - 更多
+    semantic_type: tab
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - account
+    - profile
+    - 我的账户
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - start
+    - 播放
+    - resume
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip
+    - next
+    - 下一首
+    semantic_type: button
+  - text: Close
+    center:
+    - 0.8731
+    - 0.111
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_10
+    aliases:
+    - dismiss
+    - exit
+    - 关闭
+    semantic_type: button
+  - text: Other
+    center:
+    - 0.8109
+    - 0.5435
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_36
+    aliases:
+    - misc
+    - 其他
+    - more options
+    semantic_type: menu_item
+  - text: Library
+    center:
+    - 0.1891
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - collection
+    - 音乐库
+    - my music
+    semantic_type: tab
+  - text: Artists
+    center:
+    - 0.2139
+    - 0.2815
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - performers
+    - 歌手
+    - bands
+    semantic_type: menu_item
+  - text: Albums
+    center:
+    - 0.2239
+    - 0.341
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - records
+    - 专辑
+    - LPs
+    semantic_type: menu_item
+  - text: Songs
+    center:
+    - 0.2114
+    - 0.4005
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tracks
+    - 歌曲
+    - music
+    semantic_type: menu_item
+  - text: Genres
+    center:
+    - 0.2214
+    - 0.6384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - 流派
+    - styles
+    semantic_type: menu_item
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.1625
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fast forward
+    - 快进
+    - skip ahead
+    semantic_type: button
+  - text: Artist
+    center:
+    - 0.0796
+    - 0.2815
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - performer
+    - 歌手
+    - musician
+    semantic_type: label
+  - text: Song
+    center:
+    - 0.0796
+    - 0.4005
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - track
+    - 歌曲
+    - music
+    semantic_type: label
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - 主页
+    - house
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - categories
+    - 网格
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - broadcast
+    - 电台
+    - live
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - library
+    - 音乐库
+    - collection
+    semantic_type: tab
+  description: Music library screen with options to browse by Artists, Albums, Songs,
+    or Genres, and playback controls for next track and forward.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_12
+  elements:
+  - text: Apps
+    center:
+    - 0.0945
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_37
+    aliases:
+    - applications
+    - 应用
+    - apps list
+    semantic_type: menu_item
+  - text: Music
+    center:
+    - 0.5
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - music player
+    - 音乐
+    - audio
+    semantic_type: tab
+  - text: EQ
+    center:
+    - 0.107
+    - 0.4451
+    found_at_scroll: 1
+    fixed: false
+    leads_to: screen_13
+    aliases:
+    - equalizer
+    - 均衡器
+    - sound settings
+    semantic_type: setting
+  - text: Lyrics
+    center:
+    - 0.5
+    - 0.4966
+    found_at_scroll: 2
+    fixed: false
+    leads_to: screen_13
+    aliases:
+    - 歌词
+    - song text
+    - words
+    semantic_type: setting
+  - text: Sign In
+    center:
+    - 0.1443
+    - 0.873
+    found_at_scroll: 3
+    fixed: false
+    leads_to: screen_38
+    aliases:
+    - login
+    - 登录
+    - account
+    semantic_type: button
+  - text: Privacy
+    center:
+    - 0.5
+    - 0.6888
+    found_at_scroll: 3
+    fixed: false
+    leads_to: screen_39
+    aliases:
+    - 隐私
+    - data protection
+    - security
+    semantic_type: setting
+  description: Music app settings menu with options for Apps, Music, EQ, Lyrics, Sign
+    In, and Privacy.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_13
+  elements:
+  - text: Apps
+    center:
+    - 0.0945
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_40
+    aliases:
+    - applications
+    - 应用
+    - apps list
+    semantic_type: menu_item
+  - text: Sign In
+    center:
+    - 0.1443
+    - 0.873
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_12
+    aliases:
+    - login
+    - 登入
+    - sign in button
+    semantic_type: button
+  - text: Music
+    center:
+    - 0.5
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - songs
+    - 音乐
+    - audio
+    semantic_type: tab
+  - text: Lyrics
+    center:
+    - 0.5
+    - 0.2551
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_41
+    aliases:
+    - words
+    - 歌词
+    - song text
+    semantic_type: setting
+  - text: Privacy
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_42
+    aliases:
+    - data protection
+    - 隐私
+    - security
+    semantic_type: setting
+  description: Music app settings or info screen with options for Sign In, Music,
+    Lyrics, and Privacy.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_14
+  elements:
+  - text: More
+    center:
+    - 0.7438
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_43
+    aliases:
+    - more options
+    - 更多
+    - additional
+    semantic_type: button
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_15
+    aliases:
+    - account
+    - profile
+    - 我的账户
+    - user
+    semantic_type: menu_item
+  - text: Pause
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - 暂停
+    - stop
+    - hold
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - next
+    - skip
+    - 下一首
+    - forward
+    semantic_type: button
+  - text: Close
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_15
+    aliases:
+    - 关闭
+    - exit
+    - dismiss
+    - x
+    semantic_type: button
+  - text: Library
+    center:
+    - 0.1891
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 音乐库
+    - collection
+    - my music
+    semantic_type: tab
+  - text: Artists
+    center:
+    - 0.2139
+    - 0.2815
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 歌手
+    - performers
+    - bands
+    semantic_type: menu_item
+  - text: Albums
+    center:
+    - 0.2239
+    - 0.341
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_44
+    aliases:
+    - 专辑
+    - records
+    - LPs
+    semantic_type: menu_item
+  - text: Songs
+    center:
+    - 0.2114
+    - 0.4005
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 歌曲
+    - tracks
+    - music
+    semantic_type: menu_item
+  - text: Genres
+    center:
+    - 0.2214
+    - 0.6384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 流派
+    - categories
+    - styles
+    semantic_type: menu_item
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.1625
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 快进
+    - seek
+    - advance
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_12
+    aliases:
+    - home
+    - 主页
+    - house
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - browse
+    - 浏览
+    - categories
+    - grid
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - 广播
+    - stations
+    - live
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+    aliases:
+    - library
+    - 音乐库
+    - songs tab
+    semantic_type: tab
+  description: Music app 'More' menu screen with playback controls and library browsing
+    options including Artists, Albums, Songs, and Genres.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_15
+  elements:
+  - text: More
+    center:
+    - 0.7438
+    - 0.0961
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - additional
+    - extra
+    - 更多
+    semantic_type: tab
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_14
+    aliases:
+    - account
+    - profile
+    - 我的账户
+    semantic_type: menu_item
+  - text: Pause
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+    aliases:
+    - 暂停
+    - stop
+    - hold
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - skip
+    - next
+    - 下一首
+    semantic_type: button
+  - text: Library
+    center:
+    - 0.1891
+    - 0.0961
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - collection
+    - 资料库
+    - my music
+    semantic_type: tab
+  - text: Artists
+    center:
+    - 0.2139
+    - 0.2815
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_45
+    aliases:
+    - performers
+    - 歌手
+    - bands
+    semantic_type: menu_item
+  - text: Albums
+    center:
+    - 0.2239
+    - 0.341
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_46
+    aliases:
+    - records
+    - 专辑
+    - LPs
+    semantic_type: menu_item
+  - text: Songs
+    center:
+    - 0.2114
+    - 0.4005
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - tracks
+    - 歌曲
+    - music
+    semantic_type: menu_item
+  - text: Genres
+    center:
+    - 0.2214
+    - 0.6384
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_47
+    aliases:
+    - categories
+    - 流派
+    - styles
+    semantic_type: menu_item
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.1625
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_48
+    aliases:
+    - fast forward
+    - 快进
+    - skip ahead
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_49
+    aliases:
+    - home
+    - 主页
+    - house
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - browse
+    - categories
+    - 浏览
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - broadcast
+    - 电台
+    - live
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - songs
+    - playlist
+    - 歌曲
+    semantic_type: tab
+  - text: Apple Music
+    center:
+    - 0.1418
+    - 0.4668
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - streaming
+    - 苹果音乐
+    - subscription
+    semantic_type: menu_item
+  - text: music
+    center:
+    - 0.7214
+    - 0.5995
+    found_at_scroll: 1
+    fixed: false
+  description: Music app settings and navigation menu with playback controls, library
+    categories, and Apple Music link.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_16
+  elements:
+  - text: More
+    center:
+    - 0.7438
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - more options
+    - additional
+    - menu
+    semantic_type: menu_item
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - account
+    - profile
+    - user settings
+    semantic_type: menu_item
+  - text: Pause
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - pause playback
+    - stop temporarily
+    - 暂停
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - next song
+    - skip forward
+    - 下一首
+    semantic_type: button
+  - text: Lyrics
+    center:
+    - 0.2164
+    - 0.9245
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - song text
+    - words
+    - 歌词
+    semantic_type: button
+  - text: Library
+    center:
+    - 0.1891
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - music library
+    - collection
+    - 资料库
+    semantic_type: tab
+  - text: Artists
+    center:
+    - 0.2139
+    - 0.2815
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - performers
+    - bands
+    - 歌手
+    semantic_type: menu_item
+  - text: Albums
+    center:
+    - 0.2239
+    - 0.341
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - records
+    - CDs
+    - 专辑
+    semantic_type: menu_item
+  - text: Songs
+    center:
+    - 0.2114
+    - 0.4005
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tracks
+    - music
+    - 歌曲
+    semantic_type: menu_item
+  - text: Genres
+    center:
+    - 0.2214
+    - 0.6384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - styles
+    - 流派
+    semantic_type: menu_item
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.1625
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fast forward
+    - skip ahead
+    - 快进
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - house
+    - 主页
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - categories
+    - grid
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - broadcast
+    - live radio
+    - 电台
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - songs list
+    - playlist
+    - 音乐库
+    semantic_type: tab
+  description: Music app 'More' menu screen with playback controls and library browsing
+    options including Artists, Albums, Songs, and Genres.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_17
+  elements:
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - account
+    - profile
+    - user
+    - 我的账户
+    semantic_type: menu_item
+  - text: Pause
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - pause button
+    - 暂停
+    - stop
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - next
+    - skip
+    - 下一首
+    - forward
+    semantic_type: button
+  - text: More
+    center:
+    - 0.8209
+    - 0.5927
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - more options
+    - 更多
+    - ellipsis
+    - overflow
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - 主页
+    - house
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - categories
+    - 浏览
+    - grid
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - radio
+    - 广播
+    - live radio
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - library
+    - my music
+    - 音乐库
+    - songs
+    semantic_type: tab
+  description: Now playing screen with playback controls and navigation options for
+    Home, Browse, Radio, and Library.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_18
+  elements:
+  - text: Library
+    center:
+    - 0.0945
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - music library
+    - songs
+    - albums
+    - artists
+    - playlists
+    semantic_type: tab
+  - text: Movies
+    center:
+    - 0.7239
+    - 0.2105
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - films
+    - videos
+    - cinema
+    - movie collection
+    semantic_type: tab
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - start
+    - resume
+    - playback
+    - begin
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip
+    - next song
+    - forward
+    - next
+    semantic_type: button
+  - text: tv
+    center:
+    - 0.5
+    - 0.4554
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - television
+    - TV shows
+    - series
+    - episodes
+    semantic_type: tab
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - main screen
+    - dashboard
+    - home tab
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - grid view
+    - browse
+    - categories
+    - grid layout
+    semantic_type: button
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - live radio
+    - stations
+    - broadcast
+    - tuner
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - songs
+    - music library
+    - tracks
+    - my music
+    semantic_type: tab
+  description: Music library screen with tabs for Movies, Play, and Next track, and
+    a bottom navigation bar with Home, Grid, Radio, and Library icons.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_19
+  elements:
+  - text: More
+    center:
+    - 0.7438
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - additional
+    - extra
+    - 更多
+    semantic_type: menu_item
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - account
+    - profile
+    - 我的账户
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - start
+    - 播放
+    - resume
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip
+    - 下一首
+    - next song
+    semantic_type: button
+  - text: Lyrics
+    center:
+    - 0.2164
+    - 0.9245
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - words
+    - 歌词
+    - song text
+    semantic_type: button
+  - text: Library
+    center:
+    - 0.1891
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - collection
+    - 音乐库
+    - my music
+    semantic_type: tab
+  - text: Artists
+    center:
+    - 0.2139
+    - 0.2815
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - performers
+    - 歌手
+    - bands
+    semantic_type: menu_item
+  - text: Albums
+    center:
+    - 0.2239
+    - 0.341
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - records
+    - 专辑
+    - CDs
+    semantic_type: menu_item
+  - text: Songs
+    center:
+    - 0.2114
+    - 0.4005
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tracks
+    - 歌曲
+    - music
+    semantic_type: menu_item
+  - text: Genres
+    center:
+    - 0.2214
+    - 0.6384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - 流派
+    - styles
+    semantic_type: menu_item
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.1625
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fast forward
+    - 快进
+    - skip ahead
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - 主页
+    - house
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - 浏览
+    - categories
+    - grid
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - broadcast
+    - 电台
+    - live radio
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - library
+    - 音乐库
+    - songs list
+    semantic_type: tab
+  description: Music app settings and navigation menu with options for account, playback
+    controls, library categories, and home screen layout.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_20
+  elements:
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - account
+    - profile
+    - user
+    - 我的账户
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - start
+    - 播放
+    - resume
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip
+    - forward
+    - 下一首
+    - next song
+    semantic_type: button
+  - text: Home
+    center:
+    - 0.1667
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - main
+    - 首页
+    - home screen
+    semantic_type: tab
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home icon
+    - 首页图标
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - categories
+    - 网格
+    - library
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - broadcast
+    - 电台
+    - live radio
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - songs
+    - playlist
+    - 音乐库
+    - library icon
+    semantic_type: tab
+  description: Now playing screen with playback controls and navigation options for
+    Home and My Account.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_21
+  elements:
+  - text: More
+    center:
+    - 0.7438
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - additional
+    - extra
+    - 更多
+    semantic_type: tab
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - account
+    - profile
+    - 我的账户
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - start
+    - 播放
+    - resume
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip
+    - next
+    - 下一首
+    semantic_type: button
+  - text: Lyrics
+    center:
+    - 0.2164
+    - 0.9245
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - words
+    - 歌词
+    - text
+    semantic_type: button
+  - text: Library
+    center:
+    - 0.1891
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - collection
+    - 音乐库
+    - saved
+    semantic_type: tab
+  - text: Artists
+    center:
+    - 0.2139
+    - 0.2815
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - performers
+    - 歌手
+    - bands
+    semantic_type: menu_item
+  - text: Albums
+    center:
+    - 0.2239
+    - 0.341
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - records
+    - 专辑
+    - LPs
+    semantic_type: menu_item
+  - text: Songs
+    center:
+    - 0.2114
+    - 0.4005
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tracks
+    - 歌曲
+    - music
+    semantic_type: menu_item
+  - text: Made for You
+    center:
+    - 0.2761
+    - 0.46
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - personalized
+    - 为你推荐
+    - recommendations
+    semantic_type: menu_item
+  - text: Genres
+    center:
+    - 0.2214
+    - 0.6384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - 流派
+    - styles
+    semantic_type: menu_item
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.1625
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fast forward
+    - 快进
+    - skip ahead
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - 主页
+    - house
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - grid
+    - 浏览
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - broadcast
+    - 电台
+    - live
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - songs
+    - playlist
+    - 音乐库
+    semantic_type: tab
+  description: Music app settings and navigation menu with options for account, playback
+    controls, library categories, and personalized content.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_22
+  elements:
+  - text: More
+    center:
+    - 0.7438
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - additional options
+    - menu
+    - 更多
+    semantic_type: menu_item
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - profile
+    - account settings
+    - 我的账户
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - start
+    - 播放
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip
+    - forward
+    - 下一首
+    semantic_type: button
+  - text: Album Artwork
+    center:
+    - 0.1692
+    - 0.1487
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cover art
+    - 专辑封面
+    semantic_type: label
+  - text: Lyrics
+    center:
+    - 0.2164
+    - 0.9245
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - words
+    - 歌词
+    semantic_type: button
+  - text: Library
+    center:
+    - 0.1891
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - collection
+    - 音乐库
+    semantic_type: tab
+  - text: Artists
+    center:
+    - 0.2139
+    - 0.2815
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - performers
+    - 歌手
+    semantic_type: menu_item
+  - text: Albums
+    center:
+    - 0.2239
+    - 0.341
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - records
+    - 专辑
+    semantic_type: menu_item
+  - text: Songs
+    center:
+    - 0.2114
+    - 0.4005
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tracks
+    - 歌曲
+    semantic_type: menu_item
+  - text: Made for You
+    center:
+    - 0.2761
+    - 0.46
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - personalized
+    - recommendations
+    - 为你推荐
+    semantic_type: menu_item
+  - text: Genres
+    center:
+    - 0.2214
+    - 0.6384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - 流派
+    semantic_type: menu_item
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.1625
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fast forward
+    - 快进
+    semantic_type: button
+  - text: Artist
+    center:
+    - 0.0796
+    - 0.2815
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - performer
+    - 歌手
+    semantic_type: label
+  - text: Song
+    center:
+    - 0.0796
+    - 0.4005
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - track
+    - 歌曲
+    semantic_type: label
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - 主页
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - categories
+    - 浏览
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - broadcast
+    - 广播
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - library
+    - 音乐库
+    semantic_type: tab
+  description: Music library screen with sections for Artists, Albums, Songs, Made
+    for You, and Genres, plus playback controls and navigation options.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_23
+  elements:
+  - text: More
+    center:
+    - 0.7438
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - additional
+    - extra
+    - 更多
+    semantic_type: tab
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - account
+    - profile
+    - 我的账户
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - start
+    - 播放
+    - resume
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip
+    - next
+    - 下一首
+    semantic_type: button
+  - text: Library
+    center:
+    - 0.1891
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - collection
+    - 音乐库
+    - saved
+    semantic_type: tab
+  - text: Artists
+    center:
+    - 0.2139
+    - 0.2815
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - performers
+    - 歌手
+    - bands
+    semantic_type: menu_item
+  - text: Albums
+    center:
+    - 0.2239
+    - 0.341
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - records
+    - 专辑
+    - LPs
+    semantic_type: menu_item
+  - text: Songs
+    center:
+    - 0.2114
+    - 0.4005
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tracks
+    - 歌曲
+    - music
+    semantic_type: menu_item
+  - text: Made for You
+    center:
+    - 0.2761
+    - 0.46
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - personalized
+    - 为你推荐
+    - recommendations
+    semantic_type: menu_item
+  - text: Genres
+    center:
+    - 0.2214
+    - 0.6384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - 流派
+    - styles
+    semantic_type: menu_item
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.1625
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fast forward
+    - 快进
+    - skip ahead
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - 主页
+    - house
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - categories
+    - 浏览
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - broadcast
+    - 电台
+    - live
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - songs list
+    - playlist
+    - 歌曲列表
+    semantic_type: tab
+  description: Library screen in the Music app showing categories like Artists, Albums,
+    Songs, Made for You, and Genres for browsing music collections.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_24
+  elements:
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - account
+    - profile
+    - user
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - start
+    - resume
+    - 播放
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip
+    - forward
+    - 下一首
+    semantic_type: button
+  - text: Close
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - dismiss
+    - exit
+    - 关闭
+    semantic_type: button
+  - text: New
+    center:
+    - 0.1393
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create
+    - add
+    - 新建
+    semantic_type: button
+  - text: '[App]'
+    center:
+    - 0.1095
+    - 0.5927
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - album art
+    - cover
+    - 封面
+    semantic_type: other
+  - text: More
+    center:
+    - 0.8209
+    - 0.5927
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - options
+    - additional
+    - 更多
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - house
+    - 主页
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - grid
+    - layout
+    - 网格
+    semantic_type: button
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - broadcast
+    - station
+    - 广播
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - library
+    - songs
+    - 音乐库
+    semantic_type: tab
+  description: Now playing screen with album artwork, playback controls, and options
+    to manage the queue or explore more music.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_25
+  elements:
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - account
+    - profile
+    - user
+    - 我的账户
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - start
+    - 播放
+    - resume
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - skip
+    - forward
+    - 下一首
+    - next song
+    semantic_type: button
+  - text: New
+    center:
+    - 0.1393
+    - 0.0961
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - create
+    - 新建
+    - add new
+    semantic_type: button
+  - text: More
+    center:
+    - 0.8209
+    - 0.5927
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - options
+    - additional
+    - 更多
+    - ellipsis
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - home
+    - 主页
+    - house
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - categories
+    - 网格
+    - library
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - broadcast
+    - 电台
+    - live radio
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - songs
+    - playlist
+    - 音乐库
+    - library
+    semantic_type: tab
+  - text: add
+    center:
+    - 0.3507
+    - 0.103
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - plus
+    - 添加
+    - create
+    - new
+    semantic_type: button
+  - text: share
+    center:
+    - 0.7388
+    - 0.1018
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - send
+    - 分享
+    - export
+    semantic_type: button
+  - text: info
+    center:
+    - 0.3333
+    - 0.5458
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - details
+    - information
+    - 信息
+    - about
+    semantic_type: button
+  - text: dislike
+    center:
+    - 0.3333
+    - 0.6178
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - thumbs down
+    - 不喜欢
+    - negative
+    - downvote
+    semantic_type: toggle
+  description: Music player screen with playback controls, track actions, and navigation
+    tabs for account, play, next track, new, and more.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_26
+  elements:
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - account
+    - profile
+    - user
+    - 我的账户
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - start
+    - 播放
+    - resume
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip
+    - forward
+    - 下一首
+    - next song
+    semantic_type: button
+  - text: Close
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - dismiss
+    - exit
+    - 关闭
+    - x
+    semantic_type: button
+  - text: Radio
+    center:
+    - 0.1617
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - broadcast
+    - 电台
+    - live radio
+    - stations
+    semantic_type: tab
+  - text: More
+    center:
+    - 0.8209
+    - 0.6201
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - options
+    - additional
+    - 更多
+    - ellipsis
+    - menu
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - 主页
+    - house
+    - main
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - categories
+    - 浏览
+    - genres
+    - library
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - songs
+    - playlist
+    - library
+    - 音乐库
+    - collection
+    semantic_type: tab
+  description: Now playing screen with playback controls and options to access account,
+    radio, and more.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_27
+  elements:
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - account
+    - profile
+    - user
+    - 我的账户
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - start
+    - 播放
+    - resume
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - skip
+    - forward
+    - 下一首
+    - next song
+    semantic_type: button
+  - text: Radio
+    center:
+    - 0.1617
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - broadcast
+    - 电台
+    - live radio
+    semantic_type: tab
+  - text: More
+    center:
+    - 0.8209
+    - 0.6201
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - additional
+    - options
+    - 更多
+    - extra
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - home
+    - 主页
+    - house
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - browse
+    - categories
+    - 浏览
+    - grid
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - library
+    - songs
+    - 音乐库
+    - collection
+    semantic_type: tab
+  - text: Share
+    center:
+    - 0.3333
+    - 0.5526
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - send
+    - 分享
+    - recommend
+    semantic_type: button
+  description: Account screen with options to play next track, access radio, more
+    settings, and share, along with navigation icons for home and library.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_28
+  elements:
+  - text: Library
+    center:
+    - 0.0945
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - music library
+    - songs
+    - collection
+    - 资料库
+    semantic_type: tab
+  - text: Filter
+    center:
+    - 0.9055
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - sort
+    - 筛选
+    - refine
+    semantic_type: button
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - start
+    - 播放
+    - resume
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip forward
+    - next song
+    - 下一首
+    semantic_type: button
+  - text: Artists
+    center:
+    - 0.1816
+    - 0.1602
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - performers
+    - 歌手
+    - bands
+    semantic_type: tab
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.2243
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fast forward
+    - 快进
+    - skip
+    semantic_type: button
+  - text: Artist
+    center:
+    - 0.1095
+    - 0.5446
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - performer
+    - 歌手
+    - band
+    semantic_type: label
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - 主页
+    - house
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - categories
+    - 浏览
+    - genres
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - broadcast
+    - 电台
+    - live radio
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - songs
+    - tracks
+    - 歌曲
+    - playlist
+    semantic_type: tab
+  description: Library screen showing a grid of artists with playback controls and
+    filter options.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_29
+  elements:
+  - text: Library
+    center:
+    - 0.0945
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - music library
+    - songs
+    - collection
+    - 资料库
+    semantic_type: tab
+  - text: Filter
+    center:
+    - 0.7637
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - sort
+    - 筛选
+    - refine
+    semantic_type: button
+  - text: More
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - options
+    - menu
+    - 更多
+    - ellipsis
+    semantic_type: button
+  - text: Play
+    center:
+    - 0.2637
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - start
+    - 播放
+    - resume
+    semantic_type: button
+  - text: Shuffle
+    center:
+    - 0.7338
+    - 0.1716
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - random
+    - 随机播放
+    - mix
+    semantic_type: toggle
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - skip
+    - forward
+    - 下一首
+    - next song
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - home
+    - 主页
+    - house
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - browse
+    - categories
+    - 网格
+    - genres
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - broadcast
+    - 电台
+    - live radio
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - albums
+    - 专辑
+    - discography
+    semantic_type: tab
+  description: Music library screen with filter, play, shuffle, and next track controls,
+    displaying content in a 2x2 grid layout.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_30
+  elements:
+  - text: Library
+    center:
+    - 0.0945
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - music library
+    - collection
+    - songs
+    semantic_type: tab
+  - text: Mandopop
+    center:
+    - 0.1517
+    - 0.5195
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Mandarin pop
+    - C-pop
+    - 华语流行
+    semantic_type: menu_item
+  - text: Other
+    center:
+    - 0.1045
+    - 0.5789
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - miscellaneous
+    - more genres
+    semantic_type: menu_item
+  - text: Pop
+    center:
+    - 0.0871
+    - 0.6384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - popular music
+    - 流行音乐
+    semantic_type: menu_item
+  - text: Rock
+    center:
+    - 0.097
+    - 0.6979
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - rock music
+    - 摇滚
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - start
+    - resume
+    - 播放
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip forward
+    - next song
+    - 下一首
+    semantic_type: button
+  - text: Genres
+    center:
+    - 0.1891
+    - 0.1602
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - categories
+    - music genres
+    - 流派
+    semantic_type: menu_item
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.222
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fast forward
+    - skip
+    - 快进
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - main screen
+    - 主页
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - categories
+    - grid view
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - live radio
+    - broadcast
+    - 广播
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - songs
+    - track list
+    - playlist
+    semantic_type: tab
+  description: Library screen showing music genres like Mandopop, Pop, and Rock with
+    playback controls and navigation tabs.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_31
+  elements:
+  - text: Library
+    center:
+    - 0.0945
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - music library
+    - collection
+    - 资料库
+    semantic_type: tab
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - play button
+    - start
+    - 播放
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - next
+    - skip
+    - 下一首
+    semantic_type: button
+  - text: Artists
+    center:
+    - 0.2139
+    - 0.222
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - performers
+    - 歌手
+    - artist list
+    semantic_type: menu_item
+  - text: Albums
+    center:
+    - 0.2239
+    - 0.2815
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - records
+    - 专辑
+    - album list
+    semantic_type: menu_item
+  - text: Songs
+    center:
+    - 0.2114
+    - 0.341
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tracks
+    - 歌曲
+    - song list
+    semantic_type: menu_item
+  - text: Genres
+    center:
+    - 0.2214
+    - 0.5789
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - 流派
+    - music genres
+    semantic_type: menu_item
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.1625
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fast forward
+    - skip ahead
+    - 快进
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - main screen
+    - 首页
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - categories
+    - 网格
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - radio tab
+    - broadcast
+    - 广播
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - now playing
+    - player
+    - 正在播放
+    semantic_type: tab
+  description: Library screen showing music categories like Artists, Albums, Songs,
+    and Genres with playback controls.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_32
+  elements:
+  - text: Play
+    center:
+    - 0.7015
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+  - text: Genres
+    center:
+    - 0.2214
+    - 0.0183
+    found_at_scroll: 0
+    fixed: false
+  - text: Apple Music
+    center:
+    - 0.1418
+    - 0.4783
+    found_at_scroll: 0
+    fixed: false
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.0183
+    found_at_scroll: 0
+    fixed: false
+  - text: music
+    center:
+    - 0.7214
+    - 0.611
+    found_at_scroll: 0
+    fixed: false
+  - text: '[App]'
+    center:
+    - 0.1294
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+  - text: Apple Music Mandopop
+    center:
+    - 0.2264
+    - 0.9153
+    found_at_scroll: 1
+    fixed: false
+  description: Music playback screen with controls and genre browsing options, currently
+    showing Apple Music Mandopop.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_33
+  elements:
+  - text: Play
+    center:
+    - 0.7015
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 播放
+    - start
+    - resume
+    semantic_type: button
+  - text: Genres
+    center:
+    - 0.2214
+    - 0.0252
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 流派
+    - categories
+    - music types
+    semantic_type: menu_item
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.0252
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 快进
+    - next track
+    - skip
+    semantic_type: button
+  - text: music
+    center:
+    - 0.7214
+    - 0.6178
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 音乐
+    - songs
+    - audio
+    semantic_type: label
+  - text: '[App]'
+    center:
+    - 0.1294
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - songs icon
+    - music library
+    - 音乐库图标
+    semantic_type: tab
+  description: Music player screen with playback controls and genre browsing options
+  scrollable: false
+  scroll_direction: ''
+- id: screen_34
+  elements:
+  - text: Family
+    center:
+    - 0.5
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - families
+    - family plan
+    - 家庭
+    semantic_type: menu_item
+  - text: Adult
+    center:
+    - 0.2338
+    - 0.3753
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - grown-up
+    - mature
+    - 成人
+    semantic_type: menu_item
+  - text: Done
+    center:
+    - 0.5
+    - 0.8547
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - finish
+    - complete
+    - 完成
+    semantic_type: button
+  - text: Forward
+    center:
+    - 0.9104
+    - 0.3627
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - next
+    - skip
+    - 快进
+    semantic_type: button
+  description: Family sharing settings screen to manage adult members with options
+    to add and confirm selections.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_35
+  elements:
+  - text: More
+    center:
+    - 0.7438
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - additional
+    - extra
+    - 更多
+    semantic_type: tab
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - account
+    - profile
+    - 我的账户
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - start
+    - 播放
+    - resume
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip
+    - next
+    - 下一首
+    semantic_type: button
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - finish
+    - complete
+    - 完成
+    semantic_type: button
+  - text: Library
+    center:
+    - 0.1891
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - collection
+    - my music
+    - 资料库
+    semantic_type: tab
+  - text: Artists
+    center:
+    - 0.2139
+    - 0.2815
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - performers
+    - 歌手
+    - bands
+    semantic_type: menu_item
+  - text: Albums
+    center:
+    - 0.2239
+    - 0.341
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - records
+    - 专辑
+    - LPs
+    semantic_type: menu_item
+  - text: Songs
+    center:
+    - 0.2114
+    - 0.4005
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tracks
+    - 歌曲
+    - music
+    semantic_type: menu_item
+  - text: Genres
+    center:
+    - 0.2214
+    - 0.6384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - 流派
+    - styles
+    semantic_type: menu_item
+  - text: Apple Music
+    center:
+    - 0.2562
+    - 0.2838
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - streaming
+    - subscription
+    - 苹果音乐
+    semantic_type: menu_item
+  - text: Student
+    center:
+    - 0.1791
+    - 0.3261
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - student plan
+    - 学生
+    - discount
+    semantic_type: setting
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.1625
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fast forward
+    - 快进
+    - skip ahead
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - 主页
+    - house
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - categories
+    - 网格
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - broadcast
+    - 电台
+    - live
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - songs list
+    - playlist
+    - 歌曲列表
+    semantic_type: tab
+  description: Music app settings and navigation menu with options for account, playback,
+    library categories, and Apple Music subscription.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_36
+  elements:
+  - text: More
+    center:
+    - 0.7438
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - additional
+    - extra
+    - 更多
+    semantic_type: menu_item
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - account
+    - profile
+    - 我的账户
+    semantic_type: menu_item
+  - text: Play
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - start
+    - 播放
+    - resume
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip
+    - next song
+    - 下一首
+    semantic_type: button
+  - text: Close
+    center:
+    - 0.8731
+    - 0.111
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - dismiss
+    - exit
+    - 关闭
+    semantic_type: button
+  - text: Next
+    center:
+    - 0.5
+    - 0.9268
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - forward
+    - skip
+    - 下一个
+    semantic_type: button
+  - text: Library
+    center:
+    - 0.1891
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - collection
+    - my music
+    - 音乐库
+    semantic_type: tab
+  - text: Artists
+    center:
+    - 0.2139
+    - 0.2815
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - performers
+    - bands
+    - 艺术家
+    semantic_type: menu_item
+  - text: Albums
+    center:
+    - 0.2239
+    - 0.341
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - records
+    - LP
+    - 专辑
+    semantic_type: menu_item
+  - text: Songs
+    center:
+    - 0.2114
+    - 0.4005
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tracks
+    - music
+    - 歌曲
+    semantic_type: menu_item
+  - text: Made for You
+    center:
+    - 0.2761
+    - 0.46
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - personalized
+    - recommendations
+    - 为你推荐
+    semantic_type: menu_item
+  - text: Genres
+    center:
+    - 0.2214
+    - 0.6384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - styles
+    - 流派
+    semantic_type: menu_item
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.1625
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip
+    - next
+    - 快进
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - house
+    - 主页
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - categories
+    - 网格
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - broadcast
+    - stations
+    - 广播
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - library
+    - songs
+    - 音乐库
+    semantic_type: tab
+  description: Library screen with sections for Artists, Albums, Songs, Made for You,
+    and Genres, and playback controls.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_37
+  elements:
+  - text: Apps
+    center:
+    - 0.5
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+  description: List of installed apps with options to manage permissions, notifications,
+    and storage for each app.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_38
+  elements:
+  - text: Apps
+    center:
+    - 0.0945
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - applications
+    - 应用
+    - apps list
+    semantic_type: menu_item
+  - text: Sign In
+    center:
+    - 0.1443
+    - 0.873
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - login
+    - 登录
+    - sign in button
+    semantic_type: button
+  - text: shift
+    center:
+    - 0.0746
+    - 0.8295
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shift key
+    - caps
+    - uppercase
+    semantic_type: button
+  - text: 表情符号
+    center:
+    - 0.194
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - emoji
+    - emoticon
+    - 表情
+    semantic_type: button
+  - text: 继续
+    center:
+    - 0.8706
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - continue
+    - next
+    - 下一步
+    semantic_type: button
+  - text: Music
+    center:
+    - 0.5
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - music app
+    - 音乐
+    - songs
+    semantic_type: tab
+  - text: Lyrics
+    center:
+    - 0.8184
+    - 0.0973
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 歌词
+    - song text
+    - words
+    semantic_type: tab
+  description: Music app sign-in screen with keyboard and options to continue or access
+    lyrics
+  scrollable: false
+  scroll_direction: ''
+- id: screen_39
+  elements:
+  - text: Apps
+    center:
+    - 0.0945
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - applications
+    - 应用
+    - apps list
+    semantic_type: menu_item
+  - text: Sign In
+    center:
+    - 0.1443
+    - 0.873
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - login
+    - 登录
+    - sign in button
+    semantic_type: button
+  - text: Music
+    center:
+    - 0.5
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - music library
+    - songs
+    - 音乐
+    semantic_type: tab
+  description: Music app sign-in screen prompting user to sign in to access their
+    music library and features.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_40
+  elements:
+  - text: Apps
+    center:
+    - 0.5
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - applications
+    - 应用
+    - programs
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.2139
+    - 0.04
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 指南针
+    - compass app
+    semantic_type: menu_item
+  - text: '[App]'
+    center:
+    - 0.1891
+    - 0.5217
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Dongqiudi
+    - All Football
+    - football news
+    semantic_type: menu_item
+  - text: '[App]'
+    center:
+    - 0.1891
+    - 0.7666
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 飞书
+    - Lark
+    - collaboration
+    semantic_type: menu_item
+  - text: Files
+    center:
+    - 0.1692
+    - 0.8261
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 文件
+    - file manager
+    - documents
+    semantic_type: menu_item
+  - text: Find My
+    center:
+    - 0.2015
+    - 0.9451
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 查找
+    - find my device
+    - locator
+    semantic_type: menu_item
+  - text: '[App]'
+    center:
+    - 0.194
+    - 0.3661
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - 健身
+    - fitness app
+    - workout
+    semantic_type: menu_item
+  - text: '[App]'
+    center:
+    - 0.209
+    - 0.6041
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - Fengshou Hulian
+    - rural bank
+    - agriculture bank
+    semantic_type: menu_item
+  - text: '[App]'
+    center:
+    - 0.1891
+    - 0.6636
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - Feichangzhun
+    - Flight Tracker
+    - flight status
+    semantic_type: menu_item
+  - text: Games
+    center:
+    - 0.1915
+    - 0.7895
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - 游戏
+    - gaming
+    - arcade
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.1915
+    - 0.9085
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - Google Gemini
+    - AI assistant
+    - Bard
+    semantic_type: menu_item
+  - text: Gmail
+    center:
+    - 0.1791
+    - 0.968
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - Google Mail
+    - 邮箱
+    - email
+    semantic_type: menu_item
+  - text: GoGoX
+    center:
+    - 0.194
+    - 0.3867
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - GoGoVan
+    - 快狗打车
+    - logistics
+    semantic_type: menu_item
+  - text: '[App]'
+    center:
+    - 0.2313
+    - 0.5057
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - Personal Income Tax
+    - tax app
+    - 个税
+    semantic_type: menu_item
+  - text: Health
+    center:
+    - 0.1866
+    - 0.6316
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - 健康
+    - health app
+    - wellness
+    semantic_type: menu_item
+  - text: '[App]'
+    center:
+    - 0.2114
+    - 0.6911
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - 香港电影
+    - movie tickets
+    - cinema
+    semantic_type: menu_item
+  - text: '[App]'
+    center:
+    - 0.1915
+    - 0.7506
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - 香港的士
+    - taxi app
+    - cab
+    semantic_type: menu_item
+  - text: HKU
+    center:
+    - 0.1692
+    - 0.8696
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - 香港大学
+    - University of Hong Kong
+    - HKU app
+    semantic_type: menu_item
+  - text: Hyatt
+    center:
+    - 0.1766
+    - 0.4073
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - 凯悦
+    - Hyatt Hotels
+    - hospitality
+    semantic_type: menu_item
+  - text: IHG
+    center:
+    - 0.1617
+    - 0.532
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - InterContinental Hotels
+    - 洲际酒店
+    - hotels
+    semantic_type: menu_item
+  - text: iMovie
+    center:
+    - 0.1866
+    - 0.5915
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - iMovie app
+    - video editor
+    - 剪辑
+    semantic_type: menu_item
+  - text: JD
+    center:
+    - 0.1517
+    - 0.8959
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - 京东
+    - Jingdong
+    - e-commerce
+    semantic_type: menu_item
+  - text: '[App]'
+    center:
+    - 0.1965
+    - 0.9554
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - 日记
+    - journal app
+    - diary
+    semantic_type: menu_item
+  description: Apps library screen displaying a grid of installed applications for
+    browsing and launching
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_41
+  elements:
+  - text: Music
+    center:
+    - 0.0945
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - music
+    - 音乐
+    - songs
+    - audio
+    semantic_type: tab
+  description: Main music library screen showing songs, albums, and playlists for
+    browsing and playback.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_42
+  elements:
+  - text: Apps
+    center:
+    - 0.0945
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 应用
+    - applications
+    - app list
+    semantic_type: menu_item
+  - text: Sign In
+    center:
+    - 0.1443
+    - 0.873
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 登录
+    - signin
+    - log in
+    semantic_type: button
+  - text: shift
+    center:
+    - 0.0746
+    - 0.8295
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 切换
+    - switch
+    - change
+    semantic_type: button
+  - text: 继续
+    center:
+    - 0.8706
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - continue
+    - next
+    - 下一步
+    semantic_type: button
+  - text: Music
+    center:
+    - 0.5
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 音乐
+    - songs
+    - audio
+    semantic_type: tab
+  - text: Lyrics
+    center:
+    - 0.5
+    - 0.2551
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 歌词
+    - words
+    - text
+    semantic_type: tab
+  - text: Privacy
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 隐私
+    - data protection
+    - security
+    semantic_type: setting
+  description: Music app sign-in screen with options to sign in, view lyrics, and
+    access privacy settings.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_43
+  elements:
+  - text: More
+    center:
+    - 0.7438
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 更多
+    - additional options
+    - menu
+    semantic_type: menu_item
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - account settings
+    - profile
+    - 我的账户
+    semantic_type: setting
+  - text: Album Artwork
+    center:
+    - 0.1294
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cover art
+    - 专辑封面
+    - album cover
+    semantic_type: label
+  - text: Pause
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 暂停
+    - stop temporarily
+    - hold
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip
+    - 下一首
+    - next song
+    semantic_type: button
+  - text: Close
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关闭
+    - dismiss
+    - exit
+    semantic_type: button
+  - text: Library
+    center:
+    - 0.1891
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 音乐库
+    - collection
+    - my music
+    semantic_type: tab
+  - text: Artists
+    center:
+    - 0.2139
+    - 0.2815
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 歌手
+    - performers
+    - bands
+    semantic_type: menu_item
+  - text: Albums
+    center:
+    - 0.2239
+    - 0.341
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 专辑
+    - records
+    - LP
+    semantic_type: menu_item
+  - text: Songs
+    center:
+    - 0.2114
+    - 0.4005
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 歌曲
+    - tracks
+    - music
+    semantic_type: menu_item
+  - text: Made for You
+    center:
+    - 0.2761
+    - 0.46
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - personalized
+    - 为你推荐
+    - recommendations
+    semantic_type: menu_item
+  - text: Genres
+    center:
+    - 0.2214
+    - 0.6384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 流派
+    - categories
+    - music styles
+    semantic_type: menu_item
+  - text: '[Name]'
+    center:
+    - 0.2985
+    - 0.2288
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Jiang Yangqin
+    - artist name
+    - singer
+    semantic_type: label
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.1625
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 快进
+    - skip ahead
+    - fast forward
+    semantic_type: button
+  - text: Artist
+    center:
+    - 0.0796
+    - 0.2815
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 歌手
+    - performer
+    - band
+    semantic_type: label
+  - text: Song
+    center:
+    - 0.0796
+    - 0.4005
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 歌曲
+    - track
+    - music
+    semantic_type: label
+  - text: Selfie
+    center:
+    - 0.0796
+    - 0.46
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 自拍
+    - photo
+    - portrait
+    semantic_type: other
+  - text: Tv
+    center:
+    - 0.0796
+    - 0.5195
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 电视
+    - television
+    - video
+    semantic_type: menu_item
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 主页
+    - home screen
+    - main page
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - 网格
+    - categories grid
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 广播
+    - live radio
+    - stations
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - library icon
+    - 音乐库图标
+    - songs tab
+    semantic_type: tab
+  description: Now playing screen with album artwork, playback controls, and navigation
+    to library sections like Artists, Albums, Songs, and Genres.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_44
+  elements:
+  - text: More
+    center:
+    - 0.7438
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - additional
+    - extra
+    - 更多
+    semantic_type: tab
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - account
+    - profile
+    - 我的账户
+    semantic_type: menu_item
+  - text: Pause
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 暂停
+    - stop
+    - hold
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip
+    - next
+    - 下一首
+    semantic_type: button
+  - text: Done
+    center:
+    - 0.9055
+    - 0.1144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 完成
+    - finish
+    - confirm
+    semantic_type: button
+  - text: Library
+    center:
+    - 0.1891
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 音乐库
+    - collection
+    - my music
+    semantic_type: tab
+  - text: Artists
+    center:
+    - 0.2139
+    - 0.2815
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 歌手
+    - performers
+    - bands
+    semantic_type: menu_item
+  - text: Albums
+    center:
+    - 0.2239
+    - 0.341
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 专辑
+    - records
+    - CDs
+    semantic_type: menu_item
+  - text: Songs
+    center:
+    - 0.2114
+    - 0.4005
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 歌曲
+    - tracks
+    - music
+    semantic_type: menu_item
+  - text: Genres
+    center:
+    - 0.2214
+    - 0.6384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 流派
+    - categories
+    - styles
+    semantic_type: menu_item
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.1625
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 快进
+    - seek
+    - advance
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - 主页
+    - house
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - 网格
+    - categories
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 广播
+    - live
+    - stations
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - songs
+    - playlist
+    - 音乐库
+    semantic_type: tab
+  description: Music app settings and navigation menu with playback controls, library
+    categories, and navigation options.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_45
+  elements:
+  - text: Library
+    center:
+    - 0.0945
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - music library
+    - songs
+    - collection
+    - 资料库
+    semantic_type: tab
+  - text: Filter
+    center:
+    - 0.9055
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - sort
+    - 筛选
+    - refine
+    semantic_type: button
+  - text: Pause
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 暂停
+    - stop
+    - hold
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip
+    - 下一首
+    - forward
+    semantic_type: button
+  - text: Artists
+    center:
+    - 0.1816
+    - 0.1602
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 歌手
+    - performers
+    - bands
+    semantic_type: tab
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.2243
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fast forward
+    - 快进
+    - skip ahead
+    semantic_type: button
+  - text: Artist
+    center:
+    - 0.1095
+    - 0.5446
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 歌手
+    - performer
+    - band
+    semantic_type: label
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - 主页
+    - house
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - grid
+    - albums
+    - browse
+    - 网格
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 广播
+    - stations
+    - live
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - songs
+    - tracks
+    - playlist
+    - 音乐
+    semantic_type: tab
+  description: Library screen showing a grid of artists with playback controls and
+    filter options.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_46
+  elements:
+  - text: Library
+    center:
+    - 0.0945
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - music library
+    - songs
+    - collection
+    - 资料库
+    semantic_type: tab
+  - text: Filter
+    center:
+    - 0.7637
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - sort
+    - 筛选
+    - refine
+    semantic_type: button
+  - text: More
+    center:
+    - 0.903
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - options
+    - menu
+    - 更多
+    - overflow
+    semantic_type: button
+  - text: Play
+    center:
+    - 0.2637
+    - 0.1716
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - start
+    - 播放
+    - resume
+    semantic_type: button
+  - text: Shuffle
+    center:
+    - 0.7338
+    - 0.1716
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - random
+    - 随机播放
+    - mix
+    semantic_type: toggle
+  - text: Pause
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - stop
+    - 暂停
+    - hold
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - skip
+    - 下一首
+    - forward
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - home
+    - 主页
+    - house
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - browse
+    - categories
+    - 浏览
+    - genres
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - broadcast
+    - 电台
+    - live
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - songs
+    - tracks
+    - 歌曲
+    - playlist
+    semantic_type: tab
+  description: Music library screen with playback controls and options to filter,
+    browse, and play songs.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_47
+  elements:
+  - text: Library
+    center:
+    - 0.0945
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - music library
+    - songs
+    - collection
+    - my music
+    semantic_type: tab
+  - text: Mandopop
+    center:
+    - 0.1517
+    - 0.5195
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - mandarin pop
+    - 华语流行
+    - c-pop
+    semantic_type: menu_item
+  - text: Other
+    center:
+    - 0.1045
+    - 0.5789
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - misc
+    - other genres
+    - more
+    semantic_type: menu_item
+  - text: Pop
+    center:
+    - 0.0871
+    - 0.6384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - popular
+    - 流行音乐
+    semantic_type: menu_item
+  - text: Rock
+    center:
+    - 0.097
+    - 0.6979
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - rock music
+    - 摇滚
+    semantic_type: menu_item
+  - text: Pause
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 暂停
+    - stop playback
+    - hold
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip
+    - next song
+    - 下一首
+    semantic_type: button
+  - text: Genres
+    center:
+    - 0.1891
+    - 0.1602
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - categories
+    - music types
+    - 流派
+    semantic_type: menu_item
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.222
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fast forward
+    - 快进
+    - skip ahead
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - 主页
+    - main screen
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - categories
+    - grid view
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 广播
+    - live radio
+    - stations
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - songs
+    - tracks
+    - music list
+    semantic_type: tab
+  description: Music library screen showing genres like Mandopop, Pop, and Rock with
+    playback controls and navigation options.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_48
+  elements:
+  - text: Library
+    center:
+    - 0.0945
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - music library
+    - collection
+    - 资料库
+    semantic_type: tab
+  - text: Pause
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 暂停
+    - pause playback
+    - hold
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - skip
+    - next song
+    - 下一首
+    semantic_type: button
+  - text: Artists
+    center:
+    - 0.2139
+    - 0.222
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 歌手
+    - performers
+    - artist list
+    semantic_type: menu_item
+  - text: Albums
+    center:
+    - 0.2239
+    - 0.2815
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 专辑
+    - records
+    - album list
+    semantic_type: menu_item
+  - text: Songs
+    center:
+    - 0.2114
+    - 0.341
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 歌曲
+    - tracks
+    - song list
+    semantic_type: menu_item
+  - text: Genres
+    center:
+    - 0.2214
+    - 0.5789
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 流派
+    - categories
+    - music genres
+    semantic_type: menu_item
+  - text: Forward
+    center:
+    - 0.9303
+    - 0.1625
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 快进
+    - seek forward
+    - skip ahead
+    semantic_type: button
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home
+    - 主页
+    - home tab
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - categories
+    - 浏览
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 广播
+    - live radio
+    - stations
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - now playing
+    - 正在播放
+    - player
+    semantic_type: tab
+  description: Music library screen with playback controls and browsing options for
+    Artists, Albums, Songs, and Genres.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_49
+  elements:
+  - text: My Account
+    center:
+    - 0.8955
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - account
+    - profile
+    - user
+    - 我的账户
+    semantic_type: menu_item
+  - text: Pause
+    center:
+    - 0.7488
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 暂停
+    - stop
+    - hold
+    semantic_type: button
+  - text: Next track
+    center:
+    - 0.8582
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - next
+    - skip
+    - 下一首
+    - forward
+    semantic_type: button
+  - text: Home
+    center:
+    - 0.1667
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 主页
+    - main
+    - 首页
+    semantic_type: tab
+  - text: Apple Music
+    center:
+    - 0.1816
+    - 0.5435
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - music service
+    - 苹果音乐
+    - streaming
+    semantic_type: menu_item
+  - text: Made for You
+    center:
+    - 0.8333
+    - 0.5206
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - personalized
+    - 为你推荐
+    - recommendations
+    - curated
+    semantic_type: menu_item
+  - text: home.fill
+    center:
+    - 0.1567
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - home icon
+    - 主页图标
+    - house
+    semantic_type: tab
+  - text: grid 2x2
+    center:
+    - 0.3284
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - browse
+    - categories
+    - 浏览
+    - grid icon
+    semantic_type: tab
+  - text: radio
+    center:
+    - 0.4975
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 广播
+    - live radio
+    - stations
+    semantic_type: tab
+  - text: '[App]'
+    center:
+    - 0.6692
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - library icon
+    - 资料库图标
+    - songs icon
+    semantic_type: tab
+  description: Music app home screen with playback controls and navigation to account,
+    Apple Music, and personalized recommendations.
+  scrollable: true
+  scroll_direction: vertical
+screen_macros:
+  screen_0:
+  - &id001
+    action: force_stop
+    bundle_id: com.apple.Music
+    wait: 1.0
+  - &id002
+    action: launch
+    bundle_id: com.apple.Music
+    wait: 3.0
+  screen_1:
+  - *id001
+  - *id002
+  - &id003
+    action: tap
+    x: 360
+    y: 84
+    wait: 1.0
+  screen_2:
+  - *id001
+  - *id002
+  - &id004
+    action: tap
+    x: 301
+    y: 759
+    wait: 1.0
+  screen_3:
+  - *id001
+  - *id002
+  - &id005
+    action: tap
+    x: 345
+    y: 759
+    wait: 1.0
+  screen_4:
+  - *id001
+  - *id002
+  - &id006
+    action: tap
+    x: 60
+    y: 760
+    wait: 1.0
+  screen_5:
+  - *id001
+  - *id002
+  - &id007
+    action: tap
+    x: 132
+    y: 815
+    wait: 1.0
+  screen_6:
+  - *id001
+  - *id002
+  - &id008
+    action: tap
+    x: 200
+    y: 815
+    wait: 1.0
+  screen_7:
+  - *id001
+  - *id002
+  - &id009
+    action: tap
+    x: 269
+    y: 815
+    wait: 1.0
+  screen_8:
+  - *id001
+  - *id002
+  - *id003
+  - &id010
+    action: tap
+    x: 301
+    y: 759
+    wait: 1.0
+  screen_9:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 345
+    y: 759
+    wait: 1.0
+  screen_10:
+  - *id001
+  - *id002
+  - *id003
+  - &id011
+    action: tap
+    x: 67
+    y: 84
+    wait: 1.0
+  screen_11:
+  - *id001
+  - *id002
+  - *id003
+  - &id012
+    action: tap
+    x: 100
+    y: 649
+    wait: 1.0
+  screen_12:
+  - *id001
+  - *id002
+  - *id003
+  - &id013
+    action: tap
+    x: 63
+    y: 815
+    wait: 1.0
+  screen_13:
+  - *id001
+  - *id002
+  - *id003
+  - &id014
+    action: tap
+    x: 132
+    y: 815
+    wait: 1.0
+  screen_14:
+  - *id001
+  - *id002
+  - *id004
+  - &id015
+    action: tap
+    x: 360
+    y: 84
+    wait: 1.0
+  screen_15:
+  - *id001
+  - *id002
+  - *id004
+  - &id016
+    action: tap
+    x: 345
+    y: 759
+    wait: 1.0
+  screen_16:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 60
+    y: 760
+    wait: 1.0
+  screen_17:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 132
+    y: 815
+    wait: 1.0
+  screen_18:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 334
+    y: 438
+    wait: 1.0
+  screen_19:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 233
+    y: 760
+    wait: 1.0
+  screen_20:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 63
+    y: 815
+    wait: 1.0
+  screen_21:
+  - *id001
+  - *id002
+  - *id006
+  - action: tap
+    x: 301
+    y: 759
+    wait: 1.0
+  screen_22:
+  - *id001
+  - *id002
+  - *id006
+  - action: tap
+    x: 354
+    y: 513
+    wait: 1.0
+  screen_23:
+  - *id001
+  - *id002
+  - *id006
+  - action: tap
+    x: 63
+    y: 815
+    wait: 1.0
+  screen_24:
+  - *id001
+  - *id002
+  - *id007
+  - action: tap
+    x: 360
+    y: 84
+    wait: 1.0
+  screen_25:
+  - *id001
+  - *id002
+  - *id007
+  - action: tap
+    x: 330
+    y: 518
+    wait: 1.0
+  screen_26:
+  - *id001
+  - *id002
+  - *id008
+  - action: tap
+    x: 360
+    y: 84
+    wait: 1.0
+  screen_27:
+  - *id001
+  - *id002
+  - *id008
+  - action: tap
+    x: 330
+    y: 542
+    wait: 1.0
+  screen_28:
+  - *id001
+  - *id002
+  - *id009
+  - action: tap
+    x: 86
+    y: 246
+    wait: 1.0
+  screen_29:
+  - *id001
+  - *id002
+  - *id009
+  - action: tap
+    x: 90
+    y: 298
+    wait: 1.0
+  screen_30:
+  - *id001
+  - *id002
+  - *id009
+  - action: tap
+    x: 89
+    y: 558
+    wait: 1.0
+  screen_31:
+  - *id001
+  - *id002
+  - *id009
+  - action: tap
+    x: 374
+    y: 142
+    wait: 1.0
+  screen_32:
+  - *id001
+  - *id002
+  - *id009
+  - action: tap
+    x: 57
+    y: 400
+    wait: 1.0
+  screen_33:
+  - *id001
+  - *id002
+  - *id009
+  - action: tap
+    x: 290
+    y: 515
+    wait: 1.0
+  screen_34:
+  - *id001
+  - *id002
+  - *id003
+  - *id010
+  - action: tap
+    x: 104
+    y: 662
+    wait: 1.0
+  screen_35:
+  - *id001
+  - *id002
+  - *id003
+  - *id011
+  - action: tap
+    x: 90
+    y: 298
+    wait: 1.0
+  screen_36:
+  - *id001
+  - *id002
+  - *id003
+  - *id012
+  - action: tap
+    x: 326
+    y: 475
+    wait: 1.0
+  screen_37:
+  - *id001
+  - *id002
+  - *id003
+  - *id013
+  - action: tap
+    x: 38
+    y: 84
+    wait: 1.0
+  screen_38:
+  - *id001
+  - *id002
+  - *id003
+  - *id013
+  - action: tap
+    x: 58
+    y: 763
+    wait: 1.0
+  screen_39:
+  - *id001
+  - *id002
+  - *id003
+  - *id013
+  - action: tap
+    x: 201
+    y: 602
+    wait: 1.0
+  screen_40:
+  - *id001
+  - *id002
+  - *id003
+  - *id014
+  - action: tap
+    x: 38
+    y: 84
+    wait: 1.0
+  screen_41:
+  - *id001
+  - *id002
+  - *id003
+  - *id014
+  - action: tap
+    x: 201
+    y: 223
+    wait: 1.0
+  screen_42:
+  - *id001
+  - *id002
+  - *id003
+  - *id014
+  - action: tap
+    x: 201
+    y: 789
+    wait: 1.0
+  screen_43:
+  - *id001
+  - *id002
+  - *id004
+  - *id015
+  - action: tap
+    x: 299
+    y: 84
+    wait: 1.0
+  screen_44:
+  - *id001
+  - *id002
+  - *id004
+  - *id015
+  - action: tap
+    x: 90
+    y: 298
+    wait: 1.0
+  screen_45:
+  - *id001
+  - *id002
+  - *id004
+  - *id016
+  - action: tap
+    x: 86
+    y: 246
+    wait: 1.0
+  screen_46:
+  - *id001
+  - *id002
+  - *id004
+  - *id016
+  - action: tap
+    x: 90
+    y: 298
+    wait: 1.0
+  screen_47:
+  - *id001
+  - *id002
+  - *id004
+  - *id016
+  - action: tap
+    x: 89
+    y: 558
+    wait: 1.0
+  screen_48:
+  - *id001
+  - *id002
+  - *id004
+  - *id016
+  - action: tap
+    x: 374
+    y: 142
+    wait: 1.0
+  screen_49:
+  - *id001
+  - *id002
+  - *id004
+  - *id016
+  - action: tap
+    x: 63
+    y: 815
+    wait: 1.0
+launch_behavior: always_home
+common_tasks:
+- Play a song or album
+- Skip to the next track
+- Browse music library by artists, albums, songs, or genres
+- Listen to a radio station
+- Access account settings
+- View and manage playlists
+- Search for music
+- Adjust playback settings like EQ
+- View lyrics for the current song
+- Manage family sharing settings
+known_limitations:
+- Some settings require navigating through multiple menus
+- Library browsing options may be hidden under a 'More' menu
+- Search functionality is not directly visible on all screens
+- Playback controls may overlap with navigation tabs on smaller screens

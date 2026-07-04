@@ -1,0 +1,41 @@
+app: Settings
+bundle_id: com.apple.Preferences
+dynamic_patterns:
+- ^蒋杨钦$
+- ^HKU$
+- ^On$
+- ^Off$
+- ^Not Connected$
+preserve_navigation:
+- Settings
+- Apple Account, iCloud+, and more
+- Family
+- Airplane Mode
+- Wi-Fi
+- Bluetooth
+- Cellular
+- Personal Hotspot
+- Battery
+- VPN
+- General
+- Accessibility
+- Action Button
+- Apple Intelligence & Siri
+- Camera
+- Control Center
+- Display & Brightness
+- Home Screen & App Library
+- StandBy
+- Wallpaper
+- Notifications
+- Sounds & Haptics
+- Focus
+- Screen Time
+- Face ID & Passcode
+- Emergency SOS
+- Privacy & Security
+- Game Center
+- iCloud
+- Wallet & Apple Pay
+- Apps
+- Developer

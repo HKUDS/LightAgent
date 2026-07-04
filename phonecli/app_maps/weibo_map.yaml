@@ -1,0 +1,10592 @@
+app: 微博
+package: com.sina.weibo
+screen_w: 402
+screen_h: 874
+screens:
+- id: screen_0
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.2574
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_1
+  - text: For You
+    center:
+    - 0.3706
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_2
+  - text: Follow
+    center:
+    - 0.6144
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_3
+  - text: Weibo Content
+    center:
+    - 0.5
+    - 0.3993
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_4
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.5034
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_5
+  - text: WBTimelineAttributedTextView
+    center:
+    - 0.5597
+    - 0.6705
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_5
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_6
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_7
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_8
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_10
+  - text: Network picture
+    center:
+    - 0.0896
+    - 0.1613
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_11
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.1368
+    - 0.1842
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_12
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_13
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_14
+  - text: 关注你感兴趣的超话
+    center:
+    - 0.5249
+    - 0.4794
+    found_at_scroll: 2
+    fixed: true
+    leads_to: screen_15
+  - text: 关注后的超话内容会在关注内容流内展示
+    center:
+    - 0.5
+    - 0.5046
+    found_at_scroll: 2
+    fixed: true
+    leads_to: screen_16
+  - text: 查看更多
+    center:
+    - 0.5
+    - 0.7151
+    found_at_scroll: 2
+    fixed: true
+    leads_to: screen_16
+  - text: Repost original
+    center:
+    - 0.5
+    - 0.9359
+    found_at_scroll: 2
+    fixed: true
+    leads_to: screen_17
+  - text: feed_attitude_happy_highlighted.png
+    center:
+    - 0.8806
+    - 0.3661
+    found_at_scroll: 2
+    fixed: true
+    leads_to: screen_18
+  - text: feed_attitude_hug_highlighted.png
+    center:
+    - 0.9129
+    - 0.3661
+    found_at_scroll: 2
+    fixed: true
+    leads_to: screen_16
+  - text: feed_attitude_surprise_highlighted.png
+    center:
+    - 0.9453
+    - 0.3661
+    found_at_scroll: 2
+    fixed: true
+    leads_to: screen_16
+  description: Main Weibo feed screen with tabs for For You and Follow, showing posts
+    with reactions and a bottom navigation bar for Home, Video, Discover, Message,
+    and Me.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_1
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.2574
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_0
+    aliases:
+    - More actions
+    - 更多
+    - actions
+    - menu
+    semantic_type: menu_item
+  - text: Follow
+    center:
+    - 0.6144
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_19
+    aliases:
+    - 关注
+    - follow account
+    - subscribe
+    semantic_type: button
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.5034
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_19
+    aliases:
+    - 翻译内容
+    - translate
+    - translation
+    semantic_type: button
+  - text: Favorite
+    center:
+    - 0.5398
+    - 0.4256
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_19
+    aliases:
+    - 收藏
+    - bookmark
+    - save
+    semantic_type: button
+  - text: Set special follow
+    center:
+    - 0.5398
+    - 0.4851
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_20
+    aliases:
+    - 设置特别关注
+    - special follow
+    - priority follow
+    semantic_type: menu_item
+  - text: 对此内容不感兴趣
+    center:
+    - 0.5398
+    - 0.5561
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_21
+    aliases:
+    - Not interested in this content
+    - 不感兴趣
+    - dislike content
+    semantic_type: button
+  - text: 对此条不感兴趣
+    center:
+    - 0.3433
+    - 0.6007
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_22
+    aliases:
+    - Not interested in this post
+    - dislike post
+    - 不感兴趣
+    semantic_type: button
+  - text: mute this account
+    center:
+    - 0.7338
+    - 0.6007
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_18
+    aliases:
+    - 屏蔽账号
+    - mute account
+    - silence
+    semantic_type: button
+  - text: shield the keywords
+    center:
+    - 0.3433
+    - 0.6533
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_22
+    aliases:
+    - 屏蔽关键词
+    - block keywords
+    - filter keywords
+    semantic_type: button
+  - text: mute this weibo
+    center:
+    - 0.7338
+    - 0.6533
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_16
+    aliases:
+    - 屏蔽此微博
+    - mute post
+    - silence weibo
+    semantic_type: button
+  - text: Complain
+    center:
+    - 0.5398
+    - 0.7208
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_23
+    aliases:
+    - 投诉
+    - report
+    - 举报
+    semantic_type: button
+  - text: Unfollow
+    center:
+    - 0.5398
+    - 0.7803
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_24
+    aliases:
+    - 取消关注
+    - unsubscribe
+    - stop following
+    semantic_type: button
+  - text: Promote
+    center:
+    - 0.5398
+    - 0.9725
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_24
+    aliases:
+    - 推广
+    - boost
+    - advertise
+    semantic_type: button
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_25
+    aliases:
+    - 微博
+    - Home
+    - Feed
+    - 首页
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_26
+    aliases:
+    - 视频
+    - Videos
+    - Clips
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_27
+    aliases:
+    - 发现
+    - Explore
+    - Search
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_26
+    aliases:
+    - 消息
+    - Messages
+    - Inbox
+    - 私信
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_28
+    aliases:
+    - 我
+    - Profile
+    - 我的
+    - Account
+    semantic_type: tab
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - bottom shadow
+    - shadow image
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_26
+    aliases:
+    - tab bar background
+    - background image
+    semantic_type: other
+  description: 微博 post options menu with actions like follow, translate, favorite,
+    mute, and complain.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_2
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.1796
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_29
+    aliases:
+    - More
+    - More actions
+    - 更多
+    - 操作
+    semantic_type: button
+  - text: For You
+    center:
+    - 0.3731
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_29
+    aliases:
+    - 为你推荐
+    - 推荐
+    - Recommendations
+    - Personalized
+    semantic_type: tab
+  - text: Follow
+    center:
+    - 0.6169
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_30
+    aliases:
+    - 关注
+    - Following
+    - 关注的
+    semantic_type: tab
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.4256
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_31
+    aliases:
+    - 翻译内容
+    - 翻译
+    - Translate
+    semantic_type: toggle
+  - text: Hot
+    center:
+    - 0.0771
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_32
+    aliases:
+    - 热门
+    - Trending
+    - 热搜
+    semantic_type: tab
+  - text: Worldcup
+    center:
+    - 0.2637
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 世界杯
+    - World Cup
+    - FIFA
+    semantic_type: tab
+  - text: City
+    center:
+    - 0.4527
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_29
+    aliases:
+    - 城市
+    - 同城
+    - Local
+    semantic_type: tab
+  - text: Latest
+    center:
+    - 0.6144
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_33
+    aliases:
+    - 最新
+    - 最新微博
+    - Newest
+    semantic_type: tab
+  - text: Ranking list
+    center:
+    - 0.8458
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_34
+    aliases:
+    - 榜单
+    - 排行榜
+    - Rankings
+    semantic_type: tab
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_35
+    aliases:
+    - 微博
+    - Home
+    - 首页
+    - Feed
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_36
+    aliases:
+    - 视频
+    - Videos
+    - Watch
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_37
+    aliases:
+    - 发现
+    - Explore
+    - Search
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - Messages
+    - Inbox
+    - 私信
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - Profile
+    - 我的
+    - 个人
+    semantic_type: tab
+  - text: hotweibo_navigation_background.png
+    center:
+    - 0.5
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - navigation background
+    - hot weibo nav bg
+    semantic_type: other
+  - text: hotweibo_icon_fadeout_left.png
+    center:
+    - 0.0249
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fadeout icon
+    - left fade
+    semantic_type: other
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - bottom shadow
+    - shadow
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - tabbar bg
+    semantic_type: other
+  description: Weibo Hot Weibo screen with tabs for trending topics and bottom navigation
+    bar
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_3
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.2574
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_38
+  - text: For You
+    center:
+    - 0.3706
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_39
+  - text: Follow
+    center:
+    - 0.6144
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_40
+  - text: 明星
+    center:
+    - 0.0995
+    - 0.1854
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_41
+  - text: 热门直播
+    center:
+    - 0.4403
+    - 0.1854
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_42
+  - text: Weibo Content
+    center:
+    - 0.5
+    - 0.3993
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_40
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.5034
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_43
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_42
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_43
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_42
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_43
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_43
+  - text: Network picture
+    center:
+    - 0.0896
+    - 0.1613
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_40
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.1368
+    - 0.1842
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_44
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_45
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_46
+  - text: 关注你感兴趣的超话
+    center:
+    - 0.5249
+    - 0.4314
+    found_at_scroll: 2
+    fixed: true
+    leads_to: screen_40
+  - text: 关注后的超话内容会在关注内容流内展示
+    center:
+    - 0.5
+    - 0.4565
+    found_at_scroll: 2
+    fixed: true
+    leads_to: screen_40
+  - text: 查看更多
+    center:
+    - 0.5
+    - 0.667
+    found_at_scroll: 2
+    fixed: true
+    leads_to: screen_47
+  - text: Repost original
+    center:
+    - 0.5
+    - 0.8879
+    found_at_scroll: 2
+    fixed: true
+    leads_to: screen_47
+  - text: feed_attitude_happy_highlighted.png
+    center:
+    - 0.8806
+    - 0.3181
+    found_at_scroll: 2
+    fixed: true
+    leads_to: screen_40
+  - text: feed_attitude_hug_highlighted.png
+    center:
+    - 0.9129
+    - 0.3181
+    found_at_scroll: 2
+    fixed: true
+    leads_to: screen_40
+  - text: feed_attitude_surprise_highlighted.png
+    center:
+    - 0.9453
+    - 0.3181
+    found_at_scroll: 2
+    fixed: true
+    leads_to: screen_40
+  description: Weibo main feed screen with tabs for For You and Follow, showing posts
+    with reactions and a bottom navigation bar.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_4
+  elements:
+  - text: icon listenweibo headset norma
+    center:
+    - 0.7388
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_48
+    aliases:
+    - headset icon
+    - listen
+    - audio
+    - 耳机图标
+    semantic_type: button
+  - text: navigationbar more white v2
+    center:
+    - 0.9378
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_49
+    aliases:
+    - more options
+    - menu
+    - 更多
+    - white more icon
+    semantic_type: button
+  - text: 实时热搜
+    center:
+    - 0.5
+    - 0.1041
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - real-time hot search
+    - trending
+    - 热搜榜
+    - hot topics
+    semantic_type: label
+  - text: share bottom item wx
+    center:
+    - 0.3134
+    - 0.6522
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - share to WeChat
+    - 微信分享
+    - WeChat
+    semantic_type: button
+  - text: share bottom item wx circle
+    center:
+    - 0.5
+    - 0.6522
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - share to Moments
+    - 朋友圈
+    - WeChat Moments
+    semantic_type: button
+  - text: share bottom item qq
+    center:
+    - 0.6866
+    - 0.6522
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - share to QQ
+    - QQ分享
+    - QQ
+    semantic_type: button
+  - text: share bottom item long image
+    center:
+    - 0.8731
+    - 0.6522
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - share as long image
+    - 长图分享
+    - long screenshot
+    semantic_type: button
+  - text: video icon play
+    center:
+    - 0.5
+    - 0.8421
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - play button
+    - 播放
+    - start video
+    semantic_type: button
+  - text: 大家都在搜
+    center:
+    - 0.1144
+    - 0.5137
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - everyone is searching
+    - hot searches
+    - 热门搜索
+    - trending searches
+    semantic_type: label
+  - text: 广告
+    center:
+    - 0.8955
+    - 0.7323
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - advertisement
+    - sponsored
+    - 推广
+    - ad
+    semantic_type: label
+  - text: share_bottom_item_reward_arrow.png
+    center:
+    - 0.1269
+    - 0.6167
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - reward
+    - 打赏
+    - tip
+    - send gift
+    semantic_type: button
+  - text: common icon small play
+    center:
+    - 0.2463
+    - 0.4428
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - play
+    - 播放
+    - small play button
+    semantic_type: button
+  - text: 查看我的铁粉关系 查看详情
+    center:
+    - 0.5149
+    - 0.6602
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - view my fan relationship
+    - 铁粉详情
+    - loyal fan details
+    - view details
+    semantic_type: link
+  - text: detail shutup delete icon
+    center:
+    - 0.9204
+    - 0.6602
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - delete
+    - 删除
+    - remove
+    - trash
+    semantic_type: button
+  - text: 相关视频
+    center:
+    - 0.102
+    - 0.3673
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - related videos
+    - 相关影片
+    - recommended videos
+    semantic_type: label
+  - text: Repost 8
+    center:
+    - 0.1169
+    - 0.6007
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - repost count
+    - 转发
+    - share count
+    - 8 reposts
+    semantic_type: button
+  - text: Comments 22
+    center:
+    - 0.3632
+    - 0.6007
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - comment count
+    - 评论
+    - 22 comments
+    - reply
+    semantic_type: button
+  - text: Likes 110
+    center:
+    - 0.8831
+    - 0.6007
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - like count
+    - 赞
+    - 110 likes
+    - favorite
+    semantic_type: button
+  - text: by hot
+    center:
+    - 0.9204
+    - 0.7002
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - sort by hot
+    - 按热度
+    - hot comments
+    - popular
+    semantic_type: tab
+  - text: statusdetail_comment_top_background.png
+    center:
+    - 0.5
+    - 0.6007
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - comment background
+    - top comment area
+    - 评论区背景
+    semantic_type: other
+  description: Weibo post detail screen showing a hot topic with video, related searches,
+    share options, and engagement actions like repost, comments, and likes.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_5
+  elements:
+  - text: icon listenweibo headset norma
+    center:
+    - 0.7388
+    - 0.0847
+    found_at_scroll: 0
+    fixed: true
+  - text: navigationbar more white v2
+    center:
+    - 0.9378
+    - 0.0847
+    found_at_scroll: 0
+    fixed: true
+  - text: share bottom item wx
+    center:
+    - 0.3134
+    - 0.4142
+    found_at_scroll: 0
+    fixed: false
+  - text: share bottom item wx circle
+    center:
+    - 0.5
+    - 0.4142
+    found_at_scroll: 0
+    fixed: false
+  - text: share bottom item qq
+    center:
+    - 0.6866
+    - 0.4142
+    found_at_scroll: 0
+    fixed: false
+  - text: share bottom item long image
+    center:
+    - 0.8731
+    - 0.4142
+    found_at_scroll: 0
+    fixed: false
+  - text: video icon play
+    center:
+    - 0.5
+    - 0.6041
+    found_at_scroll: 0
+    fixed: false
+  - text: common icon small play
+    center:
+    - 0.2463
+    - 0.8467
+    found_at_scroll: 0
+    fixed: false
+  - text: share_bottom_item_reward_arrow.png
+    center:
+    - 0.1269
+    - 0.3787
+    found_at_scroll: 0
+    fixed: false
+  - text: detail shutup delete icon
+    center:
+    - 0.9204
+    - 0.4199
+    found_at_scroll: 1
+    fixed: false
+  - text: statusdetail_comment_top_background.png
+    center:
+    - 0.5
+    - 0.3604
+    found_at_scroll: 1
+    fixed: true
+  - text: comment_second_fold.png
+    center:
+    - 0.204
+    - 0.8066
+    found_at_scroll: 3
+    fixed: false
+  description: Video playback screen with sharing options to WeChat, QQ, and long
+    image, plus comment and control icons.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_6
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.2941
+    found_at_scroll: 0
+    fixed: true
+  - text: Follow
+    center:
+    - 0.6144
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+  - text: 明星
+    center:
+    - 0.0995
+    - 0.222
+    found_at_scroll: 0
+    fixed: false
+  - text: 热门直播
+    center:
+    - 0.4403
+    - 0.222
+    found_at_scroll: 0
+    fixed: false
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.54
+    found_at_scroll: 0
+    fixed: false
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.1368
+    - 0.2208
+    found_at_scroll: 0
+    fixed: true
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+  - text: video icon delete card192
+    center:
+    - 0.3682
+    - 0.913
+    found_at_scroll: 2
+    fixed: true
+  - text: WBTimelineAttributedTextView
+    center:
+    - 0.5597
+    - 0.119
+    found_at_scroll: 2
+    fixed: true
+  - text: 常看作者
+    center:
+    - 0.9204
+    - 0.9142
+    found_at_scroll: 2
+    fixed: true
+  - text: feed_attitude_happy_highlighted.png
+    center:
+    - 0.8806
+    - 0.7689
+    found_at_scroll: 2
+    fixed: true
+  - text: feed_attitude_hug_highlighted.png
+    center:
+    - 0.9129
+    - 0.7689
+    found_at_scroll: 2
+    fixed: true
+  - text: feed_attitude_surprise_highlighted.png
+    center:
+    - 0.9453
+    - 0.7689
+    found_at_scroll: 2
+    fixed: true
+  description: Weibo video feed screen with a video post, interaction buttons, and
+    bottom navigation tabs for Home, Discover, Message, and Me.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_7
+  elements:
+  - text: 福州公安
+    center:
+    - 0.2164
+    - 0.7975
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Fuzhou Police
+    - 福州警方
+    - Fuzhou Public Security
+    semantic_type: link
+  - text: WBTimelineAttributedTextView
+    center:
+    - 0.4055
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - timeline text view
+    - 微博文本
+    semantic_type: label
+  - text: Say something…
+    center:
+    - 0.3582
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发微博
+    - post
+    - compose
+    - 写微博
+    semantic_type: input
+  - text: Recommend
+    center:
+    - 0.1692
+    - 0.0858
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 推荐
+    - for you
+    - 热门
+    semantic_type: tab
+  - text: Short Dramas
+    center:
+    - 0.51
+    - 0.0858
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 短剧
+    - mini series
+    - 短视频剧
+    semantic_type: tab
+  - text: Podcast
+    center:
+    - 0.7761
+    - 0.0858
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 播客
+    - audio
+    - 电台
+    semantic_type: tab
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - home
+    - 首页
+    - feed
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - videos
+    - watch
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - explore
+    - search
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - inbox
+    - notifications
+    - 私信
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - 个人中心
+    - account
+    semantic_type: tab
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.107
+    - 0.8192
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - avatar flag
+    - 头像标识
+    - verified badge
+    semantic_type: label
+  - text: common_shadow_bottom2_dark.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shadow
+    - 阴影
+    - dark shadow
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - 标签栏背景
+    semantic_type: other
+  - text: tabbar_slider.png
+    center:
+    - 0.301
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab slider
+    - 滑动指示器
+    - 标签滑块
+    semantic_type: other
+  - text: Lock at 2.0X speed
+    center:
+    - 0.5199
+    - 0.1396
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 锁定2倍速
+    - speed lock
+    - 倍速锁定
+    semantic_type: toggle
+  - text: video_common_icon_lock
+    center:
+    - 0.3433
+    - 0.1396
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - lock icon
+    - 锁图标
+    - 锁定
+    semantic_type: other
+  - text: RT今日俄罗斯
+    center:
+    - 0.2637
+    - 0.7975
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - RT Russia Today
+    - 今日俄罗斯
+    - Russia Today
+    semantic_type: link
+  description: Weibo home feed screen showing a post from 福州公安 with tabs for Recommend,
+    Short Dramas, Podcast, Weibo, Video, Discover, Message, Me, and a locked video
+    at 2.0X speed.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_8
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.7071
+    found_at_scroll: 0
+    fixed: false
+  - text: More
+    center:
+    - 0.5821
+    - 0.3535
+    found_at_scroll: 0
+    fixed: false
+  - text: 推荐
+    center:
+    - 0.9229
+    - 0.3902
+    found_at_scroll: 0
+    fixed: false
+  - text: 热点
+    center:
+    - 0.0995
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+  - text: 星品
+    center:
+    - 0.2587
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+  - text: 热转
+    center:
+    - 0.4179
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+  - text: V发布
+    center:
+    - 0.592
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+  - text: 世界杯
+    center:
+    - 0.7861
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+  - text: 神评
+    center:
+    - 0.9677
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+  - text: TOP23
+    center:
+    - 0.3333
+    - 0.6522
+    found_at_scroll: 0
+    fixed: false
+  - text: Weibo Content
+    center:
+    - 0.5
+    - 0.77
+    found_at_scroll: 0
+    fixed: false
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: false
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: WBSearchBarIcon
+    center:
+    - 0.0697
+    - 0.095
+    found_at_scroll: 0
+    fixed: true
+  - text: Network picture
+    center:
+    - 0.1294
+    - 0.1465
+    found_at_scroll: 0
+    fixed: false
+  - text: common_icon_arrow_more.png
+    center:
+    - 0.9527
+    - 0.6545
+    found_at_scroll: 0
+    fixed: false
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.1244
+    - 0.738
+    found_at_scroll: 0
+    fixed: false
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+  - text: tabbar_slider.png
+    center:
+    - 0.5
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+  - text: Return
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 1
+    fixed: true
+  - text: WBTimelineAttributedTextView
+    center:
+    - 0.5597
+    - 0.2529
+    found_at_scroll: 2
+    fixed: false
+  - text: video morevideo icon play
+    center:
+    - 0.5174
+    - 1.0
+    found_at_scroll: 3
+    fixed: false
+  - text: video morevideo icon close
+    center:
+    - 0.597
+    - 0.984
+    found_at_scroll: 3
+    fixed: false
+  - text: 搜索
+    center:
+    - 0.8881
+    - 0.0961
+    found_at_scroll: 3
+    fixed: false
+  - text: WBImageView
+    center:
+    - 0.1294
+    - 0.0961
+    found_at_scroll: 3
+    fixed: false
+  - text: video_view_guide_recommend.png
+    center:
+    - 0.5174
+    - 0.9966
+    found_at_scroll: 3
+    fixed: false
+  - text: new_dot_clear.png
+    center:
+    - 0.6144
+    - 0.9657
+    found_at_scroll: 3
+    fixed: false
+  description: Discover tab showing trending topics and recommended video content
+    with a search bar and bottom navigation.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_9
+  elements:
+  - text: Group
+    center:
+    - 0.0796
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 群组
+    - group chat
+    semantic_type: menu_item
+  - text: Activity
+    center:
+    - 0.3682
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 活动
+    - events
+    semantic_type: menu_item
+  - text: Message
+    center:
+    - 0.6119
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - 私信
+    - direct message
+    - DM
+    semantic_type: menu_item
+  - text: Strangers' Messages
+    center:
+    - 0.5
+    - 0.1419
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 陌生人消息
+    - stranger messages
+    semantic_type: menu_item
+  - text: WBTimelineAttributedTextView
+    center:
+    - 0.5
+    - 0.1384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - timeline text
+    - 微博正文
+    semantic_type: label
+  - text: Mentions
+    center:
+    - 0.5423
+    - 0.2025
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - '@提及'
+    - '@mentions'
+    - 提到我的
+    semantic_type: menu_item
+  - text: Comment
+    center:
+    - 0.5423
+    - 0.2815
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 评论
+    - reply
+    - 回复
+    semantic_type: menu_item
+  - text: Likes
+    center:
+    - 0.5423
+    - 0.3604
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 赞
+    - 点赞
+    - favorites
+    semantic_type: menu_item
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - feed
+    - timeline
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - videos
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - explore
+    - search
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - 个人中心
+    semantic_type: tab
+  - text: 微博
+    center:
+    - 0.2935
+    - 0.6133
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Weibo
+    - feed
+    - timeline
+    semantic_type: tab
+  - text: Select the notification type
+    center:
+    - 0.306
+    - 0.7105
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 选择通知类型
+    - notification type
+    semantic_type: label
+  - text: Interactive messaging and people's updates
+    center:
+    - 0.4154
+    - 0.7632
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 互动消息
+    - interactive notifications
+    semantic_type: setting
+  - text: Social hotspots(Up to 8 messages per day)
+    center:
+    - 0.3632
+    - 0.8146
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 社会热点
+    - hotspots
+    - trending
+    semantic_type: setting
+  - text: All notifications
+    center:
+    - 0.1692
+    - 0.8661
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 全部通知
+    - all alerts
+    semantic_type: setting
+  - text: Not now
+    center:
+    - 0.2587
+    - 0.9348
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 暂不
+    - later
+    - 稍后
+    semantic_type: button
+  - text: Open
+    center:
+    - 0.7413
+    - 0.9348
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 开启
+    - enable
+    - 打开
+    semantic_type: button
+  - text: new_search_navigationbar_new_background_white.png
+    center:
+    - 0.5
+    - 0.0881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search bar background
+    - 搜索栏背景
+    semantic_type: other
+  - text: WBSearchBarIcon
+    center:
+    - 0.2811
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search icon
+    - 搜索图标
+    semantic_type: other
+  - text: searchbar_textfield_background.png
+    center:
+    - 0.5
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search field background
+    - 搜索框背景
+    semantic_type: other
+  - text: common_horizontal_separator.png
+    center:
+    - 0.5995
+    - 0.2414
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - separator
+    - 分割线
+    semantic_type: other
+  - text: common_icon_arrow.png
+    center:
+    - 0.9652
+    - 0.2025
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - arrow icon
+    - 箭头图标
+    semantic_type: other
+  - text: new_dot_number.png
+    center:
+    - 0.9453
+    - 0.4519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification badge
+    - 红点数字
+    semantic_type: other
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.1368
+    - 0.46
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - avatar flag
+    - 头像标识
+    semantic_type: other
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - bottom shadow
+    - 底部阴影
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - 标签栏背景
+    semantic_type: other
+  - text: tabbar_slider.png
+    center:
+    - 0.699
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab slider
+    - 标签滑块
+    semantic_type: other
+  - text: notice_icon_bg
+    center:
+    - 0.5
+    - 0.6144
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification icon background
+    - 通知图标背景
+    semantic_type: other
+  - text: notice_shadow
+    center:
+    - 0.5
+    - 0.6281
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification shadow
+    - 通知阴影
+    semantic_type: other
+  - text: notice_icon_logo
+    center:
+    - 0.1841
+    - 0.6236
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - notification icon logo
+    - 通知图标
+    semantic_type: other
+  description: Notification settings screen allowing users to select notification
+    types such as interactive messaging, social hotspots, and all notifications.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_10
+  elements:
+  - text: navigationbar icon addfriends
+    center:
+    - 0.7413
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+  - text: navigationbar icon qrcode v2
+    center:
+    - 0.8358
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+  - text: navigationbar icon setting v2
+    center:
+    - 0.9303
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+  - text: 状态
+    center:
+    - 0.3284
+    - 0.1911
+    found_at_scroll: 0
+    fixed: true
+  - text: Weibo
+    center:
+    - 0.1443
+    - 0.3318
+    found_at_scroll: 0
+    fixed: true
+  - text: Follow
+    center:
+    - 0.3806
+    - 0.3318
+    found_at_scroll: 0
+    fixed: true
+  - text: Followers
+    center:
+    - 0.6169
+    - 0.3318
+    found_at_scroll: 0
+    fixed: true
+  - text: Albums
+    center:
+    - 0.1418
+    - 0.4245
+    found_at_scroll: 0
+    fixed: true
+  - text: Likes
+    center:
+    - 0.3806
+    - 0.4245
+    found_at_scroll: 0
+    fixed: true
+  - text: History
+    center:
+    - 0.6169
+    - 0.4245
+    found_at_scroll: 0
+    fixed: true
+  - text: Draft Box
+    center:
+    - 0.8557
+    - 0.4245
+    found_at_scroll: 0
+    fixed: true
+  - text: My wallet
+    center:
+    - 0.1418
+    - 0.5103
+    found_at_scroll: 0
+    fixed: true
+  - text: My order
+    center:
+    - 0.3806
+    - 0.5103
+    found_at_scroll: 0
+    fixed: true
+  - text: Creation
+    center:
+    - 0.6169
+    - 0.5103
+    found_at_scroll: 0
+    fixed: true
+  - text: Frequently Visited
+    center:
+    - 0.2065
+    - 0.7391
+    found_at_scroll: 0
+    fixed: true
+  - text: View all
+    center:
+    - 0.8657
+    - 0.7391
+    found_at_scroll: 0
+    fixed: true
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: new_dot.png
+    center:
+    - 0.7612
+    - 0.0721
+    found_at_scroll: 0
+    fixed: true
+  - text: WBS3ImageView
+    center:
+    - 0.1144
+    - 0.1625
+    found_at_scroll: 0
+    fixed: true
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+  - text: tabbar_slider.png
+    center:
+    - 0.898
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+  description: User profile screen showing account details, content sections like
+    Follow and Albums, and a bottom tab bar for navigation.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_11
+  elements:
+  - text: 听听
+    center:
+    - 0.5
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+  - text: 推荐
+    center:
+    - 0.3905
+    - 0.1373
+    found_at_scroll: 0
+    fixed: true
+  - text: 关注
+    center:
+    - 0.6095
+    - 0.1373
+    found_at_scroll: 0
+    fixed: true
+  - text: 猜你想听
+    center:
+    - 0.1144
+    - 0.4497
+    found_at_scroll: 0
+    fixed: false
+  - text: 热门音频榜
+    center:
+    - 0.1343
+    - 0.7929
+    found_at_scroll: 0
+    fixed: false
+  - text: hotweibo_navigation_background.png
+    center:
+    - 0.5
+    - 0.1373
+    found_at_scroll: 0
+    fixed: true
+  - text: discover_icon_fadeout_left.png
+    center:
+    - 0.0249
+    - 0.1373
+    found_at_scroll: 0
+    fixed: true
+  - text: Network picture
+    center:
+    - 0.199
+    - 0.2449
+    found_at_scroll: 0
+    fixed: false
+  - text: podcast_feed_line.png
+    center:
+    - 0.5
+    - 0.3215
+    found_at_scroll: 0
+    fixed: false
+  - text: video_podcast_icon_audio.png
+    center:
+    - 0.2537
+    - 0.5435
+    found_at_scroll: 0
+    fixed: false
+  - text: icon tingting filter menu
+    center:
+    - 0.9453
+    - 0.4668
+    found_at_scroll: 1
+    fixed: false
+  - text: feed podcast card icon add def
+    center:
+    - 0.8856
+    - 0.6178
+    found_at_scroll: 1
+    fixed: false
+  - text: 为你精选
+    center:
+    - 0.1144
+    - 0.4188
+    found_at_scroll: 1
+    fixed: false
+  - text: 星声速递
+    center:
+    - 0.1343
+    - 0.4668
+    found_at_scroll: 1
+    fixed: false
+  - text: 影视娱乐
+    center:
+    - 0.3582
+    - 0.4668
+    found_at_scroll: 1
+    fixed: false
+  - text: 趣味闲聊
+    center:
+    - 0.5821
+    - 0.4668
+    found_at_scroll: 1
+    fixed: false
+  - text: 人文艺术
+    center:
+    - 0.806
+    - 0.4668
+    found_at_scroll: 1
+    fixed: false
+  - text: Audio
+    center:
+    - 0.1219
+    - 0.532
+    found_at_scroll: 1
+    fixed: false
+  - text: video_icon_play.png
+    center:
+    - 0.199
+    - 0.8387
+    found_at_scroll: 1
+    fixed: false
+  - text: podcast player icon puse
+    center:
+    - 0.8134
+    - 0.913
+    found_at_scroll: 2
+    fixed: false
+  description: 听听 audio content discovery page with tabs for recommendations and following,
+    featuring curated playlists, categories, and a mini player.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_12
+  elements:
+  - text: feed podcast card icon add def
+    center:
+    - 0.8856
+    - 0.2838
+    found_at_scroll: 0
+    fixed: false
+  - text: podcast icon pause
+    center:
+    - 0.8184
+    - 0.5172
+    found_at_scroll: 0
+    fixed: false
+  - text: podcast player icon puse
+    center:
+    - 0.8134
+    - 0.913
+    found_at_scroll: 0
+    fixed: true
+  - text: poscast player icon list
+    center:
+    - 0.9229
+    - 0.913
+    found_at_scroll: 0
+    fixed: true
+  - text: 听听
+    center:
+    - 0.5
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+  - text: 推荐
+    center:
+    - 0.3905
+    - 0.1373
+    found_at_scroll: 0
+    fixed: true
+  - text: 关注
+    center:
+    - 0.6095
+    - 0.1373
+    found_at_scroll: 0
+    fixed: true
+  - text: 猜你想听
+    center:
+    - 0.1144
+    - 0.4497
+    found_at_scroll: 0
+    fixed: false
+  - text: 热门音频榜
+    center:
+    - 0.1343
+    - 0.7929
+    found_at_scroll: 0
+    fixed: false
+  - text: Continue
+    center:
+    - 0.3358
+    - 0.9256
+    found_at_scroll: 0
+    fixed: true
+  - text: hotweibo_navigation_background.png
+    center:
+    - 0.5
+    - 0.1373
+    found_at_scroll: 0
+    fixed: true
+  - text: discover_icon_fadeout_left.png
+    center:
+    - 0.0249
+    - 0.1373
+    found_at_scroll: 0
+    fixed: true
+  - text: podcast_feed_line.png
+    center:
+    - 0.5
+    - 0.3215
+    found_at_scroll: 0
+    fixed: false
+  - text: video_podcast_icon_audio.png
+    center:
+    - 0.2537
+    - 0.5435
+    found_at_scroll: 0
+    fixed: false
+  - text: icon tingting filter menu
+    center:
+    - 0.9453
+    - 0.4668
+    found_at_scroll: 1
+    fixed: false
+  - text: 为你精选
+    center:
+    - 0.1144
+    - 0.4188
+    found_at_scroll: 1
+    fixed: false
+  - text: 星声速递
+    center:
+    - 0.1343
+    - 0.4668
+    found_at_scroll: 1
+    fixed: false
+  - text: 影视娱乐
+    center:
+    - 0.3582
+    - 0.4668
+    found_at_scroll: 1
+    fixed: false
+  - text: 趣味闲聊
+    center:
+    - 0.5821
+    - 0.4668
+    found_at_scroll: 1
+    fixed: false
+  - text: 人文艺术
+    center:
+    - 0.806
+    - 0.4668
+    found_at_scroll: 1
+    fixed: false
+  - text: Audio
+    center:
+    - 0.1219
+    - 0.532
+    found_at_scroll: 1
+    fixed: false
+  - text: video_icon_play.png
+    center:
+    - 0.199
+    - 0.8387
+    found_at_scroll: 1
+    fixed: false
+  description: Podcast discovery feed with personalized recommendations, trending
+    audio charts, and category filters for browsing and playing episodes.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_13
+  elements:
+  - text: icon listenweibo headset norma
+    center:
+    - 0.7388
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - headset
+    - listen
+    - audio
+    - 耳机
+    semantic_type: button
+  - text: navigationbar more white v2
+    center:
+    - 0.9378
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - more
+    - menu
+    - 更多
+    semantic_type: button
+  - text: 实时热搜
+    center:
+    - 0.5
+    - 0.1041
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - real-time hot search
+    - trending
+    - 热搜
+    semantic_type: tab
+  - text: 大家都在搜
+    center:
+    - 0.1144
+    - 0.9657
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - everyone is searching
+    - popular searches
+    - 大家都在搜
+    semantic_type: label
+  - text: share bottom item wx
+    center:
+    - 0.3134
+    - 0.5126
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - WeChat
+    - 微信
+    - share to WeChat
+    semantic_type: button
+  - text: share bottom item wx circle
+    center:
+    - 0.5
+    - 0.5126
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - WeChat Moments
+    - 朋友圈
+    - share to Moments
+    semantic_type: button
+  - text: share bottom item qq
+    center:
+    - 0.6866
+    - 0.5126
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - QQ
+    - share to QQ
+    semantic_type: button
+  - text: share bottom item long image
+    center:
+    - 0.8731
+    - 0.5126
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - long screenshot
+    - 长图
+    - share as image
+    semantic_type: button
+  - text: video icon play
+    center:
+    - 0.5
+    - 0.7025
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - play
+    - 播放
+    - start video
+    semantic_type: button
+  - text: common icon small play
+    center:
+    - 0.2463
+    - 0.9451
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - play
+    - 播放
+    - small play
+    semantic_type: button
+  - text: share_bottom_item_reward_arrow.png
+    center:
+    - 0.1269
+    - 0.4771
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - reward
+    - 打赏
+    - tip
+    semantic_type: button
+  - text: detail shutup delete icon
+    center:
+    - 0.9204
+    - 0.5206
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - delete
+    - remove
+    - 删除
+    - trash
+    semantic_type: button
+  - text: 全部评论
+    center:
+    - 0.0945
+    - 0.5618
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - all comments
+    - comments
+    - 评论
+    semantic_type: tab
+  - text: 只看博主
+    center:
+    - 0.2587
+    - 0.5618
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - view blogger only
+    - 博主评论
+    - filter by author
+    semantic_type: toggle
+  - text: by hot
+    center:
+    - 0.9204
+    - 0.5618
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - sort by hot
+    - 热门排序
+    - most popular
+    semantic_type: tab
+  - text: statusdetail_comment_top_background.png
+    center:
+    - 0.5
+    - 0.4611
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - comment background
+    - top comment area
+    semantic_type: other
+  - text: comment_second_fold.png
+    center:
+    - 0.204
+    - 0.4085
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - fold comments
+    - collapse
+    - 收起评论
+    semantic_type: button
+  description: Weibo post detail screen with real-time hot search, share options,
+    video playback, and comments section filterable by all or blogger only.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_14
+  elements:
+  - text: More
+    center:
+    - 0.5821
+    - 0.3535
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 更多
+    - additional
+    - extra
+    semantic_type: tab
+  - text: 热点
+    center:
+    - 0.0995
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - hot topics
+    - trending
+    - trends
+    semantic_type: tab
+  - text: 星品
+    center:
+    - 0.2587
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - star products
+    - celebrity items
+    - star goods
+    semantic_type: tab
+  - text: 热转
+    center:
+    - 0.4179
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - hot reposts
+    - viral shares
+    - trending reposts
+    semantic_type: tab
+  - text: V发布
+    center:
+    - 0.592
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - verified posts
+    - V publish
+    - official releases
+    semantic_type: tab
+  - text: 世界杯
+    center:
+    - 0.7861
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - World Cup
+    - FIFA
+    - 足球世界杯
+    semantic_type: tab
+  - text: 神评
+    center:
+    - 0.9677
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - top comments
+    - best comments
+    - legendary comments
+    semantic_type: tab
+  - text: Weibo Content
+    center:
+    - 0.5
+    - 0.849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博内容
+    - feed
+    - timeline
+    semantic_type: label
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - microblog
+    - Sina Weibo
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - videos
+    - clips
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 发现
+    - explore
+    - search
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - messages
+    - notifications
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - my account
+    semantic_type: tab
+  - text: WBSearchBarIcon
+    center:
+    - 0.0697
+    - 0.095
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search icon
+    - 搜索图标
+    - magnifier
+    semantic_type: button
+  - text: common_icon_arrow_more.png
+    center:
+    - 0.9527
+    - 0.6545
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - more arrow
+    - 展开箭头
+    - arrow icon
+    semantic_type: button
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.1244
+    - 0.738
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - avatar flag
+    - verified badge
+    - V icon
+    semantic_type: label
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - bottom shadow
+    - 阴影
+    - shadow overlay
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - 底部背景
+    - bar background
+    semantic_type: other
+  - text: tabbar_slider.png
+    center:
+    - 0.5
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab slider
+    - 滑块
+    - indicator
+    semantic_type: other
+  - text: Return
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 返回
+    - back
+    - go back
+    semantic_type: button
+  - text: WBImageView
+    center:
+    - 0.0871
+    - 0.9645
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - image view
+    - 图片视图
+    - photo
+    semantic_type: other
+  - text: WBTimelineAttributedTextView
+    center:
+    - 0.5597
+    - 0.8947
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - timeline text
+    - 微博正文
+    - post text
+    semantic_type: label
+  description: Discover screen with trending topics, content categories, and a bottom
+    navigation bar for Home, Discover, Message, and Me.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_15
+  elements:
+  - text: Weibo Content
+    center:
+    - 0.5
+    - 0.0892
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 微博内容
+    - post content
+    - feed
+    semantic_type: label
+  - text: icon listenweibo headset norma
+    center:
+    - 0.7488
+    - 0.0892
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - headset icon
+    - audio
+    - listen
+    semantic_type: button
+  - text: video navigationbar back white
+    center:
+    - 0.0448
+    - 0.0881
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - back button
+    - 返回
+    - navigate back
+    semantic_type: button
+  - text: video navigationbar net white
+    center:
+    - 0.7488
+    - 0.0881
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - network status
+    - 网络状态
+    - signal
+    semantic_type: label
+  - text: video navigationbar more white
+    center:
+    - 0.8433
+    - 0.0881
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - more options
+    - 更多
+    - menu
+    semantic_type: button
+  - text: video navigationbar close whit
+    center:
+    - 0.9378
+    - 0.0881
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - close button
+    - 关闭
+    - dismiss
+    semantic_type: button
+  - text: video unifiedlist volume mute
+    center:
+    - 0.9453
+    - 0.2906
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - mute
+    - 静音
+    - volume off
+    - unmute
+    semantic_type: toggle
+  - text: detail shutup delete icon
+    center:
+    - 0.9204
+    - 0.7208
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - delete
+    - 删除
+    - remove
+    - trash
+    semantic_type: button
+  - text: by hot
+    center:
+    - 0.9204
+    - 0.762
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - 按热度
+    - hot sort
+    - trending
+    semantic_type: tab
+  - text: statusdetail_comment_top_background.png
+    center:
+    - 0.5
+    - 0.6613
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - comment background
+    - 评论背景
+    semantic_type: other
+  - text: detail follow closed
+    center:
+    - 0.9279
+    - 0.8513
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - follow button
+    - 关注
+    - subscribe
+    semantic_type: button
+  - text: comment_second_fold.png
+    center:
+    - 0.204
+    - 0.6224
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - fold comments
+    - 收起评论
+    - collapse
+    semantic_type: button
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.1741
+    - 0.8719
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - avatar
+    - 头像
+    - profile picture
+    semantic_type: other
+  description: Video post detail screen with playback controls, comments, and interaction
+    options
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_16
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.0458
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - More Actions
+    - 更多
+    - 操作
+    - overflow menu
+    - additional options
+    semantic_type: button
+  - text: For You
+    center:
+    - 0.3706
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 推荐
+    - Recommend
+    - 为你推荐
+    - personalized feed
+    semantic_type: tab
+  - text: Follow
+    center:
+    - 0.6144
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - Following
+    - 关注流
+    - timeline
+    semantic_type: tab
+  - text: Weibo Content
+    center:
+    - 0.5
+    - 0.2128
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 微博内容
+    - post
+    - feed
+    - status
+    - 动态
+    semantic_type: label
+  - text: 常看作者
+    center:
+    - 0.9204
+    - 0.7288
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Favorite Authors
+    - 常看
+    - frequent authors
+    - 常访问博主
+    semantic_type: menu_item
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - Home
+    - 首页
+    - feed tab
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - Videos
+    - 视频流
+    - video feed
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - Explore
+    - 搜索
+    - Search
+    - 热门
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - Messages
+    - 私信
+    - Notifications
+    - 通知
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - Profile
+    - 我的
+    - 个人中心
+    - account
+    semantic_type: tab
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.107
+    - 0.0721
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Avatar
+    - 头像
+    - profile picture
+    - VIP badge
+    - 认证标识
+    semantic_type: other
+  - text: feed_attitude_happy_highlighted.png
+    center:
+    - 0.8806
+    - 0.5835
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Like
+    - 赞
+    - happy reaction
+    - 点赞
+    - 态度
+    semantic_type: button
+  - text: feed_attitude_hug_highlighted.png
+    center:
+    - 0.9129
+    - 0.5835
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Hug
+    - 抱抱
+    - hug reaction
+    - 安慰
+    semantic_type: button
+  - text: feed_attitude_surprise_highlighted.png
+    center:
+    - 0.9453
+    - 0.5835
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Surprise
+    - 惊讶
+    - wow reaction
+    - 吃惊
+    semantic_type: button
+  - text: video_icon_play.png
+    center:
+    - 0.2239
+    - 0.8249
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Play
+    - 播放
+    - 播放按钮
+    - video play
+    semantic_type: button
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Shadow
+    - 阴影
+    - bottom shadow
+    - 渐变
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Tab Bar Background
+    - 标签栏背景
+    - 底部背景
+    semantic_type: other
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.6476
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - 翻译内容
+    - Translate
+    - 翻译
+    - 翻译微博
+    semantic_type: button
+  - text: WBImageView
+    center:
+    - 0.1219
+    - 0.5366
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - Image
+    - 图片
+    - 照片
+    - image view
+    - 配图
+    semantic_type: other
+  description: Weibo home feed with 'For You' and 'Follow' tabs, displaying posts
+    with reactions and a bottom navigation bar.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_17
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.7071
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 更多
+    - 操作
+    - more actions
+    - actions
+    semantic_type: button
+  - text: More
+    center:
+    - 0.5821
+    - 0.3535
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 更多
+    - more options
+    - additional
+    semantic_type: button
+  - text: 热点
+    center:
+    - 0.0995
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - trending
+    - hot topics
+    - 热门
+    - hotspot
+    semantic_type: tab
+  - text: 星品
+    center:
+    - 0.2587
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - star products
+    - celebrity items
+    - 明星产品
+    - star goods
+    semantic_type: tab
+  - text: 热转
+    center:
+    - 0.4179
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - hot reposts
+    - trending reposts
+    - 热门转发
+    - viral
+    semantic_type: tab
+  - text: V发布
+    center:
+    - 0.592
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - verified posts
+    - V publish
+    - 认证发布
+    - official
+    semantic_type: tab
+  - text: 世界杯
+    center:
+    - 0.7861
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - World Cup
+    - FIFA
+    - 足球
+    - soccer
+    semantic_type: tab
+  - text: 神评
+    center:
+    - 0.9677
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - top comments
+    - best comments
+    - 精彩评论
+    - god comments
+    semantic_type: tab
+  - text: TOP9
+    center:
+    - 0.6841
+    - 0.6522
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - top 9
+    - 排行榜
+    - ranking
+    - top nine
+    semantic_type: tab
+  - text: Weibo Content
+    center:
+    - 0.5
+    - 0.7963
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - feed
+    - timeline
+    - 微博内容
+    - posts
+    semantic_type: label
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - home
+    - feed
+    - 首页
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - videos
+    - clips
+    - 短片
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 发现
+    - explore
+    - search
+    - 探索
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - messages
+    - inbox
+    - 私信
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - 我的
+    - account
+    semantic_type: tab
+  - text: WBSearchBarIcon
+    center:
+    - 0.0697
+    - 0.095
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search icon
+    - 搜索图标
+    - magnifier
+    - search
+    semantic_type: button
+  - text: common_icon_arrow_more.png
+    center:
+    - 0.9527
+    - 0.6545
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - arrow icon
+    - more arrow
+    - 展开
+    - expand
+    semantic_type: button
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.1244
+    - 0.738
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - avatar flag
+    - verified badge
+    - 认证标志
+    - V icon
+    semantic_type: label
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shadow
+    - bottom shadow
+    - 阴影
+    - divider
+    semantic_type: label
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - 底部背景
+    - navigation background
+    - bar bg
+    semantic_type: label
+  - text: tabbar_slider.png
+    center:
+    - 0.5
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - slider
+    - indicator
+    - 滑块
+    - tab indicator
+    semantic_type: label
+  - text: Return
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 返回
+    - back
+    - go back
+    - 后退
+    semantic_type: button
+  - text: WBImageView
+    center:
+    - 0.0871
+    - 0.8444
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - image view
+    - 图片
+    - photo
+    - 图像
+    semantic_type: label
+  - text: 搜索
+    center:
+    - 0.8881
+    - 0.0961
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - search
+    - 查找
+    - find
+    - 搜索框
+    semantic_type: input
+  description: Discover screen showing trending topics like 热点, 星品, 热转, V发布, 世界杯,
+    神评, TOP9, and a Weibo content feed with bottom navigation tabs.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_18
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.0973
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - More
+    - 更多
+    - actions
+    - overflow menu
+    semantic_type: button
+  - text: For You
+    center:
+    - 0.3706
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 推荐
+    - recommendations
+    - personalized feed
+    semantic_type: tab
+  - text: Follow
+    center:
+    - 0.6144
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - following
+    - subscriptions
+    semantic_type: tab
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.3696
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 翻译
+    - translate
+    - translation
+    semantic_type: button
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - home
+    - feed
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - videos
+    - clips
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - explore
+    - search
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - messages
+    - inbox
+    - notifications
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - account
+    - my
+    semantic_type: tab
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.1244
+    - 0.1281
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - avatar
+    - profile picture
+    - 头像
+    - verified badge
+    semantic_type: other
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shadow
+    - bottom shadow
+    - elevation
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - navigation background
+    - 底部背景
+    semantic_type: other
+  - text: video icon delete card192
+    center:
+    - 0.3682
+    - 0.7643
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - delete video
+    - remove
+    - trash icon
+    semantic_type: button
+  - text: feed_attitude_happy_highlighted.png
+    center:
+    - 0.8806
+    - 0.6201
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - happy reaction
+    - like
+    - 赞
+    - smile
+    semantic_type: button
+  - text: feed_attitude_hug_highlighted.png
+    center:
+    - 0.9129
+    - 0.6201
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - hug reaction
+    - 拥抱
+    - comfort
+    - support
+    semantic_type: button
+  - text: feed_attitude_surprise_highlighted.png
+    center:
+    - 0.9453
+    - 0.6201
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - surprise reaction
+    - 惊讶
+    - wow
+    - shock
+    semantic_type: button
+  - text: video_icon_play.png
+    center:
+    - 0.2239
+    - 0.8616
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - play button
+    - 播放
+    - start video
+    semantic_type: button
+  - text: WBImageView
+    center:
+    - 0.1219
+    - 0.3352
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - image view
+    - 图片
+    - photo
+    - media
+    semantic_type: other
+  description: Main feed screen with 'For You' and 'Follow' tabs, bottom navigation
+    bar, and a video post with reaction buttons.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_19
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.2574
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - More
+    - More Actions
+    - 更多
+    - 操作
+    semantic_type: menu_item
+  - text: For You
+    center:
+    - 0.3706
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 推荐
+    - Recommend
+    - 为你推荐
+    semantic_type: tab
+  - text: Follow
+    center:
+    - 0.6144
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - Following
+    - 关注的
+    semantic_type: tab
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.5034
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 翻译内容
+    - Translate
+    - 翻译
+    semantic_type: button
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - Home
+    - 首页
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - Videos
+    - Watch
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - Explore
+    - Search
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - Messages
+    - Inbox
+    - 私信
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - Profile
+    - 我的
+    - 个人中心
+    semantic_type: tab
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 底部阴影
+    - shadow
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 标签栏背景
+    - tab bar background
+    semantic_type: other
+  - text: video icon delete card192
+    center:
+    - 0.3682
+    - 0.6739
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - 删除视频卡片图标
+    - delete video card icon
+    semantic_type: button
+  - text: feed_attitude_happy_highlighted.png
+    center:
+    - 0.8806
+    - 0.5297
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - 开心
+    - happy reaction
+    - 赞
+    semantic_type: button
+  - text: feed_attitude_hug_highlighted.png
+    center:
+    - 0.9129
+    - 0.5297
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - 抱抱
+    - hug reaction
+    - 安慰
+    semantic_type: button
+  - text: feed_attitude_surprise_highlighted.png
+    center:
+    - 0.9453
+    - 0.5297
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - 惊讶
+    - surprise reaction
+    - 吃惊
+    semantic_type: button
+  - text: video_icon_play.png
+    center:
+    - 0.2239
+    - 0.7712
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - 播放
+    - play icon
+    - 播放按钮
+    semantic_type: button
+  description: Video feed screen with 'For You' and 'Follow' tabs, showing a video
+    with reaction buttons and bottom navigation.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_20
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.2574
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - More actions
+    - 更多
+    - actions
+    semantic_type: menu_item
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.5034
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 翻译内容
+    - translate
+    - 翻译
+    semantic_type: button
+  - text: Favorite
+    center:
+    - 0.5398
+    - 0.4256
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 收藏
+    - bookmark
+    - save
+    semantic_type: button
+  - text: 对此内容不感兴趣
+    center:
+    - 0.5398
+    - 0.4966
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Not interested in this content
+    - 不感兴趣
+    - dislike
+    semantic_type: button
+  - text: 对此条不感兴趣
+    center:
+    - 0.3433
+    - 0.5412
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Not interested in this post
+    - 不感兴趣
+    - dislike
+    semantic_type: button
+  - text: mute this account
+    center:
+    - 0.7338
+    - 0.5412
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 屏蔽此账号
+    - mute account
+    - 静音
+    semantic_type: button
+  - text: shield the keywords
+    center:
+    - 0.3433
+    - 0.5938
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 屏蔽关键词
+    - block keywords
+    - 关键词屏蔽
+    semantic_type: button
+  - text: mute this weibo
+    center:
+    - 0.7338
+    - 0.5938
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 屏蔽此微博
+    - mute post
+    - 静音微博
+    semantic_type: button
+  - text: Complain
+    center:
+    - 0.5398
+    - 0.6613
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 投诉
+    - report
+    - 举报
+    semantic_type: button
+  - text: Unfollow
+    center:
+    - 0.5398
+    - 0.7208
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 取消关注
+    - unsubscribe
+    - 取关
+    semantic_type: button
+  - text: 取消特别关注
+    center:
+    - 0.5398
+    - 0.7803
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Remove from special follow
+    - 取消特关
+    - unfavorite
+    semantic_type: button
+  - text: 用此头像挂件
+    center:
+    - 0.5398
+    - 0.8535
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Use this avatar widget
+    - 头像挂件
+    - avatar accessory
+    semantic_type: button
+  - text: 用此卡片背景
+    center:
+    - 0.5398
+    - 0.913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Use this card background
+    - 卡片背景
+    - card background
+    semantic_type: button
+  - text: Promote
+    center:
+    - 0.5398
+    - 0.9725
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 推广
+    - boost
+    - advertise
+    semantic_type: button
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - home
+    - feed
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - videos
+    - clips
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - explore
+    - search
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - messages
+    - inbox
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - 我的
+    semantic_type: tab
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - bottom shadow
+    - 阴影
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - 标签栏背景
+    semantic_type: other
+  - text: Add a Note
+    center:
+    - 0.5398
+    - 0.9176
+    found_at_scroll: 1
+    fixed: true
+  description: Context menu for a Weibo post with options to translate, favorite,
+    mute, complain, unfollow, and apply decorations.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_21
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.2574
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - more actions
+    - 更多
+    - more options
+    - 操作
+    semantic_type: menu_item
+  - text: Follow
+    center:
+    - 0.6144
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - follow account
+    - subscribe
+    semantic_type: button
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.5034
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 翻译内容
+    - translate
+    - 翻译
+    semantic_type: button
+  - text: Favorite
+    center:
+    - 0.5398
+    - 0.4256
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 收藏
+    - bookmark
+    - save
+    - favourite
+    semantic_type: toggle
+  - text: 对此内容不感兴趣
+    center:
+    - 0.5398
+    - 0.4966
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - not interested in this content
+    - 不感兴趣
+    - dislike content
+    semantic_type: button
+  - text: 对此条不感兴趣
+    center:
+    - 0.3433
+    - 0.5412
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - not interested in this post
+    - 不感兴趣
+    - dislike post
+    semantic_type: button
+  - text: mute this account
+    center:
+    - 0.7338
+    - 0.5412
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 屏蔽账号
+    - mute account
+    - 静音
+    semantic_type: button
+  - text: shield the keywords
+    center:
+    - 0.3433
+    - 0.5938
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 屏蔽关键词
+    - block keywords
+    - 关键词屏蔽
+    semantic_type: button
+  - text: mute this weibo
+    center:
+    - 0.7338
+    - 0.5938
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 屏蔽此微博
+    - mute post
+    - 静音微博
+    semantic_type: button
+  - text: Complain
+    center:
+    - 0.5398
+    - 0.6613
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 投诉
+    - report
+    - 举报
+    semantic_type: button
+  - text: Unfollow
+    center:
+    - 0.5398
+    - 0.7208
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 取消关注
+    - unsubscribe
+    semantic_type: button
+  - text: 取消特别关注
+    center:
+    - 0.5398
+    - 0.7803
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - remove from favorites
+    - 取消特关
+    - unfavorite
+    semantic_type: button
+  - text: 用此头像挂件
+    center:
+    - 0.5398
+    - 0.8535
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - use this avatar widget
+    - 头像挂件
+    - apply avatar accessory
+    semantic_type: button
+  - text: 用此卡片背景
+    center:
+    - 0.5398
+    - 0.913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - use this card background
+    - 卡片背景
+    - apply card theme
+    semantic_type: button
+  - text: Promote
+    center:
+    - 0.5398
+    - 0.9725
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 推广
+    - boost
+    - advertise
+    semantic_type: button
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - home
+    - feed
+    - 首页
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - videos
+    - watch
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - explore
+    - search
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - messages
+    - inbox
+    - 私信
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - 我的
+    - account
+    semantic_type: tab
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - bottom shadow
+    - 阴影
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - 导航栏背景
+    semantic_type: other
+  description: Context menu for a Weibo post with options to follow, translate, favorite,
+    mute, complain, and other actions.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_22
+  elements:
+  - text: wbox back black v3
+    center:
+    - 0.0622
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 返回
+    - back button
+    - black theme
+    semantic_type: button
+  - text: Shield
+    center:
+    - 0.5
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 屏蔽
+    - block
+    - filter
+    semantic_type: setting
+  - text: User
+    center:
+    - 0.1095
+    - 0.1442
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 用户
+    - account
+    - profile
+    semantic_type: setting
+  - text: Key word
+    center:
+    - 0.3532
+    - 0.1442
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关键词
+    - keyword filter
+    - 屏蔽词
+    semantic_type: setting
+  - text: Weibo
+    center:
+    - 0.6095
+    - 0.1442
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - microblog
+    - WB
+    semantic_type: label
+  - text: Adding key word in shield
+    center:
+    - 0.3134
+    - 0.2346
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 添加屏蔽关键词
+    - add keyword to blocklist
+    - 新增屏蔽词
+    semantic_type: label
+  - text: Add
+    center:
+    - 0.9328
+    - 0.2346
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 添加
+    - 新增
+    - create
+    semantic_type: button
+  description: Keyword management screen for adding and viewing blocked or muted keywords
+    in Weibo's Shield feature.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_23
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.2574
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - More actions
+    - 更多
+    - actions
+    - options
+    semantic_type: menu_item
+  - text: For You
+    center:
+    - 0.3706
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 为你推荐
+    - recommended
+    - personalized
+    - foryou
+    semantic_type: tab
+  - text: Follow
+    center:
+    - 0.6144
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - following
+    - followed
+    semantic_type: tab
+  - text: Weibo Content
+    center:
+    - 0.5
+    - 0.4245
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博内容
+    - post
+    - feed
+    - content
+    semantic_type: label
+  - text: 常看作者
+    center:
+    - 0.9204
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - favorite authors
+    - frequent authors
+    - 常看
+    - authors
+    semantic_type: label
+  - text: Not interested
+    center:
+    - 0.5398
+    - 0.6796
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 不感兴趣
+    - dislike
+    - not interested
+    semantic_type: button
+  - text: Not interested in this content
+    center:
+    - 0.3433
+    - 0.7243
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 不感兴趣此内容
+    - dislike this content
+    - not interested content
+    semantic_type: button
+  - text: Block this blogger
+    center:
+    - 0.7338
+    - 0.7243
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 屏蔽博主
+    - block blogger
+    - 屏蔽
+    - block
+    semantic_type: button
+  - text: Too much similar content
+    center:
+    - 0.3433
+    - 0.7769
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 相似内容过多
+    - too much similar
+    - similar content
+    semantic_type: button
+  - text: Don't show this
+    center:
+    - 0.7338
+    - 0.7769
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 不显示
+    - hide this
+    - don't show
+    semantic_type: button
+  - text: Report
+    center:
+    - 0.5398
+    - 0.8444
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 举报
+    - report content
+    - flag
+    semantic_type: button
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - home
+    - feed
+    - 首页
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - videos
+    - clips
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - explore
+    - search
+    - discover
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - messages
+    - inbox
+    - notifications
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - my
+    - account
+    semantic_type: tab
+  description: Context menu for a Weibo post with options to manage content preferences,
+    block the blogger, or report the post.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_24
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.2574
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - More actions
+    - 更多
+    - actions
+    - menu
+    semantic_type: menu_item
+  - text: For You
+    center:
+    - 0.3706
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 推荐
+    - recommend
+    - personalized
+    semantic_type: tab
+  - text: Follow
+    center:
+    - 0.6144
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - following
+    - subscriptions
+    semantic_type: tab
+  - text: 明星
+    center:
+    - 0.0995
+    - 0.1854
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Celebrities
+    - stars
+    - 名人
+    semantic_type: tab
+  - text: 热门直播
+    center:
+    - 0.4403
+    - 0.1854
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Hot live
+    - popular stream
+    - 热门
+    semantic_type: tab
+  - text: Weibo Content
+    center:
+    - 0.5
+    - 0.4245
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博内容
+    - post
+    - feed
+    semantic_type: label
+  - text: 常看作者
+    center:
+    - 0.9204
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Frequent authors
+    - 常看
+    - favorite creators
+    semantic_type: label
+  - text: Not interested
+    center:
+    - 0.5398
+    - 0.6796
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 不感兴趣
+    - dislike
+    - not relevant
+    semantic_type: button
+  - text: Not interested in this content
+    center:
+    - 0.3433
+    - 0.7243
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 不感兴趣此内容
+    - dislike this
+    semantic_type: button
+  - text: Block this blogger
+    center:
+    - 0.7338
+    - 0.7243
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 屏蔽博主
+    - block user
+    - 拉黑
+    semantic_type: button
+  - text: Too much similar content
+    center:
+    - 0.3433
+    - 0.7769
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 相似内容过多
+    - repetitive
+    - too similar
+    semantic_type: button
+  - text: Don't show this
+    center:
+    - 0.7338
+    - 0.7769
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 不显示
+    - hide
+    - remove
+    semantic_type: button
+  - text: Report
+    center:
+    - 0.5398
+    - 0.8444
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 举报
+    - flag
+    - 投诉
+    semantic_type: button
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - home
+    - feed
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - videos
+    - clips
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - explore
+    - search
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - inbox
+    - notifications
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - account
+    semantic_type: tab
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.1368
+    - 0.1842
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - avatar flag
+    - verified badge
+    - 认证标志
+    semantic_type: other
+  - text: feed_attitude_happy_highlighted.png
+    center:
+    - 0.8806
+    - 0.7952
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - happy reaction
+    - like
+    - 赞
+    semantic_type: button
+  - text: feed_attitude_hug_highlighted.png
+    center:
+    - 0.9129
+    - 0.7952
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - hug reaction
+    - 拥抱
+    - comfort
+    semantic_type: button
+  - text: feed_attitude_surprise_highlighted.png
+    center:
+    - 0.9453
+    - 0.7952
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - surprise reaction
+    - 惊讶
+    - wow
+    semantic_type: button
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shadow
+    - 阴影
+    - decorative
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - 导航栏背景
+    - background
+    semantic_type: other
+  description: Weibo feed screen with a 'For You' tab, showing content with options
+    to interact, report, or manage preferences via a 'more actions' menu.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_25
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.2574
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - More actions
+    - 更多
+    - actions
+    - 操作
+    semantic_type: menu_item
+  - text: For You
+    center:
+    - 0.3706
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 为你推荐
+    - 推荐
+    - recommended
+    - personalized
+    semantic_type: tab
+  - text: Follow
+    center:
+    - 0.6144
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - following
+    - 关注的
+    semantic_type: tab
+  - text: 明星
+    center:
+    - 0.0995
+    - 0.1854
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Celebrity
+    - 明星
+    - celeb
+    - 名人
+    semantic_type: tab
+  - text: 常看作者
+    center:
+    - 0.9204
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Frequent authors
+    - 常看
+    - favorite authors
+    - 经常看的作者
+    semantic_type: tab
+  - text: Not interested
+    center:
+    - 0.5398
+    - 0.6796
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 不感兴趣
+    - not interested
+    - dislike
+    semantic_type: button
+  - text: Not interested in this content
+    center:
+    - 0.3433
+    - 0.7243
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 不感兴趣此内容
+    - dislike this content
+    - not interested content
+    semantic_type: button
+  - text: Block this blogger
+    center:
+    - 0.7338
+    - 0.7243
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 屏蔽博主
+    - block blogger
+    - 拉黑
+    - 屏蔽
+    semantic_type: button
+  - text: Too much similar content
+    center:
+    - 0.3433
+    - 0.7769
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 相似内容过多
+    - too much similar
+    - 重复内容
+    - similar content
+    semantic_type: button
+  - text: Don't show this
+    center:
+    - 0.7338
+    - 0.7769
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 不显示此条
+    - don't show
+    - 隐藏
+    - hide this
+    semantic_type: button
+  - text: Report
+    center:
+    - 0.5398
+    - 0.8444
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 举报
+    - report
+    - 投诉
+    semantic_type: button
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - home
+    - 首页
+    - feed
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - videos
+    - watch
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - explore
+    - search
+    - 探索
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - messages
+    - inbox
+    - 私信
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - 我的
+    - 个人中心
+    semantic_type: tab
+  description: Content filtering and reporting menu for a Weibo post, allowing users
+    to manage interests, block bloggers, or report content.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_26
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.2574
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - More actions
+    - 更多
+    - actions
+    - 操作
+    semantic_type: menu_item
+  - text: For You
+    center:
+    - 0.3706
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 为你推荐
+    - 推荐
+    - recommended
+    - personalized
+    semantic_type: tab
+  - text: Follow
+    center:
+    - 0.6144
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - following
+    - 关注的
+    semantic_type: tab
+  - text: 明星
+    center:
+    - 0.0995
+    - 0.1854
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Celebrity
+    - 明星
+    - stars
+    - 名人
+    semantic_type: tab
+  - text: Not interested
+    center:
+    - 0.5398
+    - 0.6796
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 不感兴趣
+    - dislike
+    - not interested
+    semantic_type: menu_item
+  - text: Not interested in this content
+    center:
+    - 0.3433
+    - 0.7243
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 不感兴趣此内容
+    - dislike this content
+    - not interested in this
+    semantic_type: menu_item
+  - text: Block this blogger
+    center:
+    - 0.7338
+    - 0.7243
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 屏蔽博主
+    - block user
+    - 拉黑
+    - 屏蔽
+    semantic_type: menu_item
+  - text: Too much similar content
+    center:
+    - 0.3433
+    - 0.7769
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 相似内容过多
+    - too much similar
+    - 重复内容
+    - similar content
+    semantic_type: menu_item
+  - text: Don't show this
+    center:
+    - 0.7338
+    - 0.7769
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 不显示此内容
+    - hide this
+    - don't show
+    - 隐藏
+    semantic_type: menu_item
+  - text: Report
+    center:
+    - 0.5398
+    - 0.8444
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 举报
+    - report content
+    - 投诉
+    semantic_type: menu_item
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - home
+    - 首页
+    - feed
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - videos
+    - watch
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - explore
+    - search
+    - 探索
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - messages
+    - inbox
+    - 私信
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - 我的
+    - account
+    semantic_type: tab
+  description: Context menu for a Weibo post with options to mark as not interested,
+    block the blogger, reduce similar content, or report the post.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_27
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.2574
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - More actions
+    - 更多
+    - actions
+    semantic_type: menu_item
+  - text: For You
+    center:
+    - 0.3706
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 为你推荐
+    - 推荐
+    - recommendations
+    semantic_type: tab
+  - text: Follow
+    center:
+    - 0.6144
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - following
+    - 关注的
+    semantic_type: tab
+  - text: 明星
+    center:
+    - 0.0995
+    - 0.1854
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Celebrities
+    - stars
+    - 名人
+    semantic_type: tab
+  - text: 热门直播
+    center:
+    - 0.4403
+    - 0.1854
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Hot live
+    - popular livestream
+    - 热门
+    semantic_type: tab
+  - text: 常看作者
+    center:
+    - 0.9204
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Favorite authors
+    - frequently viewed
+    - 常看
+    semantic_type: tab
+  - text: Not interested
+    center:
+    - 0.5398
+    - 0.6796
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 不感兴趣
+    - dislike
+    - not interested
+    semantic_type: button
+  - text: Not interested in this content
+    center:
+    - 0.3433
+    - 0.7243
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 不感兴趣此内容
+    - dislike this content
+    semantic_type: button
+  - text: Block this blogger
+    center:
+    - 0.7338
+    - 0.7243
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 屏蔽博主
+    - block user
+    - 拉黑
+    semantic_type: button
+  - text: Too much similar content
+    center:
+    - 0.3433
+    - 0.7769
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 相似内容过多
+    - too much similar
+    - 重复内容
+    semantic_type: button
+  - text: Don't show this
+    center:
+    - 0.7338
+    - 0.7769
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 不显示此条
+    - hide this
+    - 不再显示
+    semantic_type: button
+  - text: Report
+    center:
+    - 0.5398
+    - 0.8444
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 举报
+    - 投诉
+    - report content
+    semantic_type: button
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - home
+    - 首页
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - videos
+    - watch
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - explore
+    - search
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - messages
+    - inbox
+    - 私信
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - 个人中心
+    - 我的
+    semantic_type: tab
+  description: 'Content feed context menu with options to manage interests, block,
+    or report content, and bottom navigation bar with 5 tabs: Weibo, Video, Discover,
+    Message, Me.'
+  scrollable: false
+  scroll_direction: ''
+- id: screen_28
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.2574
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - More actions
+    - 更多
+    - actions
+    - menu
+    semantic_type: menu_item
+  - text: For You
+    center:
+    - 0.3706
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 为你推荐
+    - recommended
+    - personalized
+    semantic_type: tab
+  - text: Follow
+    center:
+    - 0.6144
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - following
+    - followed
+    semantic_type: tab
+  - text: Not interested
+    center:
+    - 0.5398
+    - 0.6796
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 不感兴趣
+    - dislike
+    - not relevant
+    semantic_type: button
+  - text: Not interested in this content
+    center:
+    - 0.3433
+    - 0.7243
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 不感兴趣此内容
+    - dislike this
+    - irrelevant content
+    semantic_type: button
+  - text: Block this blogger
+    center:
+    - 0.7338
+    - 0.7243
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 屏蔽博主
+    - block user
+    - 拉黑
+    semantic_type: button
+  - text: Too much similar content
+    center:
+    - 0.3433
+    - 0.7769
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 相似内容过多
+    - repetitive
+    - too similar
+    semantic_type: button
+  - text: Don't show this
+    center:
+    - 0.7338
+    - 0.7769
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 不显示
+    - hide this
+    - remove
+    semantic_type: button
+  - text: Report
+    center:
+    - 0.5398
+    - 0.8444
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 举报
+    - flag
+    - report content
+    semantic_type: button
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - home
+    - feed
+    - 首页
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - videos
+    - clips
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - explore
+    - search
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - messages
+    - notifications
+    - 私信
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - 我的
+    - account
+    semantic_type: tab
+  description: Context menu for a post with options to manage content preferences,
+    block the blogger, or report the post.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_29
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.143
+    found_at_scroll: 0
+    fixed: true
+  - text: hotweibo slide add
+    center:
+    - 0.9502
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+  - text: For You
+    center:
+    - 0.3731
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+  - text: Follow
+    center:
+    - 0.6169
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.2574
+    found_at_scroll: 0
+    fixed: true
+  - text: Hot
+    center:
+    - 0.0771
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+  - text: Worldcup
+    center:
+    - 0.2637
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+  - text: City
+    center:
+    - 0.4527
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+  - text: Latest
+    center:
+    - 0.6144
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+  - text: Ranking list
+    center:
+    - 0.8458
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+  - text: Favorite
+    center:
+    - 0.5398
+    - 0.4371
+    found_at_scroll: 0
+    fixed: true
+  - text: Not Interested
+    center:
+    - 0.5398
+    - 0.5675
+    found_at_scroll: 0
+    fixed: true
+  - text: dislike this content
+    center:
+    - 0.3433
+    - 0.6121
+    found_at_scroll: 0
+    fixed: true
+  - text: dislike this account
+    center:
+    - 0.7338
+    - 0.6121
+    found_at_scroll: 0
+    fixed: true
+  - text: mute this account
+    center:
+    - 0.3433
+    - 0.6648
+    found_at_scroll: 0
+    fixed: true
+  - text: shield the keywords
+    center:
+    - 0.7338
+    - 0.6648
+    found_at_scroll: 0
+    fixed: true
+  - text: mute this weibo
+    center:
+    - 0.3433
+    - 0.7174
+    found_at_scroll: 0
+    fixed: true
+  - text: Complain
+    center:
+    - 0.5398
+    - 0.7849
+    found_at_scroll: 0
+    fixed: true
+  - text: 用此卡片背景
+    center:
+    - 0.5398
+    - 0.8581
+    found_at_scroll: 0
+    fixed: true
+  - text: Promote
+    center:
+    - 0.5398
+    - 0.9176
+    found_at_scroll: 0
+    fixed: true
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: hotweibo_navigation_background.png
+    center:
+    - 0.5
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+  - text: hotweibo_icon_fadeout_left.png
+    center:
+    - 0.0249
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+  description: 微博 feed screen with tabs for For You and Follow, showing a context
+    menu for content actions like dislike, mute, and complain.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_30
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.2574
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - more actions
+    - 更多
+    - 操作
+    - menu
+    semantic_type: button
+  - text: For You
+    center:
+    - 0.3706
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 为你推荐
+    - 推荐
+    - recommendations
+    semantic_type: tab
+  - text: Follow
+    center:
+    - 0.6144
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - following
+    - 关注的
+    semantic_type: tab
+  - text: 明星
+    center:
+    - 0.0995
+    - 0.1854
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - celebrities
+    - stars
+    - 名人
+    semantic_type: tab
+  - text: 热门直播
+    center:
+    - 0.4403
+    - 0.1854
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - hot live
+    - popular stream
+    - 直播
+    semantic_type: tab
+  - text: Weibo Content
+    center:
+    - 0.5
+    - 0.4245
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博内容
+    - feed
+    - 帖子
+    - post
+    semantic_type: label
+  - text: 常看作者
+    center:
+    - 0.9204
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - favorite authors
+    - 常看
+    - frequent creators
+    semantic_type: label
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - home
+    - 首页
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - videos
+    - watch
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - explore
+    - search
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - messages
+    - inbox
+    - 私信
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - 我的
+    - account
+    semantic_type: tab
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.1368
+    - 0.1842
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - avatar flag
+    - 头像标识
+    - verified badge
+    semantic_type: other
+  - text: feed_attitude_happy_highlighted.png
+    center:
+    - 0.8806
+    - 0.7952
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - like
+    - happy reaction
+    - 赞
+    - 开心
+    semantic_type: button
+  - text: feed_attitude_hug_highlighted.png
+    center:
+    - 0.9129
+    - 0.7952
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - hug
+    - 拥抱
+    - comfort
+    semantic_type: button
+  - text: feed_attitude_surprise_highlighted.png
+    center:
+    - 0.9453
+    - 0.7952
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - surprise
+    - 惊讶
+    - wow
+    semantic_type: button
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shadow
+    - 阴影
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - 底部背景
+    semantic_type: other
+  - text: 回复
+    center:
+    - 0.8781
+    - 0.0973
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - reply
+    - comment
+    - 评论
+    - 回复评论
+    semantic_type: button
+  description: Weibo home feed with tabs for For You, Follow, and trending topics,
+    showing posts and a bottom navigation bar.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_31
+  elements:
+  - text: bigphoto nav search redpocket@
+    center:
+    - 0.8234
+    - 0.0847
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - search red packet
+    - 红包搜索
+    - search
+    semantic_type: input
+  - text: bigphoto navigationbar more wh
+    center:
+    - 0.9328
+    - 0.0847
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - more options
+    - 更多
+    - navigation bar
+    semantic_type: button
+  - text: Follow
+    center:
+    - 0.6766
+    - 0.0847
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - subscribe
+    - add friend
+    semantic_type: button
+  - text: Repost
+    center:
+    - 0.4801
+    - 0.9336
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 转发
+    - share
+    - reblog
+    semantic_type: button
+  - text: WBPhotoViewerLivePhotoViewID
+    center:
+    - 0.5
+    - 0.4989
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - live photo viewer
+    - 实况照片
+    semantic_type: other
+  - text: photo_loading.png
+    center:
+    - 0.5
+    - 0.5
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - image placeholder
+    - loading icon
+    semantic_type: other
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.143
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - more actions
+    - additional options
+    - 操作
+    semantic_type: menu_item
+  - text: hotweibo slide add
+    center:
+    - 0.9502
+    - 0.0904
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - add hot weibo
+    - 热门微博添加
+    semantic_type: button
+  - text: For You
+    center:
+    - 0.3731
+    - 0.0892
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - recommended
+    - 为你推荐
+    - personalized
+    semantic_type: tab
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.2574
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - 翻译内容
+    - translate
+    - auto-translate
+    semantic_type: button
+  - text: WBTimelineAttributedTextView
+    center:
+    - 0.5597
+    - 0.7414
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - timeline text
+    - feed text view
+    semantic_type: label
+  - text: Hot
+    center:
+    - 0.0771
+    - 0.0904
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 热门
+    - trending
+    - popular
+    semantic_type: tab
+  - text: Worldcup
+    center:
+    - 0.2637
+    - 0.0904
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 世界杯
+    - World Cup
+    - FIFA
+    semantic_type: tab
+  - text: City
+    center:
+    - 0.4527
+    - 0.0904
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 同城
+    - local
+    - nearby
+    semantic_type: tab
+  - text: Latest
+    center:
+    - 0.6144
+    - 0.0904
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 最新
+    - newest
+    - recent
+    semantic_type: tab
+  - text: Ranking list
+    center:
+    - 0.8458
+    - 0.0904
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 榜单
+    - leaderboard
+    - top list
+    semantic_type: link
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 微博
+    - feed
+    - timeline
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 视频
+    - videos
+    - clips
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 发现
+    - explore
+    - search
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 消息
+    - notifications
+    - inbox
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - account
+    semantic_type: tab
+  - text: Network picture
+    center:
+    - 0.7935
+    - 0.1316
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - 网络图片
+    - online image
+    - web image
+    semantic_type: label
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.1244
+    - 0.1728
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - avatar badge
+    - verified flag
+    - V icon
+    semantic_type: other
+  - text: hotweibo_navigation_background.png
+    center:
+    - 0.5
+    - 0.0904
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - hot weibo nav bg
+    - navigation background
+    semantic_type: other
+  - text: hotweibo_icon_fadeout_left.png
+    center:
+    - 0.0249
+    - 0.0904
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - fadeout icon
+    - left gradient
+    semantic_type: other
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - bottom shadow
+    - shadow overlay
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - tab bar bg
+    - bottom bar background
+    semantic_type: other
+  description: Weibo home screen with a navigation bar, trending topics tabs, and
+    a feed of posts to browse and interact with.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_32
+  elements:
+  - text: sg left new home close
+    center:
+    - 0.0572
+    - 0.0858
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - close button
+    - 返回
+    - exit
+    semantic_type: button
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.4634
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - more actions
+    - 更多
+    - menu
+    semantic_type: menu_item
+  - text: 超话社区
+    center:
+    - 0.5
+    - 0.0858
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Super Topic Community
+    - 话题社区
+    - community
+    semantic_type: link
+  - text: 全部关注
+    center:
+    - 0.102
+    - 0.2506
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - All Following
+    - 关注列表
+    - following list
+    semantic_type: tab
+  - text: 查看完整榜单
+    center:
+    - 0.3632
+    - 0.2963
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - View Full Ranking
+    - 完整榜单
+    - ranking list
+    semantic_type: link
+  - text: Weibo Content
+    center:
+    - 0.5
+    - 0.5263
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博内容
+    - post content
+    - feed
+    semantic_type: label
+  - text: Likes
+    center:
+    - 0.8582
+    - 0.7975
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 赞
+    - 点赞
+    - like button
+    semantic_type: button
+  - text: WBImageView
+    center:
+    - 0.1219
+    - 0.4931
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博图片
+    - image view
+    - photo
+    semantic_type: other
+  - text: video_icon_play.png
+    center:
+    - 0.3433
+    - 0.7517
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - play icon
+    - 视频播放
+    - video play button
+    semantic_type: button
+  - text: WBTimelineAttributedTextView
+    center:
+    - 0.5597
+    - 0.976
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - 微博文本
+    - timeline text
+    - post text
+    semantic_type: label
+  description: 超话社区页面，展示关注的话题列表和完整榜单入口
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_33
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.2574
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - more actions
+    - 更多
+    - more options
+    - overflow menu
+    semantic_type: button
+  - text: For You
+    center:
+    - 0.3706
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 为你推荐
+    - recommended
+    - personalized feed
+    semantic_type: tab
+  - text: Follow
+    center:
+    - 0.6144
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - following
+    - subscriptions
+    semantic_type: tab
+  - text: 明星
+    center:
+    - 0.0995
+    - 0.1854
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - celebrities
+    - stars
+    - 名人
+    - entertainment
+    semantic_type: tab
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - home
+    - feed
+    - timeline
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - videos
+    - clips
+    - reels
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - explore
+    - search
+    - trending
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - messages
+    - inbox
+    - notifications
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - account
+    - my page
+    semantic_type: tab
+  - text: feed_attitude_happy_highlighted.png
+    center:
+    - 0.8806
+    - 0.7952
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - like
+    - happy reaction
+    - 赞
+    - 开心
+    semantic_type: button
+  - text: feed_attitude_hug_highlighted.png
+    center:
+    - 0.9129
+    - 0.7952
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - hug
+    - comfort
+    - 拥抱
+    - support
+    semantic_type: button
+  - text: feed_attitude_surprise_highlighted.png
+    center:
+    - 0.9453
+    - 0.7952
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - surprise
+    - wow
+    - 惊讶
+    - shock
+    semantic_type: button
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shadow
+    - bottom shadow
+    - elevation
+    - divider
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - navigation bar
+    - 底部导航栏背景
+    semantic_type: other
+  description: Main feed screen with tabs for For You, Follow, and Discover, showing
+    posts with reaction icons and a bottom navigation bar.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_34
+  elements:
+  - text: 去答题
+    center:
+    - 0.8781
+    - 0.8066
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 去答题
+    - Go to quiz
+    - 答题挑战
+    semantic_type: button
+  - text: 去打卡
+    center:
+    - 0.8781
+    - 0.8696
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 去打卡
+    - Go to check-in
+    - 签到打卡
+    semantic_type: button
+  - text: 开启
+    center:
+    - 0.8781
+    - 0.9336
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 开启
+    - Enable
+    - 打开
+    - Turn on
+    semantic_type: toggle
+  - text: 关注
+    center:
+    - 0.8781
+    - 0.9966
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 关注
+    - Follow
+    - 加关注
+    semantic_type: button
+  - text: 用户任务中心
+    center:
+    - 0.5
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 用户任务中心
+    - User Task Center
+    - 任务中心
+    semantic_type: label
+  - text: 任务收益
+    center:
+    - 0.1194
+    - 0.1522
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 任务收益
+    - Task earnings
+    - 收益
+    semantic_type: label
+  - text: 任务红包
+    center:
+    - 0.1542
+    - 0.1934
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 任务红包
+    - Task red packet
+    - 红包
+    semantic_type: label
+  - text: 微博积分
+    center:
+    - 0.602
+    - 0.1934
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 微博积分
+    - Weibo points
+    - 积分
+    semantic_type: label
+  - text: 任务规则
+    center:
+    - 0.107
+    - 0.2815
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 任务规则
+    - Task rules
+    - 规则
+    semantic_type: link
+  - text: 微博钱包
+    center:
+    - 0.7886
+    - 0.2815
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 微博钱包
+    - Weibo Wallet
+    - 钱包
+    semantic_type: menu_item
+  - text: 明细
+    center:
+    - 0.9204
+    - 0.2815
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 明细
+    - Details
+    - 账单明细
+    semantic_type: link
+  - text: 答题挑战赛
+    center:
+    - 0.1816
+    - 0.3902
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 答题挑战赛
+    - Quiz challenge
+    - 挑战赛
+    semantic_type: menu_item
+  - text: 微博渔场
+    center:
+    - 0.5
+    - 0.3902
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 微博渔场
+    - Weibo Fish Farm
+    - 渔场
+    semantic_type: menu_item
+  - text: 积分商城
+    center:
+    - 0.8184
+    - 0.3902
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 积分商城
+    - Points Mall
+    - 商城
+    semantic_type: menu_item
+  - text: 日常任务
+    center:
+    - 0.1194
+    - 0.754
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 日常任务
+    - Daily tasks
+    - 每日任务
+    semantic_type: label
+  - text: 参与发博打卡
+    center:
+    - 0.2612
+    - 0.8604
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 参与发博打卡
+    - Join posting check-in
+    - 发博打卡
+    semantic_type: button
+  - text: 开启通知
+    center:
+    - 0.2264
+    - 0.9245
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 开启通知
+    - Enable notifications
+    - 通知设置
+    semantic_type: toggle
+  - text: 转发
+    center:
+    - 0.8781
+    - 0.4199
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - 转发
+    - Repost
+    - 分享
+    semantic_type: button
+  - text: 评论
+    center:
+    - 0.8781
+    - 0.4828
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - 评论
+    - Comment
+    - 写评论
+    semantic_type: button
+  - text: 去热搜
+    center:
+    - 0.8781
+    - 0.5469
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - 去热搜
+    - Go to trending
+    - 热搜榜
+    semantic_type: button
+  - text: 看短剧
+    center:
+    - 0.8781
+    - 0.6098
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 看短剧
+    - Watch short drama
+    - 短剧
+    semantic_type: button
+  - text: 看直播
+    center:
+    - 0.8781
+    - 0.6728
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 看直播
+    - Watch live stream
+    - 直播
+    semantic_type: button
+  - text: 去添加
+    center:
+    - 0.8781
+    - 0.7368
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 去添加
+    - Go to add
+    - 添加组件
+    semantic_type: button
+  - text: 去签到
+    center:
+    - 0.8781
+    - 0.7998
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 去签到
+    - Go to sign in
+    - 签到
+    semantic_type: button
+  - text: 去手厅
+    center:
+    - 0.8781
+    - 0.9199
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 去手厅
+    - Go to mobile app
+    - 中国移动
+    semantic_type: button
+  - text: 去芭芭农场
+    center:
+    - 0.8781
+    - 0.9828
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 去芭芭农场
+    - Go to Baba Farm
+    - 芭芭农场
+    semantic_type: button
+  - text: 转发微博
+    center:
+    - 0.2264
+    - 0.4108
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - 转发微博
+    - Repost Weibo
+    - 转发
+    semantic_type: button
+  - text: 看热搜
+    center:
+    - 0.209
+    - 0.5378
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - 看热搜
+    - View trending
+    - 热搜
+    semantic_type: button
+  - text: 看30秒短剧，领任务奖励
+    center:
+    - 0.3134
+    - 0.6213
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 看30秒短剧
+    - Watch 30s drama
+    - 短剧奖励
+    semantic_type: button
+  - text: 看30秒直播，领任务奖励！
+    center:
+    - 0.3284
+    - 0.6854
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 看30秒直播
+    - Watch 30s live
+    - 直播奖励
+    semantic_type: button
+  - text: 添加任务桌面小组件
+    center:
+    - 0.3134
+    - 0.7277
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 添加任务桌面小组件
+    - Add task widget
+    - 桌面组件
+    semantic_type: button
+  - text: 微博渔场签到
+    center:
+    - 0.2612
+    - 0.7906
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 微博渔场签到
+    - Fish farm check-in
+    - 渔场签到
+    semantic_type: button
+  - text: 合作任务
+    center:
+    - 0.1194
+    - 0.8673
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 合作任务
+    - Cooperative tasks
+    - 合作
+    semantic_type: label
+  - text: 去中国移动APP领话费
+    center:
+    - 0.3308
+    - 0.9108
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 去中国移动APP领话费
+    - Get mobile credit
+    - 移动话费
+    semantic_type: button
+  - text: 去芭芭农场逛一逛
+    center:
+    - 0.296
+    - 0.9748
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 去芭芭农场逛一逛
+    - Visit Baba Farm
+    - 农场
+    semantic_type: button
+  - text: 去美团
+    center:
+    - 0.8781
+    - 0.5034
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 去美团
+    - Go to Meituan
+    - 美团
+    semantic_type: button
+  - text: 去咪咕爱看
+    center:
+    - 0.8781
+    - 0.5664
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 去咪咕爱看
+    - Go to Migu Aikan
+    - 咪咕
+    semantic_type: button
+  - text: 去百度
+    center:
+    - 0.8781
+    - 0.6293
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 去百度
+    - Go to Baidu
+    - 百度
+    semantic_type: button
+  - text: 去抢兑
+    center:
+    - 0.306
+    - 0.8295
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 去抢兑
+    - Go to redeem
+    - 抢兑
+    semantic_type: button
+  - text: 去夺宝
+    center:
+    - 0.7562
+    - 0.8295
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 去夺宝
+    - Go to treasure hunt
+    - 夺宝
+    semantic_type: button
+  - text: 去美团刷视频现金
+    center:
+    - 0.296
+    - 0.4943
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 去美团刷视频现金
+    - Meituan video cash
+    - 美团视频
+    semantic_type: button
+  - text: 去咪咕爱看领流量
+    center:
+    - 0.296
+    - 0.5572
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 去咪咕爱看领流量
+    - Migu data reward
+    - 咪咕流量
+    semantic_type: button
+  - text: 去百度领现金
+    center:
+    - 0.2612
+    - 0.6213
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 去百度领现金
+    - Baidu cash reward
+    - 百度现金
+    semantic_type: button
+  - text: 积分乐园
+    center:
+    - 0.1194
+    - 0.7471
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 积分乐园
+    - Points Paradise
+    - 乐园
+    semantic_type: menu_item
+  - text: 更多
+    center:
+    - 0.893
+    - 0.7471
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 更多
+    - More
+    - 查看更多
+    semantic_type: link
+  - text: 积分兑好物
+    center:
+    - 0.2935
+    - 0.7918
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 积分兑好物
+    - Redeem goods
+    - 兑好物
+    semantic_type: menu_item
+  - text: 积分抽豪礼
+    center:
+    - 0.7438
+    - 0.7918
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 积分抽豪礼
+    - Lucky draw
+    - 抽豪礼
+    semantic_type: menu_item
+  description: 用户任务中心页面，展示日常任务列表（如发博打卡、转发、评论等）及任务收益入口，用户可完成任务领取奖励。
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_35
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.1796
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - More
+    - 更多
+    - more actions
+    - overflow menu
+    semantic_type: button
+  - text: hotweibo slide add
+    center:
+    - 0.9502
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - slide to add
+    - 添加微博
+    - quick post
+    semantic_type: button
+  - text: For You
+    center:
+    - 0.3731
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 推荐
+    - recommend
+    - personalized
+    semantic_type: tab
+  - text: Follow
+    center:
+    - 0.6169
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 关注
+    - following
+    - timeline
+    semantic_type: tab
+  - text: Weibo Content
+    center:
+    - 0.5
+    - 0.2689
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 微博内容
+    - post
+    - feed
+    semantic_type: label
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.3204
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 翻译
+    - translate
+    - translation
+    semantic_type: button
+  - text: Hot
+    center:
+    - 0.0771
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 热门
+    - trending
+    - hot topics
+    semantic_type: tab
+  - text: Worldcup
+    center:
+    - 0.2637
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 世界杯
+    - World Cup
+    - soccer
+    semantic_type: tab
+  - text: City
+    center:
+    - 0.4527
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 城市
+    - local
+    - 同城
+    semantic_type: tab
+  - text: Latest
+    center:
+    - 0.6144
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 最新
+    - newest
+    - recent
+    semantic_type: tab
+  - text: Ranking list
+    center:
+    - 0.8458
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 榜单
+    - rankings
+    - 排行榜
+    semantic_type: link
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - home
+    - feed
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - videos
+    - clips
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - explore
+    - search
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - messages
+    - notifications
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - 我的
+    semantic_type: tab
+  - text: Network picture
+    center:
+    - 0.0871
+    - 0.1922
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 网络图片
+    - image
+    - photo
+    semantic_type: other
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.1244
+    - 0.2094
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - avatar
+    - 头像
+    - verified badge
+    semantic_type: other
+  - text: hotweibo_navigation_background.png
+    center:
+    - 0.5
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - navigation background
+    - 导航背景
+    semantic_type: other
+  - text: hotweibo_icon_fadeout_left.png
+    center:
+    - 0.0249
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fadeout icon
+    - 渐隐图标
+    semantic_type: other
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shadow
+    - 阴影
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - 标签栏背景
+    semantic_type: other
+  - text: Likes
+    center:
+    - 0.8582
+    - 0.3558
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - 赞
+    - likes
+    - 点赞
+    semantic_type: button
+  description: Weibo home screen with 'For You' and 'Follow' tabs, trending topics,
+    and bottom navigation bar for Weibo, Video, Discover, Message, and Me.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_36
+  elements:
+  - text: WBTimelineAttributedTextView
+    center:
+    - 0.4055
+    - 0.8684
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - timeline text view
+    - 微博内容视图
+    semantic_type: label
+  - text: Say something…
+    center:
+    - 0.3582
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发微博
+    - post
+    - new post
+    - compose
+    semantic_type: input
+  - text: Recommend
+    center:
+    - 0.1692
+    - 0.0858
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 推荐
+    - hot
+    - trending
+    semantic_type: tab
+  - text: Short Dramas
+    center:
+    - 0.51
+    - 0.0858
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 短剧
+    - mini series
+    - drama
+    semantic_type: tab
+  - text: Podcast
+    center:
+    - 0.7761
+    - 0.0858
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 播客
+    - audio
+    - 电台
+    semantic_type: tab
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - home
+    - feed
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - videos
+    - clips
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 发现
+    - explore
+    - search
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - notifications
+    - inbox
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - account
+    - 个人中心
+    semantic_type: tab
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.107
+    - 0.8192
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - avatar
+    - 头像
+    - profile picture
+    semantic_type: other
+  - text: common_shadow_bottom2_dark.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shadow
+    - 阴影
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - 标签栏背景
+    semantic_type: other
+  - text: tabbar_slider.png
+    center:
+    - 0.301
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab slider
+    - 滑块
+    semantic_type: other
+  - text: Lock at 2.0X speed
+    center:
+    - 0.5199
+    - 0.1396
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - 锁定2倍速
+    - speed lock
+    - 倍速锁定
+    semantic_type: toggle
+  - text: video_common_icon_lock
+    center:
+    - 0.3433
+    - 0.1396
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - lock icon
+    - 锁图标
+    semantic_type: other
+  description: Main Weibo feed with timeline posts, a 'Say something…' input, and
+    bottom navigation tabs for Recommend, Short Dramas, Podcast, Weibo, Video, Discover,
+    Message, and Me.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_37
+  elements:
+  - text: More
+    center:
+    - 0.5821
+    - 0.3535
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 更多
+    - additional
+    - extra
+    semantic_type: tab
+  - text: 热点
+    center:
+    - 0.0995
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - hot topics
+    - trending
+    - trends
+    semantic_type: tab
+  - text: 星品
+    center:
+    - 0.2587
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - star products
+    - celebrity items
+    - star goods
+    semantic_type: tab
+  - text: 热转
+    center:
+    - 0.4179
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - hot reposts
+    - viral shares
+    - trending reposts
+    semantic_type: tab
+  - text: V发布
+    center:
+    - 0.592
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - verified publish
+    - V post
+    - verified release
+    semantic_type: tab
+  - text: 世界杯
+    center:
+    - 0.7861
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - World Cup
+    - FIFA
+    - football world cup
+    semantic_type: tab
+  - text: 神评
+    center:
+    - 0.9677
+    - 0.6041
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - top comments
+    - best comments
+    - god comments
+    semantic_type: tab
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博
+    - microblog
+    - sina weibo
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 视频
+    - videos
+    - clips
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 发现
+    - explore
+    - find
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - messages
+    - inbox
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - my
+    semantic_type: tab
+  - text: WBSearchBarIcon
+    center:
+    - 0.0697
+    - 0.095
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search icon
+    - magnifier
+    - search bar
+    semantic_type: button
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - bottom shadow
+    - shadow image
+    - tab shadow
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - tab bg
+    - bottom bar bg
+    semantic_type: other
+  - text: tabbar_slider.png
+    center:
+    - 0.5
+    - 0.9325
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab slider
+    - indicator
+    - sliding indicator
+    semantic_type: other
+  - text: Return
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - 返回
+    - back
+    - go back
+    semantic_type: button
+  - text: common_icon_arrow_more.png
+    center:
+    - 0.9527
+    - 0.5229
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - more arrow
+    - arrow icon
+    - expand arrow
+    semantic_type: other
+  - text: 搜索
+    center:
+    - 0.8881
+    - 0.0961
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - search
+    - find
+    - lookup
+    semantic_type: input
+  - text: Likes
+    center:
+    - 0.8582
+    - 0.3799
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - 赞
+    - likes
+    - favorites
+    semantic_type: label
+  description: Discover tab showing trending topics and content categories like 热点,
+    星品, 热转, V发布, 世界杯, 神评, with a search bar and bottom navigation.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_38
+  elements:
+  - text: Try to fix
+    center:
+    - 0.5
+    - 0.5961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 尝试修复
+    - fix
+    - repair
+    semantic_type: button
+  - text: Cannot open Weibo? Please
+    center:
+    - 0.2537
+    - 0.6533
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 无法打开微博
+    - open issue
+    - app crash
+    semantic_type: label
+  - text: check new version
+    center:
+    - 0.6318
+    - 0.6533
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 检查新版本
+    - update
+    - new version
+    semantic_type: button
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.143
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - more actions
+    - more options
+    - additional operations
+    semantic_type: button
+  - text: For You
+    center:
+    - 0.3955
+    - 0.0892
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 为你推荐
+    - recommended
+    - personalized
+    semantic_type: tab
+  - text: 关注
+    center:
+    - 0.6144
+    - 0.0892
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - Following
+    - subscriptions
+    - followed
+    semantic_type: tab
+  - text: Hot
+    center:
+    - 0.0771
+    - 0.0904
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 热门
+    - trending
+    - popular
+    semantic_type: tab
+  - text: Worldcup
+    center:
+    - 0.2637
+    - 0.0904
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 世界杯
+    - World Cup
+    - soccer
+    semantic_type: tab
+  - text: City
+    center:
+    - 0.4527
+    - 0.0904
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 城市
+    - local
+    - 同城
+    semantic_type: tab
+  - text: Latest
+    center:
+    - 0.6144
+    - 0.0904
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 最新
+    - newest
+    - recent
+    semantic_type: tab
+  - text: Ranking list
+    center:
+    - 0.8458
+    - 0.0904
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 榜单
+    - rankings
+    - top list
+    semantic_type: tab
+  - text: Weibo
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 微博
+    - feed
+    - home
+    semantic_type: tab
+  - text: Video
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 视频
+    - videos
+    - clips
+    semantic_type: tab
+  - text: Discover
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 发现
+    - explore
+    - search
+    semantic_type: tab
+  - text: Message
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 消息
+    - messages
+    - inbox
+    semantic_type: tab
+  - text: Me
+    center:
+    - 0.898
+    - 0.9508
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - 我
+    - profile
+    - account
+    semantic_type: tab
+  description: Weibo main feed screen with tabs for For You, Hot, Worldcup, City,
+    Latest, and Ranking list, and bottom navigation for Weibo, Video, Discover, Message,
+    and Me.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_39
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.143
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - more actions
+    - 更多
+    - more options
+    - overflow menu
+    semantic_type: button
+  - text: hotweibo slide add
+    center:
+    - 0.9502
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - slide to add
+    - 添加微博
+    - add weibo
+    - quick post
+    semantic_type: button
+  - text: For You
+    center:
+    - 0.3955
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 为你推荐
+    - recommended
+    - personalized feed
+    semantic_type: tab
+  - text: 关注
+    center:
+    - 0.6144
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Following
+    - subscriptions
+    - 关注的
+    semantic_type: tab
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.2838
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 翻译内容
+    - translate
+    - translation
+    semantic_type: button
+  - text: Hot
+    center:
+    - 0.0771
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 热门
+    - trending
+    - hot topics
+    semantic_type: tab
+  - text: Worldcup
+    center:
+    - 0.2637
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 世界杯
+    - World Cup
+    - soccer
+    semantic_type: tab
+  - text: City
+    center:
+    - 0.4527
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 城市
+    - local
+    - 同城
+    semantic_type: tab
+  - text: Latest
+    center:
+    - 0.6144
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 最新
+    - newest
+    - recent
+    semantic_type: tab
+  - text: Ranking list
+    center:
+    - 0.8458
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 榜单
+    - rankings
+    - 排行榜
+    - top list
+    semantic_type: tab
+  - text: 微博
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Weibo
+    - feed
+    - home
+    - 首页
+    semantic_type: tab
+  - text: 视频
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Video
+    - videos
+    - clips
+    semantic_type: tab
+  - text: 发现
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Discover
+    - explore
+    - search
+    semantic_type: tab
+  - text: 消息
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Messages
+    - notifications
+    - inbox
+    - 私信
+    semantic_type: tab
+  - text: 网络图像
+    center:
+    - 0.0871
+    - 0.1556
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - network image
+    - web image
+    - 图片
+    semantic_type: label
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.1244
+    - 0.1728
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - avatar
+    - profile picture
+    - 头像
+    - verified badge
+    semantic_type: other
+  - text: hotweibo_navigation_background.png
+    center:
+    - 0.5
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - navigation background
+    - 顶部背景
+    semantic_type: other
+  - text: hotweibo_icon_fadeout_left.png
+    center:
+    - 0.0249
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fadeout icon
+    - 渐隐图标
+    semantic_type: other
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - bottom shadow
+    - 阴影
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - 底部背景
+    semantic_type: other
+  - text: video_icon_play.png
+    center:
+    - 0.5
+    - 0.9954
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - play icon
+    - 播放图标
+    - video play button
+    semantic_type: button
+  description: 微博热搜页面，包含“更多操作”按钮、热搜榜单分类标签（如For You、关注、Hot、Worldcup等）以及底部导航栏（微博、视频、发现、消息）。
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_40
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.2506
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - more actions
+    - 更多
+    - 操作
+    - menu
+    semantic_type: menu_item
+  - text: 默认分组
+    center:
+    - 0.102
+    - 0.1419
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - default group
+    - 默认
+    - 分组
+    semantic_type: tab
+  - text: 编辑
+    center:
+    - 0.9303
+    - 0.1407
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - edit
+    - 修改
+    - 编辑分组
+    semantic_type: button
+  - text: 全部关注
+    center:
+    - 0.1368
+    - 0.1819
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - all following
+    - 全部
+    - 关注
+    semantic_type: tab
+  - text: 最新微博
+    center:
+    - 0.3781
+    - 0.1819
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - latest posts
+    - 最新
+    - 微博
+    semantic_type: tab
+  - text: 特别关注
+    center:
+    - 0.6194
+    - 0.1819
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - special focus
+    - 特别
+    - 关注
+    semantic_type: tab
+  - text: 好友圈
+    center:
+    - 0.8607
+    - 0.1819
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - friends circle
+    - 好友
+    - 朋友圈
+    semantic_type: tab
+  - text: 原创
+    center:
+    - 0.1368
+    - 0.2323
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - original
+    - 原创微博
+    - original posts
+    semantic_type: tab
+  - text: 视频
+    center:
+    - 0.3781
+    - 0.2323
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - video
+    - videos
+    - 视频微博
+    semantic_type: tab
+  - text: 超话社区
+    center:
+    - 0.6194
+    - 0.2323
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - super topic
+    - 超话
+    - 社区
+    semantic_type: tab
+  - text: V+微博
+    center:
+    - 0.8607
+    - 0.2323
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - V+ posts
+    - V+
+    - VIP微博
+    semantic_type: tab
+  - text: 群微博
+    center:
+    - 0.1368
+    - 0.2826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - group posts
+    - 群
+    - 群组微博
+    semantic_type: tab
+  - text: 新鲜事
+    center:
+    - 0.3781
+    - 0.2826
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - news
+    - 新鲜
+    - trending
+    semantic_type: tab
+  - text: 我的分组
+    center:
+    - 0.102
+    - 0.3307
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - my groups
+    - 我的
+    - 分组
+    semantic_type: label
+  - text: 娱乐明星
+    center:
+    - 0.1368
+    - 0.3707
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - entertainment stars
+    - 娱乐
+    - 明星
+    semantic_type: menu_item
+  - text: 名人明星
+    center:
+    - 0.3781
+    - 0.3707
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - celebrities
+    - 名人
+    - 明星
+    semantic_type: menu_item
+  - text: 同事
+    center:
+    - 0.6194
+    - 0.3707
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - colleagues
+    - 同事分组
+    - coworkers
+    semantic_type: menu_item
+  - text: 同学
+    center:
+    - 0.8607
+    - 0.3707
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - classmates
+    - 同学分组
+    - schoolmates
+    semantic_type: menu_item
+  - text: 悄悄关注
+    center:
+    - 0.1368
+    - 0.4211
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - private following
+    - 悄悄
+    - 关注
+    semantic_type: menu_item
+  - text: 新建分组
+    center:
+    - 0.3955
+    - 0.4211
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - new group
+    - 新建
+    - 创建分组
+    semantic_type: button
+  - text: For You
+    center:
+    - 0.3955
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 为你推荐
+    - 推荐
+    - recommended
+    semantic_type: tab
+  - text: 关注
+    center:
+    - 0.6119
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - following
+    - follow
+    - 已关注
+    semantic_type: tab
+  - text: 明星
+    center:
+    - 0.0995
+    - 0.1854
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - stars
+    - celebrities
+    - 名人
+    semantic_type: tab
+  - text: 热门直播
+    center:
+    - 0.4403
+    - 0.1854
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - popular live
+    - 热门
+    - 直播
+    semantic_type: tab
+  - text: 直播中
+    center:
+    - 0.9478
+    - 0.1854
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - live
+    - 正在直播
+    - streaming
+    semantic_type: label
+  - text: 正文
+    center:
+    - 0.5
+    - 0.4188
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - content
+    - post body
+    - 微博正文
+    semantic_type: label
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.5103
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 翻译
+    - 翻译内容
+    - translate
+    semantic_type: button
+  - text: WBTimelineAttributedTextView
+    center:
+    - 0.5597
+    - 0.8558
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - timeline text
+    - 微博文本
+    - content view
+    semantic_type: other
+  - text: 微博
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - weibo
+    - feed
+    - home
+    semantic_type: tab
+  - text: 发现
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - discover
+    - explore
+    - 搜索
+    semantic_type: tab
+  - text: 消息
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - messages
+    - notifications
+    - 私信
+    semantic_type: tab
+  - text: new_dot.png
+    center:
+    - 0.7189
+    - 0.2117
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - new notification
+    - 红点
+    - unread dot
+    semantic_type: other
+  - text: topmenu_new_group_icon.png
+    center:
+    - 0.3035
+    - 0.4211
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - new group icon
+    - 新建分组图标
+    - group icon
+    semantic_type: other
+  - text: 网络图像
+    center:
+    - 0.0896
+    - 0.1613
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - network image
+    - 图片
+    - image
+    semantic_type: other
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.1368
+    - 0.1842
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - avatar flag
+    - 头像标识
+    - verified badge
+    semantic_type: other
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shadow
+    - 阴影
+    - bottom shadow
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - 标签栏背景
+    - background
+    semantic_type: other
+  description: 微博关注流筛选页面，用户可按分组、内容类型或自定义分组过滤关注对象的微博动态
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_41
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.2941
+    found_at_scroll: 0
+    fixed: false
+  - text: For You
+    center:
+    - 0.3955
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+  - text: 关注
+    center:
+    - 0.6119
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+  - text: 明星
+    center:
+    - 0.0995
+    - 0.222
+    found_at_scroll: 0
+    fixed: false
+  - text: 热门直播
+    center:
+    - 0.4403
+    - 0.222
+    found_at_scroll: 0
+    fixed: false
+  - text: 直播中
+    center:
+    - 0.9478
+    - 0.222
+    found_at_scroll: 0
+    fixed: false
+  - text: 正文
+    center:
+    - 0.5
+    - 0.357
+    found_at_scroll: 0
+    fixed: false
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.3822
+    found_at_scroll: 0
+    fixed: false
+  - text: 微博
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: 视频
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: 发现
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: 消息
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: 网络图像
+    center:
+    - 0.0896
+    - 0.1979
+    found_at_scroll: 0
+    fixed: false
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.1368
+    - 0.2208
+    found_at_scroll: 0
+    fixed: false
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+  - text: video icon delete card192
+    center:
+    - 0.3682
+    - 0.7334
+    found_at_scroll: 1
+    fixed: false
+  - text: 常看作者
+    center:
+    - 0.9204
+    - 0.7346
+    found_at_scroll: 1
+    fixed: false
+  - text: video_icon_play.png
+    center:
+    - 0.6219
+    - 0.8307
+    found_at_scroll: 1
+    fixed: false
+  - text: feed new status bg
+    center:
+    - 0.5
+    - 0.6064
+    found_at_scroll: 2
+    fixed: false
+  - text: 转发原文
+    center:
+    - 0.5
+    - 0.4439
+    found_at_scroll: 2
+    fixed: false
+  - text: timeline_photo_icon_live_new.png
+    center:
+    - 0.2662
+    - 0.6213
+    found_at_scroll: 2
+    fixed: false
+  description: 微博首页信息流，展示推荐、关注、明星和热门直播内容，用户可浏览帖子、视频和直播。
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_42
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.1796
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - more actions
+    - 更多
+    - 操作
+    - overflow menu
+    semantic_type: button
+  - text: 正文
+    center:
+    - 0.5
+    - 0.2426
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - body text
+    - content
+    - post body
+    - 内容
+    semantic_type: label
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.2677
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 翻译内容
+    - translate
+    - 翻译
+    semantic_type: button
+  - text: 微博
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Weibo
+    - feed
+    - home
+    - 首页
+    semantic_type: tab
+  - text: 视频
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - video
+    - videos
+    - 视频流
+    semantic_type: tab
+  - text: 发现
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - discover
+    - explore
+    - search
+    - 探索
+    semantic_type: tab
+  - text: 消息
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - messages
+    - notifications
+    - 通知
+    - 私信
+    semantic_type: tab
+  - text: 网络图像
+    center:
+    - 0.7935
+    - 0.1682
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - web image
+    - network image
+    - 在线图片
+    semantic_type: other
+  - text: WBImageView
+    center:
+    - 0.0871
+    - 0.1876
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - image view
+    - 图片视图
+    - weibo image
+    semantic_type: other
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.1244
+    - 0.2094
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - avatar flag
+    - verified badge
+    - 认证标志
+    - V icon
+    semantic_type: other
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shadow
+    - bottom shadow
+    - 阴影
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - 标签栏背景
+    semantic_type: other
+  - text: feed_attitude_happy_highlighted.png
+    center:
+    - 0.8806
+    - 0.3581
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - happy reaction
+    - 开心
+    - like
+    - 赞
+    semantic_type: button
+  - text: feed_attitude_hug_highlighted.png
+    center:
+    - 0.9129
+    - 0.3581
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - hug reaction
+    - 抱抱
+    - hug
+    semantic_type: button
+  - text: feed_attitude_surprise_highlighted.png
+    center:
+    - 0.9453
+    - 0.3581
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - surprise reaction
+    - 惊讶
+    - wow
+    semantic_type: button
+  - text: timeline_photo_icon_live_new.png
+    center:
+    - 0.5796
+    - 0.9462
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - live photo icon
+    - live icon
+    - 实况图标
+    semantic_type: other
+  description: 微博帖子详情页，展示正文内容，并提供更多操作、翻译、互动表情等选项
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_43
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.143
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - more actions
+    - 更多
+    - actions
+    - menu
+    semantic_type: button
+  - text: 最新微博
+    center:
+    - 0.6119
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - latest posts
+    - newest weibo
+    - 最新动态
+    - timeline
+    semantic_type: tab
+  - text: 正文
+    center:
+    - 0.5
+    - 0.2059
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - content
+    - post body
+    - text
+    - 内容
+    semantic_type: label
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.2311
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 翻译
+    - translate
+    - 翻译内容
+    semantic_type: button
+  - text: 微博
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - weibo
+    - feed
+    - home
+    - 首页
+    semantic_type: tab
+  - text: 视频
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - video
+    - videos
+    - 视频
+    semantic_type: tab
+  - text: 发现
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - discover
+    - explore
+    - search
+    - 探索
+    semantic_type: tab
+  - text: 消息
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - messages
+    - notifications
+    - 通知
+    - 私信
+    semantic_type: tab
+  - text: 网络图像
+    center:
+    - 0.7935
+    - 0.1316
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - network image
+    - web image
+    - 图片
+    - image
+    semantic_type: other
+  - text: WBImageView
+    center:
+    - 0.0871
+    - 0.151
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - image view
+    - 图片视图
+    - weibo image
+    semantic_type: other
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.1244
+    - 0.1728
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - avatar flag
+    - verified badge
+    - 认证标志
+    - V icon
+    semantic_type: other
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shadow
+    - bottom shadow
+    - 阴影
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - 底部背景
+    - tab bar bg
+    semantic_type: other
+  - text: feed_attitude_happy_highlighted.png
+    center:
+    - 0.8806
+    - 0.3638
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - happy reaction
+    - 开心
+    - like happy
+    - 赞
+    semantic_type: button
+  - text: feed_attitude_hug_highlighted.png
+    center:
+    - 0.9129
+    - 0.3638
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - hug reaction
+    - 抱抱
+    - hug
+    - 安慰
+    semantic_type: button
+  - text: feed_attitude_surprise_highlighted.png
+    center:
+    - 0.9453
+    - 0.3638
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - surprise reaction
+    - 惊讶
+    - wow
+    - 吃惊
+    semantic_type: button
+  - text: timeline_photo_icon_live_new.png
+    center:
+    - 0.5796
+    - 0.9519
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - live icon
+    - 直播标志
+    - live badge
+    - new live
+    semantic_type: other
+  - text: WBTimelineAttributedTextView
+    center:
+    - 0.5597
+    - 0.2746
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - timeline text view
+    - 微博正文视图
+    - attributed text
+    semantic_type: other
+  description: 微博详情页，展示单条微博正文、图片、互动按钮及更多操作选项
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_44
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.2872
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - more actions
+    - 更多
+    - 操作
+    - additional options
+    semantic_type: menu_item
+  - text: 关注
+    center:
+    - 0.6119
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - follow
+    - following
+    - 关注的人
+    - subscriptions
+    semantic_type: tab
+  - text: 明星
+    center:
+    - 0.0995
+    - 0.222
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - celebrities
+    - stars
+    - 名人
+    - entertainers
+    semantic_type: tab
+  - text: 热门直播
+    center:
+    - 0.6095
+    - 0.222
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - popular live
+    - trending live
+    - 热门
+    - 直播
+    semantic_type: tab
+  - text: 正文
+    center:
+    - 0.5
+    - 0.4027
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - main text
+    - content
+    - 内容
+    - post body
+    semantic_type: label
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.4416
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 翻译内容
+    - translate
+    - 翻译
+    semantic_type: button
+  - text: 微博
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Weibo
+    - feed
+    - home
+    - 首页
+    semantic_type: tab
+  - text: 视频
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - video
+    - videos
+    - 视频内容
+    - clips
+    semantic_type: tab
+  - text: 发现
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - discover
+    - explore
+    - 探索
+    - search
+    semantic_type: tab
+  - text: 消息
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - messages
+    - notifications
+    - 通知
+    - inbox
+    semantic_type: tab
+  - text: 网络图像
+    center:
+    - 0.0896
+    - 0.1979
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - web image
+    - online image
+    - 图片
+    - 网络图片
+    semantic_type: label
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.1368
+    - 0.2208
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - avatar flag
+    - verified badge
+    - 认证标志
+    - VIP icon
+    semantic_type: other
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shadow image
+    - 底部阴影
+    - shadow asset
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - 标签栏背景
+    - bottom bar bg
+    semantic_type: other
+  - text: 一键试玩
+    center:
+    - 0.1244
+    - 0.9954
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - one-click trial
+    - instant play
+    - 试玩
+    - quick demo
+    semantic_type: button
+  - text: 转发原文
+    center:
+    - 0.5
+    - 0.9016
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - repost original
+    - forward original
+    - 转发
+    - share original post
+    semantic_type: button
+  description: 微博帖子详情页，展示正文、图片、视频和互动选项，用户可进行关注、转发、评论等操作
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_45
+  elements:
+  - text: For You
+    center:
+    - 0.3955
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 推荐
+    - recommended
+    - 为你推荐
+    semantic_type: tab
+  - text: 关注
+    center:
+    - 0.6119
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Following
+    - subscriptions
+    - 关注的
+    semantic_type: tab
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.405
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 翻译内容
+    - auto-translate
+    - translate
+    semantic_type: toggle
+  - text: 微博
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Weibo
+    - home
+    - feed
+    semantic_type: tab
+  - text: 视频
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Video
+    - videos
+    - clips
+    semantic_type: tab
+  - text: 发现
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Discover
+    - explore
+    - search
+    semantic_type: tab
+  - text: 消息
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Messages
+    - notifications
+    - inbox
+    semantic_type: tab
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shadow
+    - bottom shadow
+    - divider
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - background
+    - tabbar bg
+    semantic_type: other
+  description: Main feed screen with tabs for 'For You' and 'Following', showing posts
+    with options to translate content, and bottom navigation bar with tabs for Home,
+    Video, Discover, and Messages.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_46
+  elements:
+  - text: For You
+    center:
+    - 0.3955
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+  - text: 关注
+    center:
+    - 0.6119
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.405
+    found_at_scroll: 0
+    fixed: false
+  - text: 微博
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: 视频
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: 发现
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: 消息
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+  - text: video_icon_play.png
+    center:
+    - 0.5
+    - 0.9119
+    found_at_scroll: 1
+    fixed: false
+  description: Main video feed tab showing 'For You' and 'Following' sections with
+    a playable video and bottom navigation bar.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_47
+  elements:
+  - text: 更多操作
+    center:
+    - 0.9502
+    - 0.2506
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - more actions
+    - 更多
+    - menu
+    - overflow
+    semantic_type: button
+  - text: 关注
+    center:
+    - 0.6119
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - follow
+    - 关注按钮
+    - subscribe
+    semantic_type: button
+  - text: Translate content
+    center:
+    - 0.1667
+    - 0.405
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 翻译内容
+    - translate
+    - 翻译
+    semantic_type: button
+  - text: WBTimelineAttributedTextView
+    center:
+    - 0.5597
+    - 0.889
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - timeline text
+    - 微博正文
+    - post content
+    semantic_type: label
+  - text: 微博
+    center:
+    - 0.102
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - weibo
+    - feed
+    - 首页
+    - home
+    semantic_type: tab
+  - text: 视频
+    center:
+    - 0.301
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - video
+    - videos
+    - 视频tab
+    semantic_type: tab
+  - text: 发现
+    center:
+    - 0.5
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - discover
+    - explore
+    - 搜索
+    - search
+    semantic_type: tab
+  - text: 消息
+    center:
+    - 0.699
+    - 0.9508
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - messages
+    - notifications
+    - 通知
+    - inbox
+    semantic_type: tab
+  - text: 网络图像
+    center:
+    - 0.0896
+    - 0.1613
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - network image
+    - 图片
+    - image
+    - photo
+    semantic_type: other
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.1368
+    - 0.1842
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - avatar badge
+    - 头像标识
+    - verified badge
+    - V标识
+    semantic_type: other
+  - text: common_shadow_bottom2.png
+    center:
+    - 0.5
+    - 0.9027
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shadow
+    - 阴影
+    semantic_type: other
+  - text: tabbar_background.png
+    center:
+    - 0.5
+    - 0.9519
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - tab bar background
+    - 标签栏背景
+    semantic_type: other
+  description: 微博个人主页或帖子详情页，包含关注按钮、更多操作、翻译内容、文本内容、底部导航栏（微博、视频、发现、消息）及用户头像。
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_48
+  elements:
+  - text: icon listenweibo headset light
+    center:
+    - 0.7488
+    - 0.0892
+    found_at_scroll: 0
+    fixed: false
+  - text: WBRoundedAvatarViewFlagImageView
+    center:
+    - 0.9677
+    - 0.5034
+    found_at_scroll: 0
+    fixed: true
+  - text: icon listenweibo headset norma
+    center:
+    - 0.7488
+    - 0.0892
+    found_at_scroll: 1
+    fixed: true
+  - text: share bottom item wx
+    center:
+    - 0.3134
+    - 0.5435
+    found_at_scroll: 1
+    fixed: false
+  - text: share bottom item wx circle
+    center:
+    - 0.5
+    - 0.5435
+    found_at_scroll: 1
+    fixed: false
+  - text: share bottom item qq
+    center:
+    - 0.6866
+    - 0.5435
+    found_at_scroll: 1
+    fixed: false
+  - text: share bottom item long image
+    center:
+    - 0.8731
+    - 0.5435
+    found_at_scroll: 1
+    fixed: false
+  - text: video icon play
+    center:
+    - 0.2388
+    - 0.667
+    found_at_scroll: 1
+    fixed: false
+  - text: detail shutup delete icon
+    center:
+    - 0.9204
+    - 0.8318
+    found_at_scroll: 1
+    fixed: false
+  - text: 按热度
+    center:
+    - 0.9204
+    - 0.8719
+    found_at_scroll: 1
+    fixed: false
+  - text: share_bottom_item_reward_arrow.png
+    center:
+    - 0.1269
+    - 0.508
+    found_at_scroll: 1
+    fixed: false
+  - text: statusdetail_comment_top_background.png
+    center:
+    - 0.5
+    - 0.7735
+    found_at_scroll: 1
+    fixed: false
+  - text: detail follow closed
+    center:
+    - 0.9279
+    - 0.8513
+    found_at_scroll: 2
+    fixed: true
+  - text: 正文
+    center:
+    - 0.5697
+    - 0.9851
+    found_at_scroll: 3
+    fixed: false
+  - text: comment_second_fold.png
+    center:
+    - 0.204
+    - 0.4405
+    found_at_scroll: 3
+    fixed: false
+  description: 微博帖子详情页，展示正文、评论和分享选项，用户可查看内容、按热度排序评论并进行互动。
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_49
+  elements:
+  - text: 微博正文
+    center:
+    - 0.5
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 微博内容
+    - weibo post
+    - 正文
+    semantic_type: label
+  - text: icon listenweibo headset norma
+    center:
+    - 0.7488
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 听微博
+    - listen to weibo
+    - 耳机图标
+    semantic_type: button
+  - text: 分享
+    center:
+    - 0.5
+    - 0.5114
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - share
+    - 转发
+    - 分享到
+    semantic_type: button
+  - text: 私信和群
+    center:
+    - 0.107
+    - 0.7391
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 私信
+    - 群聊
+    - messages
+    - groups
+    semantic_type: menu_item
+  - text: 超话
+    center:
+    - 0.2861
+    - 0.7391
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 超级话题
+    - super topic
+    - 话题社区
+    semantic_type: link
+  - text: 微信好友
+    center:
+    - 0.4652
+    - 0.7391
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - WeChat friends
+    - 微信朋友
+    - share to WeChat
+    semantic_type: menu_item
+  - text: 朋友圈
+    center:
+    - 0.6443
+    - 0.7391
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - moments
+    - 微信朋友圈
+    - share to moments
+    semantic_type: menu_item
+  - text: '[App]'
+    center:
+    - 0.8234
+    - 0.7391
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - DingTalk
+    - 阿里钉钉
+    - share to DingTalk
+    semantic_type: menu_item
+  - text: 生成长图
+    center:
+    - 0.107
+    - 0.8707
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 生成图片
+    - 长图分享
+    - create long image
+    semantic_type: button
+  - text: 添加附注
+    center:
+    - 0.2861
+    - 0.8707
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 添加备注
+    - add note
+    - 附注
+    semantic_type: button
+  - text: 新鲜事投稿
+    center:
+    - 0.4652
+    - 0.8707
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 投稿
+    - 新鲜事
+    - submit news
+    semantic_type: button
+  - text: 收藏
+    center:
+    - 0.6443
+    - 0.8707
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - favorite
+    - bookmark
+    - 保存
+    semantic_type: button
+  - text: 帮上头条
+    center:
+    - 0.8234
+    - 0.8707
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 推广
+    - 上头条
+    - promote to headline
+    semantic_type: button
+  - text: 取消
+    center:
+    - 0.5
+    - 0.9291
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cancel
+    - 关闭
+    - 返回
+    semantic_type: button
+  - text: 网络图像
+    center:
+    - 0.1617
+    - 0.9302
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 网络图片
+    - online images
+    - 图片搜索
+    semantic_type: button
+  description: 微博正文分享菜单，提供分享到私信、超话、微信、钉钉等渠道，以及生成长图、收藏、帮上头条等操作选项
+  scrollable: false
+  scroll_direction: ''
+screen_macros:
+  screen_0:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  screen_1:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 382
+    y: 225
+    wait: 1.0
+  screen_2:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 149
+    y: 78
+    wait: 1.0
+  screen_3:
+  - &id001
+    action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - &id002
+    action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - &id003
+    action: tap
+    x: 247
+    y: 78
+    wait: 1.0
+  screen_4:
+  - &id004
+    action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - &id005
+    action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - &id006
+    action: tap
+    x: 201
+    y: 349
+    wait: 1.0
+  screen_5:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 67
+    y: 440
+    wait: 1.0
+  screen_6:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 41
+    y: 831
+    wait: 1.0
+  screen_7:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 121
+    y: 831
+    wait: 1.0
+  screen_8:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 201
+    y: 831
+    wait: 1.0
+  screen_9:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 281
+    y: 831
+    wait: 1.0
+  screen_10:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 361
+    y: 831
+    wait: 1.0
+  screen_11:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 36
+    y: 141
+    wait: 1.0
+  screen_12:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 55
+    y: 161
+    wait: 1.0
+  screen_13:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 201
+    y: 789
+    wait: 1.0
+  screen_14:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 201
+    y: 832
+    wait: 1.0
+  screen_15:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 211
+    y: 419
+    wait: 1.0
+  screen_16:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 201
+    y: 441
+    wait: 1.0
+  screen_17:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 201
+    y: 818
+    wait: 1.0
+  screen_18:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 354
+    y: 320
+    wait: 1.0
+  screen_19:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 382
+    y: 225
+    wait: 1.0
+  - action: tap
+    x: 247
+    y: 78
+    wait: 1.0
+  screen_20:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 382
+    y: 225
+    wait: 1.0
+  - action: tap
+    x: 217
+    y: 424
+    wait: 1.0
+  screen_21:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 382
+    y: 225
+    wait: 1.0
+  - action: tap
+    x: 217
+    y: 486
+    wait: 1.0
+  screen_22:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 382
+    y: 225
+    wait: 1.0
+  - action: tap
+    x: 138
+    y: 525
+    wait: 1.0
+  screen_23:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 382
+    y: 225
+    wait: 1.0
+  - action: tap
+    x: 217
+    y: 630
+    wait: 1.0
+  screen_24:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 382
+    y: 225
+    wait: 1.0
+  - action: tap
+    x: 217
+    y: 682
+    wait: 1.0
+  screen_25:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 382
+    y: 225
+    wait: 1.0
+  - action: tap
+    x: 41
+    y: 831
+    wait: 1.0
+  screen_26:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 382
+    y: 225
+    wait: 1.0
+  - action: tap
+    x: 121
+    y: 831
+    wait: 1.0
+  screen_27:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 382
+    y: 225
+    wait: 1.0
+  - action: tap
+    x: 201
+    y: 831
+    wait: 1.0
+  screen_28:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 382
+    y: 225
+    wait: 1.0
+  - action: tap
+    x: 361
+    y: 831
+    wait: 1.0
+  screen_29:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 149
+    y: 78
+    wait: 1.0
+  - action: tap
+    x: 382
+    y: 157
+    wait: 1.0
+  screen_30:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 149
+    y: 78
+    wait: 1.0
+  - action: tap
+    x: 248
+    y: 78
+    wait: 1.0
+  screen_31:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 149
+    y: 78
+    wait: 1.0
+  - action: tap
+    x: 67
+    y: 372
+    wait: 1.0
+  screen_32:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 149
+    y: 78
+    wait: 1.0
+  - action: tap
+    x: 31
+    y: 79
+    wait: 1.0
+  screen_33:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 149
+    y: 78
+    wait: 1.0
+  - action: tap
+    x: 247
+    y: 79
+    wait: 1.0
+  screen_34:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 149
+    y: 78
+    wait: 1.0
+  - action: tap
+    x: 340
+    y: 79
+    wait: 1.0
+  screen_35:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 149
+    y: 78
+    wait: 1.0
+  - action: tap
+    x: 41
+    y: 831
+    wait: 1.0
+  screen_36:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 149
+    y: 78
+    wait: 1.0
+  - action: tap
+    x: 121
+    y: 831
+    wait: 1.0
+  screen_37:
+  - action: force_stop
+    bundle_id: com.sina.weibo
+    wait: 1.0
+  - action: launch
+    bundle_id: com.sina.weibo
+    wait: 3.0
+  - action: tap
+    x: 149
+    y: 78
+    wait: 1.0
+  - action: tap
+    x: 201
+    y: 831
+    wait: 1.0
+  screen_38:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 382
+    y: 225
+    wait: 1.0
+  screen_39:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 149
+    y: 78
+    wait: 1.0
+  screen_40:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 247
+    y: 78
+    wait: 1.0
+  screen_41:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 40
+    y: 162
+    wait: 1.0
+  screen_42:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 177
+    y: 162
+    wait: 1.0
+  screen_43:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 67
+    y: 440
+    wait: 1.0
+  screen_44:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 55
+    y: 161
+    wait: 1.0
+  screen_45:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 201
+    y: 789
+    wait: 1.0
+  screen_46:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 201
+    y: 832
+    wait: 1.0
+  screen_47:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 201
+    y: 583
+    wait: 1.0
+  screen_48:
+  - *id004
+  - *id005
+  - *id006
+  - action: tap
+    x: 297
+    y: 79
+    wait: 1.0
+  screen_49:
+  - *id004
+  - *id005
+  - *id006
+  - action: tap
+    x: 377
+    y: 79
+    wait: 1.0
+launch_behavior: always_home
+common_tasks:
+- Browse the main feed for trending and followed posts
+- Watch and share videos
+- Search for trending topics and hot searches
+- Post, repost, comment, and like content
+- Manage notifications and privacy settings
+- Discover new content via categories and recommendations
+- Listen to podcasts and audio content
+- Block or mute users and keywords
+- View and edit personal profile
+known_limitations:
+- Some post options are hidden behind a 'more actions' menu
+- Video playback controls may be obscured by interaction buttons
+- Notification settings require navigating through multiple menus
+- Keyword management for blocking is buried in the Shield feature

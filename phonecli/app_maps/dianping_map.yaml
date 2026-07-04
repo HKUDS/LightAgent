@@ -1,0 +1,6365 @@
+app: Dianping
+package: com.dianping.dpscope
+screen_w: 402
+screen_h: 874
+screens:
+- id: screen_0
+  elements:
+  - text: 创建视频
+    center:
+    - 0.5
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_1
+    aliases:
+    - create video
+    - make video
+    - 录制视频
+    - video creation
+    semantic_type: button
+  - text: Barbecue
+    center:
+    - 0.3408
+    - 0.1098
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_2
+    aliases:
+    - BBQ
+    - 烧烤
+    - grill
+    semantic_type: menu_item
+  - text: Coffee
+    center:
+    - 0.3159
+    - 0.1522
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_3
+    aliases:
+    - cafe
+    - 咖啡
+    - coffee shop
+    semantic_type: menu_item
+  - text: Food
+    center:
+    - 0.1095
+    - 0.2368
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_4
+    aliases:
+    - restaurants
+    - 美食
+    - dining
+    - eat
+    semantic_type: menu_item
+  - text: Malls
+    center:
+    - 0.3035
+    - 0.2368
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_5
+    aliases:
+    - shopping centers
+    - 商场
+    - shopping malls
+    semantic_type: menu_item
+  - text: Hotels
+    center:
+    - 0.5
+    - 0.2368
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_6
+    aliases:
+    - accommodation
+    - 酒店
+    - lodging
+    semantic_type: menu_item
+  - text: Tours
+    center:
+    - 0.6965
+    - 0.2368
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_7
+    aliases:
+    - sightseeing
+    - 旅游
+    - travel
+    - excursions
+    semantic_type: menu_item
+  - text: Local Fun
+    center:
+    - 0.8905
+    - 0.2368
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_8
+    aliases:
+    - entertainment
+    - 本地玩乐
+    - activities
+    - things to do
+    semantic_type: menu_item
+  - text: Delivery
+    center:
+    - 0.1095
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_9
+    aliases:
+    - 外卖
+    - takeout
+    - food delivery
+    semantic_type: menu_item
+  - text: Beauty
+    center:
+    - 0.3035
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - salon
+    - 美容
+    - spa
+    - hair
+    semantic_type: menu_item
+  - text: Bars
+    center:
+    - 0.5
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_10
+    aliases:
+    - pub
+    - 酒吧
+    - nightlife
+    - drinks
+    semantic_type: menu_item
+  - text: Taxi
+    center:
+    - 0.6965
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_11
+    aliases:
+    - cab
+    - 出租车
+    - ride
+    - 打车
+    semantic_type: menu_item
+  - text: Duty-Free
+    center:
+    - 0.8905
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_10
+    aliases:
+    - 免税店
+    - tax free
+    - duty free shop
+    semantic_type: menu_item
+  - text: 美食订座
+    center:
+    - 0.1667
+    - 0.3707
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_12
+    aliases:
+    - restaurant booking
+    - reserve table
+    - 订位
+    - dining reservation
+    semantic_type: menu_item
+  - text: Menu Translate
+    center:
+    - 0.4129
+    - 0.3707
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_13
+    aliases:
+    - translate menu
+    - 菜单翻译
+    - food translation
+    semantic_type: button
+  - text: Exchange Rate Calculation
+    center:
+    - 0.6617
+    - 0.3707
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_14
+    aliases:
+    - currency converter
+    - 汇率计算
+    - money exchange
+    semantic_type: button
+  - text: Photo Search
+    center:
+    - 0.9104
+    - 0.3707
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_15
+    aliases:
+    - image search
+    - 图片搜索
+    - visual search
+    semantic_type: button
+  - text: Home
+    center:
+    - 0.1144
+    - 0.9462
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_2
+    aliases:
+    - 首页
+    - main page
+    - homepage
+    semantic_type: tab
+  - text: Map
+    center:
+    - 0.2935
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_16
+    aliases:
+    - 地图
+    - nearby
+    - explore
+    semantic_type: tab
+  - text: Inbox
+    center:
+    - 0.7065
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_17
+    aliases:
+    - messages
+    - 消息
+    - notifications
+    - mailbox
+    semantic_type: tab
+  - text: Profile
+    center:
+    - 0.8856
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_18
+    aliases:
+    - 我的
+    - account
+    - me
+    - personal
+    semantic_type: tab
+  - text: See Translation
+    center:
+    - 0.092
+    - 0.6659
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_2
+    aliases:
+    - view translation
+    - 查看翻译
+    - show translation
+    semantic_type: button
+  description: Home screen with category icons for dining, shopping, travel, and services,
+    plus bottom navigation tabs for Home, Map, Inbox, and Profile.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_1
+  elements:
+  - text: 搜索
+    center:
+    - 0.5274
+    - 0.5606
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_19
+    aliases:
+    - search
+    - 查找
+    - find
+    - 搜索框
+    semantic_type: input
+  - text: 立即打卡
+    center:
+    - 0.5
+    - 0.9428
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_20
+    aliases:
+    - check in
+    - 签到
+    - clock in
+    - 打卡按钮
+    semantic_type: button
+  description: Home screen with a search bar and a check-in button for discovering
+    and engaging with local businesses.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_2
+  elements:
+  - text: 创建视频
+    center:
+    - 0.5
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_21
+    aliases:
+    - create video
+    - make video
+    - upload video
+    - 视频创作
+    semantic_type: button
+  - text: Coffee
+    center:
+    - 0.3159
+    - 0.1396
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_3
+    aliases:
+    - coffee shops
+    - cafes
+    - 咖啡
+    - café
+    semantic_type: menu_item
+  - text: Food
+    center:
+    - 0.1095
+    - 0.2368
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_22
+    aliases:
+    - restaurants
+    - dining
+    - 美食
+    - eat
+    semantic_type: menu_item
+  - text: Malls
+    center:
+    - 0.3035
+    - 0.2368
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_23
+    aliases:
+    - shopping malls
+    - shopping centers
+    - 商场
+    - plazas
+    semantic_type: menu_item
+  - text: Hotels
+    center:
+    - 0.5
+    - 0.2368
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_6
+    aliases:
+    - accommodation
+    - 酒店
+    - lodging
+    - places to stay
+    semantic_type: menu_item
+  - text: Tours
+    center:
+    - 0.6965
+    - 0.2368
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_24
+    aliases:
+    - sightseeing
+    - 旅游
+    - excursions
+    - guided tours
+    semantic_type: menu_item
+  - text: Local Fun
+    center:
+    - 0.8905
+    - 0.2368
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_8
+    aliases:
+    - entertainment
+    - 本地玩乐
+    - activities
+    - things to do
+    semantic_type: menu_item
+  - text: Delivery
+    center:
+    - 0.1095
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_9
+    aliases:
+    - 外卖
+    - food delivery
+    - takeout
+    - order food
+    semantic_type: menu_item
+  - text: Beauty
+    center:
+    - 0.3035
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - salon
+    - spa
+    - 美容
+    - wellness
+    semantic_type: menu_item
+  - text: Bars
+    center:
+    - 0.5
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_10
+    aliases:
+    - pubs
+    - nightlife
+    - 酒吧
+    - clubs
+    semantic_type: menu_item
+  - text: Taxi
+    center:
+    - 0.6965
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_25
+    aliases:
+    - ride hailing
+    - 打车
+    - cab
+    - car service
+    semantic_type: menu_item
+  - text: Duty-Free
+    center:
+    - 0.8905
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_10
+    aliases:
+    - 免税店
+    - tax free shopping
+    - airport shopping
+    semantic_type: menu_item
+  - text: 美食订座
+    center:
+    - 0.1667
+    - 0.3707
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_26
+    aliases:
+    - restaurant booking
+    - reserve table
+    - dining reservation
+    - 订位
+    semantic_type: menu_item
+  - text: Menu Translate
+    center:
+    - 0.4129
+    - 0.3707
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_13
+    aliases:
+    - translate menu
+    - 菜单翻译
+    - food translation
+    - scan menu
+    semantic_type: menu_item
+  - text: Exchange Rate Calculation
+    center:
+    - 0.6617
+    - 0.3707
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_14
+    aliases:
+    - currency converter
+    - 汇率计算
+    - forex
+    - money converter
+    semantic_type: menu_item
+  - text: Photo Search
+    center:
+    - 0.9104
+    - 0.3707
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_15
+    aliases:
+    - image search
+    - 以图搜图
+    - visual search
+    - camera search
+    semantic_type: menu_item
+  - text: Home
+    center:
+    - 0.1144
+    - 0.9462
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_27
+    aliases:
+    - 首页
+    - main page
+    - dashboard
+    semantic_type: tab
+  - text: Map
+    center:
+    - 0.2935
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_28
+    aliases:
+    - 地图
+    - nearby
+    - explore
+    semantic_type: tab
+  - text: Inbox
+    center:
+    - 0.7065
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_29
+    aliases:
+    - messages
+    - 消息
+    - notifications
+    - mailbox
+    semantic_type: tab
+  - text: Profile
+    center:
+    - 0.8856
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_18
+    aliases:
+    - 我的
+    - account
+    - settings
+    - personal
+    semantic_type: tab
+  - text: See Translation
+    center:
+    - 0.092
+    - 0.6659
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_27
+    aliases:
+    - 查看翻译
+    - show translation
+    - translate
+    - view translation
+    semantic_type: button
+  description: Main home screen of Dianping app featuring a video creation prompt,
+    category icons for services like Coffee, Food, Malls, Hotels, and more, plus a
+    bottom navigation bar with Home, Map, Inbox, and Profile tabs.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_3
+  elements:
+  - text: shift
+    center:
+    - 0.0697
+    - 0.8295
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shift key
+    - caps
+    - uppercase
+    - 大小写
+    semantic_type: toggle
+  - text: 表情符号
+    center:
+    - 0.1915
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - emoji
+    - emoticon
+    - 表情
+    - 笑脸
+    semantic_type: button
+  - text: 搜索
+    center:
+    - 0.8756
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_10
+    aliases:
+    - search
+    - find
+    - 查找
+    - magnifying glass
+    semantic_type: input
+  description: Emoji keyboard screen for searching and selecting emojis to input.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_4
+  elements:
+  - text: Delivery
+    center:
+    - 0.7935
+    - 0.2586
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_9
+    aliases:
+    - 外卖
+    - food delivery
+    - takeout
+    semantic_type: tab
+  - text: '[Payment]'
+    center:
+    - 0.8109
+    - 0.9908
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_30
+    aliases:
+    - 支付
+    - pay
+    - checkout
+    semantic_type: button
+  - text: 附近500m
+    center:
+    - 0.1318
+    - 0.4188
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_31
+    aliases:
+    - nearby 500m
+    - within 500 meters
+    - 周边
+    semantic_type: label
+  - text: '[Account]'
+    center:
+    - 0.3184
+    - 0.4188
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_32
+    aliases:
+    - 账户
+    - profile
+    - my account
+    semantic_type: tab
+  - text: '[Account]'
+    center:
+    - 0.4776
+    - 0.4188
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_31
+  - text: '[Account]'
+    center:
+    - 0.6368
+    - 0.4188
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_33
+  - text: '[Account]'
+    center:
+    - 0.796
+    - 0.4188
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_34
+  - text: Map
+    center:
+    - 0.9254
+    - 0.1087
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_35
+    aliases:
+    - 地图
+    - navigation
+    - explore
+    semantic_type: tab
+  - text: Survey
+    center:
+    - 0.9378
+    - 0.849
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_36
+    aliases:
+    - 问卷
+    - feedback
+    - poll
+    semantic_type: button
+  - text: See Translation
+    center:
+    - 0.092
+    - 0.6659
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_22
+    aliases:
+    - 查看翻译
+    - translate
+    - language
+    semantic_type: button
+  description: Delivery order screen with payment option, nearby location filter,
+    multiple account entries, map view, survey, and translation feature.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_5
+  elements:
+  - text: Get
+    center:
+    - 0.1791
+    - 0.4554
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_37
+    aliases:
+    - 获取
+    - 领取
+    - receive
+    semantic_type: button
+  - text: 查看全部
+    center:
+    - 0.6119
+    - 0.3249
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_38
+    aliases:
+    - view all
+    - see all
+    - 全部
+    semantic_type: link
+  - text: Tips
+    center:
+    - 0.291
+    - 0.5172
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_39
+    aliases:
+    - 小贴士
+    - 提示
+    - hints
+    semantic_type: label
+  - text: 返现
+    center:
+    - 0.7662
+    - 0.111
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_40
+    aliases:
+    - cashback
+    - rebate
+    - 现金返还
+    semantic_type: menu_item
+  - text: 我的优惠券
+    center:
+    - 0.8955
+    - 0.111
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_41
+    aliases:
+    - my coupons
+    - 优惠券
+    - vouchers
+    semantic_type: menu_item
+  - text: Malls
+    center:
+    - 0.5
+    - 0.2517
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_10
+    aliases:
+    - 商场
+    - 购物中心
+    - shopping centers
+    semantic_type: tab
+  - text: Luxury
+    center:
+    - 0.8756
+    - 0.2517
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_10
+    aliases:
+    - 奢侈品
+    - 高端
+    - high-end
+    semantic_type: tab
+  - text: 特产手信
+    center:
+    - 0.3333
+    - 0.6979
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_42
+    aliases:
+    - local specialties
+    - souvenirs
+    - gifts
+    semantic_type: tab
+  - text: Survey
+    center:
+    - 0.9378
+    - 0.8501
+    found_at_scroll: 0
+    fixed: true
+    leads_to: screen_36
+    aliases:
+    - 问卷调查
+    - 问卷
+    - questionnaire
+    semantic_type: menu_item
+  - text: 综合商场
+    center:
+    - 0.3333
+    - 0.6728
+    found_at_scroll: 1
+    fixed: false
+    leads_to: screen_43
+    aliases:
+    - general malls
+    - shopping malls
+    - department stores
+    semantic_type: tab
+  - text: 奢侈品
+    center:
+    - 0.3184
+    - 0.9542
+    found_at_scroll: 1
+    fixed: false
+    leads_to: screen_44
+    aliases:
+    - luxury goods
+    - high-end products
+    - luxe
+    semantic_type: tab
+  - text: 药店
+    center:
+    - 0.3035
+    - 0.9348
+    found_at_scroll: 3
+    fixed: false
+    leads_to: screen_45
+    aliases:
+    - pharmacy
+    - drugstore
+    - chemist
+    semantic_type: tab
+  description: Shopping categories screen with options like Malls, Luxury, and local
+    specialties, allowing users to browse deals and coupons.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_6
+  elements:
+  - text: 酒店民宿
+    center:
+    - 0.1816
+    - 0.1476
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - hotel
+    - B&B
+    - 住宿
+    - guesthouse
+    semantic_type: tab
+  - text: 机票火车票
+    center:
+    - 0.5199
+    - 0.1476
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_46
+    aliases:
+    - flights
+    - trains
+    - 交通票务
+    - air tickets
+    semantic_type: tab
+  - text: 旅游度假
+    center:
+    - 0.8607
+    - 0.1476
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_47
+    aliases:
+    - travel
+    - vacation
+    - holiday
+    - 度假
+    semantic_type: tab
+  - text: 国内
+    center:
+    - 0.1493
+    - 0.2094
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - domestic
+    - 国内游
+    - inland
+    semantic_type: tab
+  - text: 民宿公寓
+    center:
+    - 0.3831
+    - 0.2094
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_48
+    aliases:
+    - homestay
+    - apartment
+    - 民宿
+    - 公寓
+    semantic_type: tab
+  - text: 钟点房
+    center:
+    - 0.6318
+    - 0.2094
+    found_at_scroll: 0
+    fixed: false
+    leads_to: screen_49
+    aliases:
+    - hourly room
+    - short stay
+    - 钟点
+    semantic_type: tab
+  - text: 海外
+    center:
+    - 0.8483
+    - 0.2094
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - overseas
+    - international
+    - 国外
+    - abroad
+    semantic_type: tab
+  - text: '[Region]'
+    center:
+    - 0.1343
+    - 0.2654
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Hong Kong
+    - HK
+    - 香港
+    semantic_type: tab
+  - text: 间·
+    center:
+    - 0.6791
+    - 0.3799
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - rooms
+    - 房间数
+    - room count
+    semantic_type: input
+  - text: 成人·
+    center:
+    - 0.7687
+    - 0.3799
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - adults
+    - 成人数量
+    - adult count
+    semantic_type: input
+  - text: 儿童
+    center:
+    - 0.8706
+    - 0.3799
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - children
+    - kids
+    - 儿童数量
+    - child count
+    semantic_type: input
+  - text: 找 酒 店
+    center:
+    - 0.5
+    - 0.4588
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - search hotel
+    - find hotel
+    - 搜索酒店
+    semantic_type: button
+  - text: 特色餐厅
+    center:
+    - 0.194
+    - 0.7918
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - specialty restaurant
+    - featured dining
+    - 餐厅
+    semantic_type: menu_item
+  - text: 特色酒吧
+    center:
+    - 0.3308
+    - 0.7918
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - specialty bar
+    - featured bar
+    - 酒吧
+    semantic_type: menu_item
+  - text: 游泳池
+    center:
+    - 0.1791
+    - 0.8112
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - swimming pool
+    - pool
+    - 泳池
+    semantic_type: menu_item
+  - text: 健身房
+    center:
+    - 0.2886
+    - 0.8112
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - gym
+    - fitness center
+    - 健身
+    semantic_type: menu_item
+  - text: 扫货便捷
+    center:
+    - 0.6816
+    - 0.8192
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - shopping convenience
+    - easy shopping
+    - 购物方便
+    semantic_type: menu_item
+  - text: 情侣约会
+    center:
+    - 0.8184
+    - 0.8192
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - couple date
+    - romantic
+    - 约会
+    semantic_type: menu_item
+  - text: 休闲度假
+    center:
+    - 0.6816
+    - 0.8387
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - leisure vacation
+    - relaxation
+    - 度假休闲
+    semantic_type: menu_item
+  - text: 商务出行
+    center:
+    - 0.8184
+    - 0.8387
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - business travel
+    - corporate trip
+    - 出差
+    semantic_type: menu_item
+  - text: 地铁周边
+    center:
+    - 0.3308
+    - 0.5149
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - near metro
+    - subway nearby
+    - 地铁附近
+    semantic_type: menu_item
+  - text: 车站周边
+    center:
+    - 0.194
+    - 0.5343
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - near station
+    - train station nearby
+    - 车站附近
+    semantic_type: menu_item
+  - text: 交通便捷
+    center:
+    - 0.3308
+    - 0.5343
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - convenient transport
+    - easy access
+    - 交通方便
+    semantic_type: menu_item
+  - text: 行李寄存
+    center:
+    - 0.8209
+    - 0.5423
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - luggage storage
+    - baggage deposit
+    - 寄存行李
+    semantic_type: menu_item
+  - text: 叫醒服务
+    center:
+    - 0.6841
+    - 0.5606
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - wake-up call
+    - morning call
+    - 叫醒
+    semantic_type: menu_item
+  - text: 洗衣服务
+    center:
+    - 0.3284
+    - 0.8696
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - laundry service
+    - washing
+    - 洗衣
+    semantic_type: menu_item
+  - text: 都市小憩
+    center:
+    - 0.6841
+    - 0.905
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - city break
+    - urban rest
+    - 城市休息
+    semantic_type: menu_item
+  - text: 亲子时光
+    center:
+    - 0.194
+    - 0.5767
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - family time
+    - parent-child
+    - 亲子
+    semantic_type: menu_item
+  - text: 停车场
+    center:
+    - 0.2886
+    - 0.5961
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - parking lot
+    - car park
+    - 停车
+    semantic_type: menu_item
+  - text: 亲子酒店
+    center:
+    - 0.6841
+    - 0.3741
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - family hotel
+    - kid-friendly hotel
+    - 亲子
+    semantic_type: menu_item
+  description: Hotel and travel booking screen with search filters for destinations,
+    dates, guests, and amenities like pools, gyms, and family-friendly options.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_7
+  elements:
+  - text: 亲子出游
+    center:
+    - 0.3134
+    - 0.27
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 亲子游
+    - family trip
+    - 带娃出游
+    - parent-child outing
+    semantic_type: tab
+  - text: 景点
+    center:
+    - 0.2985
+    - 0.4908
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - attractions
+    - scenic spots
+    - sights
+    - 旅游景点
+    semantic_type: tab
+  - text: 自然景观
+    center:
+    - 0.3284
+    - 0.7265
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - natural scenery
+    - 自然风光
+    - landscape
+    - natural attractions
+    semantic_type: menu_item
+  - text: 主题乐园
+    center:
+    - 0.3284
+    - 0.9622
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - theme park
+    - amusement park
+    - 游乐园
+    - 主题公园
+    semantic_type: menu_item
+  - text: 水族馆
+    center:
+    - 0.0448
+    - 0.4027
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - aquarium
+    - 海洋馆
+    - 水族世界
+    semantic_type: menu_item
+  - text: 人文古迹
+    center:
+    - 0.0597
+    - 0.4027
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - historical sites
+    - cultural relics
+    - 古迹
+    - 历史遗迹
+    semantic_type: menu_item
+  - text: 观光街区
+    center:
+    - 0.0597
+    - 0.4027
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - sightseeing street
+    - tourist area
+    - 步行街
+    - 观光街
+    semantic_type: menu_item
+  - text: 展览馆
+    center:
+    - 0.0448
+    - 0.4027
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - exhibition hall
+    - museum
+    - 博物馆
+    - 展馆
+    semantic_type: menu_item
+  - text: Tips
+    center:
+    - 0.4478
+    - 0.3341
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 提示
+    - 小贴士
+    - advice
+    - 旅行贴士
+    semantic_type: label
+  - text: Map
+    center:
+    - 0.9279
+    - 0.1064
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 地图
+    - 导航
+    - navigation
+    - view map
+    semantic_type: button
+  - text: Survey
+    center:
+    - 0.9378
+    - 0.8501
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 问卷
+    - 调查
+    - feedback
+    - 问卷调查
+    semantic_type: button
+  - text: See Translation
+    center:
+    - 0.092
+    - 0.6659
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 查看翻译
+    - 翻译
+    - translate
+    - 显示翻译
+    semantic_type: button
+  description: Family travel screen with categories for attractions like natural scenery,
+    theme parks, aquariums, historical sites, sightseeing streets, and exhibition
+    halls, plus tips, map, and survey options.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_8
+  elements:
+  - text: 按摩SPA
+    center:
+    - 0.6891
+    - 0.2517
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Massage SPA
+    - 按摩
+    - spa
+    - bodywork
+    semantic_type: menu_item
+  - text: Cinemas
+    center:
+    - 0.8756
+    - 0.2517
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 电影院
+    - movie theaters
+    - 影院
+    semantic_type: menu_item
+  - text: 当地玩乐
+    center:
+    - 0.3333
+    - 0.4565
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Local Fun
+    - 本地游玩
+    - activities
+    - 当地活动
+    semantic_type: menu_item
+  - text: SPA养生
+    center:
+    - 0.3333
+    - 0.5812
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - SPA Wellness
+    - spa养生
+    - wellness spa
+    - 水疗
+    semantic_type: menu_item
+  - text: Survey
+    center:
+    - 0.9378
+    - 0.8501
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 问卷调查
+    - feedback
+    - 调研
+    semantic_type: button
+  - text: See Translation
+    center:
+    - 0.092
+    - 0.6659
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 查看翻译
+    - 翻译
+    - translate
+    semantic_type: button
+  description: Local services screen offering categories like massage, cinemas, local
+    activities, SPA wellness, and a survey option.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_9
+  elements:
+  - text: 返回
+    center:
+    - 0.0697
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - go back
+    - 返回按钮
+    semantic_type: button
+  - text: 條款及細則
+    center:
+    - 0.5249
+    - 0.9863
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - terms and conditions
+    - terms of service
+    - T&C
+    - 条款
+    semantic_type: link
+  - text: 私隱政策
+    center:
+    - 0.6841
+    - 0.9863
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - privacy policy
+    - 隐私政策
+    - privacy
+    semantic_type: link
+  - text: 語言
+    center:
+    - 0.8433
+    - 0.1465
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - language
+    - 语言
+    - lang
+    semantic_type: menu_item
+  description: Settings page with options to view terms and conditions, privacy policy,
+    and language settings.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_10
+  elements:
+  - text: See Translation
+    center:
+    - 0.092
+    - 0.6659
+    found_at_scroll: 0
+    fixed: true
+  description: Restaurant detail page showing ratings, location, and user reviews
+    with options to call, save, or share.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_11
+  elements:
+  - text: '[App]'
+    center:
+    - 0.2139
+    - 0.0812
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Meituan Taxi
+    - 美团打车
+    - Meituan ride-hailing
+    - 打车
+    semantic_type: label
+  - text: 订单
+    center:
+    - 0.9328
+    - 0.0927
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Orders
+    - 我的订单
+    - My Orders
+    - 行程
+    semantic_type: tab
+  - text: 输入你的目的地
+    center:
+    - 0.301
+    - 0.2906
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Enter your destination
+    - 目的地
+    - Where to?
+    - 搜索目的地
+    semantic_type: input
+  - text: 热门问题
+    center:
+    - 0.1443
+    - 0.4165
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - FAQ
+    - 常见问题
+    - Hot Topics
+    - 帮助
+    semantic_type: menu_item
+  - text: 联系客服
+    center:
+    - 0.5224
+    - 0.7975
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Contact Support
+    - 客服
+    - Customer Service
+    - 帮助中心
+    semantic_type: button
+  - text: 服务授权
+    center:
+    - 0.5
+    - 0.3513
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Service Authorization
+    - 授权
+    - Permissions
+    - 权限
+    semantic_type: label
+  - text: 暂不同意
+    center:
+    - 0.2637
+    - 0.9336
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Disagree
+    - 拒绝
+    - Decline
+    - 稍后
+    semantic_type: button
+  - text: 同意并使用
+    center:
+    - 0.7338
+    - 0.9336
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Agree and Use
+    - 同意
+    - Accept
+    - 确认授权
+    semantic_type: button
+  description: Meituan ride-hailing service authorization screen prompting user to
+    agree to terms before use, with options to contact customer service or view popular
+    questions.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_12
+  elements:
+  - text: 返回
+    center:
+    - 0.0697
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - go back
+    - 返回上一页
+    semantic_type: button
+  - text: 订座
+    center:
+    - 0.5
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - reservation
+    - book a seat
+    - 预订座位
+    - reserve
+    semantic_type: button
+  - text: 附近
+    center:
+    - 0.1493
+    - 0.1396
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - nearby
+    - 周边
+    - near me
+    - local
+    semantic_type: tab
+  - text: 全部美食
+    center:
+    - 0.4826
+    - 0.1396
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - all restaurants
+    - all food
+    - 全部餐厅
+    - food categories
+    semantic_type: menu_item
+  - text: 智能排序
+    center:
+    - 0.8159
+    - 0.1396
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - smart sort
+    - sort by
+    - 排序
+    - intelligent sorting
+    semantic_type: button
+  description: Restaurant search results page with filtering options for nearby dining
+    and sorting by relevance.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_13
+  elements:
+  - text: 取消
+    center:
+    - 0.0896
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cancel
+    - 取消
+    - dismiss
+    - abort
+    semantic_type: button
+  - text: 下一步
+    center:
+    - 0.8881
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - next
+    - 下一步
+    - continue
+    - proceed
+    semantic_type: button
+  - text: 相册
+    center:
+    - 0.2488
+    - 0.9348
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - album
+    - 相册
+    - gallery
+    - photos
+    semantic_type: button
+  - text: 拍摄
+    center:
+    - 0.7488
+    - 0.9348
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - shoot
+    - 拍摄
+    - take photo
+    - capture
+    - camera
+    semantic_type: button
+  description: Photo upload screen with options to cancel, proceed to next step, choose
+    from album, or take a photo.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_14
+  elements:
+  - text: 返回
+    center:
+    - 0.0697
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - go back
+    - 后退
+    semantic_type: button
+  - text: 汇率
+    center:
+    - 0.5
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - exchange rate
+    - 外汇
+    - currency rate
+    semantic_type: label
+  - text: HKD
+    center:
+    - 0.1866
+    - 0.1682
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Hong Kong Dollar
+    - 港币
+    - 港元
+    semantic_type: label
+  - text: 港元 $
+    center:
+    - 0.9055
+    - 0.1957
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Hong Kong Dollar
+    - HKD
+    - 港币
+    semantic_type: label
+  - text: CNY
+    center:
+    - 0.1866
+    - 0.2735
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Chinese Yuan
+    - 人民币
+    - RMB
+    semantic_type: label
+  - text: 市场参考价
+    center:
+    - 0.3284
+    - 0.2712
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - market reference price
+    - 参考汇率
+    - benchmark rate
+    semantic_type: label
+  - text: 人民币 ¥
+    center:
+    - 0.8881
+    - 0.3009
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Chinese Yuan
+    - CNY
+    - RMB
+    semantic_type: label
+  - text: 7日
+    center:
+    - 0.0896
+    - 0.9542
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 7 days
+    - 1 week
+    - 一周
+    semantic_type: tab
+  - text: 30日
+    center:
+    - 0.2836
+    - 0.9542
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 30 days
+    - 1 month
+    - 一个月
+    semantic_type: tab
+  - text: 3个月
+    center:
+    - 0.495
+    - 0.9542
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 3 months
+    - quarterly
+    - 季度
+    semantic_type: tab
+  - text: 6个月
+    center:
+    - 0.7114
+    - 0.9542
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 6 months
+    - half year
+    - 半年
+    semantic_type: tab
+  - text: 1年
+    center:
+    - 0.9104
+    - 0.9542
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 1 year
+    - annual
+    - 一年
+    semantic_type: tab
+  description: Currency exchange rate screen showing HKD to CNY conversion with market
+    reference price and chart options for 7-day, 30-day, 3-month, 6-month, and 1-year
+    periods.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_15
+  elements:
+  - text: 我的相册
+    center:
+    - 0.2413
+    - 0.8593
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - My Album
+    - 相册
+    - 我的照片
+    - My Photos
+    semantic_type: menu_item
+  - text: 扫一扫
+    center:
+    - 0.3731
+    - 0.7872
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Scan
+    - 扫码
+    - QR scan
+    - 扫描二维码
+    semantic_type: button
+  - text: 搜同款
+    center:
+    - 0.6144
+    - 0.7872
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Search Similar
+    - 找同款
+    - Find Similar Items
+    - 同款搜索
+    semantic_type: button
+  - text: 展开
+    center:
+    - 0.9204
+    - 0.8604
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Expand
+    - 更多
+    - 展开更多
+    - Show More
+    semantic_type: button
+  description: My Albums page with options to scan, search for similar items, and
+    expand content.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_16
+  elements:
+  - text: 创建视频
+    center:
+    - 0.5
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create video
+    - make video
+    - new video
+    - 拍摄视频
+    semantic_type: button
+  - text: 收藏
+    center:
+    - 0.9229
+    - 0.5904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - favorites
+    - bookmarks
+    - saved
+    - my favorites
+    semantic_type: menu_item
+  - text: Home
+    center:
+    - 0.1144
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 首页
+    - main page
+    - homepage
+    semantic_type: tab
+  - text: Map
+    center:
+    - 0.2935
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 地图
+    - nearby
+    - explore
+    semantic_type: tab
+  - text: Inbox
+    center:
+    - 0.7065
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - messages
+    - notifications
+    - 收件箱
+    semantic_type: tab
+  - text: Profile
+    center:
+    - 0.8856
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我的
+    - account
+    - me
+    - 个人中心
+    semantic_type: tab
+  description: 'Bottom navigation bar with 5 tabs: Home, Map, Inbox, Profile, and
+    a central ''Create Video'' button, plus a ''Favorites'' option.'
+  scrollable: false
+  scroll_direction: ''
+- id: screen_17
+  elements:
+  - text: Enable
+    center:
+    - 0.5299
+    - 0.1556
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 启用
+    - turn on
+    - activate
+    semantic_type: toggle
+  - text: Inbox
+    center:
+    - 0.5
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 收件箱
+    - messages
+    - notifications
+    semantic_type: tab
+  - text: Home
+    center:
+    - 0.1144
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 首页
+    - main page
+    - discover
+    semantic_type: tab
+  - text: Map
+    center:
+    - 0.2935
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 地图
+    - nearby
+    - explore
+    semantic_type: tab
+  - text: Profile
+    center:
+    - 0.8856
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我的
+    - account
+    - settings
+    semantic_type: tab
+  - text: 大众点评
+    center:
+    - 0.3159
+    - 0.6945
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - Dianping
+    - 点评
+    - app name
+    semantic_type: label
+  description: 'Bottom navigation bar with 5 tabs: Home, Inbox, Enable, Map, Profile,
+    and the Dianping logo.'
+  scrollable: false
+  scroll_direction: ''
+- id: screen_18
+  elements:
+  - text: 点击设置昵称
+    center:
+    - 0.398
+    - 0.1384
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - set nickname
+    - 设置昵称
+    - tap to set nickname
+    semantic_type: button
+  - text: Profile
+    center:
+    - 0.8905
+    - 0.151
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 个人资料
+    - my profile
+    - account
+    semantic_type: tab
+  - text: Follow
+    center:
+    - 0.5075
+    - 0.1682
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 关注
+    - following
+    - followed
+    semantic_type: tab
+  - text: Likes
+    center:
+    - 0.6418
+    - 0.1682
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 喜欢
+    - favorites
+    - 点赞
+    semantic_type: tab
+  - text: Reviews
+    center:
+    - 0.1294
+    - 0.3467
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 评价
+    - 评论
+    - my reviews
+    semantic_type: tab
+  - text: Coupon
+    center:
+    - 0.8557
+    - 0.4474
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 优惠券
+    - 折扣券
+    - voucher
+    semantic_type: menu_item
+  - text: Wallet
+    center:
+    - 0.3806
+    - 0.5423
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 钱包
+    - balance
+    - my wallet
+    semantic_type: menu_item
+  - text: Drafts
+    center:
+    - 0.6194
+    - 0.5423
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 草稿
+    - draft box
+    - saved drafts
+    semantic_type: menu_item
+  - text: Order
+    center:
+    - 0.1443
+    - 0.4474
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 订单
+    - my orders
+    - purchases
+    semantic_type: menu_item
+  - text: 发笔记
+    center:
+    - 0.8731
+    - 0.619
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - post note
+    - create note
+    - 写笔记
+    semantic_type: button
+  - text: 全部城市
+    center:
+    - 0.1219
+    - 0.9119
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - all cities
+    - 城市列表
+    - city list
+    semantic_type: link
+  - text: 分类
+    center:
+    - 0.3134
+    - 0.9119
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - categories
+    - category
+    - 分类列表
+    semantic_type: link
+  - text: 智能排序
+    center:
+    - 0.505
+    - 0.9119
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - smart sort
+    - 排序
+    - sort by
+    semantic_type: button
+  - text: Home
+    center:
+    - 0.1144
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 首页
+    - main page
+    - homepage
+    semantic_type: tab
+  - text: Map
+    center:
+    - 0.2935
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 地图
+    - nearby
+    - explore map
+    semantic_type: tab
+  - text: Inbox
+    center:
+    - 0.7065
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - messages
+    - notifications
+    semantic_type: tab
+  description: User profile screen with options to set nickname, view followers, likes,
+    reviews, coupons, wallet, drafts, orders, and post notes, along with filtering
+    and sorting controls.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_19
+  elements:
+  - text: 取消
+    center:
+    - 0.9055
+    - 0.3776
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cancel
+    - dismiss
+    - 撤销
+    - 关闭
+    semantic_type: button
+  - text: 表情符号
+    center:
+    - 0.1915
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - emoji
+    - 表情
+    - emoticon
+    - 笑脸
+    semantic_type: button
+  - text: 搜索
+    center:
+    - 0.8756
+    - 0.8913
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search
+    - 查找
+    - find
+    - 搜索框
+    semantic_type: input
+  description: Emoji search screen with a cancel button and search field for finding
+    emojis.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_20
+  elements:
+  - text: 确认
+    center:
+    - 0.8035
+    - 0.5492
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 确定
+    - confirm
+    - ok
+    - submit
+    semantic_type: button
+  - text: 设为私密
+    center:
+    - 0.6816
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - make private
+    - set private
+    - 私密
+    - 仅自己可见
+    semantic_type: toggle
+  - text: 分享
+    center:
+    - 0.893
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - share
+    - 转发
+    - send to
+    semantic_type: button
+  - text: 写下这里的感受
+    center:
+    - 0.6468
+    - 0.476
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 写感受
+    - add review
+    - 评论
+    - write a note
+    semantic_type: input
+  - text: 拍照留念一下
+    center:
+    - 0.2886
+    - 0.4966
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 拍照
+    - take photo
+    - camera
+    - 照相
+    semantic_type: button
+  - text: 完成
+    center:
+    - 0.5
+    - 0.6796
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - done
+    - finish
+    - 结束
+    - save
+    semantic_type: button
+  - text: 查看历史打卡
+    center:
+    - 0.49
+    - 0.7277
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - history
+    - 历史记录
+    - past check-ins
+    - 打卡记录
+    semantic_type: link
+  description: 打卡详情页，用户可设为私密、分享、写感受、拍照留念、完成打卡或查看历史打卡。
+  scrollable: false
+  scroll_direction: ''
+- id: screen_21
+  elements:
+  - text: 搜索
+    center:
+    - 0.5274
+    - 0.5606
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search
+    - 查找
+    - find
+    - 搜索框
+    semantic_type: input
+  - text: 已打卡
+    center:
+    - 0.8856
+    - 0.6201
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - checked in
+    - 签到成功
+    - already checked in
+    - 打卡完成
+    semantic_type: label
+  - text: 立即打卡
+    center:
+    - 0.5
+    - 0.9428
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - check in now
+    - 签到
+    - 立即签到
+    - 打卡
+    semantic_type: button
+  description: 打卡页面，显示搜索框、已打卡记录和立即打卡按钮，用户可查看打卡状态或进行打卡操作。
+  scrollable: false
+  scroll_direction: ''
+- id: screen_22
+  elements:
+  - text: Delivery
+    center:
+    - 0.7935
+    - 0.2586
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 外卖
+    - food delivery
+    - takeout
+    semantic_type: tab
+  - text: '[Account]'
+    center:
+    - 0.4776
+    - 0.4188
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我的
+    - profile
+    - user
+    semantic_type: tab
+  - text: '[Account]'
+    center:
+    - 0.6368
+    - 0.4188
+    found_at_scroll: 0
+    fixed: true
+  - text: '[Account]'
+    center:
+    - 0.796
+    - 0.4188
+    found_at_scroll: 0
+    fixed: true
+  - text: Map
+    center:
+    - 0.9254
+    - 0.1087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 地图
+    - nearby
+    - explore
+    semantic_type: tab
+  - text: Survey
+    center:
+    - 0.9378
+    - 0.849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 问卷
+    - feedback
+    - poll
+    semantic_type: button
+  description: Delivery screen with account options, a map view, and a survey prompt.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_23
+  elements:
+  - text: Get
+    center:
+    - 0.1791
+    - 0.4554
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 获取
+    - 领取
+    - receive
+    semantic_type: button
+  - text: 查看全部
+    center:
+    - 0.6119
+    - 0.3249
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - view all
+    - see all
+    - 全部
+    semantic_type: link
+  - text: Tips
+    center:
+    - 0.291
+    - 0.5172
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 小费
+    - 贴士
+    - 提示
+    semantic_type: label
+  - text: 返现
+    center:
+    - 0.7662
+    - 0.111
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cashback
+    - rebate
+    - 现金返还
+    semantic_type: menu_item
+  - text: 我的优惠券
+    center:
+    - 0.8955
+    - 0.111
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - my coupons
+    - 优惠券
+    - coupons
+    semantic_type: menu_item
+  - text: Malls
+    center:
+    - 0.5
+    - 0.2517
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 商场
+    - 购物中心
+    - shopping malls
+    semantic_type: tab
+  - text: Luxury
+    center:
+    - 0.8756
+    - 0.2517
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 奢侈品
+    - 高端
+    - luxury goods
+    semantic_type: tab
+  - text: 特产手信
+    center:
+    - 0.3333
+    - 0.6979
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - local specialties
+    - souvenirs
+    - 伴手礼
+    semantic_type: tab
+  - text: Survey
+    center:
+    - 0.9378
+    - 0.8501
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 问卷
+    - 调查
+    - 调研
+    semantic_type: menu_item
+  - text: 超市/便利店
+    center:
+    - 0.3557
+    - 0.9748
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - supermarket
+    - convenience store
+    - 超市
+    - 便利店
+    semantic_type: menu_item
+  - text: 综合商场
+    center:
+    - 0.3333
+    - 0.6957
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - department store
+    - shopping mall
+    - 综合购物中心
+    semantic_type: menu_item
+  - text: 奢侈品
+    center:
+    - 0.3184
+    - 0.8513
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - luxury
+    - 高端品牌
+    - luxury goods
+    semantic_type: menu_item
+  - text: 购物场所
+    center:
+    - 0.3333
+    - 0.833
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - shopping places
+    - 购物地点
+    - shopping venues
+    semantic_type: label
+  description: Shopping category screen with various merchant types like supermarkets,
+    malls, luxury stores, and local specialties, along with coupons and cashback offers.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_24
+  elements:
+  - text: 亲子出游
+    center:
+    - 0.3134
+    - 0.27
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 亲子游
+    - family trip
+    - parent-child outing
+    - 带娃出游
+    semantic_type: menu_item
+  - text: 景点
+    center:
+    - 0.2985
+    - 0.4908
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - attractions
+    - scenic spots
+    - sightseeing
+    - 旅游景点
+    semantic_type: menu_item
+  - text: 自然景观
+    center:
+    - 0.3284
+    - 0.7265
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - natural scenery
+    - natural landscape
+    - 自然风光
+    semantic_type: menu_item
+  - text: 观光街区
+    center:
+    - 0.3284
+    - 0.9622
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - sightseeing district
+    - tourist area
+    - 观光街
+    - 街区
+    semantic_type: menu_item
+  - text: 水族馆
+    center:
+    - 0.0448
+    - 0.4027
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - aquarium
+    - 海洋馆
+    - sea life center
+    semantic_type: menu_item
+  - text: 人文古迹
+    center:
+    - 0.0597
+    - 0.4027
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - historical sites
+    - cultural relics
+    - historic landmarks
+    - 古迹
+    semantic_type: menu_item
+  - text: 主题乐园
+    center:
+    - 0.0597
+    - 0.4027
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - theme park
+    - amusement park
+    - 游乐园
+    - 乐园
+    semantic_type: menu_item
+  - text: 展览馆
+    center:
+    - 0.0448
+    - 0.4027
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - exhibition hall
+    - museum
+    - 博物馆
+    - 展馆
+    semantic_type: menu_item
+  - text: 学校
+    center:
+    - 0.0299
+    - 0.4027
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - school
+    - educational institution
+    - 学院
+    semantic_type: menu_item
+  - text: Tips
+    center:
+    - 0.4478
+    - 0.3341
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - hints
+    - advice
+    - 小贴士
+    - 提示
+    semantic_type: tab
+  - text: Map
+    center:
+    - 0.9279
+    - 0.1064
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 地图
+    - 导航
+    - navigation
+    semantic_type: tab
+  - text: Survey
+    center:
+    - 0.9378
+    - 0.8501
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 问卷
+    - 调查
+    - feedback
+    - 调研
+    semantic_type: tab
+  - text: See Translation
+    center:
+    - 0.092
+    - 0.6659
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 查看翻译
+    - translate
+    - 翻译
+    semantic_type: button
+  description: Family-friendly travel screen with categories like attractions, natural
+    scenery, and aquariums, plus tips, map, and survey options.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_25
+  elements:
+  - text: '[App]'
+    center:
+    - 0.2139
+    - 0.0812
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Meituan Taxi
+    - 美团打车
+    - Meituan ride-hailing
+    - 打车
+    semantic_type: tab
+  - text: 接得快
+    center:
+    - 0.4403
+    - 0.0789
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fast pickup
+    - quick response
+    - 接单快
+    semantic_type: label
+  - text: 省得多
+    center:
+    - 0.6194
+    - 0.0789
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - save more
+    - cost-effective
+    - 省钱
+    - discount
+    semantic_type: label
+  - text: 订单
+    center:
+    - 0.9328
+    - 0.0927
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - orders
+    - my orders
+    - trips
+    - 行程
+    semantic_type: tab
+  - text: 热门问题
+    center:
+    - 0.1443
+    - 0.4165
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - FAQ
+    - popular questions
+    - 常见问题
+    - help topics
+    semantic_type: menu_item
+  - text: 联系客服
+    center:
+    - 0.5224
+    - 0.7975
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - contact support
+    - customer service
+    - 客服
+    - help
+    semantic_type: button
+  - text: 服务授权
+    center:
+    - 0.5
+    - 0.3513
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - service authorization
+    - permissions
+    - 授权
+    - grant access
+    semantic_type: setting
+  - text: 暂不同意
+    center:
+    - 0.2637
+    - 0.9336
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - disagree
+    - decline
+    - not now
+    - 拒绝
+    semantic_type: button
+  - text: 同意并使用
+    center:
+    - 0.7338
+    - 0.9336
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - agree and use
+    - accept
+    - 同意
+    - confirm
+    semantic_type: button
+  description: Meituan ride-hailing service onboarding screen with service authorization
+    prompt and options to agree or decline.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_26
+  elements:
+  - text: 返回
+    center:
+    - 0.0697
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - go back
+    - return
+    semantic_type: button
+  - text: 订座
+    center:
+    - 0.5
+    - 0.0904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - reserve
+    - book a seat
+    - reservation
+    - booking
+    semantic_type: button
+  - text: 附近
+    center:
+    - 0.1493
+    - 0.1396
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - nearby
+    - near me
+    - surrounding
+    semantic_type: tab
+  - text: 全部美食
+    center:
+    - 0.4826
+    - 0.1396
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - all food
+    - all cuisines
+    - all restaurants
+    semantic_type: tab
+  - text: 智能排序
+    center:
+    - 0.8159
+    - 0.1396
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - smart sort
+    - sort by
+    - sorting
+    - recommended sort
+    semantic_type: button
+  - text: 中餐
+    center:
+    - 0.4826
+    - 0.2449
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Chinese food
+    - Chinese cuisine
+    - 中菜
+    semantic_type: menu_item
+  - text: 牛排
+    center:
+    - 0.4104
+    - 0.4405
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - steak
+    - beef steak
+    - 牛扒
+    semantic_type: menu_item
+  - text: 鱼鲜海鲜
+    center:
+    - 0.5124
+    - 0.6041
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - seafood
+    - fish and seafood
+    - 海鲜
+    semantic_type: menu_item
+  - text: '[Account]'
+    center:
+    - 0.4104
+    - 0.3867
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - account
+    - profile
+    - my account
+    - user
+    semantic_type: tab
+  - text: 西餐
+    center:
+    - 0.4527
+    - 0.746
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - Western food
+    - Western cuisine
+    - 西式料理
+    semantic_type: menu_item
+  - text: 火锅
+    center:
+    - 0.4826
+    - 0.643
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - hot pot
+    - hotpot
+    - steamboat
+    semantic_type: menu_item
+  - text: 自助餐
+    center:
+    - 0.4254
+    - 0.5904
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - buffet
+    - all-you-can-eat
+    - 自助
+    semantic_type: menu_item
+  - text: 美国菜
+    center:
+    - 0.4254
+    - 0.754
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - American food
+    - American cuisine
+    - 美式料理
+    semantic_type: menu_item
+  description: Restaurant search results page with filtering options for cuisine types
+    and sorting, showing nearby dining options.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_27
+  elements:
+  - text: 创建视频
+    center:
+    - 0.5
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create video
+    - make video
+    - 视频创作
+    semantic_type: button
+  - text: Coffee
+    center:
+    - 0.3159
+    - 0.1018
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - cafe
+    - coffee shop
+    - 咖啡
+    semantic_type: menu_item
+  - text: Buffet
+    center:
+    - 0.3109
+    - 0.1442
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 自助餐
+    - all you can eat
+    - buffet restaurant
+    semantic_type: menu_item
+  - text: Food
+    center:
+    - 0.1095
+    - 0.2368
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - restaurants
+    - dining
+    - 美食
+    semantic_type: menu_item
+  - text: Malls
+    center:
+    - 0.3035
+    - 0.2368
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - shopping centers
+    - 商场
+    - shopping malls
+    semantic_type: menu_item
+  - text: Hotels
+    center:
+    - 0.5
+    - 0.2368
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - accommodation
+    - 酒店
+    - lodging
+    semantic_type: menu_item
+  - text: Tours
+    center:
+    - 0.6965
+    - 0.2368
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - travel
+    - 旅游
+    - sightseeing
+    semantic_type: menu_item
+  - text: Local Fun
+    center:
+    - 0.8905
+    - 0.2368
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - entertainment
+    - 本地玩乐
+    - activities
+    semantic_type: menu_item
+  - text: Delivery
+    center:
+    - 0.1095
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 外卖
+    - food delivery
+    - takeout
+    semantic_type: menu_item
+  - text: Beauty
+    center:
+    - 0.3035
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - spa
+    - salon
+    - 美容
+    semantic_type: menu_item
+  - text: Bars
+    center:
+    - 0.5
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - pubs
+    - 酒吧
+    - nightlife
+    semantic_type: menu_item
+  - text: Taxi
+    center:
+    - 0.6965
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - ride hailing
+    - 出租车
+    - cab
+    semantic_type: menu_item
+  - text: Duty-Free
+    center:
+    - 0.8905
+    - 0.3238
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 免税店
+    - tax free
+    - duty free shop
+    semantic_type: menu_item
+  - text: 美食订座
+    center:
+    - 0.1667
+    - 0.3707
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - restaurant booking
+    - reserve table
+    - food reservation
+    semantic_type: menu_item
+  - text: Menu Translate
+    center:
+    - 0.4129
+    - 0.3707
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - translate menu
+    - 菜单翻译
+    - food translation
+    semantic_type: button
+  - text: Exchange Rate Calculation
+    center:
+    - 0.6617
+    - 0.3707
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - currency converter
+    - 汇率计算
+    - money exchange
+    semantic_type: button
+  - text: Photo Search
+    center:
+    - 0.9104
+    - 0.3707
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - image search
+    - 图片搜索
+    - visual search
+    semantic_type: button
+  - text: Home
+    center:
+    - 0.1144
+    - 0.9462
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 首页
+    - main page
+    - homepage
+    semantic_type: tab
+  - text: Map
+    center:
+    - 0.2935
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 地图
+    - nearby
+    - explore
+    semantic_type: tab
+  - text: Inbox
+    center:
+    - 0.7065
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - messages
+    - 消息
+    - notifications
+    semantic_type: tab
+  - text: Profile
+    center:
+    - 0.8856
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我的
+    - account
+    - me
+    semantic_type: tab
+  - text: See Translation
+    center:
+    - 0.092
+    - 0.6659
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - view translation
+    - 查看翻译
+    - show translation
+    semantic_type: button
+  description: Main services grid screen offering various lifestyle categories like
+    Food, Hotels, and Delivery, along with utility tools such as Menu Translate and
+    Exchange Rate Calculation.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_28
+  elements:
+  - text: 创建视频
+    center:
+    - 0.5
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create video
+    - make video
+    - new video
+    - 录制视频
+    semantic_type: button
+  - text: '[Account]'
+    center:
+    - 0.9229
+    - 0.5389
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - account
+    - my account
+    - 账户
+    - 个人中心
+    semantic_type: menu_item
+  - text: 收藏
+    center:
+    - 0.9229
+    - 0.5904
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - favorites
+    - bookmarks
+    - saved
+    - 我的收藏
+    semantic_type: menu_item
+  - text: Home
+    center:
+    - 0.1144
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 首页
+    - main page
+    - homepage
+    semantic_type: tab
+  - text: Map
+    center:
+    - 0.2935
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 地图
+    - nearby
+    - explore map
+    semantic_type: tab
+  - text: Inbox
+    center:
+    - 0.7065
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 消息
+    - notifications
+    - messages
+    - 收件箱
+    semantic_type: tab
+  - text: Profile
+    center:
+    - 0.8856
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我的
+    - me
+    - personal profile
+    - 个人资料
+    semantic_type: tab
+  description: User profile or account screen with options to create a video, view
+    collections, and navigate via bottom tabs.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_29
+  elements:
+  - text: Enable
+    center:
+    - 0.5299
+    - 0.1556
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 启用
+    - turn on
+    - activate
+    semantic_type: toggle
+  - text: 创建视频
+    center:
+    - 0.5
+    - 0.9405
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - create video
+    - new video
+    - make video
+    semantic_type: button
+  - text: Inbox
+    center:
+    - 0.5
+    - 0.0961
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 收件箱
+    - messages
+    - notifications
+    semantic_type: tab
+  - text: Home
+    center:
+    - 0.1144
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 首页
+    - main page
+    - feed
+    semantic_type: tab
+  - text: Map
+    center:
+    - 0.2935
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 地图
+    - nearby
+    - explore
+    semantic_type: tab
+  - text: Profile
+    center:
+    - 0.8856
+    - 0.9462
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 我的
+    - account
+    - personal
+    semantic_type: tab
+  description: 'Bottom navigation bar with 4 tabs: Home, Map, Inbox, Profile, and
+    a central ''Create Video'' button.'
+  scrollable: false
+  scroll_direction: ''
+- id: screen_30
+  elements:
+  - text: Buy
+    center:
+    - 0.8781
+    - 0.9542
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 购买
+    - purchase
+    - 立即购买
+    semantic_type: button
+  - text: Detail
+    center:
+    - 0.8955
+    - 0.516
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 详情
+    - details
+    - information
+    semantic_type: tab
+  - text: 查看
+    center:
+    - 0.0622
+    - 0.0137
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - view
+    - check
+    - see
+    semantic_type: button
+  - text: 领取
+    center:
+    - 0.0622
+    - 0.0137
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - claim
+    - get
+    - receive
+    semantic_type: button
+  - text: Promo
+    center:
+    - 0.0622
+    - 0.0114
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - promotion
+    - 优惠
+    - deal
+    semantic_type: label
+  - text: 去听听
+    center:
+    - 0.0448
+    - 0.008
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - listen
+    - go listen
+    - 试听
+    semantic_type: button
+  - text: 正文
+    center:
+    - 0.0572
+    - 0.0092
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - main text
+    - content
+    - body
+    semantic_type: label
+  - text: Great
+    center:
+    - 0.0373
+    - 0.008
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 好极了
+    - excellent
+    - 很棒
+    semantic_type: button
+  - text: Fair
+    center:
+    - 0.0249
+    - 0.008
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 一般
+    - okay
+    - 还行
+    semantic_type: button
+  - text: 问大家
+    center:
+    - 0.0597
+    - 0.0114
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Q&A
+    - questions
+    - ask community
+    semantic_type: link
+  - text: 提问
+    center:
+    - 0.0647
+    - 0.016
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - ask question
+    - post question
+    - inquire
+    semantic_type: button
+  - text: 查看全部
+    center:
+    - 0.0597
+    - 0.0092
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - view all
+    - see all
+    - 全部
+    semantic_type: link
+  - text: 服务
+    center:
+    - 0.0348
+    - 0.0114
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - services
+    - offerings
+    - facilities
+    semantic_type: tab
+  - text: Reviews
+    center:
+    - 0.8085
+    - 0.7334
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 评论
+    - evaluations
+    - 用户评价
+    semantic_type: tab
+  - text: See Translation
+    center:
+    - 0.092
+    - 0.6659
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 查看翻译
+    - translate
+    - 翻译
+    semantic_type: button
+  - text: 头像
+    center:
+    - 0.0373
+    - 0.0172
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - avatar
+    - profile picture
+    - photo
+    semantic_type: label
+  - text: 图片
+    center:
+    - 0.0149
+    - 0.0046
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - images
+    - photos
+    - pictures
+    semantic_type: tab
+  description: Product detail page with purchase options, promotions, reviews, Q&A
+    section, and service information.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_31
+  elements:
+  - text: Delivery
+    center:
+    - 0.7935
+    - 0.0652
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 外卖
+    - food delivery
+    - takeout
+    semantic_type: tab
+  - text: 可用银联
+    center:
+    - 0.8433
+    - 0.5572
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - UnionPay accepted
+    - 银联支付
+    - UnionPay available
+    semantic_type: label
+  - text: 附近500m
+    center:
+    - 0.0721
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - nearby 500m
+    - 500 meters nearby
+    - 周边500米
+    semantic_type: label
+  - text: '[Account]'
+    center:
+    - 0.0448
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 账户
+    - my account
+    - profile
+    semantic_type: tab
+  - text: '[Account]'
+    center:
+    - 0.0448
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+  - text: '[Account]'
+    center:
+    - 0.0448
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+  - text: '[Account]'
+    center:
+    - 0.0448
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+  - text: Map
+    center:
+    - 0.9254
+    - 0.1087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 地图
+    - nearby map
+    - explore
+    semantic_type: tab
+  - text: Survey
+    center:
+    - 0.9378
+    - 0.849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 问卷
+    - feedback
+    - poll
+    semantic_type: button
+  - text: See Translation
+    center:
+    - 0.092
+    - 0.6659
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 查看翻译
+    - translate
+    - 显示翻译
+    semantic_type: button
+  description: Delivery order screen showing nearby available accounts within 500m,
+    with map and survey options.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_32
+  elements:
+  - text: Delivery
+    center:
+    - 0.7935
+    - 0.0652
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 外卖
+    - food delivery
+    - takeout
+    semantic_type: tab
+  - text: '[Payment]'
+    center:
+    - 0.0672
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 支付
+    - pay
+    - checkout
+    semantic_type: tab
+  - text: '[Account]'
+    center:
+    - 0.0448
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 账户
+    - profile
+    - my account
+    semantic_type: tab
+  - text: '[Account]'
+    center:
+    - 0.0448
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+  - text: '[Account]'
+    center:
+    - 0.0448
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+  - text: Map
+    center:
+    - 0.9254
+    - 0.1087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 地图
+    - nearby
+    - explore
+    semantic_type: tab
+  - text: Survey
+    center:
+    - 0.9378
+    - 0.849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 问卷
+    - feedback
+    - poll
+    semantic_type: menu_item
+  - text: See Translation
+    center:
+    - 0.092
+    - 0.6659
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 查看翻译
+    - translate
+    - language
+    semantic_type: button
+  description: Delivery settings screen with payment and account options, map view,
+    survey link, and translation feature.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_33
+  elements:
+  - text: Delivery
+    center:
+    - 0.7935
+    - 0.0652
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 外卖
+    - food delivery
+    - 送餐
+    semantic_type: tab
+  - text: Japanese Cuisine
+    center:
+    - 0.7612
+    - 0.143
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 日料
+    - 日本料理
+    - Japanese food
+    semantic_type: menu_item
+  - text: 川菜
+    center:
+    - 0.0323
+    - 0.1728
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Sichuan cuisine
+    - 四川菜
+    - Szechuan food
+    semantic_type: menu_item
+  - text: 茶餐厅
+    center:
+    - 0.3259
+    - 0.5892
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - Cha chaan teng
+    - Hong Kong style cafe
+    - 港式茶餐厅
+    semantic_type: menu_item
+  - text: '[Account]'
+    center:
+    - 0.3109
+    - 0.3513
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 我的
+    - profile
+    - user center
+    semantic_type: tab
+  - text: 可用银联
+    center:
+    - 0.0547
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - UnionPay accepted
+    - 银联支付
+    - supports UnionPay
+    semantic_type: toggle
+  - text: 附近500m
+    center:
+    - 0.0721
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - within 500 meters
+    - nearby 500m
+    - 500米内
+    semantic_type: toggle
+  - text: '[Account]'
+    center:
+    - 0.0448
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+  - text: '[Account]'
+    center:
+    - 0.0448
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+  - text: '[Account]'
+    center:
+    - 0.0448
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+  - text: '[Account]'
+    center:
+    - 0.0448
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+  - text: Map
+    center:
+    - 0.9254
+    - 0.1087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 地图
+    - view map
+    - map view
+    semantic_type: button
+  - text: Survey
+    center:
+    - 0.9378
+    - 0.849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 问卷
+    - feedback
+    - 调查
+    semantic_type: button
+  - text: See Translation
+    center:
+    - 0.092
+    - 0.6659
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 查看翻译
+    - translate
+    - 显示翻译
+    semantic_type: button
+  - text: 东南亚菜
+    center:
+    - 0.3433
+    - 0.3673
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - Southeast Asian cuisine
+    - 东南亚料理
+    - ASEAN food
+    semantic_type: menu_item
+  - text: 小吃快餐
+    center:
+    - 0.3433
+    - 0.6556
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - snacks
+    - fast food
+    - quick bites
+    semantic_type: menu_item
+  - text: 披萨
+    center:
+    - 0.3109
+    - 0.476
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - pizza
+    - 比萨
+    - Italian pie
+    semantic_type: menu_item
+  description: Food delivery category selection screen with cuisine types, payment
+    method, distance filter, and map/survey options.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_34
+  elements:
+  - text: Delivery
+    center:
+    - 0.7935
+    - 0.0652
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 外卖
+    - food delivery
+    - takeout
+    semantic_type: tab
+  - text: '[Account]'
+    center:
+    - 0.3109
+    - 0.3513
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 账户
+    - profile
+    - my account
+    semantic_type: tab
+  - text: '[Payment]'
+    center:
+    - 0.0672
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 支付
+    - pay
+    - checkout
+    semantic_type: tab
+  - text: 附近500m
+    center:
+    - 0.0721
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - nearby 500m
+    - within 500 meters
+    - 周边
+    semantic_type: label
+  - text: '[Account]'
+    center:
+    - 0.0448
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+  - text: '[Account]'
+    center:
+    - 0.0448
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+  - text: '[Account]'
+    center:
+    - 0.0448
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+  - text: '[Account]'
+    center:
+    - 0.0448
+    - 0.1716
+    found_at_scroll: 0
+    fixed: true
+  - text: Map
+    center:
+    - 0.9254
+    - 0.1087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 地图
+    - navigation
+    - explore
+    semantic_type: tab
+  - text: Survey
+    center:
+    - 0.9378
+    - 0.849
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 问卷
+    - feedback
+    - poll
+    semantic_type: button
+  - text: See Translation
+    center:
+    - 0.092
+    - 0.6659
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 查看翻译
+    - translate
+    - view translation
+    semantic_type: button
+  description: Delivery settings screen with account and payment options, location
+    range selector, map, survey, and translation features.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_35
+  elements:
+  - text: 美食地图
+    center:
+    - 0.5
+    - 0.0927
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 美食地图
+    - food map
+    - gourmet map
+    - 美食导览
+    semantic_type: menu_item
+  - text: 中餐
+    center:
+    - 0.8657
+    - 0.8066
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 中餐
+    - Chinese food
+    - Chinese cuisine
+    - 中菜
+    semantic_type: menu_item
+  - text: 收藏
+    center:
+    - 0.2338
+    - 0.9211
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 收藏
+    - favorites
+    - bookmarks
+    - saved
+    semantic_type: menu_item
+  - text: 搜周边
+    center:
+    - 0.4478
+    - 0.9211
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 搜周边
+    - search nearby
+    - explore nearby
+    - 周边搜索
+    semantic_type: button
+  - text: 路线
+    center:
+    - 0.7388
+    - 0.9211
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 路线
+    - route
+    - directions
+    - 导航
+    semantic_type: button
+  description: Food map screen showing a map view with options to filter by Chinese
+    cuisine, view favorites, search nearby, and get directions.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_36
+  elements:
+  - text: 返回
+    center:
+    - 0.0647
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - go back
+    - 返回上一页
+    semantic_type: button
+  - text: 非常不满意
+    center:
+    - 0.1766
+    - 0.2426
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - very dissatisfied
+    - 1 star
+    - 极差
+    semantic_type: button
+  - text: 比较不满意
+    center:
+    - 0.3383
+    - 0.2426
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - dissatisfied
+    - 2 stars
+    - 差评
+    semantic_type: button
+  - text: 一般
+    center:
+    - 0.5
+    - 0.2426
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - neutral
+    - 3 stars
+    - average
+    - 中等
+    semantic_type: button
+  - text: 比较满意
+    center:
+    - 0.6617
+    - 0.2426
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - satisfied
+    - 4 stars
+    - 好评
+    semantic_type: button
+  - text: 非常满意
+    center:
+    - 0.8234
+    - 0.2426
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - very satisfied
+    - 5 stars
+    - 极好
+    semantic_type: button
+  - text: 提交
+    center:
+    - 0.5
+    - 0.9314
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - submit
+    - confirm
+    - send
+    - 确认
+    semantic_type: button
+  description: User satisfaction rating screen with five options from '非常不满意' to '非常满意'
+    and a submit button.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_37
+  elements:
+  - text: Use
+    center:
+    - 0.1791
+    - 0.4554
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 使用
+    - redeem
+    - apply
+    semantic_type: button
+  - text: Get
+    center:
+    - 0.4403
+    - 0.4554
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 获取
+    - 领取
+    - obtain
+    semantic_type: button
+  - text: 查看全部
+    center:
+    - 0.6119
+    - 0.3249
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - view all
+    - see all
+    - 全部
+    semantic_type: link
+  - text: Tips
+    center:
+    - 0.291
+    - 0.5172
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 提示
+    - hints
+    - 小贴士
+    semantic_type: label
+  - text: 返现
+    center:
+    - 0.7662
+    - 0.111
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cashback
+    - rebate
+    - 现金返还
+    semantic_type: label
+  - text: 我的优惠券
+    center:
+    - 0.8955
+    - 0.111
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - my coupons
+    - my vouchers
+    - 优惠券
+    semantic_type: menu_item
+  - text: Malls
+    center:
+    - 0.5
+    - 0.2517
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 商场
+    - shopping malls
+    - 购物中心
+    semantic_type: tab
+  - text: Luxury
+    center:
+    - 0.8756
+    - 0.2517
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 奢侈品
+    - high-end
+    - 高端
+    semantic_type: tab
+  - text: 查看更多
+    center:
+    - 0.0149
+    - 0.3364
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - see more
+    - view more
+    - 更多
+    semantic_type: link
+  - text: Survey
+    center:
+    - 0.9378
+    - 0.8501
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 问卷调查
+    - questionnaire
+    - 调研
+    semantic_type: menu_item
+  description: My Coupons screen showing available coupons, tips, cashback, and categories
+    like Malls and Luxury with options to view all or see more.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_38
+  elements:
+  - text: 全部分类
+    center:
+    - 0.2811
+    - 0.1384
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 所有分类
+    - all categories
+    - categories
+    semantic_type: tab
+  - text: 药妆
+    center:
+    - 0.1891
+    - 0.2071
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - cosmeceutical
+    - 药用化妆品
+    - 药妆品
+    semantic_type: tab
+  - text: 保健品
+    center:
+    - 0.204
+    - 0.3696
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - health supplements
+    - 营养品
+    - dietary supplements
+    semantic_type: tab
+  - text: 美妆
+    center:
+    - 0.1891
+    - 0.8467
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - beauty
+    - 化妆品
+    - makeup
+    - cosmetics
+    semantic_type: tab
+  - text: 钱包
+    center:
+    - 0.8308
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - wallet
+    - payment
+    - 支付
+    semantic_type: menu_item
+  - text: 分享
+    center:
+    - 0.9279
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - share
+    - 分享给朋友
+    - invite
+    semantic_type: button
+  - text: 珠宝首饰
+    center:
+    - 0.2189
+    - 0.3696
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - jewelry
+    - 首饰
+    - accessories
+    semantic_type: tab
+  description: Category selection screen listing product categories like cosmetics,
+    health supplements, and jewelry, allowing users to browse and choose a category.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_39
+  elements:
+  - text: Use
+    center:
+    - 0.1791
+    - 0.4554
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 使用
+    - redeem
+    - apply
+    semantic_type: button
+  - text: Get
+    center:
+    - 0.4403
+    - 0.4554
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 获取
+    - obtain
+    - acquire
+    - 领取
+    semantic_type: button
+  - text: Tips
+    center:
+    - 0.0373
+    - 0.5023
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 提示
+    - hints
+    - advice
+    - 贴士
+    semantic_type: label
+  - text: 我的优惠券
+    center:
+    - 0.8955
+    - 0.111
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - my coupons
+    - my vouchers
+    - 我的券
+    - coupons
+    semantic_type: menu_item
+  - text: Malls
+    center:
+    - 0.5
+    - 0.2517
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 商场
+    - shopping malls
+    - 购物中心
+    semantic_type: tab
+  - text: Luxury
+    center:
+    - 0.8756
+    - 0.2517
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 奢侈品
+    - high-end
+    - premium
+    - 奢侈
+    semantic_type: tab
+  - text: Survey
+    center:
+    - 0.9378
+    - 0.8501
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 问卷调查
+    - questionnaire
+    - 调研
+    - 反馈
+    semantic_type: menu_item
+  description: My Coupons screen with tabs for Use, Get, Tips, and categories like
+    Malls, Luxury, Survey.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_40
+  elements:
+  - text: 全部
+    center:
+    - 0.1418
+    - 0.1934
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - all
+    - 全部订单
+    - all orders
+    semantic_type: tab
+  - text: 待返现
+    center:
+    - 0.3806
+    - 0.1934
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - pending cashback
+    - 待返现订单
+    - to be refunded
+    semantic_type: tab
+  - text: 已返现
+    center:
+    - 0.6194
+    - 0.1934
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cashback received
+    - 已返现订单
+    - refunded
+    semantic_type: tab
+  - text: 已取消
+    center:
+    - 0.8582
+    - 0.1934
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cancelled
+    - 已取消订单
+    - canceled
+    semantic_type: tab
+  - text: 一键领取
+    center:
+    - 0.8731
+    - 0.7105
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - claim all
+    - collect all
+    - 一键领取返现
+    semantic_type: button
+  - text: 返现记录
+    center:
+    - 0.5
+    - 0.0858
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - cashback history
+    - 返现历史
+    - rebate records
+    semantic_type: link
+  - text: 珠宝首饰
+    center:
+    - 0.2189
+    - 0.7243
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - jewelry
+    - jewellery
+    - 首饰
+    semantic_type: menu_item
+  - text: 保健品
+    center:
+    - 0.204
+    - 0.9565
+    found_at_scroll: 1
+    fixed: false
+    aliases:
+    - health supplements
+    - supplements
+    - 保健食品
+    semantic_type: menu_item
+  - text: 机场免税
+    center:
+    - 0.2189
+    - 0.7643
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - airport duty-free
+    - duty free
+    - 免税店
+    semantic_type: menu_item
+  - text: 药妆电器
+    center:
+    - 0.2189
+    - 0.9405
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - cosmeceuticals & electronics
+    - 药妆和电器
+    - beauty and electronics
+    semantic_type: menu_item
+  - text: 美妆
+    center:
+    - 0.1891
+    - 0.6922
+    found_at_scroll: 3
+    fixed: false
+    aliases:
+    - beauty
+    - cosmetics
+    - 化妆品
+    semantic_type: menu_item
+  description: 返现记录页面，包含全部、待返现、已返现、已取消四个分类标签，以及珠宝首饰、保健品等商品类别和一键领取按钮
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_41
+  elements:
+  - text: 去使用
+    center:
+    - 0.8657
+    - 0.2117
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - use now
+    - go use
+    - 立即使用
+    semantic_type: button
+  - text: 一键领取
+    center:
+    - 0.8731
+    - 0.413
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - claim all
+    - one-click claim
+    - 领取全部
+    semantic_type: button
+  - text: 免费领
+    center:
+    - 0.8458
+    - 0.4771
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - free claim
+    - get free
+    - 免费领取
+    semantic_type: button
+  - text: 我的优惠券
+    center:
+    - 0.5
+    - 0.087
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - my coupons
+    - my vouchers
+    - 优惠券
+    semantic_type: menu_item
+  - text: 推荐更多优惠
+    center:
+    - 0.5
+    - 0.3581
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - recommend more deals
+    - more offers
+    - 更多优惠
+    semantic_type: link
+  - text: 珠宝首饰
+    center:
+    - 0.2189
+    - 0.4268
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - jewelry
+    - accessories
+    - 首饰
+    semantic_type: tab
+  - text: 保健品
+    center:
+    - 0.204
+    - 0.5069
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - health supplements
+    - supplements
+    - 保健
+    semantic_type: tab
+  - text: 机场免税
+    center:
+    - 0.2189
+    - 0.9554
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - duty free
+    - airport duty free
+    - 免税店
+    semantic_type: tab
+  - text: 到店立享
+    center:
+    - 0.1393
+    - 0.4039
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - in-store offer
+    - store discount
+    - 到店优惠
+    semantic_type: button
+  - text: 药妆电器
+    center:
+    - 0.2189
+    - 0.5034
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - cosmeceuticals
+    - beauty electronics
+    - 美容电器
+    semantic_type: tab
+  - text: 美妆
+    center:
+    - 0.1891
+    - 0.6796
+    found_at_scroll: 2
+    fixed: true
+    aliases:
+    - beauty
+    - cosmetics
+    - 化妆品
+    semantic_type: tab
+  description: My coupons screen showing available coupons to claim, with categories
+    like jewelry, health products, airport duty-free, in-store discounts, cosmetics,
+    and electronics.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_42
+  elements:
+  - text: Detail
+    center:
+    - 0.8955
+    - 0.349
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 详情
+    - details
+    - info
+    semantic_type: link
+  - text: 打车
+    center:
+    - 0.8209
+    - 0.4233
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - ride-hailing
+    - taxi
+    - 叫车
+    - Dache
+    semantic_type: button
+  - text: Call
+    center:
+    - 0.9353
+    - 0.4233
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 打电话
+    - phone
+    - dial
+    - 呼叫
+    semantic_type: button
+  - text: 查看
+    center:
+    - 0.8781
+    - 0.5469
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - view
+    - look
+    - see
+    - 浏览
+    semantic_type: button
+  - text: 正文
+    center:
+    - 0.9129
+    - 0.7677
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - main text
+    - body
+    - content
+    - 全文
+    semantic_type: label
+  - text: 查看全部
+    center:
+    - 0.0647
+    - 0.0092
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - view all
+    - see all
+    - show all
+    - 全部查看
+    semantic_type: link
+  - text: Claim
+    center:
+    - 0.0448
+    - 0.0103
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 认领
+    - 领取
+    - redeem
+    - claim business
+    semantic_type: button
+  - text: 搜索周边
+    center:
+    - 0.0796
+    - 0.0126
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - search nearby
+    - 周边搜索
+    - nearby search
+    - explore around
+    semantic_type: button
+  - text: 酒店
+    center:
+    - 0.0622
+    - 0.0149
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - hotel
+    - hotels
+    - 住宿
+    - lodging
+    semantic_type: tab
+  - text: 购物
+    center:
+    - 0.0622
+    - 0.0149
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - shopping
+    - shop
+    - stores
+    - 商场
+    semantic_type: tab
+  - text: 景点
+    center:
+    - 0.0622
+    - 0.0149
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - attractions
+    - sights
+    - scenic spots
+    - tourist spots
+    semantic_type: tab
+  - text: 美食
+    center:
+    - 0.0622
+    - 0.0149
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - food
+    - restaurants
+    - dining
+    - cuisine
+    semantic_type: tab
+  - text: 全部
+    center:
+    - 0.0622
+    - 0.0149
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - all
+    - all categories
+    - everything
+    - 全部类别
+    semantic_type: tab
+  - text: See Translation
+    center:
+    - 0.092
+    - 0.6659
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 查看翻译
+    - translate
+    - show translation
+    - 翻译
+    semantic_type: button
+  description: Detail screen for a ride-hailing service with options to call, view
+    full content, claim, search nearby, and browse categories like hotels, shopping,
+    attractions, and food.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_43
+  elements:
+  - text: Use
+    center:
+    - 0.1791
+    - 0.0881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 使用
+    - apply
+    - utilize
+    semantic_type: button
+  - text: Get
+    center:
+    - 0.4403
+    - 0.0881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 获取
+    - receive
+    - obtain
+    semantic_type: button
+  - text: Tips
+    center:
+    - 0.291
+    - 0.1499
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 提示
+    - hints
+    - advice
+    semantic_type: label
+  - text: 购物场所
+    center:
+    - 0.3333
+    - 0.6682
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - shopping places
+    - shopping venues
+    - 购物地点
+    semantic_type: label
+  - text: 超市/便利店
+    center:
+    - 0.3557
+    - 0.976
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - supermarket
+    - convenience store
+    - grocery
+    semantic_type: menu_item
+  - text: 特产手信
+    center:
+    - 0.3333
+    - 0.2037
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - local specialties
+    - souvenirs
+    - gifts
+    semantic_type: menu_item
+  - text: 综合商场
+    center:
+    - 0.3333
+    - 0.3581
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - shopping mall
+    - department store
+    - complex
+    semantic_type: menu_item
+  - text: Survey
+    center:
+    - 0.9378
+    - 0.8501
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 调查
+    - questionnaire
+    - feedback
+    semantic_type: button
+  description: Shopping category screen with subcategories like supermarkets, specialty
+    gifts, and malls, plus options to use, get, and view tips.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_44
+  elements:
+  - text: Use
+    center:
+    - 0.1791
+    - 0.0881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 使用
+    - utilize
+    - apply
+    semantic_type: tab
+  - text: Get
+    center:
+    - 0.4403
+    - 0.0881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 获取
+    - obtain
+    - receive
+    semantic_type: tab
+  - text: Tips
+    center:
+    - 0.291
+    - 0.1499
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 提示
+    - advice
+    - hints
+    - 小贴士
+    semantic_type: tab
+  - text: Survey
+    center:
+    - 0.9378
+    - 0.8501
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 调查
+    - questionnaire
+    - 问卷
+    - feedback
+    semantic_type: tab
+  description: A screen offering options to use, get tips, or take a survey, likely
+    for a feature or service within the app.
+  scrollable: false
+  scroll_direction: ''
+- id: screen_45
+  elements:
+  - text: Use
+    center:
+    - 0.1791
+    - 0.0881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 使用
+    - utilize
+    - apply
+    semantic_type: button
+  - text: Get
+    center:
+    - 0.4403
+    - 0.0881
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 获取
+    - obtain
+    - receive
+    semantic_type: button
+  - text: Tips
+    center:
+    - 0.291
+    - 0.1499
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 提示
+    - advice
+    - hints
+    semantic_type: label
+  - text: 超市/便利店
+    center:
+    - 0.3557
+    - 0.2048
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - supermarket
+    - convenience store
+    - grocery
+    semantic_type: menu_item
+  - text: 特产手信
+    center:
+    - 0.3333
+    - 0.3627
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - local specialties
+    - souvenirs
+    - gifts
+    semantic_type: menu_item
+  - text: 购物场所
+    center:
+    - 0.3333
+    - 0.6716
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - shopping places
+    - retail locations
+    - stores
+    semantic_type: menu_item
+  - text: 综合商场
+    center:
+    - 0.3333
+    - 0.8261
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - shopping mall
+    - department store
+    - complex
+    semantic_type: menu_item
+  - text: Survey
+    center:
+    - 0.9378
+    - 0.8501
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 调查
+    - questionnaire
+    - poll
+    semantic_type: button
+  - text: 活动
+    center:
+    - 0.0597
+    - 0.4645
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - events
+    - activities
+    - promotions
+    semantic_type: menu_item
+  - text: 居家日用
+    center:
+    - 0.3333
+    - 0.667
+    found_at_scroll: 2
+    fixed: false
+    aliases:
+    - household
+    - daily necessities
+    - home supplies
+    semantic_type: menu_item
+  description: Shopping category screen with options like supermarket, specialty gifts,
+    shopping venues, malls, surveys, events, and household items.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_46
+  elements:
+  - text: 酒店民宿
+    center:
+    - 0.1816
+    - 0.1476
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 酒店
+    - 民宿
+    - hotel
+    - B&B
+    - 住宿
+    semantic_type: menu_item
+  - text: 机票火车票
+    center:
+    - 0.5199
+    - 0.1476
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 机票
+    - 火车票
+    - flights and trains
+    - 交通票务
+    semantic_type: menu_item
+  - text: 旅游度假
+    center:
+    - 0.8607
+    - 0.1476
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 旅游
+    - 度假
+    - travel
+    - vacation
+    - holiday
+    semantic_type: menu_item
+  - text: 机票
+    center:
+    - 0.2711
+    - 0.2094
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - flight ticket
+    - 飞机票
+    - air ticket
+    semantic_type: tab
+  - text: 火车票
+    center:
+    - 0.7289
+    - 0.2094
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - train ticket
+    - 列车票
+    - rail ticket
+    semantic_type: tab
+  - text: 单程
+    center:
+    - 0.3831
+    - 0.2666
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - one way
+    - 单程票
+    - one-way
+    semantic_type: toggle
+  - text: 往返
+    center:
+    - 0.6169
+    - 0.2666
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - round trip
+    - return
+    - 来回
+    semantic_type: toggle
+  - text: 成人
+    center:
+    - 0.6418
+    - 0.4371
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - adult
+    - 大人
+    - 成年人
+    semantic_type: label
+  - text: 儿童
+    center:
+    - 0.7587
+    - 0.4371
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - child
+    - 小孩
+    - children
+    semantic_type: label
+  - text: 婴儿
+    center:
+    - 0.8756
+    - 0.4371
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - infant
+    - 宝宝
+    - baby
+    semantic_type: label
+  - text: 找 机 票
+    center:
+    - 0.5
+    - 0.516
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search flights
+    - 搜索机票
+    - 查询机票
+    semantic_type: button
+  description: Flight and train ticket booking screen with options for hotels, flights,
+    trains, and vacation packages, including trip type and passenger selection.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_47
+  elements:
+  - text: 酒店民宿
+    center:
+    - 0.1816
+    - 0.1476
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 酒店
+    - 民宿
+    - hotel
+    - B&B
+    - 住宿
+    semantic_type: menu_item
+  - text: 机票火车票
+    center:
+    - 0.5199
+    - 0.1476
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 机票
+    - 火车票
+    - flights
+    - trains
+    - 交通票务
+    semantic_type: menu_item
+  - text: 旅游度假
+    center:
+    - 0.8607
+    - 0.1476
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 旅游
+    - 度假
+    - travel
+    - vacation
+    - holiday
+    semantic_type: menu_item
+  - text: 找套餐
+    center:
+    - 0.8557
+    - 0.2037
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 套餐
+    - package deals
+    - 组合优惠
+    semantic_type: button
+  - text: 跟团/小团游
+    center:
+    - 0.1368
+    - 0.3215
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 跟团游
+    - 小团游
+    - group tour
+    - small group
+    semantic_type: tab
+  - text: 一日游
+    center:
+    - 0.3109
+    - 0.3215
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - day trip
+    - 当天游
+    - 一日行程
+    semantic_type: tab
+  - text: 家庭出游
+    center:
+    - 0.4826
+    - 0.3215
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 亲子游
+    - 家庭游
+    - family trip
+    - family outing
+    semantic_type: tab
+  - text: 门票+住宿
+    center:
+    - 0.6517
+    - 0.3215
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 门票住宿
+    - ticket+hotel
+    - 景点加酒店
+    semantic_type: tab
+  - text: 主题乐园
+    center:
+    - 0.8234
+    - 0.3215
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 游乐园
+    - theme park
+    - 乐园
+    - amusement park
+    semantic_type: tab
+  - text: 出境游
+    center:
+    - 0.995
+    - 0.3215
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - 出境旅游
+    - overseas travel
+    - 国外游
+    - international trip
+    semantic_type: tab
+  - text: 更多
+    center:
+    - 0.8881
+    - 0.3764
+    found_at_scroll: 0
+    fixed: false
+    aliases:
+    - more
+    - 查看更多
+    - 展开
+    semantic_type: button
+  - text: 全部品类
+    center:
+    - 0.1244
+    - 0.6327
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - all categories
+    - 所有分类
+    - 全部分类
+    semantic_type: button
+  - text: 游玩天数
+    center:
+    - 0.3731
+    - 0.6327
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 天数
+    - duration
+    - 行程天数
+    - trip length
+    semantic_type: menu_item
+  - text: 景点
+    center:
+    - 0.5846
+    - 0.6327
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - attractions
+    - sights
+    - 景区
+    - 旅游景点
+    semantic_type: menu_item
+  - text: 排序方式
+    center:
+    - 0.7985
+    - 0.6327
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - 排序
+    - sort by
+    - order
+    - 筛选排序
+    semantic_type: menu_item
+  description: Travel services category screen with options for hotels, flights, tours,
+    packages, and filtering by duration, attractions, and sorting.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_48
+  elements:
+  - text: 返回
+    center:
+    - 0.0896
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - 返回按钮
+    - go back
+    semantic_type: button
+  - text: 酒店民宿
+    center:
+    - 0.1816
+    - 0.1476
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - hotel
+    - homestay
+    - 住宿
+    - 酒店
+    semantic_type: tab
+  - text: 机票火车票
+    center:
+    - 0.5199
+    - 0.1476
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - flights
+    - trains
+    - 交通票务
+    - 机票
+    semantic_type: tab
+  - text: 旅游度假
+    center:
+    - 0.8607
+    - 0.1476
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - travel
+    - vacation
+    - 度假
+    - 旅游
+    semantic_type: tab
+  - text: 国内
+    center:
+    - 0.1493
+    - 0.2094
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - domestic
+    - 国内旅游
+    - china
+    semantic_type: tab
+  - text: 民宿公寓
+    center:
+    - 0.3831
+    - 0.2094
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - homestay apartment
+    - 民宿
+    - 公寓
+    semantic_type: menu_item
+  - text: 钟点房
+    center:
+    - 0.6318
+    - 0.2094
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - hourly room
+    - 钟点
+    - 短时住宿
+    semantic_type: menu_item
+  - text: 海外
+    center:
+    - 0.8483
+    - 0.2094
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - overseas
+    - international
+    - 国外
+    semantic_type: tab
+  - text: '[Region]'
+    center:
+    - 0.092
+    - 0.2654
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - Hong Kong
+    - HK
+    - 香港地区
+    semantic_type: menu_item
+  - text: 找 民 宿
+    center:
+    - 0.5
+    - 0.4588
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - search homestay
+    - 搜索民宿
+    - find
+    semantic_type: input
+  - text: 推荐
+    center:
+    - 0.0746
+    - 0.5297
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - recommended
+    - 推荐列表
+    - 精选
+    semantic_type: tab
+  - text: 近地铁
+    center:
+    - 0.097
+    - 0.9062
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - near metro
+    - 地铁附近
+    - subway
+    semantic_type: toggle
+  - text: 免费取消
+    center:
+    - 0.2214
+    - 0.9062
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - free cancellation
+    - 免费退订
+    - 取消免费
+    semantic_type: toggle
+  - text: 智能门锁
+    center:
+    - 0.3582
+    - 0.9062
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - smart lock
+    - 智能锁
+    - 密码锁
+    semantic_type: toggle
+  - text: 超赞房东
+    center:
+    - 0.1119
+    - 0.9245
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - superhost
+    - 优秀房东
+    - 超赞
+    semantic_type: toggle
+  - text: 有电梯
+    center:
+    - 0.2338
+    - 0.9245
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - elevator
+    - 电梯
+    - lift
+    semantic_type: toggle
+  - text: 电视
+    center:
+    - 0.3308
+    - 0.9245
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - TV
+    - 电视机
+    - television
+    semantic_type: toggle
+  - text: 极速退款
+    center:
+    - 0.709
+    - 0.9245
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - fast refund
+    - 快速退款
+    - 极速退
+    semantic_type: toggle
+  - text: 获取验证码
+    center:
+    - 0.8582
+    - 0.143
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - get code
+    - 发送验证码
+    - 获取短信
+    semantic_type: button
+  - text: 验证
+    center:
+    - 0.5
+    - 0.27
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - verify
+    - 验证码
+    - 确认
+    semantic_type: button
+  - text: 身份核实
+    center:
+    - 0.5
+    - 0.0904
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - identity verification
+    - 实名认证
+    - 身份验证
+    semantic_type: label
+  - text: '+86'
+    center:
+    - 0.0771
+    - 0.1419
+    found_at_scroll: 1
+    fixed: true
+    aliases:
+    - China code
+    - 中国区号
+    - country code
+    semantic_type: menu_item
+  description: Hotel and travel booking screen with tabs for hotels, flights, and
+    vacations, featuring search, filters, and identity verification options.
+  scrollable: true
+  scroll_direction: vertical
+- id: screen_49
+  elements:
+  - text: 返回
+    center:
+    - 0.0896
+    - 0.0892
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - back
+    - go back
+    - 后退
+    semantic_type: button
+  - text: 验证
+    center:
+    - 0.5
+    - 0.27
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - verify
+    - 验证码
+    - captcha
+    semantic_type: button
+  - text: 酒店民宿
+    center:
+    - 0.1816
+    - 0.1476
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - hotels and B&Bs
+    - 住宿
+    - accommodation
+    semantic_type: tab
+  - text: 机票火车票
+    center:
+    - 0.5199
+    - 0.1476
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - flights and trains
+    - 交通票务
+    - transport tickets
+    semantic_type: tab
+  - text: 旅游度假
+    center:
+    - 0.8607
+    - 0.1476
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - travel and vacation
+    - 度假旅游
+    - holiday packages
+    semantic_type: tab
+  - text: 国内
+    center:
+    - 0.1493
+    - 0.2094
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - domestic
+    - 国内游
+    - in China
+    semantic_type: tab
+  - text: 民宿公寓
+    center:
+    - 0.3831
+    - 0.2094
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - B&B apartment
+    - 短租
+    - homestay
+    semantic_type: menu_item
+  - text: 钟点房
+    center:
+    - 0.6318
+    - 0.2094
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - hourly room
+    - 钟点
+    - short stay
+    semantic_type: menu_item
+  - text: 海外
+    center:
+    - 0.8483
+    - 0.2094
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - overseas
+    - 国际
+    - abroad
+    semantic_type: tab
+  - text: 找 酒 店
+    center:
+    - 0.5
+    - 0.4588
+    found_at_scroll: 0
+    fixed: true
+    aliases:
+    - find hotels
+    - 搜索酒店
+    - hotel search
+    semantic_type: input
+  description: Hotel and travel booking screen with categories for hotels, flights,
+    trains, vacations, and accommodations both domestic and overseas.
+  scrollable: false
+  scroll_direction: ''
+screen_macros:
+  screen_0:
+  - &id001
+    action: force_stop
+    bundle_id: com.dianping.dpscope
+    wait: 1.0
+  - &id002
+    action: launch
+    bundle_id: com.dianping.dpscope
+    wait: 3.0
+  screen_1:
+  - *id001
+  - *id002
+  - &id003
+    action: tap
+    x: 201
+    y: 822
+    wait: 1.0
+  screen_2:
+  - *id001
+  - *id002
+  - &id004
+    action: tap
+    x: 137
+    y: 96
+    wait: 1.0
+  screen_3:
+  - *id001
+  - *id002
+  - action: tap
+    x: 127
+    y: 133
+    wait: 1.0
+  screen_4:
+  - *id001
+  - *id002
+  - &id005
+    action: tap
+    x: 44
+    y: 207
+    wait: 1.0
+  screen_5:
+  - *id001
+  - *id002
+  - &id006
+    action: tap
+    x: 122
+    y: 207
+    wait: 1.0
+  screen_6:
+  - *id001
+  - *id002
+  - &id007
+    action: tap
+    x: 201
+    y: 207
+    wait: 1.0
+  screen_7:
+  - *id001
+  - *id002
+  - action: tap
+    x: 280
+    y: 207
+    wait: 1.0
+  screen_8:
+  - *id001
+  - *id002
+  - action: tap
+    x: 358
+    y: 207
+    wait: 1.0
+  screen_9:
+  - *id001
+  - *id002
+  - action: tap
+    x: 44
+    y: 283
+    wait: 1.0
+  screen_10:
+  - *id001
+  - *id002
+  - action: tap
+    x: 201
+    y: 283
+    wait: 1.0
+  screen_11:
+  - *id001
+  - *id002
+  - action: tap
+    x: 280
+    y: 283
+    wait: 1.0
+  screen_12:
+  - *id001
+  - *id002
+  - action: tap
+    x: 67
+    y: 324
+    wait: 1.0
+  screen_13:
+  - *id001
+  - *id002
+  - action: tap
+    x: 166
+    y: 324
+    wait: 1.0
+  screen_14:
+  - *id001
+  - *id002
+  - action: tap
+    x: 266
+    y: 324
+    wait: 1.0
+  screen_15:
+  - *id001
+  - *id002
+  - action: tap
+    x: 366
+    y: 324
+    wait: 1.0
+  screen_16:
+  - *id001
+  - *id002
+  - action: tap
+    x: 118
+    y: 827
+    wait: 1.0
+  screen_17:
+  - *id001
+  - *id002
+  - action: tap
+    x: 284
+    y: 827
+    wait: 1.0
+  screen_18:
+  - *id001
+  - *id002
+  - action: tap
+    x: 356
+    y: 827
+    wait: 1.0
+  screen_19:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 212
+    y: 490
+    wait: 1.0
+  screen_20:
+  - *id001
+  - *id002
+  - *id003
+  - action: tap
+    x: 201
+    y: 824
+    wait: 1.0
+  screen_21:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 201
+    y: 822
+    wait: 1.0
+  screen_22:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 44
+    y: 207
+    wait: 1.0
+  screen_23:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 122
+    y: 207
+    wait: 1.0
+  screen_24:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 280
+    y: 207
+    wait: 1.0
+  screen_25:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 280
+    y: 283
+    wait: 1.0
+  screen_26:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 67
+    y: 324
+    wait: 1.0
+  screen_27:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 46
+    y: 827
+    wait: 1.0
+  screen_28:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 118
+    y: 827
+    wait: 1.0
+  screen_29:
+  - *id001
+  - *id002
+  - *id004
+  - action: tap
+    x: 284
+    y: 827
+    wait: 1.0
+  screen_30:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 326
+    y: 866
+    wait: 1.0
+  screen_31:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 53
+    y: 366
+    wait: 1.0
+  screen_32:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 128
+    y: 366
+    wait: 1.0
+  screen_33:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 256
+    y: 366
+    wait: 1.0
+  screen_34:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 320
+    y: 366
+    wait: 1.0
+  screen_35:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 372
+    y: 95
+    wait: 1.0
+  screen_36:
+  - *id001
+  - *id002
+  - *id005
+  - action: tap
+    x: 377
+    y: 742
+    wait: 1.0
+  screen_37:
+  - *id001
+  - *id002
+  - *id006
+  - action: tap
+    x: 72
+    y: 398
+    wait: 1.0
+  screen_38:
+  - *id001
+  - *id002
+  - *id006
+  - action: tap
+    x: 246
+    y: 284
+    wait: 1.0
+  screen_39:
+  - *id001
+  - *id002
+  - *id006
+  - action: tap
+    x: 117
+    y: 452
+    wait: 1.0
+  screen_40:
+  - *id001
+  - *id002
+  - *id006
+  - action: tap
+    x: 308
+    y: 97
+    wait: 1.0
+  screen_41:
+  - *id001
+  - *id002
+  - *id006
+  - action: tap
+    x: 360
+    y: 97
+    wait: 1.0
+  screen_42:
+  - *id001
+  - *id002
+  - *id006
+  - action: tap
+    x: 134
+    y: 610
+    wait: 1.0
+  screen_43:
+  - *id001
+  - *id002
+  - *id006
+  - action: tap
+    x: 134
+    y: 588
+    wait: 1.0
+  screen_44:
+  - *id001
+  - *id002
+  - *id006
+  - action: tap
+    x: 128
+    y: 834
+    wait: 1.0
+  screen_45:
+  - *id001
+  - *id002
+  - *id006
+  - action: tap
+    x: 122
+    y: 817
+    wait: 1.0
+  screen_46:
+  - *id001
+  - *id002
+  - *id007
+  - action: tap
+    x: 209
+    y: 129
+    wait: 1.0
+  screen_47:
+  - *id001
+  - *id002
+  - *id007
+  - action: tap
+    x: 346
+    y: 129
+    wait: 1.0
+  screen_48:
+  - *id001
+  - *id002
+  - *id007
+  - action: tap
+    x: 154
+    y: 183
+    wait: 1.0
+  screen_49:
+  - *id001
+  - *id002
+  - *id007
+  - action: tap
+    x: 254
+    y: 183
+    wait: 1.0
+launch_behavior: always_home
+common_tasks:
+- Search for restaurants and read reviews
+- Book hotels and travel accommodations
+- Order food delivery
+- Browse and purchase local deals and coupons
+- Check in at local businesses
+- View maps and get directions
+- Manage profile and view order history
+- Upload photos and write reviews
+- Use utility tools like currency exchange and menu translation
+- Hail rides via Meituan integration
+known_limitations:
+- Some features like ride-hailing require additional authorization
+- Search and filtering options may vary across categories
+- Emoji keyboard appears in specific input contexts only
+- Bottom navigation tabs may change depending on screen context

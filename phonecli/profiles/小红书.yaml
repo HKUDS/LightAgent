@@ -1,0 +1,21 @@
+app: 小红书
+bundle_id: com.xingin.discover
+dynamic_patterns:
+- ^[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}$
+- ^\d+$
+- ^.{8,}$
+preserve_navigation:
+- Following
+- Explore
+- Nearby
+- For You
+- RED
+- Trend
+- Live
+- Series
+- Career
+- Home
+- Market
+- Messages
+- Me
+- Recently viewed
