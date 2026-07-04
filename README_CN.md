@@ -49,9 +49,7 @@
       &nbsp;PhoneCLI — GUI × CLI 混合手机智能体
     </h2>
     <p style="color: rgba(255,255,255,0.7); margin: 0 0 6px 0; font-size: 14px;">📅 2026 年 7 月</p>
-    <p style="margin: 0 0 8px 0;">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=22&duration=2500&pause=800&color=FFFFFF&center=false&width=500&lines=CLI+that+knows,+GUI+that+sees." alt="CLI that knows, GUI that sees." />
-    </p>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=CLI+that+knows,+GUI+that+sees." alt="CLI that knows, GUI that sees." style="margin: 0 0 8px 0;" />
     <p style="color: rgba(255,255,255,0.95); margin: 0 0 16px 0; font-size: 15px; line-height: 1.7;">
       <strong style="color: white;">PhoneCLI</strong> 将 CLI 宏的可靠性与 GUI 智能体的灵活性相结合。与其让 VLM 为每次点击买单——又慢、又贵、又容易出错——我们<strong style="color: white;">为每个 app 预构建导航图（app map）</strong>。常规操作变成确定性宏回放，VLM 只在真正需要时才介入。这与 CLI 工具在处理可重复任务时比 GUI 更高效的原理一致——现在这个思路被应用到了你的手机上。
     </p>
