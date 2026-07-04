@@ -59,7 +59,7 @@
     <p style="margin: 0; text-align: center;">
       <a href="./phonecli/README_CN.md" style="color: #1a1a2e; background: white; padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px; display: inline-block;">📖 完整中文文档 →</a>
       &nbsp;&nbsp;
-      <a href="#phonecli-gui--cli-混合智能体" style="color: white; background: rgba(255,255,255,0.18); padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid rgba(255,255,255,0.4); display: inline-block;">详细阅读 ↓</a>
+      <a href="#️-phonecli-gui--cli-混合智能体" style="color: white; background: rgba(255,255,255,0.18); padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid rgba(255,255,255,0.4); display: inline-block;">详细阅读 ↓</a>
     </p>
   </div>
 </div>
@@ -78,7 +78,7 @@
     - [📱 AndroidLab 基准测试环境配置](#-androidlab-基准测试环境配置)
     - [🚀 模型部署与推理](#-模型部署与推理)
     - [⚙️ 测试前配置](#️-测试前配置)
-  - [🖥️ phonecli：GUI × CLI 混合智能体](#️-phonecligui--cli-混合智能体)
+  - [🖥️ phonecli：GUI × CLI 混合智能体](#️-phonecli-gui--cli-混合智能体)
     - [核心理念](#核心理念)
     - [工作原理](#工作原理)
     - [为什么重要](#为什么重要)
