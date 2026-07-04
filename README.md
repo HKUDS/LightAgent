@@ -45,10 +45,13 @@
 
 <div>
   <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 15px; padding: 28px; margin: 20px 0; border: 2px solid #f5576c; box-shadow: 0 4px 24px rgba(245,87,108,0.25); text-align: left;">
-    <h2 style="color: white; margin: 0 0 8px 0; font-size: 22px; text-align: left;">🆕 phonecli — GUI × CLI Hybrid Phone Agent</h2>
-    <p style="color: rgba(255,255,255,0.85); margin: 0 0 14px 0; font-size: 14px; text-align: left;">Latest Release · July 2026</p>
+    <p style="margin: 0 0 6px 0;">
+      <span style="background: white; color: #f5576c; padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: bold;">🔥 Major Update</span>
+    </p>
+    <h2 style="color: white; margin: 10px 0 6px 0; font-size: 24px; text-align: left;">PhoneCLI — GUI × CLI Hybrid Phone Agent</h2>
+    <p style="color: rgba(255,255,255,0.85); margin: 0 0 16px 0; font-size: 14px; text-align: left;">Latest Release · July 2026</p>
     <p style="color: rgba(255,255,255,0.95); margin: 0 0 16px 0; font-size: 15px; line-height: 1.7;">
-      <strong>phonecli</strong> combines the reliability of CLI macros with the flexibility of GUI agents. Instead of calling a VLM for every tap — slow, expensive, and error-prone — we <strong>pre-build a navigation graph (app map) for each app</strong>. Routine operations become deterministic macro replays; the VLM only steps in when genuinely needed. Same intuition as why CLI tools beat GUI for repeatable tasks — now applied to your phone.
+      <strong>PhoneCLI</strong> combines the reliability of CLI macros with the flexibility of GUI agents. Instead of calling a VLM for every tap — slow, expensive, and error-prone — we <strong>pre-build a navigation graph (app map) for each app</strong>. Routine operations become deterministic macro replays; the VLM only steps in when genuinely needed. Same intuition as why CLI tools beat GUI for repeatable tasks — now applied to your phone.
     </p>
     <ul style="color: rgba(255,255,255,0.95); margin: 0 0 18px 0; font-size: 15px; line-height: 1.7; padding-left: 20px;">
       <li>🗺️ <strong>App Maps</strong> — BFS crawls each app, recording every screen, element, and navigation path into a structured YAML graph</li>
@@ -78,7 +81,7 @@
     - [📱 AndroidLab Benchmark Setup](#-androidlab-benchmark-setup)
     - [🚀 Model Deployment \& Inference](#-model-deployment--inference)
     - [⚙️ Pre-Testing Configuration](#️-pre-testing-configuration)
-  - [🖥️ phonecli: GUI × CLI Hybrid Agent](#-phonecli-gui--cli-hybrid-agent)
+  - [🖥️ PhoneCLI: GUI × CLI Hybrid Agent](#-phonecli-gui--cli-hybrid-agent)
     - [The Core Idea](#the-core-idea)
     - [How It Works](#how-it-works)
     - [Why This Matters](#why-this-matters)
@@ -206,7 +209,7 @@ dozens of times. Doing them through VLM-driven GUI interaction is slow (2–5s p
 step), expensive (every screenshot costs an API call), and fragile (VLMs
 hallucinate coordinates).
 
-**phonecli** takes a different approach. Instead of treating every task as a
+**PhoneCLI** takes a different approach. Instead of treating every task as a
 novel GUI exploration, it **pre-builds a navigation graph (app map) for each
 app**, then replays routine operations as deterministic macros. The VLM only
 gets called when genuinely needed — for novel tasks, verification, or

@@ -44,10 +44,13 @@
 
 <div>
   <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 15px; padding: 28px; margin: 20px 0; border: 2px solid #f5576c; box-shadow: 0 4px 24px rgba(245,87,108,0.25); text-align: left;">
-    <h2 style="color: white; margin: 0 0 8px 0; font-size: 22px; text-align: left;">🆕 phonecli — GUI × CLI 混合手机智能体</h2>
-    <p style="color: rgba(255,255,255,0.85); margin: 0 0 14px 0; font-size: 14px; text-align: left;">最新发布 · 2026 年 7 月</p>
+    <p style="margin: 0 0 6px 0;">
+      <span style="background: white; color: #f5576c; padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: bold;">🔥 重大更新</span>
+    </p>
+    <h2 style="color: white; margin: 10px 0 6px 0; font-size: 24px; text-align: left;">PhoneCLI — GUI × CLI 混合手机智能体</h2>
+    <p style="color: rgba(255,255,255,0.85); margin: 0 0 16px 0; font-size: 14px; text-align: left;">最新发布 · 2026 年 7 月</p>
     <p style="color: rgba(255,255,255,0.95); margin: 0 0 16px 0; font-size: 15px; line-height: 1.7;">
-      <strong>phonecli</strong> 将 CLI 宏的可靠性与 GUI 智能体的灵活性相结合。与其让 VLM 为每次点击买单——又慢、又贵、又容易出错——我们<strong>为每个 app 预构建导航图（app map）</strong>。常规操作变成确定性宏回放，VLM 只在真正需要时才介入。这与 CLI 工具在处理可重复任务时比 GUI 更高效的原理一致——现在这个思路被应用到了你的手机上。
+      <strong>PhoneCLI</strong> 将 CLI 宏的可靠性与 GUI 智能体的灵活性相结合。与其让 VLM 为每次点击买单——又慢、又贵、又容易出错——我们<strong>为每个 app 预构建导航图（app map）</strong>。常规操作变成确定性宏回放，VLM 只在真正需要时才介入。这与 CLI 工具在处理可重复任务时比 GUI 更高效的原理一致——现在这个思路被应用到了你的手机上。
     </p>
     <ul style="color: rgba(255,255,255,0.95); margin: 0 0 18px 0; font-size: 15px; line-height: 1.7; padding-left: 20px;">
       <li>🗺️ <strong>App Map</strong> — BFS 爬取每个 app 的每个屏幕、元素和导航路径，生成为结构化 YAML 图</li>
@@ -78,7 +81,7 @@
     - [📱 AndroidLab 基准测试环境配置](#-androidlab-基准测试环境配置)
     - [🚀 模型部署与推理](#-模型部署与推理)
     - [⚙️ 测试前配置](#️-测试前配置)
-  - [🖥️ phonecli：GUI × CLI 混合智能体](#-phonecli-gui-x-cli-混合智能体)
+  - [🖥️ PhoneCLI：GUI × CLI 混合智能体](#-phonecli-gui-x-cli-混合智能体)
     - [核心理念](#核心理念)
     - [工作原理](#工作原理)
     - [为什么重要](#为什么重要)
@@ -211,7 +214,7 @@
 
 想想你是如何使用手机的。打开 Wi-Fi、查看今天的日历、搜索联系人——这些都是你每天执行几十次的**重复固定操作序列**。通过 VLM 驱动的 GUI 交互来完成这些操作，不仅慢（每步 2–5 秒）、贵（每次截图都要调用 API），而且不可靠（VLM 经常产生坐标幻觉）。
 
-**phonecli** 采用了不同的思路。它不把每个任务都当作全新的 GUI 探索，而是**为每个 app 预构建导航图（app map）**，然后将常规操作作为确定性宏回放执行。VLM 只在真正需要时才被调用——处理新任务、验证结果或跨 app 推理。
+**PhoneCLI** 采用了不同的思路。它不把每个任务都当作全新的 GUI 探索，而是**为每个 app 预构建导航图（app map）**，然后将常规操作作为确定性宏回放执行。VLM 只在真正需要时才被调用——处理新任务、验证结果或跨 app 推理。
 
 ### 工作原理
 
