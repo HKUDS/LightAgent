@@ -44,11 +44,11 @@
 
 <div>
   <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 16px; padding: 28px; margin: 24px 0; box-shadow: 0 8px 32px rgba(245,87,108,0.2);">
-    <p style="margin: 0 0 8px 0;">
-      <span style="background: white; color: #f5576c; padding: 4px 14px; border-radius: 20px; font-size: 13px; font-weight: bold;">🔥 重大更新</span>
-      <span style="color: rgba(255,255,255,0.7); margin-left: 10px; font-size: 13px;">2026 年 7 月</span>
-    </p>
-    <h2 style="color: white; margin: 10px 0 4px 0; font-size: 26px; font-weight: bold;">PhoneCLI</h2>
+    <h2 style="color: white; margin: 0 0 4px 0; font-size: 26px; font-weight: bold;">
+      <span style="background: white; color: #f5576c; padding: 3px 14px; border-radius: 20px; font-size: 26px; font-weight: bold;">🔥 重大更新</span>
+      &nbsp;PhoneCLI
+    </h2>
+    <p style="color: rgba(255,255,255,0.7); margin: 6px 0 2px 0; font-size: 14px;">2026 年 7 月</p>
     <p style="color: rgba(255,255,255,0.9); margin: 0 0 16px 0; font-size: 17px;">GUI × CLI 混合手机智能体</p>
     <p style="color: rgba(255,255,255,0.95); margin: 0 0 16px 0; font-size: 15px; line-height: 1.7;">
       <strong style="color: white;">PhoneCLI</strong> 将 CLI 宏的可靠性与 GUI 智能体的灵活性相结合。与其让 VLM 为每次点击买单——又慢、又贵、又容易出错——我们<strong style="color: white;">为每个 app 预构建导航图（app map）</strong>。常规操作变成确定性宏回放，VLM 只在真正需要时才介入。这与 CLI 工具在处理可重复任务时比 GUI 更高效的原理一致——现在这个思路被应用到了你的手机上。
