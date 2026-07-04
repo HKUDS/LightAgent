@@ -43,26 +43,27 @@
 </div>
 
 <div>
-  <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 15px; padding: 28px; margin: 20px 0; border: 2px solid #f5576c; box-shadow: 0 4px 24px rgba(245,87,108,0.25); text-align: left;">
-    <p style="margin: 0 0 6px 0;">
-      <span style="background: white; color: #f5576c; padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: bold;">🔥 重大更新</span>
+  <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 16px; padding: 32px; margin: 24px 0; box-shadow: 0 8px 32px rgba(245,87,108,0.2);">
+    <p style="margin: 0 0 12px 0;">
+      <span style="background: rgba(255,255,255,0.95); color: #f5576c; padding: 4px 14px; border-radius: 20px; font-size: 13px; font-weight: 700; letter-spacing: 0.5px;">🔥 重大更新</span>
+      <span style="color: rgba(255,255,255,0.7); margin-left: 12px; font-size: 13px;">2026 年 7 月</span>
     </p>
-    <h2 style="color: white; margin: 10px 0 6px 0; font-size: 24px; text-align: left;">PhoneCLI — GUI × CLI 混合手机智能体</h2>
-    <p style="color: rgba(255,255,255,0.85); margin: 0 0 16px 0; font-size: 14px; text-align: left;">最新发布 · 2026 年 7 月</p>
-    <p style="color: rgba(255,255,255,0.95); margin: 0 0 16px 0; font-size: 15px; line-height: 1.7;">
-      <strong>PhoneCLI</strong> 将 CLI 宏的可靠性与 GUI 智能体的灵活性相结合。与其让 VLM 为每次点击买单——又慢、又贵、又容易出错——我们<strong>为每个 app 预构建导航图（app map）</strong>。常规操作变成确定性宏回放，VLM 只在真正需要时才介入。这与 CLI 工具在处理可重复任务时比 GUI 更高效的原理一致——现在这个思路被应用到了你的手机上。
+    <h2 style="color: white; margin: 0 0 4px 0; font-size: 28px; font-weight: 800; letter-spacing: -0.5px;">PhoneCLI</h2>
+    <p style="color: rgba(255,255,255,0.9); margin: 0 0 20px 0; font-size: 18px; font-weight: 500;">GUI × CLI 混合手机智能体</p>
+    <p style="color: rgba(255,255,255,0.85); margin: 0 0 24px 0; font-size: 15px; line-height: 1.8; max-width: 720px;">
+      不再为每次点击调用 VLM。<strong style="color: white;">PhoneCLI</strong> 为每个 app 预构建导航图（app map），将常规操作变成确定性宏回放——快速、可靠、零 VLM 开销。
     </p>
-    <ul style="color: rgba(255,255,255,0.95); margin: 0 0 18px 0; font-size: 15px; line-height: 1.7; padding-left: 20px;">
-      <li>🗺️ <strong>App Map</strong> — BFS 爬取每个 app 的每个屏幕、元素和导航路径，生成为结构化 YAML 图</li>
-      <li>⚡ <strong>宏回放</strong> — 高频操作以亚秒级速度确定性执行，零 VLM 开销</li>
-      <li>🧠 <strong>智能降级</strong> — 当任务无法匹配任何宏时，自动降级为 VLM 推理模式</li>
-      <li>📦 <strong>8 个预构建 Map</strong> — 微博、foodpanda、Calendar、京东、大众点评、小红书、Music、系统设置，开箱即用</li>
-      <li>🔗 <strong>跨 App 调度器</strong> — 跨 app 任务自动分解为单 app 子任务</li>
-    </ul>
-    <p style="margin: 0; text-align: center;">
-      <a href="./phonecli/README_CN.md" style="color: #1a1a2e; background: white; padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px; display: inline-block;">📖 完整中文文档 →</a>
-      &nbsp;&nbsp;
-      <a href="#-phonecli-gui-x-cli-混合智能体" style="color: white; background: rgba(255,255,255,0.18); padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid rgba(255,255,255,0.4); display: inline-block;">详细阅读 ↓</a>
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 24px 0;">
+      <span style="background: rgba(255,255,255,0.15); color: white; padding: 6px 14px; border-radius: 6px; font-size: 13px;">🗺️ App Map</span>
+      <span style="background: rgba(255,255,255,0.15); color: white; padding: 6px 14px; border-radius: 6px; font-size: 13px;">⚡ 宏回放</span>
+      <span style="background: rgba(255,255,255,0.15); color: white; padding: 6px 14px; border-radius: 6px; font-size: 13px;">🧠 智能降级</span>
+      <span style="background: rgba(255,255,255,0.15); color: white; padding: 6px 14px; border-radius: 6px; font-size: 13px;">📦 8 个预构建 Map</span>
+      <span style="background: rgba(255,255,255,0.15); color: white; padding: 6px 14px; border-radius: 6px; font-size: 13px;">🔗 跨 App 调度</span>
+    </div>
+    <p style="margin: 0;">
+      <a href="./phonecli/README_CN.md" style="background: white; color: #f5576c; padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 14px; display: inline-block;">📖 完整中文文档 →</a>
+      &nbsp;
+      <a href="#-phonecli-gui-x-cli-混合智能体" style="background: rgba(255,255,255,0.15); color: white; padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 14px; border: 1px solid rgba(255,255,255,0.3); display: inline-block;">详细阅读 ↓</a>
     </p>
   </div>
 </div>
