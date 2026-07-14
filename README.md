@@ -218,6 +218,10 @@ app**, then replays routine operations as deterministic macros. The VLM only
 gets called when genuinely needed — for novel tasks, verification, or
 cross-app reasoning.
 
+<div align="center">
+  <img src="./figures/phone_cli.png" width="85%" alt="PhoneCLI Core Flow"/>
+</div>
+
 ### How It Works
 
 **1. Build an app map** — A BFS crawler systematically explores every screen of
