@@ -51,7 +51,7 @@
     </h2>
     <p style="color: rgba(255,255,255,0.7); margin: 0 0 6px 0; font-size: 14px;">🆕 July 2026</p>
     <div align="center">
-      <img src="./figures/phone_cli.png" width="85%" alt="PhoneCLI Core Flow" />
+      <img src="./figures/phone_cli.png" width="80%" alt="PhoneCLI Core Flow" />
     </div>
     <div align="center">
       <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&lines=CLI+that+knows,+GUI+that+sees." alt="CLI that knows, GUI that sees." style="margin: 0 0 8px 0;" />

@@ -48,7 +48,10 @@
       <span style="background: white; color: #f5576c; padding: 3px 14px; border-radius: 20px; font-size: 24px; font-weight: bold;">🔥 重大更新：</span>
       &nbsp;PhoneCLI — GUI × CLI 混合手机智能体
     </h2>
-    <p style="color: rgba(255,255,255,0.7); margin: 0 0 6px 0; font-size: 14px;">📅 2026 年 7 月</p>
+    <p style="color: rgba(255,255,255,0.7); margin: 0 0 6px 0; font-size: 14px;">🆕 2026 年 7 月</p>
+    <div align="center">
+      <img src="./figures/phone_cli.png" width="80%" alt="PhoneCLI Core Flow" />
+    </div>
     <div align="center">
       <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&lines=CLI+that+knows,+GUI+that+sees." alt="CLI that knows, GUI that sees." style="margin: 0 0 8px 0;" />
     </div>
